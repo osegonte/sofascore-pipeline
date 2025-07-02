@@ -369,3 +369,26 @@ def main():
 
 if __name__ == "__main__":
     main()
+# ETL commands
+@cli.command()
+@click.option('--limit', type=int, help='Limit number of records to process')
+@click.option('--dry-run', is_flag=True, help='Run without making changes')
+def etl(limit, dry_run):
+    """Run ETL pipeline to normalize raw data."""
+    async def run_etl():
+        from src.cli.etl_commands import ETLCommandRunner
+        runner = ETLCommandRunner()
+        await runner.run_etl_processing(limit, dry_run)
+    
+    asyncio.run(run_etl())
+
+
+@cli.command()
+def quality():
+    """Run data quality checks."""
+    async def run_quality():
+        from src.cli.etl_commands import ETLCommandRunner
+        runner = ETLCommandRunner()
+        await runner.run_quality_checks()
+    
+    asyncio.run(run_quality())
