@@ -17,9 +17,9 @@ import click
 
 try:
     from src.scrapers.sofascore import LiveMatchTracker, SofaScoreAPI
-    from src.storage.database import DatabaseManager
+    from src.storage.hybrid_database import HybridDatabaseManager as DatabaseManager
     from src.utils.logging import setup_logging, get_logger
-    from config.settings import settings
+    from config.simple_settings import settings
 except ImportError as e:
     print(f"Import error: {e}")
     print("Make sure you're running from the project root and have installed dependencies")

@@ -15,7 +15,7 @@ from aiohttp import ClientSession, ClientTimeout, ClientError
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 from ..utils.logging import get_logger
-from config.settings import settings
+from config.simple_settings import settings
 
 logger = get_logger(__name__)
 

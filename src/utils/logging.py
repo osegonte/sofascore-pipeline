@@ -11,7 +11,7 @@ from typing import Optional
 import json
 from datetime import datetime
 
-from config.settings import settings
+from config.simple_settings import settings
 
 
 class JSONFormatter(logging.Formatter):

@@ -18,9 +18,9 @@ from asyncio_throttle import Throttler
 import redis
 
 from ..utils.logging import get_logger
-from ..storage.database import DatabaseManager
+from ..storage.hybrid_database import HybridDatabaseManager as DatabaseManager
 from ..models.raw_models import ScrapeJob, MatchRaw, EventsRaw, StatsRaw
-from config.settings import settings
+from config.simple_settings import settings
 
 logger = get_logger(__name__)
 
