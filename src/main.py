@@ -367,6 +367,43 @@ def main():
         sys.exit(1)
 
 
+
+
+# Stage 5: Feature Engineering CLI Commands
+
+@cli.command()
+@click.option('--match-ids', '-m', multiple=True, type=int, help='Match IDs to process')
+@click.option('--output-dir', '-o', default='features', help='Output directory')
+@click.option('--start-minute', default=59, help='Start generating features from this minute')
+def generate_features(match_ids, output_dir, start_minute):
+    """Generate ML features for matches."""
+    if not match_ids:
+        print("Please specify at least one match ID with --match-ids")
+        return
+    
+    from src.feature_engineering.cli_commands import run_feature_generation
+    asyncio.run(run_feature_generation(list(match_ids), output_dir, start_minute))
+
+
+@cli.command()
+@click.option('--match-ids', '-m', multiple=True, type=int, help='Match IDs to include')
+@click.option('--output', '-o', default='training_dataset.csv', help='Output CSV file')
+def create_dataset(match_ids, output):
+    """Create training dataset from matches."""
+    if not match_ids:
+        print("Please specify match IDs with --match-ids")
+        return
+    
+    from src.feature_engineering.cli_commands import run_training_dataset_creation
+    asyncio.run(run_training_dataset_creation(list(match_ids), output))
+
+
+@cli.command()
+def demo_features():
+    """Run feature engineering demo."""
+    from src.feature_engineering.cli_commands import demo_feature_pipeline
+    asyncio.run(demo_feature_pipeline())
+
 if __name__ == "__main__":
     main()
 # ETL commands
