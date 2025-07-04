@@ -1,0 +1,100 @@
+{
+  "models": {
+    "xgboost_classifier": {
+      "type": "classification",
+      "library": "xgboost",
+      "hyperparameters": {
+        "n_estimators": [100, 200, 300],
+        "max_depth": [3, 6, 9],
+        "learning_rate": [0.01, 0.1, 0.2],
+        "subsample": [0.8, 0.9, 1.0],
+        "colsample_bytree": [0.8, 0.9, 1.0],
+        "random_state": 42
+      },
+      "cv_folds": 5,
+      "scoring": "f1"
+    },
+    "random_forest": {
+      "type": "classification",
+      "library": "sklearn",
+      "hyperparameters": {
+        "n_estimators": [100, 200, 300],
+        "max_depth": [5, 10, 15, null],
+        "min_samples_split": [2, 5, 10],
+        "min_samples_leaf": [1, 2, 4],
+        "random_state": 42
+      },
+      "cv_folds": 5,
+      "scoring": "f1"
+    },
+    "logistic_regression": {
+      "type": "classification",
+      "library": "sklearn",
+      "hyperparameters": {
+        "C": [0.1, 1.0, 10.0],
+        "penalty": ["l1", "l2"],
+        "solver": ["liblinear", "lbfgs"],
+        "random_state": 42,
+        "max_iter": 1000
+      },
+      "cv_folds": 5,
+      "scoring": "f1"
+    }
+  },
+  "training": {
+    "test_size": 0.2,
+    "validation_size": 0.2,
+    "random_state": 42,
+    "stratify": true,
+    "feature_selection": {
+      "enabled": true,
+      "method": "mutual_info",
+      "k_best": 15,
+      "variance_threshold": 0.01
+    },
+    "scaling": {
+      "enabled": true,
+      "method": "standard",
+      "feature_exclude": ["match_id", "minute", "home_team_id", "away_team_id"]
+    }
+  },
+  "targets": {
+    "goal_next_1min_any": {
+      "type": "binary",
+      "threshold": 0.5,
+      "priority": "high"
+    },
+    "goal_next_5min_any": {
+      "type": "binary", 
+      "threshold": 0.5,
+      "priority": "medium"
+    },
+    "goal_next_15min_any": {
+      "type": "binary",
+      "threshold": 0.5,
+      "priority": "low"
+    }
+  },
+  "evaluation": {
+    "metrics": ["accuracy", "precision", "recall", "f1", "auc", "log_loss"],
+    "cross_validation": {
+      "enabled": true,
+      "folds": 5,
+      "shuffle": true,
+      "random_state": 42
+    },
+    "feature_importance": {
+      "enabled": true,
+      "plot": true,
+      "top_n": 20
+    }
+  },
+  "prediction": {
+    "confidence_threshold": 0.6,
+    "ensemble_voting": "soft",
+    "calibration": {
+      "enabled": true,
+      "method": "isotonic"
+    }
+  }
+}

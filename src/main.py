@@ -15,6 +15,17 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
 import click
 
+# Stage 6: ML Model Development imports
+try:
+    from src.ml_models.cli_commands import (
+        run_ml_training, run_ml_evaluation, run_ml_prediction,
+        run_ml_demo, run_ml_api_server
+    )
+    ML_AVAILABLE = True
+except ImportError as e:
+    print(f"⚠️  ML models: {e}")
+    ML_AVAILABLE = False
+
 try:
     from src.scrapers.sofascore import LiveMatchTracker, SofaScoreAPI
     from src.storage.hybrid_database import HybridDatabaseManager as DatabaseManager
@@ -429,3 +440,64 @@ def quality():
         await runner.run_quality_checks()
     
     asyncio.run(run_quality())
+
+# Stage 6: ML Model Development Commands
+
+@cli.command()
+@click.option('--training-data', '-d', default='demo_training_dataset.csv', help='Path to training data CSV file')
+@click.option('--target', '-t', help='Specific target column to train')
+def train_ml(training_data, target):
+    """Train ML models for goal prediction."""
+    if not ML_AVAILABLE:
+        click.echo("❌ ML models not available. Check setup.")
+        return
+    success = asyncio.run(run_ml_training(training_data, target))
+
+@cli.command()
+@click.option('--test-data', '-d', default='demo_training_dataset.csv', help='Path to test data CSV file')
+@click.option('--models-dir', '-m', help='Directory containing saved models')
+def evaluate_ml(test_data, models_dir):
+    """Evaluate trained ML models."""
+    if not ML_AVAILABLE:
+        click.echo("❌ ML models not available. Check setup.")
+        return
+    success = asyncio.run(run_ml_evaluation(test_data, models_dir))
+
+@cli.command()
+@click.option('--match-id', '-i', type=int, required=True, help='Match ID')
+@click.option('--minute', '-min', type=int, required=True, help='Current minute')
+@click.option('--home-score', '-hs', type=int, required=True, help='Home team score')
+@click.option('--away-score', '-as', type=int, required=True, help='Away team score')
+def predict_ml(match_id, minute, home_score, away_score):
+    """Make goal prediction for current match state."""
+    if not ML_AVAILABLE:
+        click.echo("❌ ML models not available. Check setup.")
+        return
+    success = asyncio.run(run_ml_prediction(match_id, minute, home_score, away_score))
+
+@cli.command()
+def predict_ml_demo():
+    """Run goal prediction demo with sample scenarios."""
+    if not ML_AVAILABLE:
+        click.echo("❌ ML models not available. Check setup.")
+        return
+    success = asyncio.run(run_ml_demo())
+
+@cli.command()
+@click.option('--host', '-h', default='0.0.0.0', help='API server host')
+@click.option('--port', '-p', default=8001, help='API server port')
+def serve_ml(host, port):
+    """Start the prediction API server."""
+    if not ML_AVAILABLE:
+        click.echo("❌ ML models not available. Check setup.")
+        return
+    click.echo(f"🚀 Starting ML API server on {host}:{port}")
+    asyncio.run(run_ml_api_server(host, port))
+
+@cli.command()
+def ml_status():
+    """Show ML pipeline status."""
+    print("📊 ML Pipeline Status")
+    print("Training data:", "✅" if Path("demo_training_dataset.csv").exists() else "❌")
+    print("Models dir:", "✅" if Path("data/models/saved_models").exists() else "❌")
+    print("ML Available:", "✅" if ML_AVAILABLE else "❌")
