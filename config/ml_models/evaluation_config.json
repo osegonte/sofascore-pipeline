@@ -1,0 +1,47 @@
+{
+  "metrics": {
+    "classification": [
+      "accuracy",
+      "precision", 
+      "recall",
+      "f1",
+      "roc_auc",
+      "log_loss"
+    ],
+    "custom": [
+      "precision_at_k",
+      "recall_at_k",
+      "calibration_error"
+    ]
+  },
+  "visualization": {
+    "create_plots": true,
+    "plot_types": [
+      "confusion_matrix",
+      "roc_curve", 
+      "precision_recall_curve",
+      "feature_importance",
+      "calibration_plot"
+    ],
+    "save_plots": true,
+    "plot_format": "png",
+    "dpi": 300
+  },
+  "reporting": {
+    "generate_html_report": true,
+    "include_model_comparison": true,
+    "include_feature_analysis": true,
+    "export_to_csv": true
+  },
+  "cross_validation": {
+    "enabled": true,
+    "folds": 5,
+    "shuffle": true,
+    "stratified": true
+  },
+  "output_paths": {
+    "reports": "data/models/evaluation/reports",
+    "plots": "data/models/evaluation/plots",
+    "comparisons": "data/models/evaluation/comparisons"
+  }
+}

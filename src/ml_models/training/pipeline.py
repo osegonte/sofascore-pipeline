@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Tuple, Any, Optional
+from typing import Dict, List, Tuple, Any, Optional, Union
 from dataclasses import dataclass, field
 import logging
 
@@ -62,6 +62,24 @@ class TrainingConfig:
     enable_hyperparameter_tuning: bool = True
     tuning_method: str = "grid_search"  # "grid_search" or "optuna"
     max_trials: int = 50
+    
+    @classmethod
+    def from_dict(cls, config_dict: Dict[str, Any]) -> 'TrainingConfig':
+        """Create config from dictionary."""
+        return cls(
+            test_size=config_dict.get('data_processing', {}).get('test_size', 0.2),
+            validation_size=config_dict.get('data_processing', {}).get('validation_size', 0.2),
+            random_state=config_dict.get('data_processing', {}).get('random_state', 42),
+            cv_folds=config_dict.get('hyperparameter_tuning', {}).get('cv_folds', 5),
+            model_save_path=config_dict.get('model_storage', {}).get('save_path', 'data/models/saved_models'),
+            enable_feature_selection=config_dict.get('feature_engineering', {}).get('enable_feature_selection', True),
+            max_features=config_dict.get('feature_engineering', {}).get('max_features', 15),
+            variance_threshold=config_dict.get('feature_engineering', {}).get('variance_threshold', 0.01),
+            enable_scaling=config_dict.get('feature_engineering', {}).get('enable_scaling', True),
+            scaling_method=config_dict.get('feature_engineering', {}).get('scaling_method', 'standard'),
+            enable_hyperparameter_tuning=True,
+            tuning_method=config_dict.get('hyperparameter_tuning', {}).get('method', 'grid_search')
+        )
 
 @dataclass
 class TrainingResult:
@@ -297,53 +315,6 @@ class MLTrainingPipeline:
         
         return grid_search.best_estimator_, grid_search.best_params_
     
-    def _optuna_optimization(self, model_name: str, X_train: np.ndarray, y_train: np.ndarray) -> Tuple[Any, Dict[str, Any]]:
-        """Optuna hyperparameter optimization."""
-        model_def = self.model_definitions[model_name]
-        
-        def objective(trial):
-            # Suggest hyperparameters based on model type
-            params = model_def['base_params'].copy()
-            
-            if model_name == 'logistic_regression':
-                params['C'] = trial.suggest_float('C', 0.01, 10.0, log=True)
-                params['penalty'] = trial.suggest_categorical('penalty', ['l1', 'l2'])
-                if params['penalty'] == 'l1':
-                    params['solver'] = 'liblinear'
-                else:
-                    params['solver'] = trial.suggest_categorical('solver', ['lbfgs', 'liblinear'])
-            
-            elif model_name == 'random_forest':
-                params['n_estimators'] = trial.suggest_int('n_estimators', 50, 300)
-                params['max_depth'] = trial.suggest_int('max_depth', 3, 20)
-                params['min_samples_split'] = trial.suggest_int('min_samples_split', 2, 20)
-                params['min_samples_leaf'] = trial.suggest_int('min_samples_leaf', 1, 10)
-            
-            elif model_name == 'xgboost':
-                params['n_estimators'] = trial.suggest_int('n_estimators', 50, 300)
-                params['max_depth'] = trial.suggest_int('max_depth', 3, 10)
-                params['learning_rate'] = trial.suggest_float('learning_rate', 0.01, 0.3)
-                params['subsample'] = trial.suggest_float('subsample', 0.6, 1.0)
-                params['colsample_bytree'] = trial.suggest_float('colsample_bytree', 0.6, 1.0)
-            
-            # Create and evaluate model
-            model = model_def['class'](**params)
-            scores = cross_val_score(model, X_train, y_train, cv=self.config.cv_folds, scoring='f1')
-            return scores.mean()
-        
-        # Run optimization
-        study = optuna.create_study(direction='maximize', study_name=f"{model_name}_optimization")
-        study.optimize(objective, n_trials=self.config.max_trials, show_progress_bar=False)
-        
-        # Get best parameters and create final model
-        best_params = {**model_def['base_params'], **study.best_params}
-        best_model = model_def['class'](**best_params)
-        
-        logger.info(f"Optuna best params for {model_name}: {study.best_params}")
-        logger.info(f"Best CV score: {study.best_value:.4f}")
-        
-        return best_model, best_params
-    
     def calculate_feature_importance(self, model: Any, feature_names: List[str]) -> Dict[str, float]:
         """Calculate and return feature importance."""
         importance_dict = {}
@@ -467,13 +438,18 @@ class MLTrainingPipeline:
         logger.info(f"Training completed - Test F1: {test_f1:.4f}, Test Accuracy: {test_accuracy:.4f}")
         return result
     
-    def train_all_models(self, target_column: str) -> Dict[str, TrainingResult]:
+    def train_all_models(self, target_column: str, models: Optional[List[str]] = None) -> Dict[str, TrainingResult]:
         """Train all available models for a specific target."""
         results = {}
         
-        logger.info(f"Training all models for target '{target_column}'")
+        models_to_train = models or list(self.model_definitions.keys())
+        logger.info(f"Training models {models_to_train} for target '{target_column}'")
         
-        for model_name in self.model_definitions.keys():
+        for model_name in models_to_train:
+            if model_name not in self.model_definitions:
+                logger.warning(f"Unknown model: {model_name}")
+                continue
+                
             try:
                 result = self.train_single_model(model_name, target_column)
                 results[model_name] = result
@@ -483,7 +459,7 @@ class MLTrainingPipeline:
         
         return results
     
-    def train_all_targets(self) -> Dict[str, Dict[str, TrainingResult]]:
+    def train_all_targets(self, models: Optional[List[str]] = None) -> Dict[str, Dict[str, TrainingResult]]:
         """Train all models for all available targets."""
         all_results = {}
         
@@ -491,7 +467,7 @@ class MLTrainingPipeline:
         
         for target in available_targets:
             logger.info(f"Training models for target '{target}'")
-            target_results = self.train_all_models(target)
+            target_results = self.train_all_models(target, models)
             all_results[target] = target_results
         
         # Save experiment summary
