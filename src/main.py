@@ -1,19 +1,34 @@
 """
 Main application runner for the SofaScore data pipeline.
+Enhanced with Stage 6 ML Model Development.
 """
 
 import asyncio
 import signal
 import sys
 import os
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Optional
 import logging
+from pathlib import Path
 
 # Add project root to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
 import click
+
+# Core imports with fallback handling
+try:
+    from src.storage.hybrid_database import HybridDatabaseManager as DatabaseManager
+    from src.utils.logging import setup_logging, get_logger
+    from config.simple_settings import settings
+    CORE_AVAILABLE = True
+    logger = get_logger(__name__)
+except ImportError as e:
+    print(f"⚠️  Core imports not available: {e}")
+    logging.basicConfig(level=logging.INFO)
+    logger = logging.getLogger(__name__)
+    CORE_AVAILABLE = False
 
 # Stage 6: ML Model Development imports
 try:
@@ -23,364 +38,76 @@ try:
     )
     ML_AVAILABLE = True
 except ImportError as e:
-    print(f"⚠️  ML models: {e}")
+    print(f"⚠️  ML models not available: {e}")
     ML_AVAILABLE = False
 
+# Stage 5: Feature Engineering imports
 try:
-    from src.scrapers.sofascore import LiveMatchTracker, SofaScoreAPI
-    from src.storage.hybrid_database import HybridDatabaseManager as DatabaseManager
-    from src.utils.logging import setup_logging, get_logger
-    from config.simple_settings import settings
+    from src.feature_engineering.cli_commands import (
+        run_feature_generation, run_training_dataset_creation, demo_feature_pipeline
+    )
+    FEATURES_AVAILABLE = True
 except ImportError as e:
-    print(f"Import error: {e}")
-    print("Make sure you're running from the project root and have installed dependencies")
-    sys.exit(1)
+    print(f"⚠️  Feature engineering not available: {e}")
+    FEATURES_AVAILABLE = False
 
-# Setup logging
-setup_logging()
-logger = get_logger(__name__)
-
-
-class PipelineManager:
-    """Main pipeline manager that coordinates all components."""
-    
-    def __init__(self):
-        self.db_manager = DatabaseManager()
-        self.live_tracker = LiveMatchTracker()
-        self.running = False
-        self._shutdown_event = asyncio.Event()
-        
-    async def initialize(self):
-        """Initialize all components."""
-        logger.info("Initializing SofaScore pipeline...")
-        
-        try:
-            # Initialize database
-            await self.db_manager.initialize()
-            logger.info("Database initialized")
-            
-            # Test SofaScore API connectivity
-            async with SofaScoreAPI() as api:
-                test_matches = await api.get_live_matches()
-                logger.info(f"API connectivity test: found {len(test_matches)} live matches")
-            
-            logger.info("Pipeline initialization completed")
-            
-        except Exception as e:
-            logger.error(f"Failed to initialize pipeline: {e}")
-            raise
-    
-    async def start_live_tracking(self):
-        """Start the live match tracking process."""
-        logger.info("Starting live match tracking...")
-        self.running = True
-        
-        try:
-            # Start the live tracker in the background
-            tracker_task = asyncio.create_task(
-                self.live_tracker.run_continuous_tracking()
-            )
-            
-            # Start monitoring tasks
-            monitor_task = asyncio.create_task(self._monitoring_loop())
-            cleanup_task = asyncio.create_task(self._cleanup_loop())
-            
-            # Wait for shutdown signal
-            await self._shutdown_event.wait()
-            
-            # Cancel all tasks
-            logger.info("Shutting down live tracking...")
-            tracker_task.cancel()
-            monitor_task.cancel()
-            cleanup_task.cancel()
-            
-            # Wait for tasks to complete
-            await asyncio.gather(tracker_task, monitor_task, cleanup_task, return_exceptions=True)
-            
-        except Exception as e:
-            logger.error(f"Error in live tracking: {e}")
-            raise
-        finally:
-            self.running = False
-    
-    async def _monitoring_loop(self):
-        """Monitor pipeline health and performance."""
-        while self.running:
-            try:
-                # Get scraping statistics
-                stats = await self.db_manager.get_scraping_stats(hours=1)
-                
-                if stats:
-                    logger.info("Pipeline Stats (last hour):")
-                    for job_stat in stats.get('job_statistics', []):
-                        logger.info(f"  Jobs {job_stat['status']}: {job_stat['count']}")
-                    
-                    for vol_stat in stats.get('volume_statistics', []):
-                        logger.info(f"  {vol_stat['table_name']}: {vol_stat['record_count']} records")
-                
-                # Wait 10 minutes before next monitoring cycle
-                await asyncio.sleep(600)
-                
-            except Exception as e:
-                logger.error(f"Error in monitoring loop: {e}")
-                await asyncio.sleep(60)  # Wait 1 minute on error
-    
-    async def _cleanup_loop(self):
-        """Periodic cleanup of old data."""
-        while self.running:
-            try:
-                # Run cleanup once per day
-                await asyncio.sleep(86400)  # 24 hours
-                
-                logger.info("Starting periodic cleanup...")
-                deleted_count = await self.db_manager.cleanup_old_data(days=7)
-                logger.info(f"Cleanup completed: {deleted_count} records deleted")
-                
-            except Exception as e:
-                logger.error(f"Error in cleanup loop: {e}")
-    
-    async def shutdown(self):
-        """Graceful shutdown of the pipeline."""
-        logger.info("Starting pipeline shutdown...")
-        self.running = False
-        self._shutdown_event.set()
-        
-        # Close database connections
-        await self.db_manager.close()
-        logger.info("Pipeline shutdown completed")
-    
-    def setup_signal_handlers(self):
-        """Setup signal handlers for graceful shutdown."""
-        def signal_handler(signum, frame):
-            logger.info(f"Received signal {signum}, initiating shutdown...")
-            asyncio.create_task(self.shutdown())
-        
-        signal.signal(signal.SIGINT, signal_handler)
-        signal.signal(signal.SIGTERM, signal_handler)
+# Setup logging if available
+if CORE_AVAILABLE:
+    setup_logging()
 
 
-class CLIRunner:
-    """Command-line interface for the pipeline."""
-    
-    def __init__(self):
-        self.pipeline = PipelineManager()
-    
-    async def run_live_mode(self):
-        """Run in live tracking mode."""
-        logger.info("Starting SofaScore pipeline in live mode")
-        
-        try:
-            await self.pipeline.initialize()
-            self.pipeline.setup_signal_handlers()
-            await self.pipeline.start_live_tracking()
-        except KeyboardInterrupt:
-            logger.info("Received interrupt signal")
-        except Exception as e:
-            logger.error(f"Pipeline error: {e}")
-            sys.exit(1)
-        finally:
-            await self.pipeline.shutdown()
-    
-    async def run_discovery_mode(self):
-        """Run API discovery to find available endpoints."""
-        logger.info("Running SofaScore API discovery...")
-        
-        try:
-            async with SofaScoreAPI() as api:
-                # Get current live matches
-                live_matches = await api.get_live_matches()
-                logger.info(f"Found {len(live_matches)} live matches")
-                
-                if live_matches:
-                    # Test different endpoints on first match
-                    test_match = live_matches[0]
-                    logger.info(f"Testing endpoints on match: {test_match.home_team} vs {test_match.away_team}")
-                    
-                    endpoints = {
-                        'feed': api.get_match_feed,
-                        'events': api.get_match_events,
-                        'statistics': api.get_match_statistics,
-                        'lineups': api.get_match_lineups,
-                        'momentum': api.get_momentum_data,
-                    }
-                    
-                    for endpoint_name, endpoint_func in endpoints.items():
-                        try:
-                            data = await endpoint_func(test_match.match_id)
-                            if data:
-                                logger.info(f"✓ {endpoint_name}: Working ({len(str(data))} chars)")
-                            else:
-                                logger.warning(f"✗ {endpoint_name}: No data")
-                        except Exception as e:
-                            logger.error(f"✗ {endpoint_name}: Error - {e}")
-                
-                # Get today's matches
-                todays_matches = await api.get_todays_matches()
-                logger.info(f"Found {len(todays_matches)} matches today")
-                
-        except Exception as e:
-            logger.error(f"Discovery error: {e}")
-            sys.exit(1)
-    
-    async def run_test_mode(self, match_id: Optional[int] = None):
-        """Run test scraping on a specific match."""
-        logger.info("Running test scraping...")
-        
-        try:
-            await self.pipeline.initialize()
-            
-            if match_id:
-                # Test specific match
-                success = await self.pipeline.live_tracker.scrape_match_data(match_id)
-                logger.info(f"Test scraping match {match_id}: {'Success' if success else 'Failed'}")
-            else:
-                # Find a live match to test
-                async with SofaScoreAPI() as api:
-                    live_matches = await api.get_live_matches()
-                    
-                    if live_matches:
-                        test_match = live_matches[0]
-                        logger.info(f"Testing on live match: {test_match.home_team} vs {test_match.away_team}")
-                        success = await self.pipeline.live_tracker.scrape_match_data(test_match.match_id)
-                        logger.info(f"Test scraping: {'Success' if success else 'Failed'}")
-                    else:
-                        logger.warning("No live matches found for testing")
-                        
-        except Exception as e:
-            logger.error(f"Test error: {e}")
-            sys.exit(1)
-        finally:
-            await self.pipeline.shutdown()
-    
-    async def show_stats(self, hours: int = 24):
-        """Show pipeline statistics."""
-        logger.info(f"Getting pipeline statistics for last {hours} hours...")
-        
-        try:
-            await self.pipeline.initialize()
-            
-            stats = await self.pipeline.db_manager.get_scraping_stats(hours)
-            
-            if stats:
-                print(f"\n📊 Pipeline Statistics (Last {hours} hours)")
-                print("=" * 50)
-                
-                # Job statistics
-                print("\n🔄 Job Statistics:")
-                for job_stat in stats.get('job_statistics', []):
-                    print(f"  {job_stat['status'].title()}: {job_stat['count']} jobs")
-                    if job_stat.get('avg_duration'):
-                        print(f"    Avg Duration: {job_stat['avg_duration']:.1f}s")
-                    if job_stat.get('total_successful'):
-                        print(f"    Successful Requests: {job_stat['total_successful']}")
-                    if job_stat.get('total_failed'):
-                        print(f"    Failed Requests: {job_stat['total_failed']}")
-                
-                # Volume statistics
-                print("\n📈 Data Volume:")
-                for vol_stat in stats.get('volume_statistics', []):
-                    table_name = vol_stat['table_name'].replace('_', ' ').title()
-                    print(f"  {table_name}: {vol_stat['record_count']} records")
-                    print(f"    Unique Matches: {vol_stat['unique_matches']}")
-                
-                # Live matches
-                live_data = await self.pipeline.db_manager.get_live_matches_data()
-                print(f"\n⚽ Active Matches: {len(live_data)}")
-                
-            else:
-                print("No statistics available")
-                
-        except Exception as e:
-            logger.error(f"Stats error: {e}")
-            sys.exit(1)
-        finally:
-            await self.pipeline.shutdown()
-
-
-# CLI Commands
 @click.group()
 @click.option('--debug', is_flag=True, help='Enable debug logging')
-@click.option('--config', help='Configuration file path')
-def cli(debug, config):
-    """SofaScore Data Pipeline CLI."""
+def cli(debug):
+    """SofaScore Data Pipeline CLI with ML Support."""
     if debug:
         logging.getLogger().setLevel(logging.DEBUG)
-        logger.info("Debug logging enabled")
+        if CORE_AVAILABLE:
+            logger.info("Debug logging enabled")
+        else:
+            print("Debug logging enabled")
+
+@cli.command()
+def status():
+    """Show pipeline status."""
+    click.echo("📊 SofaScore Pipeline Status")
+    click.echo("=" * 40)
+    click.echo(f"Core Available: {'✅' if CORE_AVAILABLE else '❌'}")
+    click.echo(f"ML Available: {'✅' if ML_AVAILABLE else '❌'}")
+    click.echo(f"Features Available: {'✅' if FEATURES_AVAILABLE else '❌'}")
     
-    if config:
-        logger.info(f"Using config file: {config}")
-
-
-@cli.command()
-def live():
-    """Start live match tracking."""
-    runner = CLIRunner()
-    asyncio.run(runner.run_live_mode())
-
-
-@cli.command()
-def discover():
-    """Discover available SofaScore API endpoints."""
-    runner = CLIRunner()
-    asyncio.run(runner.run_discovery_mode())
-
-
-@cli.command()
-@click.option('--match-id', type=int, help='Specific match ID to test')
-def test(match_id):
-    """Test scraping functionality."""
-    runner = CLIRunner()
-    asyncio.run(runner.run_test_mode(match_id))
-
-
-@cli.command()
-@click.option('--hours', default=24, help='Number of hours to show stats for')
-def stats(hours):
-    """Show pipeline statistics."""
-    runner = CLIRunner()
-    asyncio.run(runner.show_stats(hours))
-
-
-@cli.command()
-@click.option('--days', default=7, help='Delete data older than N days')
-@click.confirmation_option(prompt='Are you sure you want to delete old data?')
-def cleanup(days):
-    """Clean up old data."""
-    async def run_cleanup():
-        pipeline = PipelineManager()
+    # Check training data
+    training_data = Path("demo_training_dataset.csv")
+    click.echo(f"Training Data: {'✅' if training_data.exists() else '❌'}")
+    
+    if training_data.exists():
         try:
-            await pipeline.initialize()
-            deleted = await pipeline.db_manager.cleanup_old_data(days)
-            logger.info(f"Deleted {deleted} old records")
-        finally:
-            await pipeline.shutdown()
+            import pandas as pd
+            df = pd.read_csv(training_data)
+            click.echo(f"  Samples: {len(df)}")
+            click.echo(f"  Features: {len(df.columns)}")
+            
+            # Check target distributions
+            targets = ['goal_next_1min_any', 'goal_next_5min_any', 'goal_next_15min_any']
+            for target in targets:
+                if target in df.columns:
+                    positive = df[target].sum()
+                    total = len(df)
+                    click.echo(f"  {target}: {positive}/{total} ({positive/total*100:.1f}%)")
+        except Exception as e:
+            click.echo(f"  Error: {e}")
     
-    asyncio.run(run_cleanup())
+    # Check models directory
+    models_dir = Path("data/models/saved_models")
+    models_exist = models_dir.exists()
+    click.echo(f"Models Directory: {'✅' if models_exist else '❌'}")
+    
+    if models_exist:
+        model_files = list(models_dir.glob("*.joblib"))
+        click.echo(f"  Saved Models: {len(model_files)}")
 
 
-def main():
-    """Main entry point."""
-    try:
-        # Validate configuration
-        validation_errors = settings.validate()
-        if validation_errors:
-            logger.error(f"Configuration errors: {', '.join(validation_errors)}")
-            sys.exit(1)
-        
-        # Run CLI
-        cli()
-        
-    except KeyboardInterrupt:
-        logger.info("Interrupted by user")
-        sys.exit(0)
-    except Exception as e:
-        logger.error(f"Application error: {e}")
-        sys.exit(1)
-
-
-
-
-# Stage 5: Feature Engineering CLI Commands
+# ===== STAGE 5: FEATURE ENGINEERING COMMANDS =====
 
 @cli.command()
 @click.option('--match-ids', '-m', multiple=True, type=int, help='Match IDs to process')
@@ -388,116 +115,210 @@ def main():
 @click.option('--start-minute', default=59, help='Start generating features from this minute')
 def generate_features(match_ids, output_dir, start_minute):
     """Generate ML features for matches."""
-    if not match_ids:
-        print("Please specify at least one match ID with --match-ids")
+    if not FEATURES_AVAILABLE:
+        click.echo("❌ Feature engineering not available")
         return
     
-    from src.feature_engineering.cli_commands import run_feature_generation
+    if not match_ids:
+        click.echo("Please specify at least one match ID with --match-ids")
+        return
+    
     asyncio.run(run_feature_generation(list(match_ids), output_dir, start_minute))
-
 
 @cli.command()
 @click.option('--match-ids', '-m', multiple=True, type=int, help='Match IDs to include')
 @click.option('--output', '-o', default='training_dataset.csv', help='Output CSV file')
 def create_dataset(match_ids, output):
     """Create training dataset from matches."""
-    if not match_ids:
-        print("Please specify match IDs with --match-ids")
+    if not FEATURES_AVAILABLE:
+        click.echo("❌ Feature engineering not available")
         return
     
-    from src.feature_engineering.cli_commands import run_training_dataset_creation
+    if not match_ids:
+        click.echo("Please specify match IDs with --match-ids")
+        return
+    
     asyncio.run(run_training_dataset_creation(list(match_ids), output))
-
 
 @cli.command()
 def demo_features():
     """Run feature engineering demo."""
-    from src.feature_engineering.cli_commands import demo_feature_pipeline
+    if not FEATURES_AVAILABLE:
+        click.echo("❌ Feature engineering not available")
+        return
+    
     asyncio.run(demo_feature_pipeline())
 
-if __name__ == "__main__":
-    main()
-# ETL commands
-@cli.command()
-@click.option('--limit', type=int, help='Limit number of records to process')
-@click.option('--dry-run', is_flag=True, help='Run without making changes')
-def etl(limit, dry_run):
-    """Run ETL pipeline to normalize raw data."""
-    async def run_etl():
-        from src.cli.etl_commands import ETLCommandRunner
-        runner = ETLCommandRunner()
-        await runner.run_etl_processing(limit, dry_run)
-    
-    asyncio.run(run_etl())
 
+# ===== STAGE 6: ML MODEL DEVELOPMENT COMMANDS =====
 
 @cli.command()
-def quality():
-    """Run data quality checks."""
-    async def run_quality():
-        from src.cli.etl_commands import ETLCommandRunner
-        runner = ETLCommandRunner()
-        await runner.run_quality_checks()
-    
-    asyncio.run(run_quality())
-
-# Stage 6: ML Model Development Commands
-
-@cli.command()
-@click.option('--training-data', '-d', default='demo_training_dataset.csv', help='Path to training data CSV file')
+@click.option('--data', '-d', default='demo_training_dataset.csv', help='Path to training data CSV file')
 @click.option('--target', '-t', help='Specific target column to train')
-def train_ml(training_data, target):
+@click.option('--models', '-m', multiple=True, help='Specific models to train (xgboost, random_forest, logistic_regression)')
+def train_ml(data, target, models):
     """Train ML models for goal prediction."""
     if not ML_AVAILABLE:
-        click.echo("❌ ML models not available. Check setup.")
+        click.echo("❌ ML models not available. Install requirements:")
+        click.echo("   pip install -r requirements_ml.txt")
         return
-    success = asyncio.run(run_ml_training(training_data, target))
+    
+    models_list = list(models) if models else None
+    success = asyncio.run(run_ml_training(data, target, models_list))
+    
+    if success:
+        click.echo("✅ ML training completed successfully!")
+    else:
+        click.echo("❌ ML training failed. Check logs for details.")
 
 @cli.command()
-@click.option('--test-data', '-d', default='demo_training_dataset.csv', help='Path to test data CSV file')
+@click.option('--data', '-d', default='demo_training_dataset.csv', help='Path to test data CSV file')
 @click.option('--models-dir', '-m', help='Directory containing saved models')
-def evaluate_ml(test_data, models_dir):
+@click.option('--no-plots', is_flag=True, help='Skip plot generation')
+def evaluate_ml(data, models_dir, no_plots):
     """Evaluate trained ML models."""
     if not ML_AVAILABLE:
-        click.echo("❌ ML models not available. Check setup.")
+        click.echo("❌ ML models not available.")
         return
-    success = asyncio.run(run_ml_evaluation(test_data, models_dir))
+    
+    success = asyncio.run(run_ml_evaluation(data, models_dir, not no_plots))
+    
+    if success:
+        click.echo("✅ ML evaluation completed successfully!")
+    else:
+        click.echo("❌ ML evaluation failed. Check logs for details.")
 
 @cli.command()
 @click.option('--match-id', '-i', type=int, required=True, help='Match ID')
 @click.option('--minute', '-min', type=int, required=True, help='Current minute')
 @click.option('--home-score', '-hs', type=int, required=True, help='Home team score')
 @click.option('--away-score', '-as', type=int, required=True, help='Away team score')
-def predict_ml(match_id, minute, home_score, away_score):
+@click.option('--home-team-id', type=int, default=1, help='Home team ID')
+@click.option('--away-team-id', type=int, default=2, help='Away team ID')
+def predict_ml(match_id, minute, home_score, away_score, home_team_id, away_team_id):
     """Make goal prediction for current match state."""
     if not ML_AVAILABLE:
-        click.echo("❌ ML models not available. Check setup.")
+        click.echo("❌ ML models not available.")
         return
-    success = asyncio.run(run_ml_prediction(match_id, minute, home_score, away_score))
+    
+    success = asyncio.run(run_ml_prediction(
+        match_id, minute, home_score, away_score, home_team_id, away_team_id
+    ))
+    
+    if not success:
+        click.echo("❌ Prediction failed. Check logs for details.")
 
 @cli.command()
 def predict_ml_demo():
     """Run goal prediction demo with sample scenarios."""
     if not ML_AVAILABLE:
-        click.echo("❌ ML models not available. Check setup.")
+        click.echo("❌ ML models not available.")
         return
+    
     success = asyncio.run(run_ml_demo())
+    
+    if success:
+        click.echo("✅ ML demo completed successfully!")
+    else:
+        click.echo("❌ ML demo failed. Check logs for details.")
 
 @cli.command()
 @click.option('--host', '-h', default='0.0.0.0', help='API server host')
-@click.option('--port', '-p', default=8001, help='API server port')
+@click.option('--port', '-p', type=int, default=8001, help='API server port')
 def serve_ml(host, port):
     """Start the prediction API server."""
     if not ML_AVAILABLE:
-        click.echo("❌ ML models not available. Check setup.")
+        click.echo("❌ ML models not available.")
         return
+    
     click.echo(f"🚀 Starting ML API server on {host}:{port}")
-    asyncio.run(run_ml_api_server(host, port))
+    click.echo(f"📚 Documentation: http://{host}:{port}/docs")
+    
+    try:
+        asyncio.run(run_ml_api_server(host, port))
+    except KeyboardInterrupt:
+        click.echo("\n👋 API server stopped")
 
 @cli.command()
 def ml_status():
-    """Show ML pipeline status."""
-    print("📊 ML Pipeline Status")
-    print("Training data:", "✅" if Path("demo_training_dataset.csv").exists() else "❌")
-    print("Models dir:", "✅" if Path("data/models/saved_models").exists() else "❌")
-    print("ML Available:", "✅" if ML_AVAILABLE else "❌")
+    """Show ML pipeline status and information."""
+    click.echo("📊 Stage 6 ML Pipeline Status")
+    click.echo("=" * 40)
+    
+    # Check training data
+    training_data_exists = Path("demo_training_dataset.csv").exists()
+    click.echo(f"Training Data: {'✅' if training_data_exists else '❌'} demo_training_dataset.csv")
+    
+    if training_data_exists:
+        try:
+            import pandas as pd
+            df = pd.read_csv("demo_training_dataset.csv")
+            click.echo(f"  Samples: {len(df)}")
+            click.echo(f"  Features: {len(df.columns)}")
+            
+            # Check target distributions
+            targets = ['goal_next_1min_any', 'goal_next_5min_any', 'goal_next_15min_any']
+            for target in targets:
+                if target in df.columns:
+                    positive = df[target].sum()
+                    total = len(df)
+                    click.echo(f"  {target}: {positive}/{total} ({positive/total*100:.1f}%)")
+        except Exception as e:
+            click.echo(f"  Error reading data: {e}")
+    
+    # Check models directory
+    models_dir = Path("data/models/saved_models")
+    models_exist = models_dir.exists()
+    click.echo(f"Models Directory: {'✅' if models_exist else '❌'} {models_dir}")
+    
+    if models_exist:
+        model_files = list(models_dir.glob("*.joblib"))
+        click.echo(f"  Saved Models: {len(model_files)}")
+        
+        # Group by target
+        targets_found = set()
+        for model_file in model_files:
+            for target in ['goal_next_1min_any', 'goal_next_5min_any', 'goal_next_15min_any']:
+                if target in model_file.name:
+                    targets_found.add(target)
+        
+        for target in targets_found:
+            target_models = [f for f in model_files if target in f.name]
+            click.echo(f"  {target}: {len(target_models)} models")
+    
+    # Check ML availability
+    click.echo(f"ML Available: {'✅' if ML_AVAILABLE else '❌'}")
+    
+    if not ML_AVAILABLE:
+        click.echo("To enable ML features:")
+        click.echo("  pip install -r requirements_ml.txt")
+    
+    # Usage examples
+    if training_data_exists and ML_AVAILABLE:
+        click.echo("\n🎯 Quick Start Commands:")
+        click.echo("  python -m src.main train-ml")
+        click.echo("  python -m src.main evaluate-ml") 
+        click.echo("  python -m src.main predict-ml --match-id 12345 --minute 75 --home-score 1 --away-score 0")
+        click.echo("  python -m src.main serve-ml")
+
+
+def main():
+    """Main entry point."""
+    try:
+        cli()
+    except KeyboardInterrupt:
+        if CORE_AVAILABLE:
+            logger.info("Interrupted by user")
+        else:
+            print("Interrupted by user")
+        sys.exit(0)
+    except Exception as e:
+        if CORE_AVAILABLE:
+            logger.error(f"Application error: {e}")
+        else:
+            print(f"Application error: {e}")
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
