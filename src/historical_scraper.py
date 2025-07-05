@@ -1,6 +1,6 @@
 """
 Historical Data Scraper for SofaScore Data Collection Pipeline
-Fetches past match results and historical events for analysis
+Fetches past match results with comprehensive goal timing analysis
 """
 
 import logging
@@ -17,7 +17,7 @@ from config.config import SOFASCORE_BASE_URL, RATE_LIMIT_DELAY
 from utils import make_api_request, setup_logging
 
 class HistoricalScraper:
-    """Scraper for historical match data from SofaScore API"""
+    """Scraper for historical match data with comprehensive goal timing analysis"""
     
     def __init__(self):
         self.logger = setup_logging()
@@ -36,8 +36,14 @@ class HistoricalScraper:
         """
         self.logger.info(f"Fetching historical matches for date: {date_str}")
         
-        url = f"{self.base_url}/sport/football/events/{date_str}"
+        # Try the scheduled events endpoint first, then filter for completed
+        url = f"{self.base_url}/sport/football/scheduled-events/{date_str}"
         data = make_api_request(url, delay=self.delay)
+        
+        # If scheduled events fails, try the direct events endpoint
+        if not data:
+            url = f"{self.base_url}/sport/football/events/{date_str}"
+            data = make_api_request(url, delay=self.delay)
         
         if not data:
             self.logger.warning(f"No historical data received for {date_str}")
@@ -85,17 +91,17 @@ class HistoricalScraper:
         self.logger.info(f"Total historical matches found: {len(all_matches)}")
         return all_matches
     
-    def get_match_historical_details(self, match_id):
+    def get_match_comprehensive_historical_details(self, match_id):
         """
-        Fetch detailed historical data for a specific match
+        Fetch comprehensive historical data for a specific match
         
         Args:
             match_id (int): SofaScore match ID
             
         Returns:
-            dict: Detailed historical match data with goal timestamps
+            dict: Comprehensive historical match data
         """
-        self.logger.info(f"Fetching historical details for match {match_id}")
+        self.logger.info(f"Fetching comprehensive historical details for match {match_id}")
         
         # Get basic match info
         match_url = f"{self.base_url}/event/{match_id}"
@@ -112,27 +118,35 @@ class HistoricalScraper:
         stats_url = f"{self.base_url}/event/{match_id}/statistics"
         stats_data = make_api_request(stats_url, delay=self.delay)
         
-        return self._compile_historical_details(match_data, events_data, stats_data)
+        return self._compile_comprehensive_historical_data(match_data, events_data, stats_data)
     
     def _extract_historical_match_info(self, event):
-        """Extract basic historical match information"""
+        """Extract historical match information"""
         try:
             start_timestamp = event.get('startTimestamp')
             start_time = datetime.fromtimestamp(start_timestamp) if start_timestamp else None
             
+            # Calculate total goals
+            home_score = event.get('homeScore', {}).get('current', 0)
+            away_score = event.get('awayScore', {}).get('current', 0)
+            total_goals = home_score + away_score
+            
             return {
                 'match_id': event.get('id'),
+                'competition': event.get('tournament', {}).get('name'),
+                'league': event.get('tournament', {}).get('category', {}).get('name'),
+                'date': start_time.date().isoformat() if start_time else None,
+                'time': start_time.time().isoformat() if start_time else None,
+                'datetime': start_time.isoformat() if start_time else None,
                 'home_team': event.get('homeTeam', {}).get('name'),
-                'home_team_id': event.get('homeTeam', {}).get('id'),
                 'away_team': event.get('awayTeam', {}).get('name'),
+                'home_team_id': event.get('homeTeam', {}).get('id'),
                 'away_team_id': event.get('awayTeam', {}).get('id'),
-                'home_score_final': event.get('homeScore', {}).get('current', 0),
-                'away_score_final': event.get('awayScore', {}).get('current', 0),
+                'home_score_final': home_score,
+                'away_score_final': away_score,
+                'total_goals': total_goals,
                 'home_score_ht': event.get('homeScore', {}).get('period1', 0),
                 'away_score_ht': event.get('awayScore', {}).get('period1', 0),
-                'match_date': start_time.date().isoformat() if start_time else None,
-                'kickoff_time': start_time.isoformat() if start_time else None,
-                'tournament': event.get('tournament', {}).get('name'),
                 'tournament_id': event.get('tournament', {}).get('id'),
                 'round_info': event.get('roundInfo', {}).get('name'),
                 'status': event.get('status', {}).get('description'),
@@ -142,31 +156,32 @@ class HistoricalScraper:
             self.logger.error(f"Error extracting historical match info: {e}")
             return None
     
-    def _compile_historical_details(self, match_data, events_data, stats_data):
-        """Compile detailed historical match data"""
+    def _compile_comprehensive_historical_data(self, match_data, events_data, stats_data):
+        """Compile comprehensive historical match data"""
         if not match_data:
             return None
         
         event = match_data.get('event', {})
         
         compiled_data = {
-            'match_info': self._extract_historical_match_info(event),
-            'goal_events': self._extract_goal_timestamps(events_data),
-            'all_events': self._extract_all_events(events_data),
-            'final_stats': self._extract_final_stats(stats_data)
+            'match_details': self._extract_historical_match_info(event),
+            'goal_events': self._extract_comprehensive_goal_timestamps(events_data),
+            'team_statistics': self._extract_comprehensive_final_stats(stats_data),
+            'all_events': self._extract_all_historical_events(events_data),
+            'goal_frequency_analysis': self._analyze_goal_timing(events_data)
         }
         
         return compiled_data
     
-    def _extract_goal_timestamps(self, events_data):
+    def _extract_comprehensive_goal_timestamps(self, events_data):
         """
-        Extract goal events with precise timestamps for late-goal analysis
+        Extract comprehensive goal events with exact timestamps for late-goal analysis
         
         Args:
             events_data (dict): Events data from API
             
         Returns:
-            list: List of goal events with timestamps
+            list: List of comprehensive goal events with timing analysis
         """
         if not events_data or 'incidents' not in events_data:
             return []
@@ -177,72 +192,42 @@ class HistoricalScraper:
             if incident.get('incidentType') == 'goal':
                 goal_data = {
                     'goal_id': incident.get('id'),
-                    'minute': incident.get('time'),
+                    'exact_timestamp_minute': incident.get('time'),
                     'added_time': incident.get('addedTime', 0),
                     'total_minute': incident.get('time', 0) + incident.get('addedTime', 0),
+                    
+                    # Goal Information
+                    'scoring_player': incident.get('player', {}).get('name') if incident.get('player') else None,
+                    'scoring_player_id': incident.get('player', {}).get('id') if incident.get('player') else None,
+                    'assisting_player': incident.get('assist1', {}).get('name') if incident.get('assist1') else None,
+                    'assisting_player_id': incident.get('assist1', {}).get('id') if incident.get('assist1') else None,
+                    'goal_type': incident.get('goalType', 'regular'),
                     'team_side': incident.get('teamSide'),  # 'home' or 'away'
-                    'player_name': incident.get('player', {}).get('name') if incident.get('player') else None,
-                    'player_id': incident.get('player', {}).get('id') if incident.get('player') else None,
-                    'goal_type': incident.get('goalType'),  # e.g., 'regular', 'penalty', 'ownGoal'
-                    'assist_player': incident.get('assist1', {}).get('name') if incident.get('assist1') else None,
+                    'description': incident.get('text'),
+                    
+                    # Time Analysis for Late-Goal Modeling
+                    'period': 1 if incident.get('time', 0) <= 45 else 2,
+                    'is_first_half': incident.get('time', 0) <= 45,
+                    'is_second_half': incident.get('time', 0) > 45,
                     'is_late_goal': self._is_late_goal(incident.get('time', 0), incident.get('addedTime', 0)),
-                    'period': incident.get('time', 0) // 45 + 1  # Approximate period
+                    'is_last_15_minutes': self._is_last_15_minutes(incident.get('time', 0), incident.get('addedTime', 0)),
+                    'time_interval': self._get_time_interval(incident.get('time', 0), incident.get('addedTime', 0)),
+                    
+                    # Advanced Timing Categories
+                    'is_very_late_goal': self._is_very_late_goal(incident.get('time', 0), incident.get('addedTime', 0)),
+                    'is_injury_time_goal': incident.get('addedTime', 0) > 0,
+                    'goal_timing_category': self._categorize_goal_timing(incident.get('time', 0), incident.get('addedTime', 0))
                 }
                 goals.append(goal_data)
         
         return sorted(goals, key=lambda x: x.get('total_minute', 0))
     
-    def _is_late_goal(self, minute, added_time):
-        """
-        Determine if a goal is considered a 'late goal'
-        
-        Args:
-            minute (int): Goal minute
-            added_time (int): Added time minutes
-            
-        Returns:
-            bool: True if considered a late goal
-        """
-        total_minute = minute + added_time
-        
-        # Define late goals as:
-        # - Last 15 minutes of first half (30+ minutes)
-        # - Last 15 minutes of second half (75+ minutes)
-        # - Any goal in extra time (90+ minutes)
-        
-        return (
-            (30 <= total_minute <= 45) or  # Late first half
-            (total_minute >= 75)           # Late second half or extra time
-        )
-    
-    def _extract_all_events(self, events_data):
-        """Extract all match events for comprehensive analysis"""
-        if not events_data or 'incidents' not in events_data:
-            return []
-        
-        events = []
-        
-        for incident in events_data['incidents']:
-            event = {
-                'event_id': incident.get('id'),
-                'type': incident.get('incidentType'),
-                'minute': incident.get('time'),
-                'added_time': incident.get('addedTime', 0),
-                'total_minute': incident.get('time', 0) + incident.get('addedTime', 0),
-                'team_side': incident.get('teamSide'),
-                'player_name': incident.get('player', {}).get('name') if incident.get('player') else None,
-                'description': incident.get('text')
-            }
-            events.append(event)
-        
-        return sorted(events, key=lambda x: x.get('total_minute', 0))
-    
-    def _extract_final_stats(self, stats_data):
-        """Extract final match statistics"""
+    def _extract_comprehensive_final_stats(self, stats_data):
+        """Extract comprehensive final match statistics"""
         if not stats_data or 'statistics' not in stats_data:
-            return {}
+            return {'home': {}, 'away': {}}
         
-        final_stats = {}
+        team_stats = {'home': {}, 'away': {}}
         
         for period in stats_data['statistics']:
             if period.get('period') == 'ALL':
@@ -250,75 +235,80 @@ class HistoricalScraper:
                 
                 for group in groups:
                     for stat in group.get('statisticsItems', []):
-                        stat_name = stat.get('name', '').lower().replace(' ', '_')
-                        final_stats[f'home_{stat_name}'] = stat.get('home')
-                        final_stats[f'away_{stat_name}'] = stat.get('away')
+                        stat_name = stat.get('name', '').lower()
+                        home_value = stat.get('home')
+                        away_value = stat.get('away')
+                        
+                        # Comprehensive team statistics mapping
+                        if 'ball possession' in stat_name or 'possession' in stat_name:
+                            team_stats['home']['possession_percentage'] = home_value
+                            team_stats['away']['possession_percentage'] = away_value
+                        elif 'shots on target' in stat_name:
+                            team_stats['home']['shots_on_target'] = home_value
+                            team_stats['away']['shots_on_target'] = away_value
+                        elif 'total shots' in stat_name or stat_name == 'shots':
+                            team_stats['home']['total_shots'] = home_value
+                            team_stats['away']['total_shots'] = away_value
+                        elif 'corner kicks' in stat_name or 'corners' in stat_name:
+                            team_stats['home']['corners'] = home_value
+                            team_stats['away']['corners'] = away_value
+                        elif 'fouls' in stat_name:
+                            team_stats['home']['fouls'] = home_value
+                            team_stats['away']['fouls'] = away_value
+                        elif 'yellow cards' in stat_name:
+                            team_stats['home']['yellow_cards'] = home_value
+                            team_stats['away']['yellow_cards'] = away_value
+                        elif 'red cards' in stat_name:
+                            team_stats['home']['red_cards'] = home_value
+                            team_stats['away']['red_cards'] = away_value
+                        elif 'offsides' in stat_name or 'offside' in stat_name:
+                            team_stats['home']['offsides'] = home_value
+                            team_stats['away']['offsides'] = away_value
         
-        return final_stats
+        return team_stats
     
-    def analyze_goal_timing_patterns(self, matches_data):
+    def _analyze_goal_timing(self, events_data):
         """
-        Analyze goal timing patterns from historical data
+        Comprehensive goal frequency analysis for late-goal modeling
         
         Args:
-            matches_data (list): List of historical matches with goal data
+            events_data (dict): Events data from API
             
         Returns:
-            dict: Goal timing analysis results
+            dict: Comprehensive goal frequency analysis
         """
-        all_goals = []
-        
-        for match in matches_data:
-            match_id = match.get('match_info', {}).get('match_id')
-            goals = match.get('goal_events', [])
-            
-            for goal in goals:
-                goal_analysis = goal.copy()
-                goal_analysis['match_id'] = match_id
-                all_goals.append(goal_analysis)
-        
-        if not all_goals:
+        if not events_data or 'incidents' not in events_data:
             return {}
         
-        # Calculate goal timing statistics
-        goal_minutes = [goal['total_minute'] for goal in all_goals]
-        late_goals = [goal for goal in all_goals if goal.get('is_late_goal')]
+        goals = []
+        for incident in events_data['incidents']:
+            if incident.get('incidentType') == 'goal':
+                total_minute = incident.get('time', 0) + incident.get('addedTime', 0)
+                goals.append(total_minute)
         
+        if not goals:
+            return {}
+        
+        # Comprehensive goal frequency analysis
         analysis = {
-            'total_goals': len(all_goals),
-            'late_goals_count': len(late_goals),
-            'late_goals_percentage': (len(late_goals) / len(all_goals)) * 100 if all_goals else 0,
-            'average_goal_minute': sum(goal_minutes) / len(goal_minutes) if goal_minutes else 0,
-            'goals_by_period': self._analyze_goals_by_period(all_goals),
-            'goals_by_15min_intervals': self._analyze_goals_by_intervals(all_goals)
+            'total_goals_analyzed': len(goals),
+            'goals_by_15min_intervals': self._analyze_goals_by_15min_intervals(goals),
+            'goals_by_half': self._analyze_goals_by_half(goals),
+            'late_goals_analysis': self._analyze_late_goals_comprehensive(goals),
+            'goal_distribution_percentages': self._calculate_goal_distribution_percentages(goals),
+            'goal_minutes_list': goals
         }
         
         return analysis
     
-    def _analyze_goals_by_period(self, goals):
-        """Analyze goal distribution by match periods"""
-        periods = {'first_half': 0, 'second_half': 0, 'extra_time': 0}
-        
-        for goal in goals:
-            minute = goal.get('total_minute', 0)
-            if minute <= 45:
-                periods['first_half'] += 1
-            elif minute <= 90:
-                periods['second_half'] += 1
-            else:
-                periods['extra_time'] += 1
-        
-        return periods
-    
-    def _analyze_goals_by_intervals(self, goals):
-        """Analyze goals by 15-minute intervals"""
+    def _analyze_goals_by_15min_intervals(self, goal_minutes):
+        """Analyze goals by 15-minute intervals for detailed frequency modeling"""
         intervals = {
             '0-15': 0, '16-30': 0, '31-45': 0, '46-60': 0,
             '61-75': 0, '76-90': 0, '90+': 0
         }
         
-        for goal in goals:
-            minute = goal.get('total_minute', 0)
+        for minute in goal_minutes:
             if minute <= 15:
                 intervals['0-15'] += 1
             elif minute <= 30:
@@ -336,24 +326,147 @@ class HistoricalScraper:
         
         return intervals
     
-    def scrape_historical_comprehensive(self, days_back=30, specific_matches=None):
+    def _analyze_goals_by_half(self, goal_minutes):
+        """Analyze goals by match halves"""
+        halves = {'first_half': 0, 'second_half': 0, 'extra_time': 0}
+        
+        for minute in goal_minutes:
+            if minute <= 45:
+                halves['first_half'] += 1
+            elif minute <= 90:
+                halves['second_half'] += 1
+            else:
+                halves['extra_time'] += 1
+        
+        return halves
+    
+    def _analyze_late_goals_comprehensive(self, goal_minutes):
+        """Comprehensive late goals analysis for modeling"""
+        late_goals = [m for m in goal_minutes if m >= 75]
+        very_late_goals = [m for m in goal_minutes if m >= 85]
+        injury_time_goals = [m for m in goal_minutes if m > 90]
+        last_15_first_half = [m for m in goal_minutes if 30 <= m <= 45]
+        
+        total_goals = len(goal_minutes)
+        
+        return {
+            'late_goals_count': len(late_goals),
+            'late_goals_percentage': (len(late_goals) / total_goals) * 100 if total_goals else 0,
+            'very_late_goals_count': len(very_late_goals),
+            'very_late_goals_percentage': (len(very_late_goals) / total_goals) * 100 if total_goals else 0,
+            'injury_time_goals_count': len(injury_time_goals),
+            'injury_time_goals_percentage': (len(injury_time_goals) / total_goals) * 100 if total_goals else 0,
+            'last_15_first_half_count': len(last_15_first_half),
+            'last_15_first_half_percentage': (len(last_15_first_half) / total_goals) * 100 if total_goals else 0
+        }
+    
+    def _calculate_goal_distribution_percentages(self, goal_minutes):
+        """Calculate percentage distribution of goals across time intervals"""
+        intervals = self._analyze_goals_by_15min_intervals(goal_minutes)
+        total_goals = len(goal_minutes)
+        
+        if total_goals == 0:
+            return {}
+        
+        percentages = {}
+        for interval, count in intervals.items():
+            percentages[f'{interval}_percentage'] = (count / total_goals) * 100
+        
+        return percentages
+    
+    def _extract_all_historical_events(self, events_data):
+        """Extract all historical match events"""
+        if not events_data or 'incidents' not in events_data:
+            return []
+        
+        events = []
+        
+        for incident in events_data['incidents']:
+            event = {
+                'event_id': incident.get('id'),
+                'type': incident.get('incidentType'),
+                'minute': incident.get('time'),
+                'added_time': incident.get('addedTime', 0),
+                'total_minute': incident.get('time', 0) + incident.get('addedTime', 0),
+                'team_side': incident.get('teamSide'),
+                'player_name': incident.get('player', {}).get('name') if incident.get('player') else None,
+                'description': incident.get('text'),
+                'period': 1 if incident.get('time', 0) <= 45 else 2
+            }
+            events.append(event)
+        
+        return sorted(events, key=lambda x: x.get('total_minute', 0))
+    
+    def _is_late_goal(self, minute, added_time):
+        """Determine if a goal is considered a 'late goal' (75+ minutes)"""
+        total_minute = minute + added_time
+        return total_minute >= 75
+    
+    def _is_very_late_goal(self, minute, added_time):
+        """Determine if a goal is considered a 'very late goal' (85+ minutes)"""
+        total_minute = minute + added_time
+        return total_minute >= 85
+    
+    def _is_last_15_minutes(self, minute, added_time):
+        """Check if goal is in last 15 minutes of any half"""
+        total_minute = minute + added_time
+        return (30 <= total_minute <= 45) or (total_minute >= 75)
+    
+    def _get_time_interval(self, minute, added_time):
+        """Get time interval for goal"""
+        total_minute = minute + added_time
+        if total_minute <= 15:
+            return '0-15'
+        elif total_minute <= 30:
+            return '16-30'
+        elif total_minute <= 45:
+            return '31-45'
+        elif total_minute <= 60:
+            return '46-60'
+        elif total_minute <= 75:
+            return '61-75'
+        elif total_minute <= 90:
+            return '76-90'
+        else:
+            return '90+'
+    
+    def _categorize_goal_timing(self, minute, added_time):
+        """Categorize goal timing for analysis"""
+        total_minute = minute + added_time
+        
+        if total_minute <= 15:
+            return 'early'
+        elif total_minute <= 30:
+            return 'early_mid'
+        elif total_minute <= 45:
+            return 'late_first_half'
+        elif total_minute <= 60:
+            return 'early_second_half'
+        elif total_minute <= 75:
+            return 'mid_second_half'
+        elif total_minute <= 90:
+            return 'late_second_half'
+        else:
+            return 'injury_time'
+    
+    def scrape_historical_comprehensive(self, days_back=7, specific_matches=None):
         """
-        Comprehensive historical data scraping
+        Comprehensive historical data scraping with enhanced goal analysis
         
         Args:
             days_back (int): Number of days to look back
             specific_matches (list): List of specific match IDs to scrape
             
         Returns:
-            dict: Comprehensive historical data
+            dict: Comprehensive historical data with goal frequency analysis
         """
         historical_data = {
             'recent_matches': [],
             'specific_matches': [],
-            'goal_analysis': {}
+            'comprehensive_goal_analysis': {}
         }
         
-        # Scrape recent matches
+        # Scrape recent completed matches
         if days_back > 0:
             end_date = datetime.now().date()
             start_date = end_date - timedelta(days=days_back)
@@ -363,69 +476,141 @@ class HistoricalScraper:
                 end_date.strftime('%Y-%m-%d')
             )
             
-            # Get detailed data for each match
-            for match in recent_matches[:50]:  # Limit to prevent API overload
+            # Get detailed data for each match (limit to prevent API overload)
+            for match in recent_matches[:20]:
                 match_id = match.get('match_id')
                 if match_id:
-                    details = self.get_match_historical_details(match_id)
+                    details = self.get_match_comprehensive_historical_details(match_id)
                     if details:
                         historical_data['recent_matches'].append(details)
         
-        # Scrape specific matches
+        # Scrape specific matches if provided
         if specific_matches:
             for match_id in specific_matches:
-                details = self.get_match_historical_details(match_id)
+                details = self.get_match_comprehensive_historical_details(match_id)
                 if details:
                     historical_data['specific_matches'].append(details)
         
-        # Perform goal timing analysis
+        # Perform comprehensive goal timing analysis across all matches
         all_matches = historical_data['recent_matches'] + historical_data['specific_matches']
         if all_matches:
-            historical_data['goal_analysis'] = self.analyze_goal_timing_patterns(all_matches)
+            historical_data['comprehensive_goal_analysis'] = self._comprehensive_goal_analysis(all_matches)
         
         return historical_data
     
-    def to_dataframe(self, historical_data):
+    def _comprehensive_goal_analysis(self, matches_data):
+        """Perform comprehensive goal timing analysis across all matches"""
+        all_goals = []
+        match_goal_data = []
+        
+        for match in matches_data:
+            match_info = match.get('match_details', {})
+            goals = match.get('goal_events', [])
+            goal_frequency = match.get('goal_frequency_analysis', {})
+            
+            # Collect all goals with match context
+            for goal in goals:
+                goal_analysis = goal.copy()
+                goal_analysis['match_id'] = match_info.get('match_id')
+                goal_analysis['competition'] = match_info.get('competition')
+                all_goals.append(goal_analysis)
+            
+            # Collect match-level goal data
+            if goals:
+                match_goal_data.append({
+                    'match_id': match_info.get('match_id'),
+                    'total_goals': len(goals),
+                    'late_goals': len([g for g in goals if g.get('is_late_goal')]),
+                    'goal_intervals': goal_frequency.get('goals_by_15min_intervals', {}),
+                    'competition': match_info.get('competition')
+                })
+        
+        if not all_goals:
+            return {}
+        
+        # Calculate comprehensive statistics
+        late_goals = [g for g in all_goals if g.get('is_late_goal')]
+        goal_minutes = [g['total_minute'] for g in all_goals]
+        
+        comprehensive_analysis = {
+            'total_matches_analyzed': len(matches_data),
+            'total_goals_analyzed': len(all_goals),
+            'late_goals_count': len(late_goals),
+            'late_goals_percentage': (len(late_goals) / len(all_goals)) * 100 if all_goals else 0,
+            'average_goals_per_match': len(all_goals) / len(matches_data) if matches_data else 0,
+            'average_goal_minute': sum(goal_minutes) / len(goal_minutes) if goal_minutes else 0,
+            
+            # Distribution Analysis
+            'goals_by_15min_intervals': self._analyze_goals_by_15min_intervals(goal_minutes),
+            'goals_by_half': self._analyze_goals_by_half(goal_minutes),
+            'late_goals_detailed': self._analyze_late_goals_comprehensive(goal_minutes),
+            'goal_distribution_percentages': self._calculate_goal_distribution_percentages(goal_minutes),
+            
+            # Match-level analysis
+            'matches_with_late_goals': len([m for m in match_goal_data if m['late_goals'] > 0]),
+            'percentage_matches_with_late_goals': (len([m for m in match_goal_data if m['late_goals'] > 0]) / len(match_goal_data)) * 100 if match_goal_data else 0
+        }
+        
+        return comprehensive_analysis
+    
+    def to_comprehensive_dataframes(self, historical_data):
         """
-        Convert historical data to pandas DataFrames
+        Convert comprehensive historical data to organized pandas DataFrames
         
         Args:
             historical_data (dict): Historical data from scraping
             
         Returns:
-            dict: Dictionary of DataFrames
+            dict: Dictionary of comprehensive DataFrames
         """
         dataframes = {}
         
         all_matches = []
         all_goals = []
         all_events = []
+        all_team_stats = []
         
         # Process all matches
         for match_type in ['recent_matches', 'specific_matches']:
             for match in historical_data.get(match_type, []):
-                match_info = match.get('match_info', {})
+                match_info = match.get('match_details', {})
                 all_matches.append(match_info)
                 
-                # Add goals with match context
+                # Goals with comprehensive data
                 for goal in match.get('goal_events', []):
                     goal_data = goal.copy()
                     goal_data['match_id'] = match_info.get('match_id')
+                    goal_data['competition'] = match_info.get('competition')
+                    goal_data['home_team'] = match_info.get('home_team')
+                    goal_data['away_team'] = match_info.get('away_team')
                     all_goals.append(goal_data)
                 
-                # Add all events with match context
+                # Team statistics
+                team_stats = match.get('team_statistics', {})
+                for side in ['home', 'away']:
+                    if side in team_stats:
+                        stats = team_stats[side].copy()
+                        stats['match_id'] = match_info.get('match_id')
+                        stats['team_side'] = side
+                        stats['team_name'] = match_info.get(f'{side}_team')
+                        stats['competition'] = match_info.get('competition')
+                        all_team_stats.append(stats)
+                
+                # All events
                 for event in match.get('all_events', []):
                     event_data = event.copy()
                     event_data['match_id'] = match_info.get('match_id')
+                    event_data['competition'] = match_info.get('competition')
                     all_events.append(event_data)
         
-        dataframes['matches'] = pd.DataFrame(all_matches)
-        dataframes['goals'] = pd.DataFrame(all_goals)
-        dataframes['events'] = pd.DataFrame(all_events)
+        dataframes['match_details'] = pd.DataFrame(all_matches)
+        dataframes['goal_events'] = pd.DataFrame(all_goals)
+        dataframes['team_statistics'] = pd.DataFrame(all_team_stats)
+        dataframes['all_events'] = pd.DataFrame(all_events)
         
-        # Add goal analysis as a separate summary
-        if 'goal_analysis' in historical_data:
-            analysis_df = pd.DataFrame([historical_data['goal_analysis']])
-            dataframes['goal_analysis'] = analysis_df
+        # Add comprehensive goal analysis
+        if 'comprehensive_goal_analysis' in historical_data:
+            analysis_df = pd.DataFrame([historical_data['comprehensive_goal_analysis']])
+            dataframes['goal_frequency_analysis'] = analysis_df
         
         return dataframes
