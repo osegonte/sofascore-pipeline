@@ -1,0 +1,346 @@
+2025-07-10 00:36:25,449 - utils - INFO - Starting quality-focused data collection cycle...
+2025-07-10 00:36:27,485 - utils - INFO - Found matches: Tier 1: 1, Tier 2: 1, Tier 3: 0, Other: 17
+2025-07-10 00:36:27,486 - utils - INFO - Found 19 live matches
+2025-07-10 00:36:27,486 - utils - INFO - 🎯 Processing tier_1_priority: Lajeadense vs Sport Clube Gaúcho (Gaucho, Serie A2)
+2025-07-10 00:36:56,764 - utils - INFO - 🏆 Lajeadense vs Sport Clube Gaúcho - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:36:56,765 - utils - INFO - 🎯 Processing tier_2_good: The Borough FC vs Whitby FC (League1 Ontario Championship)
+2025-07-10 00:37:26,919 - utils - INFO - 🏆 The Borough FC vs Whitby FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:37:26,920 - utils - INFO - 🎯 Processing tier_3_experimental: 9 de Julio de Rafaela vs Rosario Central (Copa Santa Fe)
+2025-07-10 00:37:56,226 - utils - INFO - 🏆 9 de Julio de Rafaela vs Rosario Central - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:37:56,226 - utils - INFO - 🎯 Processing tier_3_experimental: GV San José vs Club Aurora (Copa Division Profesional, Group C)
+2025-07-10 00:38:25,481 - utils - INFO - 🏆 GV San José vs Club Aurora - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:38:25,482 - utils - INFO - 🎯 Processing tier_3_experimental: Club Pumas Chapacos vs Avilés Industrial FC (Primera A Tarija, Apertura)
+2025-07-10 00:38:55,375 - utils - INFO - 🏆 Club Pumas Chapacos vs Avilés Industrial FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:38:55,375 - utils - INFO - 🎯 Processing tier_3_experimental: CD Tigres FC vs Atlético Independiente Bulo Bulo (Primera A Cochabamba, Apertura)
+2025-07-10 00:39:23,740 - utils - INFO - 🏆 CD Tigres FC vs Atlético Independiente Bulo Bulo - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:39:23,741 - utils - INFO - 🎯 Processing tier_3_experimental: Trindade vs Iporá (Goiano, Divisão de Acesso)
+2025-07-10 00:39:26,032 - utils - INFO - Found 6 stats from desktop endpoint 1
+2025-07-10 00:39:26,032 - utils - INFO - 🏆 Trindade vs Iporá - 16 stats (42.1%) from intelligent_estimation
+2025-07-10 00:39:26,032 - utils - INFO - 🎯 Processing tier_3_experimental: AD Taubaté vs Santos (Paulista, Feminino)
+2025-07-10 00:39:27,618 - utils - INFO - Found 10 stats from desktop endpoint 1
+2025-07-10 00:39:27,618 - utils - INFO - ✅ AD Taubaté vs Santos - 10 stats (26.3%) from desktop_endpoint_1
+2025-07-10 00:39:27,618 - utils - INFO - 🎯 Processing tier_3_experimental: CSA vs Ferroviário (Copa do Nordeste, Knockout stage)
+2025-07-10 00:39:56,179 - utils - INFO - 🏆 CSA vs Ferroviário - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:39:56,180 - utils - INFO - 🎯 Processing tier_3_experimental: Batalhão FC U20 vs Tocantinópolis U20 (U20 Tocantinense - Mata-mata)
+2025-07-10 00:40:24,607 - utils - INFO - 🏆 Batalhão FC U20 vs Tocantinópolis U20 - 16 stats (42.1%) from team_events_fallback
+2025-07-10 00:40:24,608 - utils - INFO - 🎯 Processing tier_3_experimental: UNAN Managua vs Diriangén FC (Nicaragua Cup)
+2025-07-10 00:40:52,755 - utils - INFO - 🏆 UNAN Managua vs Diriangén FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:40:52,756 - utils - INFO - 🎯 Processing tier_3_experimental: Sport Colonial vs Guarani de Fram (Copa Paraguay)
+2025-07-10 00:41:22,731 - utils - INFO - 🏆 Sport Colonial vs Guarani de Fram - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:41:22,733 - utils - INFO - 📊 QUALITY-FOCUSED METRICS:
+2025-07-10 00:41:22,733 - utils - INFO -    Total matches: 12
+2025-07-10 00:41:22,733 - utils - INFO -    Success rate: 12/12 (100.0%)
+2025-07-10 00:41:22,733 - utils - INFO -    High quality: 11/12 (91.7%)
+2025-07-10 00:41:22,733 - utils - INFO -    Avg completeness: 44.8%
+2025-07-10 00:41:22,733 - utils - INFO -    Tier 1 matches: 1
+2025-07-10 00:41:22,733 - utils - INFO -    Tier 2 matches: 1
+2025-07-10 00:41:22,733 - utils - INFO -    With estimations: 1
+2025-07-10 00:46:22,745 - utils - INFO - Starting quality-focused data collection cycle...
+2025-07-10 00:46:25,079 - utils - INFO - Found matches: Tier 1: 1, Tier 2: 1, Tier 3: 0, Other: 16
+2025-07-10 00:46:25,079 - utils - INFO - Found 18 live matches
+2025-07-10 00:46:25,079 - utils - INFO - 🎯 Processing tier_1_priority: Lajeadense vs Sport Clube Gaúcho (Gaucho, Serie A2)
+2025-07-10 00:46:26,713 - utils - INFO - Found 6 stats from desktop endpoint 1
+2025-07-10 00:46:26,713 - utils - INFO - 🏆 Lajeadense vs Sport Clube Gaúcho - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 00:46:26,713 - utils - INFO - 🎯 Processing tier_2_good: The Borough FC vs Whitby FC (League1 Ontario Championship)
+2025-07-10 00:46:56,574 - utils - INFO - 🏆 The Borough FC vs Whitby FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:46:56,575 - utils - INFO - 🎯 Processing tier_3_experimental: 9 de Julio de Rafaela vs Rosario Central (Copa Santa Fe)
+2025-07-10 00:47:26,216 - utils - INFO - 🏆 9 de Julio de Rafaela vs Rosario Central - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:47:26,217 - utils - INFO - 🎯 Processing tier_3_experimental: GV San José vs Club Aurora (Copa Division Profesional, Group C)
+2025-07-10 00:47:27,997 - utils - INFO - Found 9 stats from desktop endpoint 1
+2025-07-10 00:47:27,997 - utils - INFO - 🏆 GV San José vs Club Aurora - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 00:47:27,997 - utils - INFO - 🎯 Processing tier_3_experimental: Club Pumas Chapacos vs Avilés Industrial FC (Primera A Tarija, Apertura)
+2025-07-10 00:47:57,925 - utils - INFO - 🏆 Club Pumas Chapacos vs Avilés Industrial FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:47:57,926 - utils - INFO - 🎯 Processing tier_3_experimental: CD Tigres FC vs Atlético Independiente Bulo Bulo (Primera A Cochabamba, Apertura)
+2025-07-10 00:48:26,845 - utils - INFO - 🏆 CD Tigres FC vs Atlético Independiente Bulo Bulo - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:48:26,845 - utils - INFO - 🎯 Processing tier_3_experimental: Trindade vs Iporá (Goiano, Divisão de Acesso)
+2025-07-10 00:48:29,243 - utils - INFO - Found 8 stats from desktop endpoint 1
+2025-07-10 00:48:29,243 - utils - INFO - 🏆 Trindade vs Iporá - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 00:48:29,244 - utils - INFO - 🎯 Processing tier_3_experimental: AD Taubaté vs Santos (Paulista, Feminino)
+2025-07-10 00:48:31,034 - utils - INFO - Found 11 stats from desktop endpoint 1
+2025-07-10 00:48:31,034 - utils - INFO - ✅ AD Taubaté vs Santos - 11 stats (28.9%) from desktop_endpoint_1
+2025-07-10 00:48:31,035 - utils - INFO - 🎯 Processing tier_3_experimental: CSA vs Ferroviário (Copa do Nordeste, Knockout stage)
+2025-07-10 00:48:59,696 - utils - INFO - 🏆 CSA vs Ferroviário - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:48:59,696 - utils - INFO - 🎯 Processing tier_3_experimental: Batalhão FC U20 vs Tocantinópolis U20 (U20 Tocantinense - Mata-mata)
+2025-07-10 00:49:29,313 - utils - INFO - 🏆 Batalhão FC U20 vs Tocantinópolis U20 - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:49:29,314 - utils - INFO - 🎯 Processing tier_3_experimental: UNAN Managua vs Diriangén FC (Nicaragua Cup)
+2025-07-10 00:49:58,039 - utils - INFO - 🏆 UNAN Managua vs Diriangén FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:49:58,039 - utils - INFO - 🎯 Processing tier_3_experimental: Inter Moengotapoe vs SV Transvaal (Suriname Major League - Playoff)
+2025-07-10 00:49:59,631 - utils - INFO - Found 7 stats from desktop endpoint 1
+2025-07-10 00:49:59,631 - utils - INFO - 🏆 Inter Moengotapoe vs SV Transvaal - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 00:49:59,631 - utils - INFO - 📊 QUALITY-FOCUSED METRICS:
+2025-07-10 00:49:59,631 - utils - INFO -    Total matches: 12
+2025-07-10 00:49:59,631 - utils - INFO -    Success rate: 12/12 (100.0%)
+2025-07-10 00:49:59,631 - utils - INFO -    High quality: 11/12 (91.7%)
+2025-07-10 00:49:59,631 - utils - INFO -    Avg completeness: 45.9%
+2025-07-10 00:49:59,632 - utils - INFO -    Tier 1 matches: 1
+2025-07-10 00:49:59,632 - utils - INFO -    Tier 2 matches: 1
+2025-07-10 00:49:59,632 - utils - INFO -    With estimations: 4
+2025-07-10 00:54:59,637 - utils - INFO - Starting quality-focused data collection cycle...
+2025-07-10 00:55:01,857 - utils - INFO - Found matches: Tier 1: 1, Tier 2: 1, Tier 3: 0, Other: 15
+2025-07-10 00:55:01,858 - utils - INFO - Found 17 live matches
+2025-07-10 00:55:01,858 - utils - INFO - 🎯 Processing tier_1_priority: Lajeadense vs Sport Clube Gaúcho (Gaucho, Serie A2)
+2025-07-10 00:55:04,264 - utils - INFO - Found 7 stats from desktop endpoint 1
+2025-07-10 00:55:04,264 - utils - INFO - 🏆 Lajeadense vs Sport Clube Gaúcho - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 00:55:04,265 - utils - INFO - 🎯 Processing tier_2_good: The Borough FC vs Whitby FC (League1 Ontario Championship)
+2025-07-10 00:55:34,279 - utils - INFO - 🏆 The Borough FC vs Whitby FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:55:34,279 - utils - INFO - 🎯 Processing tier_3_experimental: 9 de Julio de Rafaela vs Rosario Central (Copa Santa Fe)
+2025-07-10 00:56:03,864 - utils - INFO - 🏆 9 de Julio de Rafaela vs Rosario Central - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:56:03,864 - utils - INFO - 🎯 Processing tier_3_experimental: GV San José vs Club Aurora (Copa Division Profesional, Group C)
+2025-07-10 00:56:06,284 - utils - INFO - Found 12 stats from desktop endpoint 1
+2025-07-10 00:56:06,284 - utils - INFO - ✅ GV San José vs Club Aurora - 12 stats (31.6%) from desktop_endpoint_1
+2025-07-10 00:56:06,284 - utils - INFO - 🎯 Processing tier_3_experimental: Club Pumas Chapacos vs Avilés Industrial FC (Primera A Tarija, Apertura)
+2025-07-10 00:56:35,418 - utils - INFO - 🏆 Club Pumas Chapacos vs Avilés Industrial FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:56:35,419 - utils - INFO - 🎯 Processing tier_3_experimental: CD Tigres FC vs Atlético Independiente Bulo Bulo (Primera A Cochabamba, Apertura)
+2025-07-10 00:57:04,970 - utils - INFO - 🏆 CD Tigres FC vs Atlético Independiente Bulo Bulo - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:57:04,970 - utils - INFO - 🎯 Processing tier_3_experimental: Trindade vs Iporá (Goiano, Divisão de Acesso)
+2025-07-10 00:57:07,487 - utils - INFO - Found 8 stats from desktop endpoint 1
+2025-07-10 00:57:07,487 - utils - INFO - 🏆 Trindade vs Iporá - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 00:57:07,487 - utils - INFO - 🎯 Processing tier_3_experimental: AD Taubaté vs Santos (Paulista, Feminino)
+2025-07-10 00:57:09,514 - utils - INFO - Found 11 stats from desktop endpoint 1
+2025-07-10 00:57:09,515 - utils - INFO - ✅ AD Taubaté vs Santos - 11 stats (28.9%) from desktop_endpoint_1
+2025-07-10 00:57:09,515 - utils - INFO - 🎯 Processing tier_3_experimental: CSA vs Ferroviário (Copa do Nordeste, Knockout stage)
+2025-07-10 00:57:39,478 - utils - INFO - 🏆 CSA vs Ferroviário - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:57:39,479 - utils - INFO - 🎯 Processing tier_3_experimental: Batalhão FC U20 vs Tocantinópolis U20 (U20 Tocantinense - Mata-mata)
+2025-07-10 00:58:09,662 - utils - INFO - 🏆 Batalhão FC U20 vs Tocantinópolis U20 - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:58:09,663 - utils - INFO - 🎯 Processing tier_3_experimental: Inter Moengotapoe vs SV Transvaal (Suriname Major League - Playoff)
+2025-07-10 00:58:11,881 - utils - INFO - Found 7 stats from desktop endpoint 1
+2025-07-10 00:58:11,881 - utils - INFO - 🏆 Inter Moengotapoe vs SV Transvaal - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 00:58:11,881 - utils - INFO - 🎯 Processing tier_3_experimental: New England FC vs FC Boston Bolts (USL, League Two)
+2025-07-10 00:58:40,949 - utils - INFO - 🏆 New England FC vs FC Boston Bolts - 18 stats (47.4%) from team_events_fallback
+2025-07-10 00:58:40,950 - utils - INFO - 📊 QUALITY-FOCUSED METRICS:
+2025-07-10 00:58:40,950 - utils - INFO -    Total matches: 12
+2025-07-10 00:58:40,950 - utils - INFO -    Success rate: 12/12 (100.0%)
+2025-07-10 00:58:40,950 - utils - INFO -    High quality: 10/12 (83.3%)
+2025-07-10 00:58:40,950 - utils - INFO -    Avg completeness: 44.5%
+2025-07-10 00:58:40,950 - utils - INFO -    Tier 1 matches: 1
+2025-07-10 00:58:40,950 - utils - INFO -    Tier 2 matches: 1
+2025-07-10 00:58:40,950 - utils - INFO -    With estimations: 3
+2025-07-10 00:58:40,974 - utils - INFO - 📁 Exported 36 records to exports/quality_focused_statistics_20250710_005840.csv
+2025-07-10 00:58:40,974 - utils - INFO - 📊 Quality metrics:
+2025-07-10 00:58:40,974 - utils - INFO -    Success rate: 36/36 (100.0%)
+2025-07-10 00:58:40,974 - utils - INFO -    High quality: 32/36 (88.9%)
+2025-07-10 00:58:40,974 - utils - INFO -    Avg completeness: 45.1%
+2025-07-10 01:03:40,988 - utils - INFO - Starting quality-focused data collection cycle...
+2025-07-10 01:03:43,562 - utils - INFO - Found matches: Tier 1: 2, Tier 2: 1, Tier 3: 0, Other: 21
+2025-07-10 01:03:43,562 - utils - INFO - Found 24 live matches
+2025-07-10 01:03:43,564 - utils - INFO - 🎯 Processing tier_1_priority: Lajeadense vs Sport Clube Gaúcho (Gaucho, Serie A2)
+2025-07-10 01:03:45,682 - utils - INFO - Found 8 stats from desktop endpoint 1
+2025-07-10 01:03:45,682 - utils - INFO - 🏆 Lajeadense vs Sport Clube Gaúcho - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:03:45,682 - utils - INFO - 🎯 Processing tier_1_priority: Paradise FCI vs Hard Rock FC (Premier League)
+2025-07-10 01:04:13,732 - utils - INFO - 🏆 Paradise FCI vs Hard Rock FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:04:13,734 - utils - INFO - 🎯 Processing tier_2_good: The Borough FC vs Whitby FC (League1 Ontario Championship)
+2025-07-10 01:04:43,103 - utils - INFO - 🏆 The Borough FC vs Whitby FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:04:43,104 - utils - INFO - 🎯 Processing tier_3_experimental: 9 de Julio de Rafaela vs Rosario Central (Copa Santa Fe)
+2025-07-10 01:05:12,613 - utils - INFO - 🏆 9 de Julio de Rafaela vs Rosario Central - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:05:12,614 - utils - INFO - 🎯 Processing tier_3_experimental: GV San José vs Club Aurora (Copa Division Profesional, Group C)
+2025-07-10 01:05:14,785 - utils - INFO - Found 14 stats from desktop endpoint 1
+2025-07-10 01:05:14,785 - utils - INFO - ✅ GV San José vs Club Aurora - 14 stats (36.8%) from desktop_endpoint_1
+2025-07-10 01:05:14,785 - utils - INFO - 🎯 Processing tier_3_experimental: Club Pumas Chapacos vs Avilés Industrial FC (Primera A Tarija, Apertura)
+2025-07-10 01:05:44,534 - utils - INFO - 🏆 Club Pumas Chapacos vs Avilés Industrial FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:05:44,534 - utils - INFO - 🎯 Processing tier_3_experimental: CD Tigres FC vs Atlético Independiente Bulo Bulo (Primera A Cochabamba, Apertura)
+2025-07-10 01:06:14,715 - utils - INFO - 🏆 CD Tigres FC vs Atlético Independiente Bulo Bulo - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:06:14,715 - utils - INFO - 🎯 Processing tier_3_experimental: Trindade vs Iporá (Goiano, Divisão de Acesso)
+2025-07-10 01:06:16,982 - utils - INFO - Found 9 stats from desktop endpoint 1
+2025-07-10 01:06:16,983 - utils - INFO - 🏆 Trindade vs Iporá - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:06:16,983 - utils - INFO - 🎯 Processing tier_3_experimental: Grêmio Anápolis vs Centro-Oeste (Goiano, Divisão de Acesso)
+2025-07-10 01:06:19,516 - utils - INFO - Found 5 stats from desktop endpoint 1
+2025-07-10 01:06:19,516 - utils - INFO - 🏆 Grêmio Anápolis vs Centro-Oeste - 16 stats (42.1%) from intelligent_estimation
+2025-07-10 01:06:19,516 - utils - INFO - 🎯 Processing tier_3_experimental: AD Taubaté vs Santos (Paulista, Feminino)
+2025-07-10 01:06:21,572 - utils - INFO - Found 11 stats from desktop endpoint 1
+2025-07-10 01:06:21,572 - utils - INFO - ✅ AD Taubaté vs Santos - 11 stats (28.9%) from desktop_endpoint_1
+2025-07-10 01:06:21,572 - utils - INFO - 🎯 Processing tier_3_experimental: CSA vs Ferroviário (Copa do Nordeste, Knockout stage)
+2025-07-10 01:06:51,649 - utils - INFO - 🏆 CSA vs Ferroviário - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:06:51,649 - utils - INFO - 🎯 Processing tier_3_experimental: Batalhão FC U20 vs Tocantinópolis U20 (U20 Tocantinense - Mata-mata)
+2025-07-10 01:07:20,850 - utils - INFO - 🏆 Batalhão FC U20 vs Tocantinópolis U20 - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:07:20,852 - utils - INFO - 📊 QUALITY-FOCUSED METRICS:
+2025-07-10 01:07:20,852 - utils - INFO -    Total matches: 12
+2025-07-10 01:07:20,852 - utils - INFO -    Success rate: 12/12 (100.0%)
+2025-07-10 01:07:20,852 - utils - INFO -    High quality: 10/12 (83.3%)
+2025-07-10 01:07:20,852 - utils - INFO -    Avg completeness: 44.5%
+2025-07-10 01:07:20,852 - utils - INFO -    Tier 1 matches: 2
+2025-07-10 01:07:20,852 - utils - INFO -    Tier 2 matches: 1
+2025-07-10 01:07:20,852 - utils - INFO -    With estimations: 3
+2025-07-10 01:12:20,864 - utils - INFO - Starting quality-focused data collection cycle...
+2025-07-10 01:12:23,329 - utils - INFO - Found matches: Tier 1: 2, Tier 2: 3, Tier 3: 0, Other: 28
+2025-07-10 01:12:23,330 - utils - INFO - Found 33 live matches
+2025-07-10 01:12:23,330 - utils - INFO - 🎯 Processing tier_1_priority: Lajeadense vs Sport Clube Gaúcho (Gaucho, Serie A2)
+2025-07-10 01:12:25,207 - utils - INFO - Found 8 stats from desktop endpoint 1
+2025-07-10 01:12:25,208 - utils - INFO - 🏆 Lajeadense vs Sport Clube Gaúcho - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:12:25,208 - utils - INFO - 🎯 Processing tier_1_priority: Paradise FCI vs Hard Rock FC (Premier League)
+2025-07-10 01:12:55,273 - utils - INFO - 🏆 Paradise FCI vs Hard Rock FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:12:55,275 - utils - INFO - 🎯 Processing tier_2_good: CF Montréal vs Forge FC (Canadian Championship)
+2025-07-10 01:12:57,097 - utils - INFO - Found 6 stats from desktop endpoint 1
+2025-07-10 01:12:57,097 - utils - INFO - 🏆 CF Montréal vs Forge FC - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:12:57,097 - utils - INFO - 🎯 Processing tier_2_good: The Borough FC vs Whitby FC (League1 Ontario Championship)
+2025-07-10 01:13:26,454 - utils - INFO - 🏆 The Borough FC vs Whitby FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:13:26,455 - utils - INFO - 🎯 Processing tier_2_good: Crown Legacy FC vs Carolina Core FC (MLS Next Pro)
+2025-07-10 01:13:55,444 - utils - INFO - 🏆 Crown Legacy FC vs Carolina Core FC - 16 stats (42.1%) from team_events_fallback
+2025-07-10 01:13:55,445 - utils - INFO - 🎯 Processing tier_3_experimental: Ferrocarril Midland vs Argentino de Merlo (Primera B, Clausura)
+2025-07-10 01:13:57,441 - utils - INFO - Found 5 stats from desktop endpoint 1
+2025-07-10 01:13:57,442 - utils - INFO - 🏆 Ferrocarril Midland vs Argentino de Merlo - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:13:57,442 - utils - INFO - 🎯 Processing tier_3_experimental: 9 de Julio de Rafaela vs Rosario Central (Copa Santa Fe)
+2025-07-10 01:14:26,973 - utils - INFO - 🏆 9 de Julio de Rafaela vs Rosario Central - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:14:26,974 - utils - INFO - 🎯 Processing tier_3_experimental: GV San José vs Club Aurora (Copa Division Profesional, Group C)
+2025-07-10 01:14:29,512 - utils - INFO - Found 14 stats from desktop endpoint 1
+2025-07-10 01:14:29,512 - utils - INFO - ✅ GV San José vs Club Aurora - 14 stats (36.8%) from desktop_endpoint_1
+2025-07-10 01:14:29,513 - utils - INFO - 🎯 Processing tier_3_experimental: Club Pumas Chapacos vs Avilés Industrial FC (Primera A Tarija, Apertura)
+2025-07-10 01:14:58,987 - utils - INFO - 🏆 Club Pumas Chapacos vs Avilés Industrial FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:14:58,988 - utils - INFO - 🎯 Processing tier_3_experimental: CD Tigres FC vs Atlético Independiente Bulo Bulo (Primera A Cochabamba, Apertura)
+2025-07-10 01:15:29,128 - utils - INFO - 🏆 CD Tigres FC vs Atlético Independiente Bulo Bulo - 16 stats (42.1%) from team_events_fallback
+2025-07-10 01:15:29,129 - utils - INFO - 🎯 Processing tier_3_experimental: Trindade vs Iporá (Goiano, Divisão de Acesso)
+2025-07-10 01:15:30,802 - utils - INFO - Found 11 stats from desktop endpoint 1
+2025-07-10 01:15:30,802 - utils - INFO - ✅ Trindade vs Iporá - 11 stats (28.9%) from desktop_endpoint_1
+2025-07-10 01:15:30,803 - utils - INFO - 🎯 Processing tier_3_experimental: Grêmio Anápolis vs Centro-Oeste (Goiano, Divisão de Acesso)
+2025-07-10 01:15:33,147 - utils - INFO - Found 5 stats from desktop endpoint 1
+2025-07-10 01:15:33,148 - utils - INFO - 🏆 Grêmio Anápolis vs Centro-Oeste - 16 stats (42.1%) from intelligent_estimation
+2025-07-10 01:15:33,148 - utils - INFO - 📊 QUALITY-FOCUSED METRICS:
+2025-07-10 01:15:33,148 - utils - INFO -    Total matches: 12
+2025-07-10 01:15:33,148 - utils - INFO -    Success rate: 12/12 (100.0%)
+2025-07-10 01:15:33,148 - utils - INFO -    High quality: 10/12 (83.3%)
+2025-07-10 01:15:33,148 - utils - INFO -    Avg completeness: 43.6%
+2025-07-10 01:15:33,148 - utils - INFO -    Tier 1 matches: 2
+2025-07-10 01:15:33,148 - utils - INFO -    Tier 2 matches: 3
+2025-07-10 01:15:33,148 - utils - INFO -    With estimations: 4
+2025-07-10 01:20:33,159 - utils - INFO - Starting quality-focused data collection cycle...
+2025-07-10 01:20:34,891 - utils - INFO - Found matches: Tier 1: 2, Tier 2: 3, Tier 3: 0, Other: 28
+2025-07-10 01:20:34,891 - utils - INFO - Found 33 live matches
+2025-07-10 01:20:34,891 - utils - INFO - 🎯 Processing tier_1_priority: Lajeadense vs Sport Clube Gaúcho (Gaucho, Serie A2)
+2025-07-10 01:20:37,329 - utils - INFO - Found 8 stats from desktop endpoint 1
+2025-07-10 01:20:37,330 - utils - INFO - 🏆 Lajeadense vs Sport Clube Gaúcho - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:20:37,330 - utils - INFO - 🎯 Processing tier_1_priority: Paradise FCI vs Hard Rock FC (Premier League)
+2025-07-10 01:21:06,742 - utils - INFO - 🏆 Paradise FCI vs Hard Rock FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:21:06,743 - utils - INFO - 🎯 Processing tier_2_good: CF Montréal vs Forge FC (Canadian Championship)
+2025-07-10 01:21:09,041 - utils - INFO - Found 9 stats from desktop endpoint 1
+2025-07-10 01:21:09,041 - utils - INFO - 🏆 CF Montréal vs Forge FC - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:21:09,041 - utils - INFO - 🎯 Processing tier_2_good: The Borough FC vs Whitby FC (League1 Ontario Championship)
+2025-07-10 01:21:38,885 - utils - INFO - 🏆 The Borough FC vs Whitby FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:21:38,886 - utils - INFO - 🎯 Processing tier_2_good: Crown Legacy FC vs Carolina Core FC (MLS Next Pro)
+2025-07-10 01:22:08,953 - utils - INFO - 🏆 Crown Legacy FC vs Carolina Core FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:22:08,954 - utils - INFO - 🎯 Processing tier_3_experimental: Ferrocarril Midland vs Argentino de Merlo (Primera B, Clausura)
+2025-07-10 01:22:11,457 - utils - INFO - Found 8 stats from desktop endpoint 1
+2025-07-10 01:22:11,457 - utils - INFO - 🏆 Ferrocarril Midland vs Argentino de Merlo - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:22:11,457 - utils - INFO - 🎯 Processing tier_3_experimental: 9 de Julio de Rafaela vs Rosario Central (Copa Santa Fe)
+2025-07-10 01:22:40,965 - utils - INFO - 🏆 9 de Julio de Rafaela vs Rosario Central - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:22:40,966 - utils - INFO - 🎯 Processing tier_3_experimental: GV San José vs Club Aurora (Copa Division Profesional, Group C)
+2025-07-10 01:22:43,496 - utils - INFO - Found 14 stats from desktop endpoint 1
+2025-07-10 01:22:43,496 - utils - INFO - ✅ GV San José vs Club Aurora - 14 stats (36.8%) from desktop_endpoint_1
+2025-07-10 01:22:43,496 - utils - INFO - 🎯 Processing tier_3_experimental: Club Pumas Chapacos vs Avilés Industrial FC (Primera A Tarija, Apertura)
+2025-07-10 01:23:11,893 - utils - INFO - 🏆 Club Pumas Chapacos vs Avilés Industrial FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:23:11,893 - utils - INFO - 🎯 Processing tier_3_experimental: CD Tigres FC vs Atlético Independiente Bulo Bulo (Primera A Cochabamba, Apertura)
+2025-07-10 01:23:41,698 - utils - INFO - 🏆 CD Tigres FC vs Atlético Independiente Bulo Bulo - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:23:41,699 - utils - INFO - 🎯 Processing tier_3_experimental: Trindade vs Iporá (Goiano, Divisão de Acesso)
+2025-07-10 01:23:43,947 - utils - INFO - Found 11 stats from desktop endpoint 1
+2025-07-10 01:23:43,947 - utils - INFO - ✅ Trindade vs Iporá - 11 stats (28.9%) from desktop_endpoint_1
+2025-07-10 01:23:43,948 - utils - INFO - 🎯 Processing tier_3_experimental: Grêmio Anápolis vs Centro-Oeste (Goiano, Divisão de Acesso)
+2025-07-10 01:23:46,440 - utils - INFO - Found 7 stats from desktop endpoint 1
+2025-07-10 01:23:46,440 - utils - INFO - 🏆 Grêmio Anápolis vs Centro-Oeste - 16 stats (42.1%) from intelligent_estimation
+2025-07-10 01:23:46,440 - utils - INFO - 📊 QUALITY-FOCUSED METRICS:
+2025-07-10 01:23:46,440 - utils - INFO -    Total matches: 12
+2025-07-10 01:23:46,440 - utils - INFO -    Success rate: 12/12 (100.0%)
+2025-07-10 01:23:46,440 - utils - INFO -    High quality: 10/12 (83.3%)
+2025-07-10 01:23:46,440 - utils - INFO -    Avg completeness: 44.5%
+2025-07-10 01:23:46,440 - utils - INFO -    Tier 1 matches: 2
+2025-07-10 01:23:46,440 - utils - INFO -    Tier 2 matches: 3
+2025-07-10 01:23:46,441 - utils - INFO -    With estimations: 4
+2025-07-10 01:23:46,451 - utils - INFO - 📁 Exported 36 records to exports/quality_focused_statistics_20250710_012346.csv
+2025-07-10 01:23:46,452 - utils - INFO - 📊 Quality metrics:
+2025-07-10 01:23:46,452 - utils - INFO -    Success rate: 36/36 (100.0%)
+2025-07-10 01:23:46,452 - utils - INFO -    High quality: 30/36 (83.3%)
+2025-07-10 01:23:46,452 - utils - INFO -    Avg completeness: 44.2%
+2025-07-10 01:28:46,455 - utils - INFO - Starting quality-focused data collection cycle...
+2025-07-10 01:28:48,506 - utils - INFO - Found matches: Tier 1: 2, Tier 2: 3, Tier 3: 0, Other: 27
+2025-07-10 01:28:48,507 - utils - INFO - Found 32 live matches
+2025-07-10 01:28:48,507 - utils - INFO - 🎯 Processing tier_1_priority: Lajeadense vs Sport Clube Gaúcho (Gaucho, Serie A2)
+2025-07-10 01:28:50,562 - utils - INFO - Found 8 stats from desktop endpoint 1
+2025-07-10 01:28:50,563 - utils - INFO - 🏆 Lajeadense vs Sport Clube Gaúcho - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:28:50,563 - utils - INFO - 🎯 Processing tier_1_priority: Paradise FCI vs Hard Rock FC (Premier League)
+2025-07-10 01:29:19,910 - utils - INFO - 🏆 Paradise FCI vs Hard Rock FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:29:19,911 - utils - INFO - 🎯 Processing tier_2_good: CF Montréal vs Forge FC (Canadian Championship)
+2025-07-10 01:29:22,365 - utils - INFO - Found 11 stats from desktop endpoint 1
+2025-07-10 01:29:22,366 - utils - INFO - ✅ CF Montréal vs Forge FC - 11 stats (28.9%) from desktop_endpoint_1
+2025-07-10 01:29:22,366 - utils - INFO - 🎯 Processing tier_2_good: The Borough FC vs Whitby FC (League1 Ontario Championship)
+2025-07-10 01:29:50,166 - utils - INFO - 🏆 The Borough FC vs Whitby FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:29:50,166 - utils - INFO - 🎯 Processing tier_2_good: Crown Legacy FC vs Carolina Core FC (MLS Next Pro)
+2025-07-10 01:30:19,055 - utils - INFO - 🏆 Crown Legacy FC vs Carolina Core FC - 16 stats (42.1%) from team_events_fallback
+2025-07-10 01:30:19,057 - utils - INFO - 🎯 Processing tier_3_experimental: Ferrocarril Midland vs Argentino de Merlo (Primera B, Clausura)
+2025-07-10 01:30:20,662 - utils - INFO - Found 12 stats from desktop endpoint 1
+2025-07-10 01:30:20,663 - utils - INFO - ✅ Ferrocarril Midland vs Argentino de Merlo - 12 stats (31.6%) from desktop_endpoint_1
+2025-07-10 01:30:20,663 - utils - INFO - 🎯 Processing tier_3_experimental: 9 de Julio de Rafaela vs Rosario Central (Copa Santa Fe)
+2025-07-10 01:30:49,153 - utils - INFO - 🏆 9 de Julio de Rafaela vs Rosario Central - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:30:49,154 - utils - INFO - 🎯 Processing tier_3_experimental: GV San José vs Club Aurora (Copa Division Profesional, Group C)
+2025-07-10 01:30:50,864 - utils - INFO - Found 14 stats from desktop endpoint 1
+2025-07-10 01:30:50,864 - utils - INFO - ✅ GV San José vs Club Aurora - 14 stats (36.8%) from desktop_endpoint_1
+2025-07-10 01:30:50,864 - utils - INFO - 🎯 Processing tier_3_experimental: Club Pumas Chapacos vs Avilés Industrial FC (Primera A Tarija, Apertura)
+2025-07-10 01:31:19,870 - utils - INFO - 🏆 Club Pumas Chapacos vs Avilés Industrial FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:31:19,871 - utils - INFO - 🎯 Processing tier_3_experimental: CD Tigres FC vs Atlético Independiente Bulo Bulo (Primera A Cochabamba, Apertura)
+2025-07-10 01:31:47,677 - utils - INFO - 🏆 CD Tigres FC vs Atlético Independiente Bulo Bulo - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:31:47,678 - utils - INFO - 🎯 Processing tier_3_experimental: Trindade vs Iporá (Goiano, Divisão de Acesso)
+2025-07-10 01:31:49,904 - utils - INFO - Found 11 stats from desktop endpoint 1
+2025-07-10 01:31:49,905 - utils - INFO - ✅ Trindade vs Iporá - 11 stats (28.9%) from desktop_endpoint_1
+2025-07-10 01:31:49,905 - utils - INFO - 🎯 Processing tier_3_experimental: Grêmio Anápolis vs Centro-Oeste (Goiano, Divisão de Acesso)
+2025-07-10 01:31:52,359 - utils - INFO - Found 8 stats from desktop endpoint 1
+2025-07-10 01:31:52,359 - utils - INFO - 🏆 Grêmio Anápolis vs Centro-Oeste - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:31:52,359 - utils - INFO - 📊 QUALITY-FOCUSED METRICS:
+2025-07-10 01:31:52,359 - utils - INFO -    Total matches: 12
+2025-07-10 01:31:52,359 - utils - INFO -    Success rate: 12/12 (100.0%)
+2025-07-10 01:31:52,360 - utils - INFO -    High quality: 8/12 (66.7%)
+2025-07-10 01:31:52,360 - utils - INFO -    Avg completeness: 41.7%
+2025-07-10 01:31:52,360 - utils - INFO -    Tier 1 matches: 2
+2025-07-10 01:31:52,360 - utils - INFO -    Tier 2 matches: 3
+2025-07-10 01:31:52,360 - utils - INFO -    With estimations: 2
+2025-07-10 01:36:52,366 - utils - INFO - Starting quality-focused data collection cycle...
+2025-07-10 01:36:54,343 - utils - INFO - Found matches: Tier 1: 2, Tier 2: 5, Tier 3: 0, Other: 30
+2025-07-10 01:36:54,344 - utils - INFO - Found 37 live matches
+2025-07-10 01:36:54,344 - utils - INFO - 🎯 Processing tier_1_priority: Lajeadense vs Sport Clube Gaúcho (Gaucho, Serie A2)
+2025-07-10 01:36:56,240 - utils - INFO - Found 8 stats from desktop endpoint 1
+2025-07-10 01:36:56,241 - utils - INFO - 🏆 Lajeadense vs Sport Clube Gaúcho - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:36:56,241 - utils - INFO - 🎯 Processing tier_1_priority: Paradise FCI vs Hard Rock FC (Premier League)
+2025-07-10 01:37:25,314 - utils - INFO - 🏆 Paradise FCI vs Hard Rock FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:37:25,316 - utils - INFO - 🎯 Processing tier_2_good: CF Montréal vs Forge FC (Canadian Championship)
+2025-07-10 01:37:27,183 - utils - INFO - Found 12 stats from desktop endpoint 1
+2025-07-10 01:37:27,183 - utils - INFO - ✅ CF Montréal vs Forge FC - 12 stats (31.6%) from desktop_endpoint_1
+2025-07-10 01:37:27,183 - utils - INFO - 🎯 Processing tier_2_good: The Borough FC vs Whitby FC (League1 Ontario Championship)
+2025-07-10 01:37:55,600 - utils - INFO - 🏆 The Borough FC vs Whitby FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:37:55,601 - utils - INFO - 🎯 Processing tier_2_good: Sudbury Cyclones vs York United Academy (League1 Ontario Championship)
+2025-07-10 01:38:25,358 - utils - INFO - 🏆 Sudbury Cyclones vs York United Academy - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:38:25,359 - utils - INFO - 🎯 Processing tier_2_good: Crown Legacy FC vs Carolina Core FC (MLS Next Pro)
+2025-07-10 01:38:53,839 - utils - INFO - 🏆 Crown Legacy FC vs Carolina Core FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:38:53,840 - utils - INFO - 🎯 Processing tier_2_good: Atlanta United 2 vs FC Cincinnati 2 (MLS Next Pro)
+2025-07-10 01:39:23,142 - utils - INFO - 🏆 Atlanta United 2 vs FC Cincinnati 2 - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:39:23,144 - utils - INFO - 🎯 Processing tier_3_experimental: Ferrocarril Midland vs Argentino de Merlo (Primera B, Clausura)
+2025-07-10 01:39:24,832 - utils - INFO - Found 12 stats from desktop endpoint 1
+2025-07-10 01:39:24,832 - utils - INFO - ✅ Ferrocarril Midland vs Argentino de Merlo - 12 stats (31.6%) from desktop_endpoint_1
+2025-07-10 01:39:24,832 - utils - INFO - 🎯 Processing tier_3_experimental: 9 de Julio de Rafaela vs Rosario Central (Copa Santa Fe)
+2025-07-10 01:39:54,882 - utils - INFO - 🏆 9 de Julio de Rafaela vs Rosario Central - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:39:54,883 - utils - INFO - 🎯 Processing tier_3_experimental: Club Pumas Chapacos vs Avilés Industrial FC (Primera A Tarija, Apertura)
+2025-07-10 01:40:24,202 - utils - INFO - 🏆 Club Pumas Chapacos vs Avilés Industrial FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:40:24,202 - utils - INFO - 🎯 Processing tier_3_experimental: CD Tigres FC vs Atlético Independiente Bulo Bulo (Primera A Cochabamba, Apertura)
+2025-07-10 01:40:53,800 - utils - INFO - 🏆 CD Tigres FC vs Atlético Independiente Bulo Bulo - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:40:53,802 - utils - INFO - 🎯 Processing tier_3_experimental: Trindade vs Iporá (Goiano, Divisão de Acesso)
+2025-07-10 01:40:56,192 - utils - INFO - Found 11 stats from desktop endpoint 1
+2025-07-10 01:40:56,192 - utils - INFO - ✅ Trindade vs Iporá - 11 stats (28.9%) from desktop_endpoint_1
+2025-07-10 01:40:56,192 - utils - INFO - 📊 QUALITY-FOCUSED METRICS:
+2025-07-10 01:40:56,193 - utils - INFO -    Total matches: 12
+2025-07-10 01:40:56,193 - utils - INFO -    Success rate: 12/12 (100.0%)
+2025-07-10 01:40:56,193 - utils - INFO -    High quality: 9/12 (75.0%)
+2025-07-10 01:40:56,193 - utils - INFO -    Avg completeness: 43.2%
+2025-07-10 01:40:56,193 - utils - INFO -    Tier 1 matches: 2
+2025-07-10 01:40:56,193 - utils - INFO -    Tier 2 matches: 5
+2025-07-10 01:40:56,193 - utils - INFO -    With estimations: 1
+2025-07-10 01:45:56,198 - utils - INFO - Starting quality-focused data collection cycle...
+2025-07-10 01:45:57,997 - utils - INFO - Found matches: Tier 1: 2, Tier 2: 6, Tier 3: 0, Other: 33
+2025-07-10 01:45:57,998 - utils - INFO - Found 41 live matches
+2025-07-10 01:45:57,998 - utils - INFO - 🎯 Processing tier_1_priority: Lajeadense vs Sport Clube Gaúcho (Gaucho, Serie A2)
+2025-07-10 01:46:00,538 - utils - INFO - Found 9 stats from desktop endpoint 1
+2025-07-10 01:46:00,538 - utils - INFO - 🏆 Lajeadense vs Sport Clube Gaúcho - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:46:00,538 - utils - INFO - 🎯 Processing tier_1_priority: Paradise FCI vs Hard Rock FC (Premier League)
+2025-07-10 01:46:30,659 - utils - INFO - 🏆 Paradise FCI vs Hard Rock FC - 16 stats (42.1%) from team_events_fallback
+2025-07-10 01:46:30,660 - utils - INFO - 🎯 Processing tier_2_good: New England Revolution vs Inter Miami CF (MLS)
+2025-07-10 01:46:32,865 - utils - INFO - Found 5 stats from desktop endpoint 1
+2025-07-10 01:46:32,866 - utils - INFO - 🏆 New England Revolution vs Inter Miami CF - 18 stats (47.4%) from intelligent_estimation
+2025-07-10 01:46:32,866 - utils - INFO - 🎯 Processing tier_2_good: CF Montréal vs Forge FC (Canadian Championship)
+2025-07-10 01:46:35,285 - utils - INFO - Found 13 stats from desktop endpoint 1
+2025-07-10 01:46:35,285 - utils - INFO - ✅ CF Montréal vs Forge FC - 13 stats (34.2%) from desktop_endpoint_1
+2025-07-10 01:46:35,286 - utils - INFO - 🎯 Processing tier_2_good: The Borough FC vs Whitby FC (League1 Ontario Championship)
+2025-07-10 01:47:05,083 - utils - INFO - 🏆 The Borough FC vs Whitby FC - 18 stats (47.4%) from team_events_fallback
+2025-07-10 01:47:05,084 - utils - INFO - 🎯 Processing tier_2_good: Sudbury Cyclones vs York United Academy (League1 Ontario Championship)

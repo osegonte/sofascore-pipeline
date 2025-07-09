@@ -1,0 +1,408 @@
+2025-07-07 13:59:05,119 - utils - INFO - Initializing fixed scrapers...
+2025-07-07 13:59:05,119 - utils - INFO - Fetching live matches...
+2025-07-07 13:59:06,624 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/events/live
+2025-07-07 13:59:06,690 - utils - INFO - Response status: 200
+2025-07-07 13:59:06,690 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/events/live
+2025-07-07 13:59:06,691 - utils - INFO - Found 4 live matches
+2025-07-07 13:59:06,691 - utils - INFO - Fetching comprehensive details for match 13938605
+2025-07-07 13:59:08,191 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13938605
+2025-07-07 13:59:08,247 - utils - INFO - Response status: 200
+2025-07-07 13:59:08,247 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13938605
+2025-07-07 13:59:08,248 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13938605/statistics
+2025-07-07 13:59:09,749 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13938605/statistics
+2025-07-07 13:59:09,790 - utils - INFO - Response status: 404
+2025-07-07 13:59:09,791 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13938605/statistics
+2025-07-07 13:59:09,791 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13938605/summary
+2025-07-07 13:59:11,295 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13938605/summary
+2025-07-07 13:59:11,342 - utils - INFO - Response status: 404
+2025-07-07 13:59:11,342 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13938605/summary
+2025-07-07 13:59:11,342 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13938605
+2025-07-07 13:59:12,844 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13938605
+2025-07-07 13:59:12,882 - utils - INFO - Response status: 200
+2025-07-07 13:59:12,882 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13938605
+2025-07-07 13:59:14,385 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13938605/incidents
+2025-07-07 13:59:14,429 - utils - INFO - Response status: 200
+2025-07-07 13:59:14,429 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13938605/incidents
+2025-07-07 13:59:14,430 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13938605/lineups
+2025-07-07 13:59:15,932 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13938605/lineups
+2025-07-07 13:59:15,988 - utils - INFO - Response status: 200
+2025-07-07 13:59:15,988 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13938605/lineups
+2025-07-07 13:59:15,989 - utils - INFO - Fetching comprehensive details for match 14077050
+2025-07-07 13:59:17,494 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14077050
+2025-07-07 13:59:17,536 - utils - INFO - Response status: 200
+2025-07-07 13:59:17,537 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14077050
+2025-07-07 13:59:17,537 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14077050/statistics
+2025-07-07 13:59:19,040 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14077050/statistics
+2025-07-07 13:59:19,123 - utils - INFO - Response status: 404
+2025-07-07 13:59:19,123 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/14077050/statistics
+2025-07-07 13:59:19,124 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14077050/summary
+2025-07-07 13:59:20,629 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14077050/summary
+2025-07-07 13:59:20,673 - utils - INFO - Response status: 404
+2025-07-07 13:59:20,674 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/14077050/summary
+2025-07-07 13:59:20,674 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14077050
+2025-07-07 13:59:22,179 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14077050
+2025-07-07 13:59:22,219 - utils - INFO - Response status: 200
+2025-07-07 13:59:22,220 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14077050
+2025-07-07 13:59:23,725 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14077050/incidents
+2025-07-07 13:59:23,767 - utils - INFO - Response status: 200
+2025-07-07 13:59:23,767 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14077050/incidents
+2025-07-07 13:59:23,767 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14077050/lineups
+2025-07-07 13:59:25,273 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14077050/lineups
+2025-07-07 13:59:25,314 - utils - INFO - Response status: 404
+2025-07-07 13:59:25,314 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/14077050/lineups
+2025-07-07 13:59:25,314 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14077050/summary
+2025-07-07 13:59:26,816 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14077050/summary
+2025-07-07 13:59:26,856 - utils - INFO - Response status: 404
+2025-07-07 13:59:26,856 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/14077050/summary
+2025-07-07 13:59:26,856 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14077050
+2025-07-07 13:59:28,361 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14077050
+2025-07-07 13:59:28,401 - utils - INFO - Response status: 200
+2025-07-07 13:59:28,401 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14077050
+2025-07-07 13:59:28,402 - utils - INFO - Fetching comprehensive details for match 14123567
+2025-07-07 13:59:29,907 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14123567
+2025-07-07 13:59:29,950 - utils - INFO - Response status: 200
+2025-07-07 13:59:29,951 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14123567
+2025-07-07 13:59:29,951 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14123567/statistics
+2025-07-07 13:59:31,455 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14123567/statistics
+2025-07-07 13:59:31,500 - utils - INFO - Response status: 200
+2025-07-07 13:59:31,500 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14123567/statistics
+2025-07-07 13:59:33,006 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14123567/incidents
+2025-07-07 13:59:33,046 - utils - INFO - Response status: 200
+2025-07-07 13:59:33,047 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14123567/incidents
+2025-07-07 13:59:33,047 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14123567/lineups
+2025-07-07 13:59:34,551 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14123567/lineups
+2025-07-07 13:59:34,593 - utils - INFO - Response status: 404
+2025-07-07 13:59:34,593 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/14123567/lineups
+2025-07-07 13:59:34,593 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14123567/summary
+2025-07-07 13:59:36,098 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14123567/summary
+2025-07-07 13:59:36,151 - utils - INFO - Response status: 404
+2025-07-07 13:59:36,151 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/14123567/summary
+2025-07-07 13:59:36,151 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14123567
+2025-07-07 13:59:37,657 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14123567
+2025-07-07 13:59:37,696 - utils - INFO - Response status: 200
+2025-07-07 13:59:37,697 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14123567
+2025-07-07 13:59:37,697 - utils - INFO - Fetching comprehensive details for match 13685192
+2025-07-07 13:59:39,199 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13685192
+2025-07-07 13:59:39,240 - utils - INFO - Response status: 200
+2025-07-07 13:59:39,241 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13685192
+2025-07-07 13:59:39,241 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13685192/statistics
+2025-07-07 13:59:40,747 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13685192/statistics
+2025-07-07 13:59:40,789 - utils - INFO - Response status: 404
+2025-07-07 13:59:40,789 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13685192/statistics
+2025-07-07 13:59:40,790 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13685192/summary
+2025-07-07 13:59:42,295 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13685192/summary
+2025-07-07 13:59:42,341 - utils - INFO - Response status: 404
+2025-07-07 13:59:42,341 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13685192/summary
+2025-07-07 13:59:42,342 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13685192
+2025-07-07 13:59:43,847 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13685192
+2025-07-07 13:59:43,888 - utils - INFO - Response status: 200
+2025-07-07 13:59:43,889 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13685192
+2025-07-07 13:59:45,393 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13685192/incidents
+2025-07-07 13:59:45,430 - utils - INFO - Response status: 200
+2025-07-07 13:59:45,430 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13685192/incidents
+2025-07-07 13:59:45,431 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13685192/lineups
+2025-07-07 13:59:46,936 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13685192/lineups
+2025-07-07 13:59:46,978 - utils - INFO - Response status: 404
+2025-07-07 13:59:46,978 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13685192/lineups
+2025-07-07 13:59:46,978 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13685192/summary
+2025-07-07 13:59:48,484 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13685192/summary
+2025-07-07 13:59:48,526 - utils - INFO - Response status: 404
+2025-07-07 13:59:48,526 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13685192/summary
+2025-07-07 13:59:48,526 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13685192
+2025-07-07 13:59:50,029 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13685192
+2025-07-07 13:59:50,079 - utils - INFO - Response status: 200
+2025-07-07 13:59:50,079 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13685192
+2025-07-07 13:59:50,103 - utils - INFO - Fetching fixtures for next 7 days
+2025-07-07 13:59:50,103 - utils - INFO - Fetching fixtures for date: 2025-07-07
+2025-07-07 13:59:51,106 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-07
+2025-07-07 13:59:51,216 - utils - INFO - Response status: 200
+2025-07-07 13:59:51,224 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-07
+2025-07-07 13:59:51,226 - utils - INFO - Found 111 fixtures for 2025-07-07
+2025-07-07 13:59:51,227 - utils - INFO - Fetching fixtures for date: 2025-07-08
+2025-07-07 13:59:52,228 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-08
+2025-07-07 13:59:52,306 - utils - INFO - Response status: 200
+2025-07-07 13:59:52,310 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-08
+2025-07-07 13:59:52,311 - utils - INFO - Found 49 fixtures for 2025-07-08
+2025-07-07 13:59:52,311 - utils - INFO - Fetching fixtures for date: 2025-07-09
+2025-07-07 13:59:53,313 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-09
+2025-07-07 13:59:53,392 - utils - INFO - Response status: 200
+2025-07-07 13:59:53,396 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-09
+2025-07-07 13:59:53,397 - utils - INFO - Found 61 fixtures for 2025-07-09
+2025-07-07 13:59:53,397 - utils - INFO - Fetching fixtures for date: 2025-07-10
+2025-07-07 13:59:54,399 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-10
+2025-07-07 13:59:54,484 - utils - INFO - Response status: 200
+2025-07-07 13:59:54,488 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-10
+2025-07-07 13:59:54,489 - utils - INFO - Found 68 fixtures for 2025-07-10
+2025-07-07 13:59:54,490 - utils - INFO - Fetching fixtures for date: 2025-07-11
+2025-07-07 13:59:55,494 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-11
+2025-07-07 13:59:55,602 - utils - INFO - Response status: 200
+2025-07-07 13:59:55,615 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-11
+2025-07-07 13:59:55,617 - utils - INFO - Found 91 fixtures for 2025-07-11
+2025-07-07 13:59:55,618 - utils - INFO - Fetching fixtures for date: 2025-07-12
+2025-07-07 13:59:56,622 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-12
+2025-07-07 13:59:56,758 - utils - INFO - Response status: 200
+2025-07-07 13:59:56,769 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-12
+2025-07-07 13:59:56,771 - utils - INFO - Found 205 fixtures for 2025-07-12
+2025-07-07 13:59:56,772 - utils - INFO - Fetching fixtures for date: 2025-07-13
+2025-07-07 13:59:57,777 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-13
+2025-07-07 13:59:57,928 - utils - INFO - Response status: 200
+2025-07-07 13:59:57,942 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-13
+2025-07-07 13:59:57,945 - utils - INFO - Found 259 fixtures for 2025-07-13
+2025-07-07 13:59:57,946 - utils - INFO - Total upcoming fixtures found: 844
+2025-07-07 13:59:57,954 - utils - INFO - Fetching historical matches from 2025-07-02 to 2025-07-07
+2025-07-07 13:59:57,954 - utils - INFO - Fetching historical matches for 2025-07-02
+2025-07-07 13:59:59,460 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-02
+2025-07-07 13:59:59,564 - utils - INFO - Response status: 200
+2025-07-07 13:59:59,571 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-02
+2025-07-07 13:59:59,572 - utils - INFO - Found 87 completed matches
+2025-07-07 13:59:59,573 - utils - INFO - Fetching historical matches for 2025-07-03
+2025-07-07 14:00:01,079 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-03
+2025-07-07 14:00:01,180 - utils - INFO - Response status: 200
+2025-07-07 14:00:01,185 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-03
+2025-07-07 14:00:01,186 - utils - INFO - Found 77 completed matches
+2025-07-07 14:00:01,187 - utils - INFO - Fetching historical matches for 2025-07-04
+2025-07-07 14:00:02,690 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-04
+2025-07-07 14:00:02,815 - utils - INFO - Response status: 200
+2025-07-07 14:00:02,824 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-04
+2025-07-07 14:00:02,826 - utils - INFO - Found 140 completed matches
+2025-07-07 14:00:02,827 - utils - INFO - Fetching historical matches for 2025-07-05
+2025-07-07 14:00:04,332 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-05
+2025-07-07 14:00:04,486 - utils - INFO - Response status: 200
+2025-07-07 14:00:04,501 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-05
+2025-07-07 14:00:04,503 - utils - INFO - Found 230 completed matches
+2025-07-07 14:00:04,504 - utils - INFO - Fetching historical matches for 2025-07-06
+2025-07-07 14:00:06,007 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-06
+2025-07-07 14:00:06,169 - utils - INFO - Response status: 200
+2025-07-07 14:00:06,181 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-06
+2025-07-07 14:00:06,184 - utils - INFO - Found 223 completed matches
+2025-07-07 14:00:06,185 - utils - INFO - Fetching historical matches for 2025-07-07
+2025-07-07 14:00:07,690 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-07
+2025-07-07 14:00:07,797 - utils - INFO - Response status: 200
+2025-07-07 14:00:07,805 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-07
+2025-07-07 14:00:07,807 - utils - INFO - Found 91 completed matches
+2025-07-07 14:00:07,808 - utils - INFO - Total historical matches: 848
+2025-07-07 14:00:07,808 - utils - INFO - Fetching comprehensive historical details for 13385908
+2025-07-07 14:00:09,313 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385908
+2025-07-07 14:00:09,356 - utils - INFO - Response status: 200
+2025-07-07 14:00:09,356 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385908
+2025-07-07 14:00:10,862 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385908/incidents
+2025-07-07 14:00:10,912 - utils - INFO - Response status: 200
+2025-07-07 14:00:10,913 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385908/incidents
+2025-07-07 14:00:10,914 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13385908/statistics
+2025-07-07 14:00:12,416 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385908/statistics
+2025-07-07 14:00:12,467 - utils - INFO - Response status: 200
+2025-07-07 14:00:12,468 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385908/statistics
+2025-07-07 14:00:12,469 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13385908/lineups
+2025-07-07 14:00:13,973 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385908/lineups
+2025-07-07 14:00:14,027 - utils - INFO - Response status: 200
+2025-07-07 14:00:14,028 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385908/lineups
+2025-07-07 14:00:14,029 - utils - INFO - Fetching comprehensive historical details for 13385905
+2025-07-07 14:00:15,532 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385905
+2025-07-07 14:00:15,575 - utils - INFO - Response status: 200
+2025-07-07 14:00:15,575 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385905
+2025-07-07 14:00:17,076 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385905/incidents
+2025-07-07 14:00:17,128 - utils - INFO - Response status: 200
+2025-07-07 14:00:17,129 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385905/incidents
+2025-07-07 14:00:17,129 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13385905/statistics
+2025-07-07 14:00:18,633 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385905/statistics
+2025-07-07 14:00:18,682 - utils - INFO - Response status: 200
+2025-07-07 14:00:18,683 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385905/statistics
+2025-07-07 14:00:18,683 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13385905/lineups
+2025-07-07 14:00:20,188 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385905/lineups
+2025-07-07 14:00:20,243 - utils - INFO - Response status: 200
+2025-07-07 14:00:20,244 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385905/lineups
+2025-07-07 14:00:20,245 - utils - INFO - Fetching comprehensive historical details for 13238236
+2025-07-07 14:00:21,749 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13238236
+2025-07-07 14:00:21,788 - utils - INFO - Response status: 200
+2025-07-07 14:00:21,789 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13238236
+2025-07-07 14:00:23,294 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13238236/incidents
+2025-07-07 14:00:23,336 - utils - INFO - Response status: 200
+2025-07-07 14:00:23,337 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13238236/incidents
+2025-07-07 14:00:23,337 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13238236/statistics
+2025-07-07 14:00:24,840 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13238236/statistics
+2025-07-07 14:00:24,893 - utils - INFO - Response status: 200
+2025-07-07 14:00:24,894 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13238236/statistics
+2025-07-07 14:00:24,894 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13238236/lineups
+2025-07-07 14:00:26,399 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13238236/lineups
+2025-07-07 14:00:26,528 - utils - INFO - Response status: 200
+2025-07-07 14:00:26,528 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13238236/lineups
+2025-07-07 14:00:26,529 - utils - INFO - Fetching comprehensive historical details for 13238235
+2025-07-07 14:00:28,033 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13238235
+2025-07-07 14:00:28,075 - utils - INFO - Response status: 200
+2025-07-07 14:00:28,075 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13238235
+2025-07-07 14:00:29,581 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13238235/incidents
+2025-07-07 14:00:29,629 - utils - INFO - Response status: 200
+2025-07-07 14:00:29,630 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13238235/incidents
+2025-07-07 14:00:29,630 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13238235/statistics
+2025-07-07 14:00:31,133 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13238235/statistics
+2025-07-07 14:00:31,183 - utils - INFO - Response status: 200
+2025-07-07 14:00:31,184 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13238235/statistics
+2025-07-07 14:00:31,184 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13238235/lineups
+2025-07-07 14:00:32,687 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13238235/lineups
+2025-07-07 14:00:32,747 - utils - INFO - Response status: 200
+2025-07-07 14:00:32,748 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13238235/lineups
+2025-07-07 14:00:32,749 - utils - INFO - Fetching comprehensive historical details for 13274665
+2025-07-07 14:00:34,250 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13274665
+2025-07-07 14:00:34,292 - utils - INFO - Response status: 200
+2025-07-07 14:00:34,292 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13274665
+2025-07-07 14:00:35,796 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13274665/incidents
+2025-07-07 14:00:35,845 - utils - INFO - Response status: 200
+2025-07-07 14:00:35,845 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13274665/incidents
+2025-07-07 14:00:35,845 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13274665/statistics
+2025-07-07 14:00:37,346 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13274665/statistics
+2025-07-07 14:00:37,394 - utils - INFO - Response status: 200
+2025-07-07 14:00:37,395 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13274665/statistics
+2025-07-07 14:00:37,395 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13274665/lineups
+2025-07-07 14:00:38,900 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13274665/lineups
+2025-07-07 14:00:38,954 - utils - INFO - Response status: 200
+2025-07-07 14:00:38,955 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13274665/lineups
+2025-07-07 14:00:38,956 - utils - INFO - Fetching comprehensive historical details for 13940654
+2025-07-07 14:00:40,457 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13940654
+2025-07-07 14:00:40,498 - utils - INFO - Response status: 200
+2025-07-07 14:00:40,499 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13940654
+2025-07-07 14:00:42,003 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13940654/incidents
+2025-07-07 14:00:42,053 - utils - INFO - Response status: 200
+2025-07-07 14:00:42,054 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13940654/incidents
+2025-07-07 14:00:42,054 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13940654/statistics
+2025-07-07 14:00:43,558 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13940654/statistics
+2025-07-07 14:00:43,609 - utils - INFO - Response status: 200
+2025-07-07 14:00:43,610 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13940654/statistics
+2025-07-07 14:00:43,610 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13940654/lineups
+2025-07-07 14:00:45,113 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13940654/lineups
+2025-07-07 14:00:45,244 - utils - INFO - Response status: 200
+2025-07-07 14:00:45,245 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13940654/lineups
+2025-07-07 14:00:45,246 - utils - INFO - Fetching comprehensive historical details for 14000197
+2025-07-07 14:00:46,751 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14000197
+2025-07-07 14:00:46,793 - utils - INFO - Response status: 200
+2025-07-07 14:00:46,793 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14000197
+2025-07-07 14:00:48,294 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14000197/incidents
+2025-07-07 14:00:48,346 - utils - INFO - Response status: 200
+2025-07-07 14:00:48,347 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14000197/incidents
+2025-07-07 14:00:48,348 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14000197/statistics
+2025-07-07 14:00:49,852 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14000197/statistics
+2025-07-07 14:00:49,902 - utils - INFO - Response status: 200
+2025-07-07 14:00:49,903 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14000197/statistics
+2025-07-07 14:00:49,903 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14000197/lineups
+2025-07-07 14:00:51,409 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14000197/lineups
+2025-07-07 14:00:51,460 - utils - INFO - Response status: 200
+2025-07-07 14:00:51,461 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14000197/lineups
+2025-07-07 14:00:51,462 - utils - INFO - Fetching comprehensive historical details for 14000198
+2025-07-07 14:00:52,967 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14000198
+2025-07-07 14:00:53,009 - utils - INFO - Response status: 200
+2025-07-07 14:00:53,009 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14000198
+2025-07-07 14:00:54,515 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14000198/incidents
+2025-07-07 14:00:54,566 - utils - INFO - Response status: 200
+2025-07-07 14:00:54,568 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14000198/incidents
+2025-07-07 14:00:54,568 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14000198/statistics
+2025-07-07 14:00:56,073 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14000198/statistics
+2025-07-07 14:00:56,128 - utils - INFO - Response status: 200
+2025-07-07 14:00:56,129 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14000198/statistics
+2025-07-07 14:00:56,129 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14000198/lineups
+2025-07-07 14:00:57,634 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14000198/lineups
+2025-07-07 14:00:57,690 - utils - INFO - Response status: 200
+2025-07-07 14:00:57,691 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14000198/lineups
+2025-07-07 14:00:57,693 - utils - INFO - Fetching comprehensive historical details for 13720620
+2025-07-07 14:00:59,196 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13720620
+2025-07-07 14:00:59,237 - utils - INFO - Response status: 200
+2025-07-07 14:00:59,238 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13720620
+2025-07-07 14:01:00,741 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13720620/incidents
+2025-07-07 14:01:00,892 - utils - INFO - Response status: 200
+2025-07-07 14:01:00,893 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13720620/incidents
+2025-07-07 14:01:00,894 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13720620/statistics
+2025-07-07 14:01:02,399 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13720620/statistics
+2025-07-07 14:01:02,497 - utils - INFO - Response status: 200
+2025-07-07 14:01:02,498 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13720620/statistics
+2025-07-07 14:01:02,499 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13720620/lineups
+2025-07-07 14:01:04,003 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13720620/lineups
+2025-07-07 14:01:04,051 - utils - INFO - Response status: 200
+2025-07-07 14:01:04,052 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13720620/lineups
+2025-07-07 14:01:04,053 - utils - INFO - Fetching comprehensive historical details for 13278694
+2025-07-07 14:01:05,558 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278694
+2025-07-07 14:01:05,602 - utils - INFO - Response status: 200
+2025-07-07 14:01:05,602 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278694
+2025-07-07 14:01:07,103 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278694/incidents
+2025-07-07 14:01:07,145 - utils - INFO - Response status: 200
+2025-07-07 14:01:07,146 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278694/incidents
+2025-07-07 14:01:07,146 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13278694/statistics
+2025-07-07 14:01:08,651 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278694/statistics
+2025-07-07 14:01:08,704 - utils - INFO - Response status: 200
+2025-07-07 14:01:08,704 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278694/statistics
+2025-07-07 14:01:08,705 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13278694/lineups
+2025-07-07 14:01:10,209 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278694/lineups
+2025-07-07 14:01:10,262 - utils - INFO - Response status: 200
+2025-07-07 14:01:10,263 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278694/lineups
+2025-07-07 14:01:10,264 - utils - INFO - Fetching comprehensive historical details for 13278985
+2025-07-07 14:01:11,767 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278985
+2025-07-07 14:01:11,810 - utils - INFO - Response status: 200
+2025-07-07 14:01:11,810 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278985
+2025-07-07 14:01:13,314 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278985/incidents
+2025-07-07 14:01:13,365 - utils - INFO - Response status: 200
+2025-07-07 14:01:13,366 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278985/incidents
+2025-07-07 14:01:13,366 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13278985/statistics
+2025-07-07 14:01:14,868 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278985/statistics
+2025-07-07 14:01:14,918 - utils - INFO - Response status: 200
+2025-07-07 14:01:14,919 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278985/statistics
+2025-07-07 14:01:14,919 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13278985/lineups
+2025-07-07 14:01:16,424 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278985/lineups
+2025-07-07 14:01:16,485 - utils - INFO - Response status: 200
+2025-07-07 14:01:16,486 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278985/lineups
+2025-07-07 14:01:16,487 - utils - INFO - Fetching comprehensive historical details for 13278987
+2025-07-07 14:01:17,990 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278987
+2025-07-07 14:01:18,033 - utils - INFO - Response status: 200
+2025-07-07 14:01:18,033 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278987
+2025-07-07 14:01:19,539 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278987/incidents
+2025-07-07 14:01:19,660 - utils - INFO - Response status: 200
+2025-07-07 14:01:19,661 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278987/incidents
+2025-07-07 14:01:19,662 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13278987/statistics
+2025-07-07 14:01:21,163 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278987/statistics
+2025-07-07 14:01:21,214 - utils - INFO - Response status: 200
+2025-07-07 14:01:21,215 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278987/statistics
+2025-07-07 14:01:21,215 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13278987/lineups
+2025-07-07 14:01:22,716 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278987/lineups
+2025-07-07 14:01:22,766 - utils - INFO - Response status: 200
+2025-07-07 14:01:22,767 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278987/lineups
+2025-07-07 14:01:22,768 - utils - INFO - Fetching comprehensive historical details for 13278986
+2025-07-07 14:01:24,272 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278986
+2025-07-07 14:01:24,312 - utils - INFO - Response status: 200
+2025-07-07 14:01:24,312 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278986
+2025-07-07 14:01:25,817 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278986/incidents
+2025-07-07 14:01:26,018 - utils - INFO - Response status: 200
+2025-07-07 14:01:26,019 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278986/incidents
+2025-07-07 14:01:26,019 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13278986/statistics
+2025-07-07 14:01:27,521 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278986/statistics
+2025-07-07 14:01:27,610 - utils - INFO - Response status: 200
+2025-07-07 14:01:27,611 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278986/statistics
+2025-07-07 14:01:27,611 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13278986/lineups
+2025-07-07 14:01:29,117 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13278986/lineups
+2025-07-07 14:01:29,246 - utils - INFO - Response status: 200
+2025-07-07 14:01:29,247 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13278986/lineups
+2025-07-07 14:01:29,248 - utils - INFO - Fetching comprehensive historical details for 13935322
+2025-07-07 14:01:30,752 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13935322
+2025-07-07 14:01:30,795 - utils - INFO - Response status: 200
+2025-07-07 14:01:30,796 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13935322
+2025-07-07 14:01:32,300 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13935322/incidents
+2025-07-07 14:01:32,352 - utils - INFO - Response status: 200
+2025-07-07 14:01:32,353 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13935322/incidents
+2025-07-07 14:01:32,353 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13935322/statistics
+2025-07-07 14:01:33,857 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13935322/statistics
+2025-07-07 14:01:33,919 - utils - INFO - Response status: 200
+2025-07-07 14:01:33,920 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13935322/statistics
+2025-07-07 14:01:33,920 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/13935322/lineups
+2025-07-07 14:01:35,421 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13935322/lineups
+2025-07-07 14:01:35,468 - utils - INFO - Response status: 200
+2025-07-07 14:01:35,468 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13935322/lineups
+2025-07-07 14:01:35,469 - utils - INFO - Fetching comprehensive historical details for 14028416
+2025-07-07 14:01:36,974 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14028416
+2025-07-07 14:01:37,022 - utils - INFO - Response status: 200
+2025-07-07 14:01:37,023 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14028416
+2025-07-07 14:01:38,524 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14028416/incidents
+2025-07-07 14:01:38,577 - utils - INFO - Response status: 200
+2025-07-07 14:01:38,578 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14028416/incidents
+2025-07-07 14:01:38,579 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14028416/statistics
+2025-07-07 14:01:40,084 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14028416/statistics
+2025-07-07 14:01:40,137 - utils - INFO - Response status: 200
+2025-07-07 14:01:40,138 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14028416/statistics
+2025-07-07 14:01:40,138 - utils - INFO - Trying alternative endpoint: https://api.sofascore.com/api/v1/event/14028416/lineups
+2025-07-07 14:01:41,640 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/14028416/lineups
+2025-07-07 14:01:41,693 - utils - INFO - Response status: 200
+2025-07-07 14:01:41,693 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/14028416/lineups
