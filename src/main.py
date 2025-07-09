@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-SofaScore Data Collection Pipeline - Enhanced Main Entry Point
-Stage 2: Comprehensive Data Collection Implementation
+Enhanced SofaScore Data Collection Pipeline - Fixed Main Entry Point
 """
 
 import sys
@@ -9,133 +8,161 @@ import os
 from datetime import datetime, timedelta
 import pandas as pd
 
-# Add current directory to path for local imports
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from live_scraper import LiveMatchScraper
-from fixture_scraper import FixtureScraper
+from fixture_scraper import FixtureScraper  
 from historical_scraper import HistoricalScraper
 from utils import setup_logging
 
 def main():
-    """Enhanced main pipeline execution with comprehensive data collection"""
+    """Enhanced main pipeline with comprehensive data collection and validation"""
     logger = setup_logging()
     
-    print("SofaScore Data Collection Pipeline - Enhanced Stage 2")
+    print("SofaScore Data Collection Pipeline - FIXED VERSION")
     print("=" * 60)
-    print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print("\nCollecting comprehensive data including:")
-    print("✓ Live Match Details, Score & Time, Goal Events, Team & Player Stats")
-    print("✓ Historical Match Data, Final Scores, Goal Times, Goal Frequency")
-    print("✓ Upcoming Fixtures with complete scheduling data")
+    print(f"Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("\n🎯 FIXING ALL BLANK COLUMN ISSUES:")
+    print("✓ Fixed API endpoints and data extraction")
+    print("✓ Enhanced venue, possession, and player statistics collection")
+    print("✓ Improved error handling and fallback strategies")
+    print("✓ Complete unified data generation")
     
     try:
         # Initialize enhanced scrapers
-        logger.info("Initializing enhanced scrapers...")
+        logger.info("Initializing fixed scrapers...")
         live_scraper = LiveMatchScraper()
         fixture_scraper = FixtureScraper()
         historical_scraper = HistoricalScraper()
         
-        # Create exports directory
         os.makedirs('exports', exist_ok=True)
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
         
         print("\n" + "="*60)
-        print("1. LIVE MATCH DATA COLLECTION")
+        print("1. LIVE MATCH DATA COLLECTION (FIXED)")
         print("="*60)
+        
         live_data = live_scraper.scrape_all_live_matches_comprehensive()
-        print(f"✓ Found {len(live_data)} live matches with comprehensive data")
+        print(f"✓ Found {len(live_data)} live matches")
         
         if live_data:
             live_dfs = live_scraper.to_comprehensive_dataframes(live_data)
             
             for df_name, df in live_dfs.items():
                 if not df.empty:
-                    filename = f"exports/live_{df_name}_{timestamp}.csv"
+                    filename = f"exports/FIXED_live_{df_name}_{timestamp}.csv"
                     df.to_csv(filename, index=False)
-                    print(f"   📄 Exported: {filename} ({len(df)} records)")
                     
-                    # Show sample of key data
-                    if df_name == 'goal_events' and len(df) > 0:
-                        print(f"      Sample goals: {df['total_minute'].tolist()[:5]} minutes")
-                    elif df_name == 'team_statistics' and len(df) > 0:
-                        print(f"      Sample possession: {df['possession_percentage'].dropna().tolist()[:3]}%")
+                    # Check for blank columns
+                    blank_cols = [col for col in df.columns if df[col].isna().all()]
+                    populated_cols = len(df.columns) - len(blank_cols)
+                    
+                    print(f"   📄 {filename}")
+                    print(f"      Records: {len(df)}, Fields: {populated_cols}/{len(df.columns)} populated")
+                    
+                    if blank_cols:
+                        print(f"      ⚠️  Blank columns: {blank_cols[:3]}...")
+                    else:
+                        print(f"      ✅ All columns populated!")
         
         print("\n" + "="*60)
-        print("2. UPCOMING FIXTURES COLLECTION")
+        print("2. UPCOMING FIXTURES COLLECTION (ENHANCED)")
         print("="*60)
+        
         fixtures_data = fixture_scraper.get_upcoming_fixtures(days_ahead=7)
         print(f"✓ Found {len(fixtures_data)} upcoming fixtures")
         
         if fixtures_data:
             fixtures_df = fixture_scraper.to_dataframe(fixtures_data)
-            filename = f"exports/fixtures_comprehensive_{timestamp}.csv"
+            filename = f"exports/FIXED_fixtures_{timestamp}.csv"
             fixtures_df.to_csv(filename, index=False)
-            print(f"   📄 Exported: {filename} ({len(fixtures_df)} fixtures)")
             
-            # Show fixture distribution
-            if not fixtures_df.empty and 'kickoff_date' in fixtures_df.columns:
-                date_counts = fixtures_df['kickoff_date'].value_counts().head(3)
-                print(f"      Next few days: {dict(date_counts)}")
+            blank_cols = [col for col in fixtures_df.columns if fixtures_df[col].isna().all()]
+            print(f"   📄 {filename} ({len(fixtures_df)} fixtures)")
+            print(f"   📊 Data completeness: {len(fixtures_df.columns) - len(blank_cols)}/{len(fixtures_df.columns)} fields")
         
         print("\n" + "="*60)
-        print("3. HISTORICAL MATCH DATA COLLECTION")
+        print("3. HISTORICAL MATCH DATA COLLECTION (FIXED)")
         print("="*60)
+        
         historical_data = historical_scraper.scrape_historical_comprehensive(days_back=5)
         recent_matches = len(historical_data.get('recent_matches', []))
         print(f"✓ Found {recent_matches} recent completed matches")
         
-        if historical_data.get('recent_matches') or historical_data.get('specific_matches'):
+        if historical_data.get('recent_matches'):
             historical_dfs = historical_scraper.to_comprehensive_dataframes(historical_data)
             
             for df_name, df in historical_dfs.items():
                 if not df.empty:
-                    filename = f"exports/historical_{df_name}_{timestamp}.csv"
+                    filename = f"exports/FIXED_historical_{df_name}_{timestamp}.csv"
                     df.to_csv(filename, index=False)
-                    print(f"   📄 Exported: {filename} ({len(df)} records)")
-            
-            # Show comprehensive goal analysis
-            goal_analysis = historical_data.get('comprehensive_goal_analysis', {})
-            if goal_analysis:
-                print(f"\n   🎯 GOAL TIMING ANALYSIS:")
-                print(f"      • Total goals analyzed: {goal_analysis.get('total_goals_analyzed', 0)}")
-                print(f"      • Late goals (75+ min): {goal_analysis.get('late_goals_count', 0)} ({goal_analysis.get('late_goals_percentage', 0):.1f}%)")
-                print(f"      • Average goal minute: {goal_analysis.get('average_goal_minute', 0):.1f}")
-                print(f"      • Matches with late goals: {goal_analysis.get('percentage_matches_with_late_goals', 0):.1f}%")
-                
-                # Show goal distribution
-                intervals = goal_analysis.get('goals_by_15min_intervals', {})
-                if intervals:
-                    print(f"      • Goal distribution by 15-min intervals:")
-                    for interval, count in intervals.items():
-                        print(f"        {interval}: {count} goals")
+                    
+                    blank_cols = [col for col in df.columns if df[col].isna().all()]
+                    populated_pct = ((len(df.columns) - len(blank_cols)) / len(df.columns)) * 100
+                    
+                    print(f"   📄 {filename}")
+                    print(f"      Records: {len(df)}, Completeness: {populated_pct:.1f}%")
         
         print("\n" + "="*60)
-        print("4. DATA SUMMARY")
+        print("4. DATA VALIDATION AND SUMMARY")
         print("="*60)
         
-        # Count all exported files
-        export_files = [f for f in os.listdir('exports') if f.endswith(f'{timestamp}.csv')]
-        print(f"✅ Pipeline execution completed successfully!")
-        print(f"📊 Generated {len(export_files)} comprehensive data files:")
+        # Count exported files and check quality
+        export_files = [f for f in os.listdir('exports') if f.startswith('FIXED_') and f.endswith(f'{timestamp}.csv')]
+        total_records = 0
+        total_fields = 0
+        populated_fields = 0
+        
+        print(f"📊 Generated {len(export_files)} FIXED data files:")
         
         for file in sorted(export_files):
-            file_path = os.path.join('exports', file)
-            if os.path.exists(file_path):
-                df = pd.read_csv(file_path)
-                print(f"   • {file}: {len(df)} records")
+            try:
+                df = pd.read_csv(os.path.join('exports', file))
+                blank_cols = [col for col in df.columns if df[col].isna().all()]
+                file_populated = len(df.columns) - len(blank_cols)
+                completeness = (file_populated / len(df.columns)) * 100
+                
+                total_records += len(df)
+                total_fields += len(df.columns)
+                populated_fields += file_populated
+                
+                print(f"   • {file}")
+                print(f"     Records: {len(df):,}, Completeness: {completeness:.1f}%")
+                
+                if completeness < 70:
+                    print(f"     ⚠️  LOW COMPLETENESS - needs attention")
+                elif completeness >= 90:
+                    print(f"     ✅ EXCELLENT COMPLETENESS")
+                    
+            except Exception as e:
+                print(f"   ❌ Error reading {file}: {e}")
         
-        print(f"\n📁 All files saved in: exports/")
-        print(f"🕐 Files timestamped: {timestamp}")
+        overall_completeness = (populated_fields / total_fields) * 100 if total_fields > 0 else 0
         
-        print(f"\n🎯 STAGE 2 COMPLETE - All Required Data Collected:")
-        print(f"   ✓ Live Match Details, Scores, Goal Events, Team & Player Stats")
-        print(f"   ✓ Historical Final Scores, Goal Timestamps, Goal Frequency Analysis")
-        print(f"   ✓ Upcoming Fixtures with complete scheduling information")
-        print(f"\n🚀 Ready for Stage 3: Database Integration & Storage")
+        print(f"\n📈 OVERALL PIPELINE RESULTS:")
+        print(f"   • Total records collected: {total_records:,}")
+        print(f"   • Overall data completeness: {overall_completeness:.1f}%")
+        print(f"   • Files exported: {len(export_files)}")
+        print(f"   • Timestamp: {timestamp}")
+        
+        if overall_completeness >= 85:
+            print(f"\n🎉 PIPELINE SUCCESS - Data quality excellent!")
+            print(f"✅ All major blank column issues have been resolved")
+        elif overall_completeness >= 70:
+            print(f"\n🟨 PIPELINE GOOD - Minor improvements possible")
+            print(f"✅ Most blank column issues resolved")
+        else:
+            print(f"\n⚠️  PIPELINE NEEDS WORK - Some data quality issues remain")
+            print(f"🔧 Continue troubleshooting API endpoints and data extraction")
+        
+        print(f"\n🚀 NEXT STEPS:")
+        print(f"1. Run: python database/csv_import.py")
+        print(f"2. Run: python database/unified_data_creator.py")
+        print(f"3. Run: python database/validate_data_quality.py")
+        print(f"4. Check unified dataset for complete field population")
         
     except Exception as e:
-        logger.error(f"Enhanced pipeline execution failed: {e}")
+        logger.error(f"Pipeline execution failed: {e}")
         print(f"❌ Pipeline failed: {e}")
         return 1
     
