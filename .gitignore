@@ -31,3 +31,9 @@ Thumbs.db
 
 # Environment variables
 .env
+
+# Late goal prediction
+exports/late_goal_*.csv
+exports/standalone_late_goal_*.csv
+exports/monitoring_stats_*.json
+exports/verification_report_*.json
