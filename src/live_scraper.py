@@ -1,356 +1,428 @@
+#!/usr/bin/env python3
 """
-Fixed Live Match Scraper with corrected API endpoints and data extraction
+Enhanced Live Match Scraper - Better Statistics Collection
+Tries multiple endpoints and focuses on matches with rich data
 """
 
 import logging
 import sys
 import os
+import time
+import json
 from datetime import datetime
 import pandas as pd
+import signal
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from utils import make_api_request, try_alternative_endpoints, extract_venue_from_response, extract_possession_from_stats, safe_get_nested, setup_logging
+from utils import make_api_request, extract_venue_from_response, safe_get_nested, setup_logging
 
-class LiveMatchScraper:
-    """Fixed scraper with working API endpoints and proper data extraction"""
+class EnhancedLiveMatchScraper:
+    """Enhanced scraper that tries multiple statistics sources"""
     
     def __init__(self):
         self.logger = setup_logging()
         self.base_url = "https://api.sofascore.com/api/v1"
+        self.monitoring = False
+        self.data_buffer = []
         
+        # Enhanced statistics mapping with more variations
+        self.stats_mapping = {
+            'ball_possession_home': ['Ball possession', 'Possession %', 'possession', 'Ball possession %'],
+            'ball_possession_away': ['Ball possession', 'Possession %', 'possession', 'Ball possession %'],
+            'total_shots_home': ['Total shots', 'Shots', 'shots'],
+            'total_shots_away': ['Total shots', 'Shots', 'shots'],
+            'shots_on_target_home': ['Shots on target', 'On target'],
+            'shots_on_target_away': ['Shots on target', 'On target'],
+            'shots_off_target_home': ['Shots off target', 'Off target'],
+            'shots_off_target_away': ['Shots off target', 'Off target'],
+            'blocked_shots_home': ['Blocked shots', 'Blocked'],
+            'blocked_shots_away': ['Blocked shots', 'Blocked'],
+            'passes_home': ['Passes', 'Total passes', 'passes'],
+            'passes_away': ['Passes', 'Total passes', 'passes'],
+            'accurate_passes_home': ['Accurate passes', 'Passes accurate'],
+            'accurate_passes_away': ['Accurate passes', 'Passes accurate'],
+            'fouls_home': ['Fouls', 'fouls'],
+            'fouls_away': ['Fouls', 'fouls'],
+            'corner_kicks_home': ['Corner kicks', 'Corners', 'corners'],
+            'corner_kicks_away': ['Corner kicks', 'Corners', 'corners'],
+            'yellow_cards_home': ['Yellow cards', 'Yellow'],
+            'yellow_cards_away': ['Yellow cards', 'Yellow'],
+            'red_cards_home': ['Red cards', 'Red'],
+            'red_cards_away': ['Red cards', 'Red'],
+            'offsides_home': ['Offsides', 'Offside'],
+            'offsides_away': ['Offsides', 'Offside'],
+            'free_kicks_home': ['Free kicks'],
+            'free_kicks_away': ['Free kicks'],
+            'goalkeeper_saves_home': ['Goalkeeper saves', 'Saves'],
+            'goalkeeper_saves_away': ['Goalkeeper saves', 'Saves'],
+            'tackles_home': ['Tackles'],
+            'tackles_away': ['Tackles'],
+            'interceptions_home': ['Interceptions'],
+            'interceptions_away': ['Interceptions'],
+            'clearances_home': ['Clearances'],
+            'clearances_away': ['Clearances'],
+            'crosses_home': ['Crosses'],
+            'crosses_away': ['Crosses'],
+            'throw_ins_home': ['Throw-ins'],
+            'throw_ins_away': ['Throw-ins']
+        }
+        
+        # Prioritize competitions that typically have rich statistics
+        self.priority_competitions = [
+            'UEFA Champions League',
+            'UEFA Europa League', 
+            'Premier League',
+            'La Liga',
+            'Bundesliga',
+            'Serie A',
+            'Ligue 1',
+            'UEFA Euro',
+            'FIFA World Cup',
+            'FIFA Club World Cup'
+        ]
+        
+        signal.signal(signal.SIGINT, self.stop_monitoring)
+    
     def get_live_matches(self):
-        """Fetch live matches with proper error handling"""
-        self.logger.info("Fetching live matches...")
-        
+        """Get live matches with priority sorting"""
         url = f"{self.base_url}/sport/football/events/live"
         data = make_api_request(url)
         
         if not data:
-            self.logger.warning("No live match data received")
             return []
         
-        live_matches = []
-        events = data.get('events', [])
+        matches = []
+        priority_matches = []
         
-        for event in events:
-            match_data = self._extract_fixed_match_info(event)
-            if match_data:
-                live_matches.append(match_data)
-        
-        self.logger.info(f"Found {len(live_matches)} live matches")
-        return live_matches
-    
-    def get_match_comprehensive_details(self, match_id):
-        """Get complete match details using working endpoints"""
-        self.logger.info(f"Fetching comprehensive details for match {match_id}")
-        
-        # Primary match data
-        match_url = f"{self.base_url}/event/{match_id}"
-        match_data = make_api_request(match_url)
-        
-        if not match_data:
-            return None
-        
-        # Try to get additional data with fallbacks
-        stats_data = try_alternative_endpoints(match_id, 'statistics')
-        events_data = make_api_request(f"{self.base_url}/event/{match_id}/incidents")
-        lineups_data = try_alternative_endpoints(match_id, 'lineups')
-        
-        return self._compile_fixed_match_data(match_data, stats_data, events_data, lineups_data)
-    
-    def _extract_fixed_match_info(self, event):
-        """Extract match info with fixed field mapping"""
-        try:
-            start_timestamp = event.get('startTimestamp')
-            start_time = datetime.fromtimestamp(start_timestamp) if start_timestamp else None
-            
-            # Extract venue from event data
-            venue = extract_venue_from_response({'event': event})
-            
-            # Get status info
-            status_info = event.get('status', {})
-            
-            return {
+        for event in data.get('events', []):
+            match_info = {
                 'match_id': event.get('id'),
-                'competition': safe_get_nested(event, ['tournament', 'name']),
-                'league': safe_get_nested(event, ['tournament', 'category', 'name']),
-                'match_date': start_time.date() if start_time else None,
-                'match_time': start_time.time() if start_time else None,
-                'match_datetime': start_time if start_time else None,
                 'home_team': safe_get_nested(event, ['homeTeam', 'name']),
                 'away_team': safe_get_nested(event, ['awayTeam', 'name']),
-                'home_team_id': safe_get_nested(event, ['homeTeam', 'id']),
-                'away_team_id': safe_get_nested(event, ['awayTeam', 'id']),
-                'venue': venue,  # Now properly extracted
+                'competition': safe_get_nested(event, ['tournament', 'name']),
+                'category': safe_get_nested(event, ['tournament', 'category', 'name']),
                 'home_score': safe_get_nested(event, ['homeScore', 'current'], 0),
                 'away_score': safe_get_nested(event, ['awayScore', 'current'], 0),
-                'minutes_elapsed': safe_get_nested(event, ['time', 'currentPeriodStartTimestamp']),
-                'period': safe_get_nested(event, ['time', 'period']),
-                'status': status_info.get('description'),
-                'status_type': status_info.get('type'),
-                'scraped_at': datetime.now()
+                'status': safe_get_nested(event, ['status', 'description']),
+                'venue': extract_venue_from_response({'event': event}) or 'Unknown'
             }
-        except Exception as e:
-            self.logger.error(f"Error extracting match info: {e}")
-            return None
-    
-    def _compile_fixed_match_data(self, match_data, stats_data, events_data, lineups_data):
-        """Compile match data with proper field extraction"""
-        if not match_data:
-            return None
-        
-        event = match_data.get('event', {})
-        
-        # Extract venue with multiple fallback attempts
-        venue = extract_venue_from_response(match_data)
-        if not venue and stats_data:
-            venue = extract_venue_from_response(stats_data)
-        
-        compiled_data = {
-            'match_details': self._extract_fixed_match_info(event),
-            'goal_events': self._extract_fixed_goal_events(events_data),
-            'team_statistics': self._extract_fixed_team_stats(stats_data, event),
-            'player_statistics': self._extract_fixed_player_stats(lineups_data, events_data),
-            'venue': venue  # Ensure venue is captured
-        }
-        
-        # Update match details with venue if found
-        if compiled_data['match_details'] and venue:
-            compiled_data['match_details']['venue'] = venue
-        
-        return compiled_data
-    
-    def _extract_fixed_goal_events(self, events_data):
-        """Extract goal events with proper data handling"""
-        if not events_data or 'incidents' not in events_data:
-            return []
-        
-        goals = []
-        for incident in events_data['incidents']:
-            if incident.get('incidentType') == 'goal':
-                minute = incident.get('time', 0)
-                added_time = incident.get('addedTime', 0)
-                total_minute = minute + added_time
-                
-                goal_data = {
-                    'goal_id': incident.get('id'),
-                    'exact_timestamp': minute,
-                    'added_time': added_time,
-                    'total_minute': total_minute,
-                    'scoring_player': safe_get_nested(incident, ['player', 'name']),
-                    'scoring_player_id': safe_get_nested(incident, ['player', 'id']),
-                    'assisting_player': safe_get_nested(incident, ['assist1', 'name']),
-                    'assisting_player_id': safe_get_nested(incident, ['assist1', 'id']),
-                    'goal_type': incident.get('goalType', 'regular'),
-                    'team_side': incident.get('teamSide'),
-                    'description': incident.get('text'),
-                    'period': 1 if minute <= 45 else 2,
-                    'is_late_goal': total_minute >= 75,
-                    'time_interval': self._get_time_interval(total_minute)
-                }
-                goals.append(goal_data)
-        
-        return sorted(goals, key=lambda x: x.get('total_minute', 0))
-    
-    def _extract_fixed_team_stats(self, stats_data, event_data):
-        """Extract team statistics with fallback strategies"""
-        team_stats = {'home': {}, 'away': {}}
-        
-        # Try to get stats from statistics endpoint
-        if stats_data and 'statistics' in stats_data:
-            home_poss, away_poss = extract_possession_from_stats(stats_data)
-            if home_poss is not None:
-                team_stats['home']['possession_percentage'] = home_poss
-                team_stats['away']['possession_percentage'] = away_poss
             
-            # Extract other statistics
-            for period in stats_data['statistics']:
-                if period.get('period') == 'ALL':
-                    for group in period.get('groups', []):
-                        for stat in group.get('statisticsItems', []):
-                            self._map_statistic(stat, team_stats)
-        
-        # Fallback: try to get basic stats from event data
-        if not team_stats['home'] and event_data:
-            # Some basic stats might be in the main event
-            team_stats['home']['shots_on_target'] = safe_get_nested(event_data, ['homeScore', 'normaltime'])
-            team_stats['away']['shots_on_target'] = safe_get_nested(event_data, ['awayScore', 'normaltime'])
-        
-        return team_stats
-    
-    def _map_statistic(self, stat, team_stats):
-        """Map API statistics to database fields"""
-        stat_name = stat.get('name', '').lower()
-        home_value = stat.get('home')
-        away_value = stat.get('away')
-        
-        mapping = {
-            'ball possession': 'possession_percentage',
-            'possession': 'possession_percentage',
-            'shots on target': 'shots_on_target',
-            'shots': 'total_shots',
-            'total shots': 'total_shots',
-            'corner kicks': 'corners',
-            'corners': 'corners',
-            'fouls': 'fouls',
-            'yellow cards': 'yellow_cards',
-            'red cards': 'red_cards',
-            'offsides': 'offsides',
-            'offside': 'offsides'
-        }
-        
-        for key, field in mapping.items():
-            if key in stat_name:
-                if home_value is not None:
-                    team_stats['home'][field] = home_value
-                if away_value is not None:
-                    team_stats['away'][field] = away_value
-                break
-    
-    def _extract_fixed_player_stats(self, lineups_data, events_data):
-        """Extract player statistics with proper handling"""
-        if not lineups_data:
-            return []
-        
-        players = []
-        
-        for side in ['home', 'away']:
-            if side in lineups_data:
-                # Starters
-                for player in lineups_data[side].get('players', []):
-                    player_data = self._extract_player_data(player, side, True, events_data)
-                    if player_data:
-                        players.append(player_data)
-                
-                # Substitutes
-                for player in lineups_data[side].get('substitutes', []):
-                    player_data = self._extract_player_data(player, side, False, events_data)
-                    if player_data:
-                        players.append(player_data)
-        
-        return players
-    
-    def _extract_player_data(self, player, team_side, is_starter, events_data):
-        """Extract individual player data"""
-        try:
-            player_info = player.get('player', {})
-            player_id = player_info.get('id')
+            # Check if this is a priority competition
+            competition = match_info.get('competition', '')
+            is_priority = any(priority_comp.lower() in competition.lower() 
+                            for priority_comp in self.priority_competitions)
             
-            # Count player events
-            goals, assists, cards = self._count_player_events(player_id, events_data)
+            if is_priority:
+                priority_matches.append(match_info)
+            else:
+                matches.append(match_info)
+        
+        # Return priority matches first, then others
+        return priority_matches + matches
+    
+    def get_enhanced_match_statistics(self, match_id):
+        """Try multiple endpoints to get the best statistics"""
+        
+        # Try different statistics endpoints in order of preference
+        endpoints = [
+            f"{self.base_url}/event/{match_id}/statistics",
+            f"{self.base_url}/event/{match_id}/statistics/0",  # All periods
+            f"{self.base_url}/event/{match_id}/statistics/1",  # First half
+            f"{self.base_url}/event/{match_id}/statistics/2",  # Second half
+            f"{self.base_url}/event/{match_id}/summary",       # Summary often has stats
+            f"{self.base_url}/event/{match_id}/incidents",     # May have some stats
+            f"{self.base_url}/event/{match_id}"                # Basic match data
+        ]
+        
+        best_stats = None
+        stats_source = None
+        
+        for i, endpoint in enumerate(endpoints):
+            try:
+                data = make_api_request(endpoint)
+                if data:
+                    # Extract statistics from this endpoint
+                    extracted_stats = self._extract_statistics_from_response(data)
+                    
+                    # Count non-zero values to determine data quality
+                    non_zero_count = sum(1 for v in extracted_stats.values() if v != 0)
+                    
+                    if non_zero_count > 0:
+                        best_stats = extracted_stats
+                        stats_source = f"endpoint_{i+1}"
+                        self.logger.info(f"Found {non_zero_count} statistics from endpoint {i+1}")
+                        break  # Use first endpoint with actual data
+                        
+            except Exception as e:
+                self.logger.debug(f"Endpoint {endpoint} failed: {e}")
+                continue
+        
+        if best_stats is None:
+            # Return zeros if no statistics found
+            best_stats = {key: 0 for key in self.stats_mapping.keys()}
+            stats_source = "no_data"
+        
+        return best_stats, stats_source
+    
+    def _extract_statistics_from_response(self, data):
+        """Extract statistics from various response formats"""
+        stats = {key: 0 for key in self.stats_mapping.keys()}
+        
+        # Method 1: Standard statistics format
+        if 'statistics' in data:
+            self._extract_from_statistics_array(data['statistics'], stats)
+        
+        # Method 2: Summary format (sometimes has different structure)
+        elif 'summary' in data:
+            self._extract_from_summary(data['summary'], stats)
+        
+        # Method 3: Incidents format (can derive some stats)
+        elif 'incidents' in data:
+            self._extract_from_incidents(data['incidents'], stats)
+        
+        # Method 4: Direct event data (basic info)
+        elif 'event' in data:
+            self._extract_from_event(data['event'], stats)
+        
+        return stats
+    
+    def _extract_from_statistics_array(self, statistics_array, stats):
+        """Extract from standard statistics array format"""
+        for period in statistics_array:
+            # Prefer 'ALL' period, but accept others if that's all we have
+            period_type = period.get('period', 'ALL')
             
-            return {
-                'player_name': player_info.get('name'),
-                'player_id': player_id,
-                'team_side': team_side,
-                'position': player.get('position'),
-                'jersey_number': player.get('shirtNumber'),
-                'is_starter': is_starter,
-                'goals': goals,
-                'assists': assists,
-                'cards_received': cards,
-                'minutes_played': None,  # Would need live tracking
-                'shots_on_target': None  # Not available in lineups
-            }
-        except Exception as e:
-            self.logger.error(f"Error extracting player data: {e}")
-            return None
+            groups = period.get('groups', [])
+            for group in groups:
+                items = group.get('statisticsItems', [])
+                for item in items:
+                    self._map_statistic_item(item, stats)
     
-    def _count_player_events(self, player_id, events_data):
-        """Count goals, assists, and cards for a player"""
-        if not events_data or 'incidents' not in events_data or not player_id:
-            return 0, 0, 0
-        
-        goals = assists = cards = 0
-        
-        for incident in events_data['incidents']:
-            incident_type = incident.get('incidentType')
+    def _extract_from_summary(self, summary_data, stats):
+        """Extract from summary format"""
+        # Sometimes summary has statistics in different format
+        if 'statistics' in summary_data:
+            self._extract_from_statistics_array(summary_data['statistics'], stats)
+    
+    def _extract_from_incidents(self, incidents, stats):
+        """Extract basic stats from incidents (goals, cards, etc.)"""
+        for incident in incidents:
+            incident_type = incident.get('incidentType', '')
+            team_side = incident.get('teamSide', '')
             
-            if incident_type == 'goal':
-                if safe_get_nested(incident, ['player', 'id']) == player_id:
-                    goals += 1
-                if safe_get_nested(incident, ['assist1', 'id']) == player_id:
-                    assists += 1
-            elif incident_type in ['yellowCard', 'redCard']:
-                if safe_get_nested(incident, ['player', 'id']) == player_id:
-                    cards += 1
+            # Count cards
+            if incident_type == 'yellowCard':
+                if team_side == 'home':
+                    stats['yellow_cards_home'] += 1
+                elif team_side == 'away':
+                    stats['yellow_cards_away'] += 1
+            elif incident_type == 'redCard':
+                if team_side == 'home':
+                    stats['red_cards_home'] += 1
+                elif team_side == 'away':
+                    stats['red_cards_away'] += 1
+    
+    def _extract_from_event(self, event_data, stats):
+        """Extract basic info from event data"""
+        # This would typically just give us basic match info
+        # Not much statistics available here
+        pass
+    
+    def _map_statistic_item(self, item, stats):
+        """Enhanced statistic mapping with better name matching"""
+        stat_name = item.get('name', '').strip().lower()
+        home_value = item.get('home')
+        away_value = item.get('away')
         
-        return goals, assists, cards
+        # Handle percentage values
+        if isinstance(home_value, str):
+            if '%' in home_value:
+                try:
+                    home_value = float(home_value.replace('%', ''))
+                except:
+                    home_value = 0
+            else:
+                try:
+                    home_value = float(home_value)
+                except:
+                    home_value = 0
+        
+        if isinstance(away_value, str):
+            if '%' in away_value:
+                try:
+                    away_value = float(away_value.replace('%', ''))
+                except:
+                    away_value = 0
+            else:
+                try:
+                    away_value = float(away_value)
+                except:
+                    away_value = 0
+        
+        # More flexible mapping with partial string matching
+        for field_name, possible_names in self.stats_mapping.items():
+            for possible_name in possible_names:
+                if possible_name.lower() in stat_name or stat_name in possible_name.lower():
+                    if field_name.endswith('_home') and home_value is not None:
+                        stats[field_name] = home_value
+                        self.logger.debug(f"Mapped {stat_name} -> {field_name}: {home_value}")
+                    elif field_name.endswith('_away') and away_value is not None:
+                        stats[field_name] = away_value
+                        self.logger.debug(f"Mapped {stat_name} -> {field_name}: {away_value}")
+                    break
     
-    def _get_time_interval(self, total_minute):
-        """Get time interval for goal"""
-        if total_minute <= 15:
-            return '0-15'
-        elif total_minute <= 30:
-            return '16-30'
-        elif total_minute <= 45:
-            return '31-45'
-        elif total_minute <= 60:
-            return '46-60'
-        elif total_minute <= 75:
-            return '61-75'
-        elif total_minute <= 90:
-            return '76-90'
-        else:
-            return '90+'
-    
-    def scrape_all_live_matches_comprehensive(self):
-        """Scrape all live matches with comprehensive data"""
+    def collect_data_cycle(self):
+        """Enhanced data collection cycle"""
+        self.logger.info("Starting enhanced data collection cycle...")
+        
         live_matches = self.get_live_matches()
-        comprehensive_data = []
+        self.logger.info(f"Found {len(live_matches)} live matches")
         
-        for match in live_matches:
+        if not live_matches:
+            return
+        
+        cycle_data = []
+        successful_collections = 0
+        
+        # Process more matches but prioritize those with data
+        for i, match in enumerate(live_matches[:8]):  # Increased from 5 to 8
             match_id = match.get('match_id')
-            if match_id:
-                details = self.get_match_comprehensive_details(match_id)
-                if details:
-                    comprehensive_data.append(details)
+            if not match_id:
+                continue
+            
+            try:
+                # Get enhanced statistics
+                stats, source = self.get_enhanced_match_statistics(match_id)
+                
+                # Count non-zero statistics
+                non_zero_stats = sum(1 for v in stats.values() if v != 0)
+                
+                # Create record
+                record = {
+                    'collection_timestamp': datetime.now().isoformat(),
+                    'match_id': match_id,
+                    'home_team': match['home_team'],
+                    'away_team': match['away_team'],
+                    'competition': match['competition'],
+                    'venue': match['venue'],
+                    'home_score': match['home_score'],
+                    'away_score': match['away_score'],
+                    'status': match['status'],
+                    'stats_source': source,
+                    'non_zero_stats_count': non_zero_stats,
+                    **stats  # Add all statistics
+                }
+                
+                cycle_data.append(record)
+                
+                if non_zero_stats > 0:
+                    successful_collections += 1
+                    self.logger.info(f"✅ {match['home_team']} vs {match['away_team']} - {non_zero_stats} stats")
+                else:
+                    self.logger.info(f"⚪ {match['home_team']} vs {match['away_team']} - basic data only")
+                
+            except Exception as e:
+                self.logger.error(f"Error collecting data for match {match_id}: {e}")
         
-        return comprehensive_data
+        if cycle_data:
+            self.data_buffer.extend(cycle_data)
+            self.logger.info(f"Added {len(cycle_data)} records to buffer ({successful_collections} with statistics)")
     
-    def to_comprehensive_dataframes(self, live_data):
-        """Convert to DataFrames with proper null handling"""
-        dataframes = {}
+    def export_data(self):
+        """Export with enhanced metadata"""
+        if not self.data_buffer:
+            self.logger.info("No data to export")
+            return
         
-        all_matches = []
-        all_goals = []
-        all_players = []
-        all_team_stats = []
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        filename = f'exports/enhanced_live_statistics_{timestamp}.csv'
         
-        for match in live_data:
-            match_info = match.get('match_details', {})
-            if match_info:
-                all_matches.append(match_info)
+        os.makedirs('exports', exist_ok=True)
+        
+        df = pd.DataFrame(self.data_buffer)
+        df.to_csv(filename, index=False)
+        
+        # Generate summary
+        total_records = len(df)
+        records_with_stats = len(df[df['non_zero_stats_count'] > 0])
+        avg_stats_per_record = df['non_zero_stats_count'].mean()
+        
+        self.logger.info(f"Exported {total_records} records to {filename}")
+        self.logger.info(f"Records with statistics: {records_with_stats}/{total_records} ({records_with_stats/total_records*100:.1f}%)")
+        self.logger.info(f"Average statistics per record: {avg_stats_per_record:.1f}")
+        
+        print(f"📁 Enhanced export: {filename}")
+        print(f"📊 {records_with_stats}/{total_records} records have detailed statistics")
+        print(f"📈 Average {avg_stats_per_record:.1f} statistics per match")
+        
+        # Clear buffer
+        self.data_buffer = []
+    
+    def start_monitoring(self):
+        """Start enhanced monitoring"""
+        print("🚀 Starting ENHANCED live data collection...")
+        print("🎯 Prioritizing major competitions with rich statistics")
+        print("🔄 Trying multiple API endpoints per match")
+        print("📊 Will collect data every 5 minutes, export every 15 minutes")
+        print("🛑 Press Ctrl+C to stop")
+        
+        self.monitoring = True
+        collection_count = 0
+        
+        while self.monitoring:
+            try:
+                # Collect data
+                self.collect_data_cycle()
+                collection_count += 1
                 
-                # Add match context to goals
-                for goal in match.get('goal_events', []):
-                    goal_data = goal.copy()
-                    goal_data['match_id'] = match_info.get('match_id')
-                    goal_data['competition'] = match_info.get('competition')
-                    all_goals.append(goal_data)
+                # Export every 3 cycles (15 minutes)
+                if collection_count % 3 == 0:
+                    self.export_data()
                 
-                # Add match context to players
-                for player in match.get('player_statistics', []):
-                    player_data = player.copy()
-                    player_data['match_id'] = match_info.get('match_id')
-                    player_data['competition'] = match_info.get('competition')
-                    all_players.append(player_data)
+                # Show status
+                stats_count = sum(1 for record in self.data_buffer if record.get('non_zero_stats_count', 0) > 0)
+                print(f"📊 Cycle {collection_count} completed at {datetime.now().strftime('%H:%M:%S')}")
+                print(f"📦 Buffer: {len(self.data_buffer)} records ({stats_count} with statistics)")
                 
-                # Process team statistics
-                team_stats = match.get('team_statistics', {})
-                for side in ['home', 'away']:
-                    if side in team_stats and team_stats[side]:
-                        stats = team_stats[side].copy()
-                        stats['match_id'] = match_info.get('match_id')
-                        stats['team_side'] = side
-                        stats['team_name'] = match_info.get(f'{side}_team')
-                        stats['competition'] = match_info.get('competition')
-                        all_team_stats.append(stats)
+                # Wait 5 minutes
+                print("⏱️  Waiting 5 minutes for next cycle...")
+                time.sleep(300)  # 5 minutes
+                
+            except KeyboardInterrupt:
+                print("\n🛑 Stopping gracefully...")
+                break
+            except Exception as e:
+                self.logger.error(f"Error in monitoring loop: {e}")
+                time.sleep(60)  # Wait 1 minute on error
         
-        dataframes['match_details'] = pd.DataFrame(all_matches)
-        dataframes['goal_events'] = pd.DataFrame(all_goals)
-        dataframes['player_statistics'] = pd.DataFrame(all_players)
-        dataframes['team_statistics'] = pd.DataFrame(all_team_stats)
+        # Final export
+        if self.data_buffer:
+            self.export_data()
         
-        return dataframes
+        print("👋 Enhanced monitoring stopped")
+    
+    def stop_monitoring(self, signum=None, frame=None):
+        """Stop monitoring"""
+        self.monitoring = False
+
+def main():
+    """Main function"""
+    scraper = EnhancedLiveMatchScraper()
+    
+    print("SofaScore Enhanced Live Match Scraper")
+    print("=" * 45)
+    print("🎯 Enhanced Features:")
+    print("  • Tries multiple API endpoints per match")
+    print("  • Prioritizes competitions with rich data")
+    print("  • Better statistics extraction")
+    print("  • Quality metrics for each record")
+    print("  • Flexible field mapping")
+    
+    try:
+        scraper.start_monitoring()
+    except Exception as e:
+        print(f"❌ Error: {e}")
+
+if __name__ == "__main__":
+    main()
