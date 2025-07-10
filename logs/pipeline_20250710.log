@@ -1539,3 +1539,1343 @@
 2025-07-10 14:04:48,809 - utils - INFO -    Perfect completion (98%+): 0/7 (0.0%)
 2025-07-10 14:04:48,809 - utils - INFO -    High quality (95%+): 0/7 (0.0%)
 2025-07-10 14:04:48,810 - utils - INFO -    Average completion: 94.0%
+2025-07-10 15:18:56,013 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 15:18:56,097 - utils - INFO - Found 12 live matches
+2025-07-10 15:18:56,097 - utils - INFO - 🔍 Processing 1/10: Singapore vs Iran
+2025-07-10 15:18:56,097 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 15:18:56,160 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:18:56,160 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 15:18:57,662 - utils - INFO - 🔍 Processing 2/10: Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:18:57,662 - utils - INFO - 🎯 Collecting complete data for Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:18:57,723 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:18:57,723 - utils - INFO - ✅ Aigle Royal DU Moungo vs Bafmeng United: 36/48 fields (94.7%)
+2025-07-10 15:18:59,224 - utils - INFO - 🔍 Processing 3/10: Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:18:59,225 - utils - INFO - 🎯 Collecting complete data for Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:18:59,494 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:18:59,494 - utils - INFO - ✅ Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé: 36/48 fields (94.7%)
+2025-07-10 15:19:00,995 - utils - INFO - 🔍 Processing 4/10: Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:19:00,996 - utils - INFO - 🎯 Collecting complete data for Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:19:01,050 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:19:01,050 - utils - INFO - ✅ Coton Sport de Garoua vs Aigle Royal de La Menoua: 36/48 fields (94.7%)
+2025-07-10 15:19:02,552 - utils - INFO - 🔍 Processing 5/10: Arema FC vs Oxford United
+2025-07-10 15:19:02,552 - utils - INFO - 🎯 Collecting complete data for Arema FC vs Oxford United
+2025-07-10 15:19:02,613 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 15:19:02,613 - utils - INFO - ✅ Arema FC vs Oxford United: 35/48 fields (92.1%)
+2025-07-10 15:19:04,114 - utils - INFO - 🔍 Processing 6/10: Aktobe Reserve vs SD Family Astana
+2025-07-10 15:19:04,114 - utils - INFO - 🎯 Collecting complete data for Aktobe Reserve vs SD Family Astana
+2025-07-10 15:19:04,170 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:19:04,171 - utils - INFO - ✅ Aktobe Reserve vs SD Family Astana: 36/48 fields (94.7%)
+2025-07-10 15:19:05,672 - utils - INFO - 🔍 Processing 7/10: FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:19:05,672 - utils - INFO - 🎯 Collecting complete data for FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:19:05,769 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:19:05,769 - utils - INFO - ✅ FK Ekibastuz vs FC Khan Tengri: 36/48 fields (94.7%)
+2025-07-10 15:19:07,271 - utils - INFO - 🔍 Processing 8/10: Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:19:07,271 - utils - INFO - 🎯 Collecting complete data for Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:19:07,332 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 15:19:07,333 - utils - INFO - ✅ Silver Strikers vs Malawi Armed Forces FC: 35/48 fields (92.1%)
+2025-07-10 15:19:08,834 - utils - INFO - 🔍 Processing 9/10: Ighalo Football Academy vs Seraphic FC
+2025-07-10 15:19:08,834 - utils - INFO - 🎯 Collecting complete data for Ighalo Football Academy vs Seraphic FC
+2025-07-10 15:19:08,891 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:19:08,892 - utils - INFO - ✅ Ighalo Football Academy vs Seraphic FC: 36/48 fields (94.7%)
+2025-07-10 15:19:10,393 - utils - INFO - 🔍 Processing 10/10: Toyin Amuzu FC vs Marvelous Stars FC
+2025-07-10 15:19:10,393 - utils - INFO - 🎯 Collecting complete data for Toyin Amuzu FC vs Marvelous Stars FC
+2025-07-10 15:19:10,449 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:19:10,449 - utils - INFO - ✅ Toyin Amuzu FC vs Marvelous Stars FC: 36/48 fields (94.7%)
+2025-07-10 15:19:11,950 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 15:19:11,951 - utils - INFO -    Total matches: 10
+2025-07-10 15:19:11,951 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 15:19:11,951 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 15:19:11,951 - utils - INFO -    Average completion: 94.2%
+2025-07-10 15:24:49,151 - utils - INFO - ✅ Web driver initialized for scraping
+2025-07-10 15:24:49,152 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 15:24:49,210 - utils - INFO - Found 11 live matches
+2025-07-10 15:24:49,210 - utils - INFO - 🔍 Processing 1/10: Singapore vs Iran
+2025-07-10 15:24:49,210 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 15:24:53,481 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:24:53,481 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 15:24:53,481 - utils - INFO - ✅ Singapore vs Iran: 35/48 fields (92.1%)
+2025-07-10 15:24:54,982 - utils - INFO - 🔍 Processing 2/10: Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:24:54,983 - utils - INFO - 🎯 Collecting complete data for Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:24:59,006 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:24:59,006 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 15:24:59,006 - utils - INFO - ✅ Aigle Royal DU Moungo vs Bafmeng United: 35/48 fields (92.1%)
+2025-07-10 15:25:00,507 - utils - INFO - 🔍 Processing 3/10: Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:25:00,508 - utils - INFO - 🎯 Collecting complete data for Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:25:04,421 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:25:04,422 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 15:25:04,422 - utils - INFO - ✅ Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé: 35/48 fields (92.1%)
+2025-07-10 15:25:05,923 - utils - INFO - 🔍 Processing 4/10: Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:25:05,924 - utils - INFO - 🎯 Collecting complete data for Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:25:09,929 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:25:09,929 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:25:09,929 - utils - INFO - ✅ Coton Sport de Garoua vs Aigle Royal de La Menoua: 36/48 fields (94.7%)
+2025-07-10 15:25:11,431 - utils - INFO - 🔍 Processing 5/10: Arema FC vs Oxford United
+2025-07-10 15:25:11,431 - utils - INFO - 🎯 Collecting complete data for Arema FC vs Oxford United
+2025-07-10 15:25:15,375 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:25:15,376 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:25:15,376 - utils - INFO - ✅ Arema FC vs Oxford United: 36/48 fields (94.7%)
+2025-07-10 15:25:16,877 - utils - INFO - 🔍 Processing 6/10: Aktobe Reserve vs SD Family Astana
+2025-07-10 15:25:16,877 - utils - INFO - 🎯 Collecting complete data for Aktobe Reserve vs SD Family Astana
+2025-07-10 15:25:20,817 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:25:20,817 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:25:20,817 - utils - INFO - ✅ Aktobe Reserve vs SD Family Astana: 36/48 fields (94.7%)
+2025-07-10 15:25:22,318 - utils - INFO - 🔍 Processing 7/10: FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:25:22,318 - utils - INFO - 🎯 Collecting complete data for FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:25:26,333 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:25:26,333 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:25:26,333 - utils - INFO - ✅ FK Ekibastuz vs FC Khan Tengri: 36/48 fields (94.7%)
+2025-07-10 15:25:27,834 - utils - INFO - 🔍 Processing 8/10: Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:25:27,835 - utils - INFO - 🎯 Collecting complete data for Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:25:31,980 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:25:31,980 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 15:25:31,980 - utils - INFO - ✅ Silver Strikers vs Malawi Armed Forces FC: 35/48 fields (92.1%)
+2025-07-10 15:25:33,481 - utils - INFO - 🔍 Processing 9/10: Ighalo Football Academy vs Seraphic FC
+2025-07-10 15:25:33,482 - utils - INFO - 🎯 Collecting complete data for Ighalo Football Academy vs Seraphic FC
+2025-07-10 15:25:37,403 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:25:37,404 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 15:25:37,404 - utils - INFO - ✅ Ighalo Football Academy vs Seraphic FC: 35/48 fields (92.1%)
+2025-07-10 15:25:38,905 - utils - INFO - 🔍 Processing 10/10: Osun Utd FC vs Kun Khalifat FC
+2025-07-10 15:25:38,905 - utils - INFO - 🎯 Collecting complete data for Osun Utd FC vs Kun Khalifat FC
+2025-07-10 15:25:42,863 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:25:42,863 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:25:42,864 - utils - INFO - ✅ Osun Utd FC vs Kun Khalifat FC: 36/48 fields (94.7%)
+2025-07-10 15:25:44,365 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 15:25:44,366 - utils - INFO -    Total matches: 10
+2025-07-10 15:25:44,367 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 15:25:44,367 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 15:25:44,367 - utils - INFO -    Average completion: 93.4%
+2025-07-10 15:28:34,936 - utils - INFO - ✅ Web driver initialized for scraping
+2025-07-10 15:28:34,936 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 15:28:34,994 - utils - INFO - Found 11 live matches
+2025-07-10 15:28:34,994 - utils - INFO - 🔍 Processing 1/10: Singapore vs Iran
+2025-07-10 15:28:34,994 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 15:28:39,079 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:28:39,079 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:28:39,079 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 15:28:40,581 - utils - INFO - 🔍 Processing 2/10: Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:28:40,581 - utils - INFO - 🎯 Collecting complete data for Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:28:44,462 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:28:44,463 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:28:44,463 - utils - INFO - ✅ Aigle Royal DU Moungo vs Bafmeng United: 36/48 fields (94.7%)
+2025-07-10 15:28:45,964 - utils - INFO - 🔍 Processing 3/10: Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:28:45,964 - utils - INFO - 🎯 Collecting complete data for Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:28:49,806 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:28:49,806 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:28:49,806 - utils - INFO - ✅ Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé: 36/48 fields (94.7%)
+2025-07-10 15:28:51,307 - utils - INFO - 🔍 Processing 4/10: Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:28:51,308 - utils - INFO - 🎯 Collecting complete data for Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:28:55,146 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:28:55,146 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:28:55,146 - utils - INFO - ✅ Coton Sport de Garoua vs Aigle Royal de La Menoua: 36/48 fields (94.7%)
+2025-07-10 15:28:56,648 - utils - INFO - 🔍 Processing 5/10: Arema FC vs Oxford United
+2025-07-10 15:28:56,648 - utils - INFO - 🎯 Collecting complete data for Arema FC vs Oxford United
+2025-07-10 15:29:00,484 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:29:00,484 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:29:00,484 - utils - INFO - ✅ Arema FC vs Oxford United: 36/48 fields (94.7%)
+2025-07-10 15:29:01,985 - utils - INFO - 🔍 Processing 6/10: Aktobe Reserve vs SD Family Astana
+2025-07-10 15:29:01,987 - utils - INFO - 🎯 Collecting complete data for Aktobe Reserve vs SD Family Astana
+2025-07-10 15:29:05,831 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:29:05,831 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:29:05,832 - utils - INFO - ✅ Aktobe Reserve vs SD Family Astana: 36/48 fields (94.7%)
+2025-07-10 15:29:07,333 - utils - INFO - 🔍 Processing 7/10: FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:29:07,333 - utils - INFO - 🎯 Collecting complete data for FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:29:11,197 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:29:11,197 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:29:11,197 - utils - INFO - ✅ FK Ekibastuz vs FC Khan Tengri: 36/48 fields (94.7%)
+2025-07-10 15:29:12,699 - utils - INFO - 🔍 Processing 8/10: Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:29:12,699 - utils - INFO - 🎯 Collecting complete data for Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:29:16,618 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:29:16,619 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:29:16,619 - utils - INFO - ✅ Silver Strikers vs Malawi Armed Forces FC: 36/48 fields (94.7%)
+2025-07-10 15:29:18,120 - utils - INFO - 🔍 Processing 9/10: Ighalo Football Academy vs Seraphic FC
+2025-07-10 15:29:18,120 - utils - INFO - 🎯 Collecting complete data for Ighalo Football Academy vs Seraphic FC
+2025-07-10 15:29:21,961 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:29:21,961 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:29:21,961 - utils - INFO - ✅ Ighalo Football Academy vs Seraphic FC: 36/48 fields (94.7%)
+2025-07-10 15:29:23,462 - utils - INFO - 🔍 Processing 10/10: Osun Utd FC vs Kun Khalifat FC
+2025-07-10 15:29:23,463 - utils - INFO - 🎯 Collecting complete data for Osun Utd FC vs Kun Khalifat FC
+2025-07-10 15:29:27,323 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:29:27,323 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:29:27,323 - utils - INFO - ✅ Osun Utd FC vs Kun Khalifat FC: 36/48 fields (94.7%)
+2025-07-10 15:29:28,825 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 15:29:28,825 - utils - INFO -    Total matches: 10
+2025-07-10 15:29:28,825 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 15:29:28,825 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 15:29:28,825 - utils - INFO -    Average completion: 94.7%
+2025-07-10 15:33:22,721 - utils - INFO - ✅ Web driver initialized for scraping
+2025-07-10 15:33:22,721 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 15:33:22,801 - utils - INFO - Found 11 live matches
+2025-07-10 15:33:22,801 - utils - INFO - 🔍 Processing 1/10: Singapore vs Iran
+2025-07-10 15:33:22,801 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 15:33:26,886 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:33:26,887 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:33:26,887 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 15:33:28,388 - utils - INFO - 🔍 Processing 2/10: Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:33:28,389 - utils - INFO - 🎯 Collecting complete data for Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:33:32,365 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:33:32,366 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:33:32,366 - utils - INFO - ✅ Aigle Royal DU Moungo vs Bafmeng United: 36/48 fields (94.7%)
+2025-07-10 15:33:33,867 - utils - INFO - 🔍 Processing 3/10: Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:33:33,867 - utils - INFO - 🎯 Collecting complete data for Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:33:37,624 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:33:37,624 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:33:37,624 - utils - INFO - ✅ Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé: 36/48 fields (94.7%)
+2025-07-10 15:33:39,125 - utils - INFO - 🔍 Processing 4/10: Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:33:39,126 - utils - INFO - 🎯 Collecting complete data for Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:33:42,944 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:33:42,945 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:33:42,945 - utils - INFO - ✅ Coton Sport de Garoua vs Aigle Royal de La Menoua: 36/48 fields (94.7%)
+2025-07-10 15:33:44,446 - utils - INFO - 🔍 Processing 5/10: Arema FC vs Oxford United
+2025-07-10 15:33:44,447 - utils - INFO - 🎯 Collecting complete data for Arema FC vs Oxford United
+2025-07-10 15:33:48,272 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:33:48,272 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:33:48,272 - utils - INFO - ✅ Arema FC vs Oxford United: 36/48 fields (94.7%)
+2025-07-10 15:33:49,773 - utils - INFO - 🔍 Processing 6/10: Aktobe Reserve vs SD Family Astana
+2025-07-10 15:33:49,773 - utils - INFO - 🎯 Collecting complete data for Aktobe Reserve vs SD Family Astana
+2025-07-10 15:33:53,639 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:33:53,639 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:33:53,639 - utils - INFO - ✅ Aktobe Reserve vs SD Family Astana: 36/48 fields (94.7%)
+2025-07-10 15:33:55,140 - utils - INFO - 🔍 Processing 7/10: FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:33:55,142 - utils - INFO - 🎯 Collecting complete data for FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:33:58,948 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:33:58,949 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:33:58,949 - utils - INFO - ✅ FK Ekibastuz vs FC Khan Tengri: 36/48 fields (94.7%)
+2025-07-10 15:34:00,450 - utils - INFO - 🔍 Processing 8/10: Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:34:00,450 - utils - INFO - 🎯 Collecting complete data for Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:34:04,211 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:34:04,211 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:34:04,212 - utils - INFO - ✅ Silver Strikers vs Malawi Armed Forces FC: 36/48 fields (94.7%)
+2025-07-10 15:34:05,713 - utils - INFO - 🔍 Processing 9/10: Ighalo Football Academy vs Seraphic FC
+2025-07-10 15:34:05,713 - utils - INFO - 🎯 Collecting complete data for Ighalo Football Academy vs Seraphic FC
+2025-07-10 15:34:09,639 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:34:09,639 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:34:09,639 - utils - INFO - ✅ Ighalo Football Academy vs Seraphic FC: 36/48 fields (94.7%)
+2025-07-10 15:34:11,141 - utils - INFO - 🔍 Processing 10/10: Osun Utd FC vs Kun Khalifat FC
+2025-07-10 15:34:11,141 - utils - INFO - 🎯 Collecting complete data for Osun Utd FC vs Kun Khalifat FC
+2025-07-10 15:34:14,991 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:34:14,991 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:34:14,991 - utils - INFO - ✅ Osun Utd FC vs Kun Khalifat FC: 36/48 fields (94.7%)
+2025-07-10 15:34:16,492 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 15:34:16,493 - utils - INFO -    Total matches: 10
+2025-07-10 15:34:16,493 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 15:34:16,493 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 15:34:16,493 - utils - INFO -    Average completion: 94.7%
+2025-07-10 15:39:16,497 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 15:39:16,573 - utils - INFO - Found 12 live matches
+2025-07-10 15:39:16,573 - utils - INFO - 🔍 Processing 1/10: Singapore vs Iran
+2025-07-10 15:39:16,573 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 15:39:20,524 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:39:20,524 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:39:20,524 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 15:39:22,025 - utils - INFO - 🔍 Processing 2/10: Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:39:22,025 - utils - INFO - 🎯 Collecting complete data for Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:39:25,835 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:39:25,835 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:39:25,835 - utils - INFO - ✅ Aigle Royal DU Moungo vs Bafmeng United: 36/48 fields (94.7%)
+2025-07-10 15:39:27,337 - utils - INFO - 🔍 Processing 3/10: Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:39:27,337 - utils - INFO - 🎯 Collecting complete data for Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:39:31,120 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:39:31,120 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:39:31,120 - utils - INFO - ✅ Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé: 36/48 fields (94.7%)
+2025-07-10 15:39:32,621 - utils - INFO - 🔍 Processing 4/10: Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:39:32,621 - utils - INFO - 🎯 Collecting complete data for Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:39:36,478 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:39:36,478 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:39:36,478 - utils - INFO - ✅ Coton Sport de Garoua vs Aigle Royal de La Menoua: 36/48 fields (94.7%)
+2025-07-10 15:39:37,979 - utils - INFO - 🔍 Processing 5/10: Arema FC vs Oxford United
+2025-07-10 15:39:37,981 - utils - INFO - 🎯 Collecting complete data for Arema FC vs Oxford United
+2025-07-10 15:39:42,146 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:39:42,147 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:39:42,147 - utils - INFO - ✅ Arema FC vs Oxford United: 36/48 fields (94.7%)
+2025-07-10 15:39:43,648 - utils - INFO - 🔍 Processing 6/10: Aktobe Reserve vs SD Family Astana
+2025-07-10 15:39:43,648 - utils - INFO - 🎯 Collecting complete data for Aktobe Reserve vs SD Family Astana
+2025-07-10 15:39:47,702 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:39:47,703 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:39:47,703 - utils - INFO - ✅ Aktobe Reserve vs SD Family Astana: 36/48 fields (94.7%)
+2025-07-10 15:39:49,204 - utils - INFO - 🔍 Processing 7/10: FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:39:49,204 - utils - INFO - 🎯 Collecting complete data for FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:39:53,022 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:39:53,022 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:39:53,022 - utils - INFO - ✅ FK Ekibastuz vs FC Khan Tengri: 36/48 fields (94.7%)
+2025-07-10 15:39:54,523 - utils - INFO - 🔍 Processing 8/10: Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:39:54,524 - utils - INFO - 🎯 Collecting complete data for Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:39:58,348 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:39:58,349 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:39:58,349 - utils - INFO - ✅ Silver Strikers vs Malawi Armed Forces FC: 36/48 fields (94.7%)
+2025-07-10 15:39:59,850 - utils - INFO - 🔍 Processing 9/10: Ighalo Football Academy vs Seraphic FC
+2025-07-10 15:39:59,850 - utils - INFO - 🎯 Collecting complete data for Ighalo Football Academy vs Seraphic FC
+2025-07-10 15:40:03,746 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:40:03,746 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:40:03,746 - utils - INFO - ✅ Ighalo Football Academy vs Seraphic FC: 36/48 fields (94.7%)
+2025-07-10 15:40:05,247 - utils - INFO - 🔍 Processing 10/10: Joju Fadairo Babes vs Sporting Club Academy
+2025-07-10 15:40:05,248 - utils - INFO - 🎯 Collecting complete data for Joju Fadairo Babes vs Sporting Club Academy
+2025-07-10 15:40:09,531 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:40:09,531 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:40:09,531 - utils - INFO - ✅ Joju Fadairo Babes vs Sporting Club Academy: 36/48 fields (94.7%)
+2025-07-10 15:40:11,033 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 15:40:11,033 - utils - INFO -    Total matches: 10
+2025-07-10 15:40:11,033 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 15:40:11,033 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 15:40:11,034 - utils - INFO -    Average completion: 94.7%
+2025-07-10 15:45:11,038 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 15:45:11,135 - utils - INFO - Found 12 live matches
+2025-07-10 15:45:11,135 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 15:45:11,135 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 15:45:15,111 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:45:15,111 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:45:15,111 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 15:45:16,612 - utils - INFO - 🔍 Processing 2/10: Singapore vs Iran
+2025-07-10 15:45:16,613 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 15:45:20,460 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:45:20,461 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:45:20,461 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 15:45:21,962 - utils - INFO - 🔍 Processing 3/10: Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:45:21,963 - utils - INFO - 🎯 Collecting complete data for Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:45:25,750 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:45:25,750 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:45:25,750 - utils - INFO - ✅ Aigle Royal DU Moungo vs Bafmeng United: 36/48 fields (94.7%)
+2025-07-10 15:45:27,252 - utils - INFO - 🔍 Processing 4/10: Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:45:27,252 - utils - INFO - 🎯 Collecting complete data for Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:45:31,082 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:45:31,083 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:45:31,083 - utils - INFO - ✅ Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé: 36/48 fields (94.7%)
+2025-07-10 15:45:32,584 - utils - INFO - 🔍 Processing 5/10: Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:45:32,584 - utils - INFO - 🎯 Collecting complete data for Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:45:36,433 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:45:36,433 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:45:36,433 - utils - INFO - ✅ Coton Sport de Garoua vs Aigle Royal de La Menoua: 36/48 fields (94.7%)
+2025-07-10 15:45:37,934 - utils - INFO - 🔍 Processing 6/10: Arema FC vs Oxford United
+2025-07-10 15:45:37,934 - utils - INFO - 🎯 Collecting complete data for Arema FC vs Oxford United
+2025-07-10 15:45:41,717 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:45:41,717 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:45:41,717 - utils - INFO - ✅ Arema FC vs Oxford United: 36/48 fields (94.7%)
+2025-07-10 15:45:43,218 - utils - INFO - 🔍 Processing 7/10: Aktobe Reserve vs SD Family Astana
+2025-07-10 15:45:43,218 - utils - INFO - 🎯 Collecting complete data for Aktobe Reserve vs SD Family Astana
+2025-07-10 15:45:47,057 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:45:47,057 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:45:47,057 - utils - INFO - ✅ Aktobe Reserve vs SD Family Astana: 36/48 fields (94.7%)
+2025-07-10 15:45:48,558 - utils - INFO - 🔍 Processing 8/10: FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:45:48,560 - utils - INFO - 🎯 Collecting complete data for FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:45:52,389 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:45:52,389 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:45:52,389 - utils - INFO - ✅ FK Ekibastuz vs FC Khan Tengri: 36/48 fields (94.7%)
+2025-07-10 15:45:53,890 - utils - INFO - 🔍 Processing 9/10: Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:45:53,890 - utils - INFO - 🎯 Collecting complete data for Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:45:57,693 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:45:57,694 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:45:57,694 - utils - INFO - ✅ Silver Strikers vs Malawi Armed Forces FC: 36/48 fields (94.7%)
+2025-07-10 15:45:59,195 - utils - INFO - 🔍 Processing 10/10: Joju Fadairo Babes vs Sporting Club Academy
+2025-07-10 15:45:59,196 - utils - INFO - 🎯 Collecting complete data for Joju Fadairo Babes vs Sporting Club Academy
+2025-07-10 15:46:03,001 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:46:03,001 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:46:03,001 - utils - INFO - ✅ Joju Fadairo Babes vs Sporting Club Academy: 36/48 fields (94.7%)
+2025-07-10 15:46:04,503 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 15:46:04,504 - utils - INFO -    Total matches: 10
+2025-07-10 15:46:04,504 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 15:46:04,504 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 15:46:04,504 - utils - INFO -    Average completion: 94.7%
+2025-07-10 15:46:04,531 - utils - INFO - 📁 Exported 30 records to exports/complete_statistics_20250710_154604.csv
+2025-07-10 15:46:04,532 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 15:46:04,532 - utils - INFO -    Perfect (98%+): 0/30 (0.0%)
+2025-07-10 15:46:04,532 - utils - INFO -    Excellent (95%+): 0/30 (0.0%)
+2025-07-10 15:46:04,532 - utils - INFO -    Average: 94.7% (45/48 fields)
+2025-07-10 15:46:04,532 - utils - INFO - ⚠️  Remaining zeros: red_cards_home: 30, red_cards_away: 30
+2025-07-10 15:51:04,536 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 15:51:04,616 - utils - INFO - Found 12 live matches
+2025-07-10 15:51:04,616 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 15:51:04,616 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 15:51:08,507 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:51:08,508 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:51:08,508 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 15:51:10,009 - utils - INFO - 🔍 Processing 2/10: Singapore vs Iran
+2025-07-10 15:51:10,009 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 15:51:13,810 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:51:13,811 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:51:13,811 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 15:51:15,312 - utils - INFO - 🔍 Processing 3/10: Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:51:15,312 - utils - INFO - 🎯 Collecting complete data for Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:51:19,082 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:51:19,082 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:51:19,082 - utils - INFO - ✅ Aigle Royal DU Moungo vs Bafmeng United: 36/48 fields (94.7%)
+2025-07-10 15:51:20,584 - utils - INFO - 🔍 Processing 4/10: Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:51:20,584 - utils - INFO - 🎯 Collecting complete data for Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:51:24,381 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:51:24,381 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:51:24,381 - utils - INFO - ✅ Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé: 36/48 fields (94.7%)
+2025-07-10 15:51:25,882 - utils - INFO - 🔍 Processing 5/10: Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:51:25,882 - utils - INFO - 🎯 Collecting complete data for Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:51:29,683 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:51:29,684 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:51:29,684 - utils - INFO - ✅ Coton Sport de Garoua vs Aigle Royal de La Menoua: 36/48 fields (94.7%)
+2025-07-10 15:51:31,186 - utils - INFO - 🔍 Processing 6/10: Arema FC vs Oxford United
+2025-07-10 15:51:31,186 - utils - INFO - 🎯 Collecting complete data for Arema FC vs Oxford United
+2025-07-10 15:51:35,010 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:51:35,011 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:51:35,011 - utils - INFO - ✅ Arema FC vs Oxford United: 36/48 fields (94.7%)
+2025-07-10 15:51:36,512 - utils - INFO - 🔍 Processing 7/10: Aktobe Reserve vs SD Family Astana
+2025-07-10 15:51:36,513 - utils - INFO - 🎯 Collecting complete data for Aktobe Reserve vs SD Family Astana
+2025-07-10 15:51:40,330 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:51:40,330 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:51:40,330 - utils - INFO - ✅ Aktobe Reserve vs SD Family Astana: 36/48 fields (94.7%)
+2025-07-10 15:51:41,831 - utils - INFO - 🔍 Processing 8/10: FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:51:41,832 - utils - INFO - 🎯 Collecting complete data for FK Ekibastuz vs FC Khan Tengri
+2025-07-10 15:51:45,645 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:51:45,645 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:51:45,645 - utils - INFO - ✅ FK Ekibastuz vs FC Khan Tengri: 36/48 fields (94.7%)
+2025-07-10 15:51:47,146 - utils - INFO - 🔍 Processing 9/10: Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:51:47,146 - utils - INFO - 🎯 Collecting complete data for Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:51:50,967 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:51:50,967 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:51:50,967 - utils - INFO - ✅ Silver Strikers vs Malawi Armed Forces FC: 36/48 fields (94.7%)
+2025-07-10 15:51:52,468 - utils - INFO - 🔍 Processing 10/10: Joju Fadairo Babes vs Sporting Club Academy
+2025-07-10 15:51:52,469 - utils - INFO - 🎯 Collecting complete data for Joju Fadairo Babes vs Sporting Club Academy
+2025-07-10 15:51:56,297 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:51:56,297 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:51:56,297 - utils - INFO - ✅ Joju Fadairo Babes vs Sporting Club Academy: 36/48 fields (94.7%)
+2025-07-10 15:51:57,798 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 15:51:57,798 - utils - INFO -    Total matches: 10
+2025-07-10 15:51:57,799 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 15:51:57,799 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 15:51:57,799 - utils - INFO -    Average completion: 94.7%
+2025-07-10 15:56:57,803 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 15:56:57,884 - utils - INFO - Found 10 live matches
+2025-07-10 15:56:57,884 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 15:56:57,884 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 15:57:01,754 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:57:01,754 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:57:01,754 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 15:57:03,255 - utils - INFO - 🔍 Processing 2/10: Singapore vs Iran
+2025-07-10 15:57:03,256 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 15:57:07,094 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:57:07,095 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:57:07,095 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 15:57:08,596 - utils - INFO - 🔍 Processing 3/10: Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:57:08,597 - utils - INFO - 🎯 Collecting complete data for Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 15:57:12,797 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:57:12,798 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:57:12,798 - utils - INFO - ✅ Aigle Royal DU Moungo vs Bafmeng United: 36/48 fields (94.7%)
+2025-07-10 15:57:14,299 - utils - INFO - 🔍 Processing 4/10: Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:57:14,299 - utils - INFO - 🎯 Collecting complete data for Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé
+2025-07-10 15:57:18,130 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:57:18,130 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:57:18,130 - utils - INFO - ✅ Canon Yaoundé vs Tonnerre Kalara Club de Yaoundé: 36/48 fields (94.7%)
+2025-07-10 15:57:19,631 - utils - INFO - 🔍 Processing 5/10: Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:57:19,632 - utils - INFO - 🎯 Collecting complete data for Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 15:57:23,553 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:57:23,554 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:57:23,554 - utils - INFO - ✅ Coton Sport de Garoua vs Aigle Royal de La Menoua: 36/48 fields (94.7%)
+2025-07-10 15:57:25,056 - utils - INFO - 🔍 Processing 6/10: Arema FC vs Oxford United
+2025-07-10 15:57:25,056 - utils - INFO - 🎯 Collecting complete data for Arema FC vs Oxford United
+2025-07-10 15:57:28,901 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:57:28,901 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:57:28,901 - utils - INFO - ✅ Arema FC vs Oxford United: 36/48 fields (94.7%)
+2025-07-10 15:57:30,403 - utils - INFO - 🔍 Processing 7/10: Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:57:30,404 - utils - INFO - 🎯 Collecting complete data for Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 15:57:34,255 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:57:34,255 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:57:34,255 - utils - INFO - ✅ Silver Strikers vs Malawi Armed Forces FC: 36/48 fields (94.7%)
+2025-07-10 15:57:35,755 - utils - INFO - 🔍 Processing 8/10: Joju Fadairo Babes vs Sporting Club Academy
+2025-07-10 15:57:35,756 - utils - INFO - 🎯 Collecting complete data for Joju Fadairo Babes vs Sporting Club Academy
+2025-07-10 15:57:39,669 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:57:39,669 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:57:39,669 - utils - INFO - ✅ Joju Fadairo Babes vs Sporting Club Academy: 36/48 fields (94.7%)
+2025-07-10 15:57:41,171 - utils - INFO - 🔍 Processing 9/10: Osun Utd FC vs Kun Khalifat FC
+2025-07-10 15:57:41,171 - utils - INFO - 🎯 Collecting complete data for Osun Utd FC vs Kun Khalifat FC
+2025-07-10 15:57:45,034 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:57:45,034 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:57:45,034 - utils - INFO - ✅ Osun Utd FC vs Kun Khalifat FC: 36/48 fields (94.7%)
+2025-07-10 15:57:46,536 - utils - INFO - 🔍 Processing 10/10: Warri Wolves FC vs Crown FC
+2025-07-10 15:57:46,536 - utils - INFO - 🎯 Collecting complete data for Warri Wolves FC vs Crown FC
+2025-07-10 15:57:50,578 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 15:57:50,578 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 15:57:50,578 - utils - INFO - ✅ Warri Wolves FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 15:57:52,080 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 15:57:52,081 - utils - INFO -    Total matches: 10
+2025-07-10 15:57:52,082 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 15:57:52,082 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 15:57:52,082 - utils - INFO -    Average completion: 94.7%
+2025-07-10 16:02:52,086 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 16:02:52,191 - utils - INFO - Found 12 live matches
+2025-07-10 16:02:52,191 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:02:52,191 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:02:56,070 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:02:56,070 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:02:56,070 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 16:02:57,572 - utils - INFO - 🔍 Processing 2/10: FC Samashki vs FC Gvardeysk
+2025-07-10 16:02:57,572 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 16:03:01,550 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:03:01,550 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:03:01,550 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 16:03:03,051 - utils - INFO - 🔍 Processing 3/10: Nur Kulary vs Eskar Grozny
+2025-07-10 16:03:03,051 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 16:03:07,005 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:03:07,005 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:03:07,005 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 16:03:08,507 - utils - INFO - 🔍 Processing 4/10: Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:03:08,507 - utils - INFO - 🎯 Collecting complete data for Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:03:12,474 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:03:12,474 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:03:12,474 - utils - INFO - ✅ Atlètic Club Escaldes vs F91 Dudelange: 36/48 fields (94.7%)
+2025-07-10 16:03:13,975 - utils - INFO - 🔍 Processing 5/10: Singapore vs Iran
+2025-07-10 16:03:13,975 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 16:03:17,802 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:03:17,802 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:03:17,802 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 16:03:19,304 - utils - INFO - 🔍 Processing 6/10: Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 16:03:19,304 - utils - INFO - 🎯 Collecting complete data for Coton Sport de Garoua vs Aigle Royal de La Menoua
+2025-07-10 16:03:23,139 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:03:23,140 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:03:23,140 - utils - INFO - ✅ Coton Sport de Garoua vs Aigle Royal de La Menoua: 36/48 fields (94.7%)
+2025-07-10 16:03:24,641 - utils - INFO - 🔍 Processing 7/10: AS Simba vs US Sokozaki
+2025-07-10 16:03:24,642 - utils - INFO - 🎯 Collecting complete data for AS Simba vs US Sokozaki
+2025-07-10 16:03:28,529 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:03:28,529 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:03:28,529 - utils - INFO - ✅ AS Simba vs US Sokozaki: 36/48 fields (94.7%)
+2025-07-10 16:03:30,030 - utils - INFO - 🔍 Processing 8/10: FC Mk de Kinshasa vs AC Rangers
+2025-07-10 16:03:30,031 - utils - INFO - 🎯 Collecting complete data for FC Mk de Kinshasa vs AC Rangers
+2025-07-10 16:03:34,001 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:03:34,002 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:03:34,002 - utils - INFO - ✅ FC Mk de Kinshasa vs AC Rangers: 36/48 fields (94.7%)
+2025-07-10 16:03:35,503 - utils - INFO - 🔍 Processing 9/10: Arema FC vs Oxford United
+2025-07-10 16:03:35,504 - utils - INFO - 🎯 Collecting complete data for Arema FC vs Oxford United
+2025-07-10 16:03:39,335 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:03:39,335 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:03:39,335 - utils - INFO - ✅ Arema FC vs Oxford United: 36/48 fields (94.7%)
+2025-07-10 16:03:40,836 - utils - INFO - 🔍 Processing 10/10: Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 16:03:40,837 - utils - INFO - 🎯 Collecting complete data for Silver Strikers vs Malawi Armed Forces FC
+2025-07-10 16:03:44,702 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:03:44,702 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:03:44,702 - utils - INFO - ✅ Silver Strikers vs Malawi Armed Forces FC: 36/48 fields (94.7%)
+2025-07-10 16:03:46,203 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 16:03:46,204 - utils - INFO -    Total matches: 10
+2025-07-10 16:03:46,204 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 16:03:46,204 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 16:03:46,204 - utils - INFO -    Average completion: 94.7%
+2025-07-10 16:03:46,232 - utils - INFO - 📁 Exported 30 records to exports/complete_statistics_20250710_160346.csv
+2025-07-10 16:03:46,232 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 16:03:46,232 - utils - INFO -    Perfect (98%+): 0/30 (0.0%)
+2025-07-10 16:03:46,232 - utils - INFO -    Excellent (95%+): 0/30 (0.0%)
+2025-07-10 16:03:46,232 - utils - INFO -    Average: 94.7% (45/48 fields)
+2025-07-10 16:03:46,232 - utils - INFO - ⚠️  Remaining zeros: red_cards_home: 30, red_cards_away: 30
+2025-07-10 16:08:46,237 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 16:08:46,322 - utils - INFO - Found 14 live matches
+2025-07-10 16:08:46,322 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:08:46,322 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:08:50,400 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:08:50,400 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:08:50,400 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 16:08:51,901 - utils - INFO - 🔍 Processing 2/10: FC Samashki vs FC Gvardeysk
+2025-07-10 16:08:51,902 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 16:08:55,753 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:08:55,753 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:08:55,753 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 16:08:57,255 - utils - INFO - 🔍 Processing 3/10: Nur Kulary vs Eskar Grozny
+2025-07-10 16:08:57,255 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 16:09:01,041 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:09:01,041 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:09:01,041 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 16:09:02,542 - utils - INFO - 🔍 Processing 4/10: Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:09:02,543 - utils - INFO - 🎯 Collecting complete data for Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:09:06,425 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:09:06,426 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:09:06,426 - utils - INFO - ✅ Atlètic Club Escaldes vs F91 Dudelange: 36/48 fields (94.7%)
+2025-07-10 16:09:07,927 - utils - INFO - 🔍 Processing 5/10: Singapore vs Iran
+2025-07-10 16:09:07,927 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 16:09:11,759 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:09:11,759 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:09:11,759 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 16:09:13,261 - utils - INFO - 🔍 Processing 6/10: Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:09:13,261 - utils - INFO - 🎯 Collecting complete data for Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:09:17,229 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:09:17,230 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:09:17,230 - utils - INFO - ✅ Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve: 36/48 fields (94.7%)
+2025-07-10 16:09:18,731 - utils - INFO - 🔍 Processing 7/10: Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 16:09:18,731 - utils - INFO - 🎯 Collecting complete data for Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 16:09:22,519 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:09:22,520 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:09:22,520 - utils - INFO - ✅ Aigle Royal DU Moungo vs Bafmeng United: 36/48 fields (94.7%)
+2025-07-10 16:09:24,021 - utils - INFO - 🔍 Processing 8/10: AS Simba vs US Sokozaki
+2025-07-10 16:09:24,022 - utils - INFO - 🎯 Collecting complete data for AS Simba vs US Sokozaki
+2025-07-10 16:09:27,890 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:09:27,891 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:09:27,891 - utils - INFO - ✅ AS Simba vs US Sokozaki: 36/48 fields (94.7%)
+2025-07-10 16:09:29,392 - utils - INFO - 🔍 Processing 9/10: FC Mk de Kinshasa vs AC Rangers
+2025-07-10 16:09:29,392 - utils - INFO - 🎯 Collecting complete data for FC Mk de Kinshasa vs AC Rangers
+2025-07-10 16:09:33,289 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:09:33,289 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:09:33,289 - utils - INFO - ✅ FC Mk de Kinshasa vs AC Rangers: 36/48 fields (94.7%)
+2025-07-10 16:09:34,790 - utils - INFO - 🔍 Processing 10/10: Arema FC vs Oxford United
+2025-07-10 16:09:34,791 - utils - INFO - 🎯 Collecting complete data for Arema FC vs Oxford United
+2025-07-10 16:09:38,622 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:09:38,622 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:09:38,622 - utils - INFO - ✅ Arema FC vs Oxford United: 36/48 fields (94.7%)
+2025-07-10 16:09:40,124 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 16:09:40,125 - utils - INFO -    Total matches: 10
+2025-07-10 16:09:40,125 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 16:09:40,125 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 16:09:40,125 - utils - INFO -    Average completion: 94.7%
+2025-07-10 16:14:40,130 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 16:14:40,229 - utils - INFO - Found 15 live matches
+2025-07-10 16:14:40,230 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:14:40,230 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:14:44,123 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:14:44,123 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:14:44,123 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 16:14:45,625 - utils - INFO - 🔍 Processing 2/10: FC Samashki vs FC Gvardeysk
+2025-07-10 16:14:45,625 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 16:14:49,462 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:14:49,462 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:14:49,462 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 16:14:50,964 - utils - INFO - 🔍 Processing 3/10: Nur Kulary vs Eskar Grozny
+2025-07-10 16:14:50,965 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 16:14:54,832 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:14:54,832 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:14:54,832 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 16:14:56,334 - utils - INFO - 🔍 Processing 4/10: Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:14:56,334 - utils - INFO - 🎯 Collecting complete data for Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:15:00,181 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:15:00,181 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:15:00,182 - utils - INFO - ✅ Atlètic Club Escaldes vs F91 Dudelange: 36/48 fields (94.7%)
+2025-07-10 16:15:01,683 - utils - INFO - 🔍 Processing 5/10: Singapore vs Iran
+2025-07-10 16:15:01,683 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 16:15:05,499 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:15:05,499 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:15:05,499 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 16:15:07,000 - utils - INFO - 🔍 Processing 6/10: Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:15:07,001 - utils - INFO - 🎯 Collecting complete data for Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:15:10,822 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:15:10,822 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:15:10,822 - utils - INFO - ✅ Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve: 36/48 fields (94.7%)
+2025-07-10 16:15:12,323 - utils - INFO - 🔍 Processing 7/10: Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:15:12,324 - utils - INFO - 🎯 Collecting complete data for Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:15:16,363 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:15:16,364 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:15:16,364 - utils - INFO - ✅ Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve: 36/48 fields (94.7%)
+2025-07-10 16:15:17,865 - utils - INFO - 🔍 Processing 8/10: Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 16:15:17,865 - utils - INFO - 🎯 Collecting complete data for Aigle Royal DU Moungo vs Bafmeng United
+2025-07-10 16:15:21,690 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:15:21,690 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:15:21,690 - utils - INFO - ✅ Aigle Royal DU Moungo vs Bafmeng United: 36/48 fields (94.7%)
+2025-07-10 16:15:23,191 - utils - INFO - 🔍 Processing 9/10: AS Simba vs US Sokozaki
+2025-07-10 16:15:23,192 - utils - INFO - 🎯 Collecting complete data for AS Simba vs US Sokozaki
+2025-07-10 16:15:27,058 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:15:27,058 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:15:27,058 - utils - INFO - ✅ AS Simba vs US Sokozaki: 36/48 fields (94.7%)
+2025-07-10 16:15:28,559 - utils - INFO - 🔍 Processing 10/10: FC Mk de Kinshasa vs AC Rangers
+2025-07-10 16:15:28,560 - utils - INFO - 🎯 Collecting complete data for FC Mk de Kinshasa vs AC Rangers
+2025-07-10 16:15:32,485 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:15:32,486 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:15:32,486 - utils - INFO - ✅ FC Mk de Kinshasa vs AC Rangers: 36/48 fields (94.7%)
+2025-07-10 16:15:33,987 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 16:15:33,988 - utils - INFO -    Total matches: 10
+2025-07-10 16:15:33,989 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 16:15:33,989 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 16:15:33,989 - utils - INFO -    Average completion: 94.7%
+2025-07-10 16:20:33,993 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 16:20:34,079 - utils - INFO - Found 15 live matches
+2025-07-10 16:20:34,079 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:20:34,079 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:20:37,941 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:20:37,941 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:20:37,941 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 16:20:39,442 - utils - INFO - 🔍 Processing 2/10: Climax Fc vs Zanga FC
+2025-07-10 16:20:39,443 - utils - INFO - 🎯 Collecting complete data for Climax Fc vs Zanga FC
+2025-07-10 16:20:43,430 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:20:43,431 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:20:43,431 - utils - INFO - ✅ Climax Fc vs Zanga FC: 36/48 fields (94.7%)
+2025-07-10 16:20:44,932 - utils - INFO - 🔍 Processing 3/10: FC Samashki vs FC Gvardeysk
+2025-07-10 16:20:44,933 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 16:20:48,751 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:20:48,751 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:20:48,751 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 16:20:50,253 - utils - INFO - 🔍 Processing 4/10: Nur Kulary vs Eskar Grozny
+2025-07-10 16:20:50,253 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 16:20:54,032 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:20:54,032 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:20:54,032 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 16:20:55,533 - utils - INFO - 🔍 Processing 5/10: Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:20:55,534 - utils - INFO - 🎯 Collecting complete data for Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:20:59,368 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:20:59,368 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:20:59,368 - utils - INFO - ✅ Atlètic Club Escaldes vs F91 Dudelange: 36/48 fields (94.7%)
+2025-07-10 16:21:00,869 - utils - INFO - 🔍 Processing 6/10: Singapore vs Iran
+2025-07-10 16:21:00,870 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 16:21:04,768 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:21:04,768 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:21:04,768 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 16:21:06,270 - utils - INFO - 🔍 Processing 7/10: Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:21:06,270 - utils - INFO - 🎯 Collecting complete data for Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:21:10,140 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:21:10,140 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:21:10,140 - utils - INFO - ✅ Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve: 36/48 fields (94.7%)
+2025-07-10 16:21:11,641 - utils - INFO - 🔍 Processing 8/10: Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:21:11,642 - utils - INFO - 🎯 Collecting complete data for Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:21:15,543 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:21:15,544 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:21:15,544 - utils - INFO - ✅ Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve: 36/48 fields (94.7%)
+2025-07-10 16:21:17,045 - utils - INFO - 🔍 Processing 9/10: AS Simba vs US Sokozaki
+2025-07-10 16:21:17,046 - utils - INFO - 🎯 Collecting complete data for AS Simba vs US Sokozaki
+2025-07-10 16:21:20,866 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:21:20,866 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:21:20,866 - utils - INFO - ✅ AS Simba vs US Sokozaki: 36/48 fields (94.7%)
+2025-07-10 16:21:22,368 - utils - INFO - 🔍 Processing 10/10: FC Mk de Kinshasa vs AC Rangers
+2025-07-10 16:21:22,368 - utils - INFO - 🎯 Collecting complete data for FC Mk de Kinshasa vs AC Rangers
+2025-07-10 16:21:26,170 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:21:26,170 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:21:26,170 - utils - INFO - ✅ FC Mk de Kinshasa vs AC Rangers: 36/48 fields (94.7%)
+2025-07-10 16:21:27,672 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 16:21:27,673 - utils - INFO -    Total matches: 10
+2025-07-10 16:21:27,673 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 16:21:27,673 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 16:21:27,673 - utils - INFO -    Average completion: 94.7%
+2025-07-10 16:21:27,690 - utils - INFO - 📁 Exported 30 records to exports/complete_statistics_20250710_162127.csv
+2025-07-10 16:21:27,690 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 16:21:27,690 - utils - INFO -    Perfect (98%+): 0/30 (0.0%)
+2025-07-10 16:21:27,690 - utils - INFO -    Excellent (95%+): 0/30 (0.0%)
+2025-07-10 16:21:27,690 - utils - INFO -    Average: 94.7% (45/48 fields)
+2025-07-10 16:21:27,690 - utils - INFO - ⚠️  Remaining zeros: red_cards_home: 30, red_cards_away: 30
+2025-07-10 16:26:27,681 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 16:26:27,792 - utils - INFO - Found 17 live matches
+2025-07-10 16:26:27,792 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:26:27,792 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:26:31,772 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:26:31,772 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:26:31,772 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 16:26:33,274 - utils - INFO - 🔍 Processing 2/10: Climax Fc vs Zanga FC
+2025-07-10 16:26:33,274 - utils - INFO - 🎯 Collecting complete data for Climax Fc vs Zanga FC
+2025-07-10 16:26:37,311 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:26:37,312 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:26:37,312 - utils - INFO - ✅ Climax Fc vs Zanga FC: 36/48 fields (94.7%)
+2025-07-10 16:26:38,813 - utils - INFO - 🔍 Processing 3/10: FC Samashki vs FC Gvardeysk
+2025-07-10 16:26:38,813 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 16:26:42,634 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:26:42,635 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:26:42,635 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 16:26:44,136 - utils - INFO - 🔍 Processing 4/10: Nur Kulary vs Eskar Grozny
+2025-07-10 16:26:44,137 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 16:26:47,971 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:26:47,971 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:26:47,971 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 16:26:49,472 - utils - INFO - 🔍 Processing 5/10: Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:26:49,473 - utils - INFO - 🎯 Collecting complete data for Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:26:53,375 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:26:53,375 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:26:53,376 - utils - INFO - ✅ Atlètic Club Escaldes vs F91 Dudelange: 36/48 fields (94.7%)
+2025-07-10 16:26:54,878 - utils - INFO - 🔍 Processing 6/10: Singapore vs Iran
+2025-07-10 16:26:54,878 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 16:26:58,745 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:26:58,745 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:26:58,745 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 16:27:00,246 - utils - INFO - 🔍 Processing 7/10: Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve
+2025-07-10 16:27:00,247 - utils - INFO - 🎯 Collecting complete data for Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve
+2025-07-10 16:27:04,405 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:27:04,405 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:27:04,405 - utils - INFO - ✅ Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve: 36/48 fields (94.7%)
+2025-07-10 16:27:05,906 - utils - INFO - 🔍 Processing 8/10: Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:27:05,907 - utils - INFO - 🎯 Collecting complete data for Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:27:09,740 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:27:09,740 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:27:09,740 - utils - INFO - ✅ Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve: 36/48 fields (94.7%)
+2025-07-10 16:27:11,241 - utils - INFO - 🔍 Processing 9/10: Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:27:11,242 - utils - INFO - 🎯 Collecting complete data for Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:27:15,463 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:27:15,463 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:27:15,463 - utils - INFO - ✅ Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve: 36/48 fields (94.7%)
+2025-07-10 16:27:16,964 - utils - INFO - 🔍 Processing 10/10: Quilmes Reserve vs Talleres Remedios de Escalada Reserve
+2025-07-10 16:27:16,964 - utils - INFO - 🎯 Collecting complete data for Quilmes Reserve vs Talleres Remedios de Escalada Reserve
+2025-07-10 16:27:20,989 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:27:20,989 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:27:20,989 - utils - INFO - ✅ Quilmes Reserve vs Talleres Remedios de Escalada Reserve: 36/48 fields (94.7%)
+2025-07-10 16:27:22,490 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 16:27:22,490 - utils - INFO -    Total matches: 10
+2025-07-10 16:27:22,491 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 16:27:22,491 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 16:27:22,491 - utils - INFO -    Average completion: 94.7%
+2025-07-10 16:32:22,493 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 16:32:22,609 - utils - INFO - Found 17 live matches
+2025-07-10 16:32:22,610 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:32:22,610 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:32:26,479 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:32:26,479 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:32:26,479 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 16:32:27,981 - utils - INFO - 🔍 Processing 2/10: Climax Fc vs Zanga FC
+2025-07-10 16:32:27,981 - utils - INFO - 🎯 Collecting complete data for Climax Fc vs Zanga FC
+2025-07-10 16:32:31,821 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:32:31,821 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:32:31,821 - utils - INFO - ✅ Climax Fc vs Zanga FC: 36/48 fields (94.7%)
+2025-07-10 16:32:33,323 - utils - INFO - 🔍 Processing 3/10: FC Samashki vs FC Gvardeysk
+2025-07-10 16:32:33,323 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 16:32:37,120 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:32:37,120 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:32:37,120 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 16:32:38,622 - utils - INFO - 🔍 Processing 4/10: Nur Kulary vs Eskar Grozny
+2025-07-10 16:32:38,622 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 16:32:42,436 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:32:42,436 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:32:42,436 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 16:32:43,937 - utils - INFO - 🔍 Processing 5/10: Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:32:43,938 - utils - INFO - 🎯 Collecting complete data for Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:32:47,725 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:32:47,726 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:32:47,726 - utils - INFO - ✅ Atlètic Club Escaldes vs F91 Dudelange: 36/48 fields (94.7%)
+2025-07-10 16:32:49,227 - utils - INFO - 🔍 Processing 6/10: Singapore vs Iran
+2025-07-10 16:32:49,228 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 16:32:53,172 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:32:53,173 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:32:53,173 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 16:32:54,673 - utils - INFO - 🔍 Processing 7/10: Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve
+2025-07-10 16:32:54,674 - utils - INFO - 🎯 Collecting complete data for Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve
+2025-07-10 16:32:58,442 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:32:58,443 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:32:58,443 - utils - INFO - ✅ Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve: 36/48 fields (94.7%)
+2025-07-10 16:32:59,944 - utils - INFO - 🔍 Processing 8/10: Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:32:59,944 - utils - INFO - 🎯 Collecting complete data for Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:33:03,705 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:33:03,705 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:33:03,705 - utils - INFO - ✅ Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve: 36/48 fields (94.7%)
+2025-07-10 16:33:05,206 - utils - INFO - 🔍 Processing 9/10: Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:33:05,208 - utils - INFO - 🎯 Collecting complete data for Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:33:09,013 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:33:09,013 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:33:09,013 - utils - INFO - ✅ Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve: 36/48 fields (94.7%)
+2025-07-10 16:33:10,514 - utils - INFO - 🔍 Processing 10/10: Quilmes Reserve vs Talleres Remedios de Escalada Reserve
+2025-07-10 16:33:10,514 - utils - INFO - 🎯 Collecting complete data for Quilmes Reserve vs Talleres Remedios de Escalada Reserve
+2025-07-10 16:33:14,341 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:33:14,341 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:33:14,341 - utils - INFO - ✅ Quilmes Reserve vs Talleres Remedios de Escalada Reserve: 36/48 fields (94.7%)
+2025-07-10 16:33:15,842 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 16:33:15,843 - utils - INFO -    Total matches: 10
+2025-07-10 16:33:15,843 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 16:33:15,843 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 16:33:15,843 - utils - INFO -    Average completion: 94.7%
+2025-07-10 16:38:15,846 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 16:38:15,926 - utils - INFO - Found 19 live matches
+2025-07-10 16:38:15,927 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:38:15,927 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:38:19,784 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:38:19,784 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:38:19,784 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 16:38:21,286 - utils - INFO - 🔍 Processing 2/10: Climax Fc vs Zanga FC
+2025-07-10 16:38:21,286 - utils - INFO - 🎯 Collecting complete data for Climax Fc vs Zanga FC
+2025-07-10 16:38:25,103 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:38:25,103 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:38:25,104 - utils - INFO - ✅ Climax Fc vs Zanga FC: 36/48 fields (94.7%)
+2025-07-10 16:38:26,605 - utils - INFO - 🔍 Processing 3/10: FC Samashki vs FC Gvardeysk
+2025-07-10 16:38:26,605 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 16:38:30,445 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:38:30,445 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:38:30,445 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 16:38:31,946 - utils - INFO - 🔍 Processing 4/10: Nur Kulary vs Eskar Grozny
+2025-07-10 16:38:31,947 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 16:38:35,749 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:38:35,750 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:38:35,750 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 16:38:37,251 - utils - INFO - 🔍 Processing 5/10: Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:38:37,251 - utils - INFO - 🎯 Collecting complete data for Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:38:41,061 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:38:41,062 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:38:41,062 - utils - INFO - ✅ Atlètic Club Escaldes vs F91 Dudelange: 36/48 fields (94.7%)
+2025-07-10 16:38:42,563 - utils - INFO - 🔍 Processing 6/10: Singapore vs Iran
+2025-07-10 16:38:42,563 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 16:38:46,588 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:38:46,588 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:38:46,588 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 16:38:48,089 - utils - INFO - 🔍 Processing 7/10: Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve
+2025-07-10 16:38:48,090 - utils - INFO - 🎯 Collecting complete data for Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve
+2025-07-10 16:38:51,902 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:38:51,902 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:38:51,902 - utils - INFO - ✅ Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve: 36/48 fields (94.7%)
+2025-07-10 16:38:53,404 - utils - INFO - 🔍 Processing 8/10: Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:38:53,404 - utils - INFO - 🎯 Collecting complete data for Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:38:57,197 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:38:57,197 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:38:57,197 - utils - INFO - ✅ Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve: 36/48 fields (94.7%)
+2025-07-10 16:38:58,698 - utils - INFO - 🔍 Processing 9/10: Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:38:58,699 - utils - INFO - 🎯 Collecting complete data for Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:39:02,493 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:39:02,493 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:39:02,493 - utils - INFO - ✅ Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve: 36/48 fields (94.7%)
+2025-07-10 16:39:03,994 - utils - INFO - 🔍 Processing 10/10: Quilmes Reserve vs Talleres Remedios de Escalada Reserve
+2025-07-10 16:39:03,995 - utils - INFO - 🎯 Collecting complete data for Quilmes Reserve vs Talleres Remedios de Escalada Reserve
+2025-07-10 16:39:07,906 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:39:07,907 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:39:07,907 - utils - INFO - ✅ Quilmes Reserve vs Talleres Remedios de Escalada Reserve: 36/48 fields (94.7%)
+2025-07-10 16:39:09,407 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 16:39:09,407 - utils - INFO -    Total matches: 10
+2025-07-10 16:39:09,407 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 16:39:09,407 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 16:39:09,408 - utils - INFO -    Average completion: 94.7%
+2025-07-10 16:39:09,422 - utils - INFO - 📁 Exported 30 records to exports/complete_statistics_20250710_163909.csv
+2025-07-10 16:39:09,422 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 16:39:09,422 - utils - INFO -    Perfect (98%+): 0/30 (0.0%)
+2025-07-10 16:39:09,422 - utils - INFO -    Excellent (95%+): 0/30 (0.0%)
+2025-07-10 16:39:09,422 - utils - INFO -    Average: 94.7% (45/48 fields)
+2025-07-10 16:39:09,422 - utils - INFO - ⚠️  Remaining zeros: red_cards_home: 30, red_cards_away: 30
+2025-07-10 16:44:09,426 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 16:44:09,501 - utils - INFO - Found 19 live matches
+2025-07-10 16:44:09,502 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:44:09,502 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:44:13,331 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:44:13,331 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:44:13,331 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 16:44:14,832 - utils - INFO - 🔍 Processing 2/10: Climax Fc vs Zanga FC
+2025-07-10 16:44:14,833 - utils - INFO - 🎯 Collecting complete data for Climax Fc vs Zanga FC
+2025-07-10 16:44:18,770 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:44:18,771 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:44:18,771 - utils - INFO - ✅ Climax Fc vs Zanga FC: 36/48 fields (94.7%)
+2025-07-10 16:44:20,272 - utils - INFO - 🔍 Processing 3/10: FC Samashki vs FC Gvardeysk
+2025-07-10 16:44:20,273 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 16:44:24,098 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:44:24,098 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:44:24,098 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 16:44:25,599 - utils - INFO - 🔍 Processing 4/10: Nur Kulary vs Eskar Grozny
+2025-07-10 16:44:25,599 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 16:44:29,356 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:44:29,356 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:44:29,356 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 16:44:30,858 - utils - INFO - 🔍 Processing 5/10: Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:44:30,858 - utils - INFO - 🎯 Collecting complete data for Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:44:34,705 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:44:34,705 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:44:34,705 - utils - INFO - ✅ Atlètic Club Escaldes vs F91 Dudelange: 36/48 fields (94.7%)
+2025-07-10 16:44:36,206 - utils - INFO - 🔍 Processing 6/10: Singapore vs Iran
+2025-07-10 16:44:36,206 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 16:44:39,995 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:44:39,995 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:44:39,995 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 16:44:41,496 - utils - INFO - 🔍 Processing 7/10: Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve
+2025-07-10 16:44:41,497 - utils - INFO - 🎯 Collecting complete data for Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve
+2025-07-10 16:44:45,295 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:44:45,295 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:44:45,295 - utils - INFO - ✅ Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve: 36/48 fields (94.7%)
+2025-07-10 16:44:46,796 - utils - INFO - 🔍 Processing 8/10: Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:44:46,797 - utils - INFO - 🎯 Collecting complete data for Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:44:50,619 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:44:50,619 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:44:50,619 - utils - INFO - ✅ Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve: 36/48 fields (94.7%)
+2025-07-10 16:44:52,121 - utils - INFO - 🔍 Processing 9/10: Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:44:52,122 - utils - INFO - 🎯 Collecting complete data for Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:44:55,936 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:44:55,936 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:44:55,936 - utils - INFO - ✅ Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve: 36/48 fields (94.7%)
+2025-07-10 16:44:57,437 - utils - INFO - 🔍 Processing 10/10: Quilmes Reserve vs Talleres Remedios de Escalada Reserve
+2025-07-10 16:44:57,438 - utils - INFO - 🎯 Collecting complete data for Quilmes Reserve vs Talleres Remedios de Escalada Reserve
+2025-07-10 16:45:01,180 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:45:01,181 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:45:01,181 - utils - INFO - ✅ Quilmes Reserve vs Talleres Remedios de Escalada Reserve: 36/48 fields (94.7%)
+2025-07-10 16:45:02,682 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 16:45:02,682 - utils - INFO -    Total matches: 10
+2025-07-10 16:45:02,683 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 16:45:02,683 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 16:45:02,683 - utils - INFO -    Average completion: 94.7%
+2025-07-10 16:50:02,685 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 16:50:02,831 - utils - INFO - Found 20 live matches
+2025-07-10 16:50:02,831 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:50:02,831 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:50:06,821 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:50:06,821 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:50:06,821 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 16:50:08,322 - utils - INFO - 🔍 Processing 2/10: Climax Fc vs Zanga FC
+2025-07-10 16:50:08,323 - utils - INFO - 🎯 Collecting complete data for Climax Fc vs Zanga FC
+2025-07-10 16:50:12,177 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:50:12,177 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:50:12,177 - utils - INFO - ✅ Climax Fc vs Zanga FC: 36/48 fields (94.7%)
+2025-07-10 16:50:13,678 - utils - INFO - 🔍 Processing 3/10: Tribelike FC vs Energy Fc
+2025-07-10 16:50:13,679 - utils - INFO - 🎯 Collecting complete data for Tribelike FC vs Energy Fc
+2025-07-10 16:50:17,685 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:50:17,686 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:50:17,686 - utils - INFO - ✅ Tribelike FC vs Energy Fc: 36/48 fields (94.7%)
+2025-07-10 16:50:19,187 - utils - INFO - 🔍 Processing 4/10: FC Samashki vs FC Gvardeysk
+2025-07-10 16:50:19,187 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 16:50:23,003 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:50:23,003 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:50:23,003 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 16:50:24,505 - utils - INFO - 🔍 Processing 5/10: Nur Kulary vs Eskar Grozny
+2025-07-10 16:50:24,505 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 16:50:28,343 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:50:28,343 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:50:28,343 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 16:50:29,844 - utils - INFO - 🔍 Processing 6/10: Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:50:29,845 - utils - INFO - 🎯 Collecting complete data for Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:50:33,629 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:50:33,630 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:50:33,630 - utils - INFO - ✅ Atlètic Club Escaldes vs F91 Dudelange: 36/48 fields (94.7%)
+2025-07-10 16:50:35,131 - utils - INFO - 🔍 Processing 7/10: Singapore vs Iran
+2025-07-10 16:50:35,132 - utils - INFO - 🎯 Collecting complete data for Singapore vs Iran
+2025-07-10 16:50:38,954 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:50:38,954 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:50:38,954 - utils - INFO - ✅ Singapore vs Iran: 36/48 fields (94.7%)
+2025-07-10 16:50:40,455 - utils - INFO - 🔍 Processing 8/10: Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve
+2025-07-10 16:50:40,456 - utils - INFO - 🎯 Collecting complete data for Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve
+2025-07-10 16:50:44,268 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:50:44,269 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:50:44,269 - utils - INFO - ✅ Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve: 36/48 fields (94.7%)
+2025-07-10 16:50:45,770 - utils - INFO - 🔍 Processing 9/10: Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:50:45,770 - utils - INFO - 🎯 Collecting complete data for Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:50:49,598 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:50:49,598 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:50:49,598 - utils - INFO - ✅ Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve: 36/48 fields (94.7%)
+2025-07-10 16:50:51,100 - utils - INFO - 🔍 Processing 10/10: Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:50:51,100 - utils - INFO - 🎯 Collecting complete data for Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:50:54,857 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:50:54,857 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:50:54,857 - utils - INFO - ✅ Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve: 36/48 fields (94.7%)
+2025-07-10 16:50:56,358 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 16:50:56,358 - utils - INFO -    Total matches: 10
+2025-07-10 16:50:56,359 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 16:50:56,359 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 16:50:56,359 - utils - INFO -    Average completion: 94.7%
+2025-07-10 16:55:56,362 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 16:55:56,438 - utils - INFO - Found 18 live matches
+2025-07-10 16:55:56,438 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:55:56,438 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 16:56:00,332 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:56:00,332 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:56:00,332 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 16:56:01,834 - utils - INFO - 🔍 Processing 2/10: Climax Fc vs Zanga FC
+2025-07-10 16:56:01,834 - utils - INFO - 🎯 Collecting complete data for Climax Fc vs Zanga FC
+2025-07-10 16:56:05,626 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:56:05,627 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:56:05,627 - utils - INFO - ✅ Climax Fc vs Zanga FC: 36/48 fields (94.7%)
+2025-07-10 16:56:07,128 - utils - INFO - 🔍 Processing 3/10: Tribelike FC vs Energy Fc
+2025-07-10 16:56:07,129 - utils - INFO - 🎯 Collecting complete data for Tribelike FC vs Energy Fc
+2025-07-10 16:56:10,935 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:56:10,935 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:56:10,935 - utils - INFO - ✅ Tribelike FC vs Energy Fc: 36/48 fields (94.7%)
+2025-07-10 16:56:12,436 - utils - INFO - 🔍 Processing 4/10: FC Samashki vs FC Gvardeysk
+2025-07-10 16:56:12,436 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 16:56:16,473 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:56:16,474 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:56:16,474 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 16:56:17,977 - utils - INFO - 🔍 Processing 5/10: Nur Kulary vs Eskar Grozny
+2025-07-10 16:56:17,978 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 16:56:21,760 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:56:21,761 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:56:21,761 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 16:56:23,262 - utils - INFO - 🔍 Processing 6/10: Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:56:23,262 - utils - INFO - 🎯 Collecting complete data for Atlètic Club Escaldes vs F91 Dudelange
+2025-07-10 16:56:27,007 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:56:27,007 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:56:27,007 - utils - INFO - ✅ Atlètic Club Escaldes vs F91 Dudelange: 36/48 fields (94.7%)
+2025-07-10 16:56:28,508 - utils - INFO - 🔍 Processing 7/10: Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve
+2025-07-10 16:56:28,508 - utils - INFO - 🎯 Collecting complete data for Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve
+2025-07-10 16:56:32,257 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:56:32,257 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:56:32,257 - utils - INFO - ✅ Centro Espanol Reserves vs Leandro Nicéforo Alem Reserve: 36/48 fields (94.7%)
+2025-07-10 16:56:33,759 - utils - INFO - 🔍 Processing 8/10: Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:56:33,759 - utils - INFO - 🎯 Collecting complete data for Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve
+2025-07-10 16:56:37,599 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:56:37,599 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:56:37,599 - utils - INFO - ✅ Deportivo Paraguayo Reserves vs Justo José de Urquiza Reserve: 36/48 fields (94.7%)
+2025-07-10 16:56:39,101 - utils - INFO - 🔍 Processing 9/10: Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:56:39,101 - utils - INFO - 🎯 Collecting complete data for Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve
+2025-07-10 16:56:42,868 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:56:42,868 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:56:42,868 - utils - INFO - ✅ Gimnasia y Esgrima Mendoza Reserve vs Deportivo Morón Reserve: 36/48 fields (94.7%)
+2025-07-10 16:56:44,368 - utils - INFO - 🔍 Processing 10/10: Quilmes Reserve vs Talleres Remedios de Escalada Reserve
+2025-07-10 16:56:44,368 - utils - INFO - 🎯 Collecting complete data for Quilmes Reserve vs Talleres Remedios de Escalada Reserve
+2025-07-10 16:56:48,197 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 16:56:48,198 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 16:56:48,198 - utils - INFO - ✅ Quilmes Reserve vs Talleres Remedios de Escalada Reserve: 36/48 fields (94.7%)
+2025-07-10 16:56:49,699 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 16:56:49,699 - utils - INFO -    Total matches: 10
+2025-07-10 16:56:49,700 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 16:56:49,700 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 16:56:49,700 - utils - INFO -    Average completion: 94.7%
+2025-07-10 16:56:49,720 - utils - INFO - 📁 Exported 30 records to exports/complete_statistics_20250710_165649.csv
+2025-07-10 16:56:49,720 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 16:56:49,720 - utils - INFO -    Perfect (98%+): 0/30 (0.0%)
+2025-07-10 16:56:49,721 - utils - INFO -    Excellent (95%+): 0/30 (0.0%)
+2025-07-10 16:56:49,721 - utils - INFO -    Average: 94.7% (45/48 fields)
+2025-07-10 16:56:49,721 - utils - INFO - ⚠️  Remaining zeros: red_cards_home: 30, red_cards_away: 30
+2025-07-10 17:01:49,724 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 17:01:49,807 - utils - INFO - Found 27 live matches
+2025-07-10 17:01:49,807 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 17:01:49,808 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 17:01:53,819 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:01:53,819 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:01:53,819 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 17:01:55,320 - utils - INFO - 🔍 Processing 2/10: Climax Fc vs Zanga FC
+2025-07-10 17:01:55,321 - utils - INFO - 🎯 Collecting complete data for Climax Fc vs Zanga FC
+2025-07-10 17:01:59,220 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:01:59,220 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:01:59,220 - utils - INFO - ✅ Climax Fc vs Zanga FC: 36/48 fields (94.7%)
+2025-07-10 17:02:00,721 - utils - INFO - 🔍 Processing 3/10: Tribelike FC vs Energy Fc
+2025-07-10 17:02:00,722 - utils - INFO - 🎯 Collecting complete data for Tribelike FC vs Energy Fc
+2025-07-10 17:02:04,523 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:02:04,524 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:02:04,524 - utils - INFO - ✅ Tribelike FC vs Energy Fc: 36/48 fields (94.7%)
+2025-07-10 17:02:06,025 - utils - INFO - 🔍 Processing 4/10: Elchanin vs Stegalovka
+2025-07-10 17:02:06,025 - utils - INFO - 🎯 Collecting complete data for Elchanin vs Stegalovka
+2025-07-10 17:02:10,065 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:02:10,065 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:02:10,066 - utils - INFO - ✅ Elchanin vs Stegalovka: 36/48 fields (94.7%)
+2025-07-10 17:02:11,567 - utils - INFO - 🔍 Processing 5/10: Kazaki Yeletsky vs Pishchulino
+2025-07-10 17:02:11,567 - utils - INFO - 🎯 Collecting complete data for Kazaki Yeletsky vs Pishchulino
+2025-07-10 17:02:15,690 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:02:15,691 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:02:15,691 - utils - INFO - ✅ Kazaki Yeletsky vs Pishchulino: 36/48 fields (94.7%)
+2025-07-10 17:02:17,192 - utils - INFO - 🔍 Processing 6/10: Kratos vs Vorgol
+2025-07-10 17:02:17,193 - utils - INFO - 🎯 Collecting complete data for Kratos vs Vorgol
+2025-07-10 17:02:21,116 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:02:21,116 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:02:21,116 - utils - INFO - ✅ Kratos vs Vorgol: 36/48 fields (94.7%)
+2025-07-10 17:02:22,618 - utils - INFO - 🔍 Processing 7/10: LFK-Yeletsky vs Solidarnost
+2025-07-10 17:02:22,619 - utils - INFO - 🎯 Collecting complete data for LFK-Yeletsky vs Solidarnost
+2025-07-10 17:02:26,592 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:02:26,592 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:02:26,592 - utils - INFO - ✅ LFK-Yeletsky vs Solidarnost: 36/48 fields (94.7%)
+2025-07-10 17:02:28,093 - utils - INFO - 🔍 Processing 8/10: MBU DO SSH vs Avangard B. Izvaly
+2025-07-10 17:02:28,094 - utils - INFO - 🎯 Collecting complete data for MBU DO SSH vs Avangard B. Izvaly
+2025-07-10 17:02:32,091 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:02:32,092 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:02:32,092 - utils - INFO - ✅ MBU DO SSH vs Avangard B. Izvaly: 36/48 fields (94.7%)
+2025-07-10 17:02:33,593 - utils - INFO - 🔍 Processing 9/10: FC Samashki vs FC Gvardeysk
+2025-07-10 17:02:33,593 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 17:02:37,448 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:02:37,449 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:02:37,449 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 17:02:38,951 - utils - INFO - 🔍 Processing 10/10: Nur Kulary vs Eskar Grozny
+2025-07-10 17:02:38,951 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 17:02:42,796 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:02:42,796 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:02:42,796 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 17:02:44,298 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 17:02:44,299 - utils - INFO -    Total matches: 10
+2025-07-10 17:02:44,299 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 17:02:44,299 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 17:02:44,299 - utils - INFO -    Average completion: 94.7%
+2025-07-10 17:07:44,303 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 17:07:44,407 - utils - INFO - Found 29 live matches
+2025-07-10 17:07:44,407 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 17:07:44,407 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 17:07:48,261 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:07:48,262 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:07:48,262 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 17:07:49,764 - utils - INFO - 🔍 Processing 2/10: Climax Fc vs Zanga FC
+2025-07-10 17:07:49,764 - utils - INFO - 🎯 Collecting complete data for Climax Fc vs Zanga FC
+2025-07-10 17:07:53,595 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:07:53,596 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:07:53,596 - utils - INFO - ✅ Climax Fc vs Zanga FC: 36/48 fields (94.7%)
+2025-07-10 17:07:55,098 - utils - INFO - 🔍 Processing 3/10: Tribelike FC vs Energy Fc
+2025-07-10 17:07:55,099 - utils - INFO - 🎯 Collecting complete data for Tribelike FC vs Energy Fc
+2025-07-10 17:07:58,944 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:07:58,944 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:07:58,944 - utils - INFO - ✅ Tribelike FC vs Energy Fc: 36/48 fields (94.7%)
+2025-07-10 17:08:00,447 - utils - INFO - 🔍 Processing 4/10: Elchanin vs Stegalovka
+2025-07-10 17:08:00,448 - utils - INFO - 🎯 Collecting complete data for Elchanin vs Stegalovka
+2025-07-10 17:08:04,276 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:08:04,277 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:08:04,277 - utils - INFO - ✅ Elchanin vs Stegalovka: 36/48 fields (94.7%)
+2025-07-10 17:08:05,779 - utils - INFO - 🔍 Processing 5/10: Kazaki Yeletsky vs Pishchulino
+2025-07-10 17:08:05,779 - utils - INFO - 🎯 Collecting complete data for Kazaki Yeletsky vs Pishchulino
+2025-07-10 17:08:09,628 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:08:09,629 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:08:09,629 - utils - INFO - ✅ Kazaki Yeletsky vs Pishchulino: 36/48 fields (94.7%)
+2025-07-10 17:08:11,131 - utils - INFO - 🔍 Processing 6/10: Kratos vs Vorgol
+2025-07-10 17:08:11,131 - utils - INFO - 🎯 Collecting complete data for Kratos vs Vorgol
+2025-07-10 17:08:14,972 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:08:14,973 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:08:14,973 - utils - INFO - ✅ Kratos vs Vorgol: 36/48 fields (94.7%)
+2025-07-10 17:08:16,475 - utils - INFO - 🔍 Processing 7/10: LFK-Yeletsky vs Solidarnost
+2025-07-10 17:08:16,475 - utils - INFO - 🎯 Collecting complete data for LFK-Yeletsky vs Solidarnost
+2025-07-10 17:08:20,330 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:08:20,330 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:08:20,330 - utils - INFO - ✅ LFK-Yeletsky vs Solidarnost: 36/48 fields (94.7%)
+2025-07-10 17:08:21,832 - utils - INFO - 🔍 Processing 8/10: MBU DO SSH vs Avangard B. Izvaly
+2025-07-10 17:08:21,833 - utils - INFO - 🎯 Collecting complete data for MBU DO SSH vs Avangard B. Izvaly
+2025-07-10 17:08:25,838 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:08:25,838 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:08:25,838 - utils - INFO - ✅ MBU DO SSH vs Avangard B. Izvaly: 36/48 fields (94.7%)
+2025-07-10 17:08:27,340 - utils - INFO - 🔍 Processing 9/10: FC Samashki vs FC Gvardeysk
+2025-07-10 17:08:27,341 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 17:08:31,289 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:08:31,289 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:08:31,289 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 17:08:32,792 - utils - INFO - 🔍 Processing 10/10: Nur Kulary vs Eskar Grozny
+2025-07-10 17:08:32,792 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 17:08:36,849 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:08:36,849 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:08:36,850 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 17:08:38,352 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 17:08:38,353 - utils - INFO -    Total matches: 10
+2025-07-10 17:08:38,353 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 17:08:38,353 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 17:08:38,353 - utils - INFO -    Average completion: 94.7%
+2025-07-10 17:13:38,357 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 17:13:38,467 - utils - INFO - Found 31 live matches
+2025-07-10 17:13:38,467 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 17:13:38,467 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 17:13:42,332 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:13:42,332 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:13:42,332 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 17:13:43,834 - utils - INFO - 🔍 Processing 2/10: Climax Fc vs Zanga FC
+2025-07-10 17:13:43,834 - utils - INFO - 🎯 Collecting complete data for Climax Fc vs Zanga FC
+2025-07-10 17:13:47,753 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:13:47,753 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:13:47,753 - utils - INFO - ✅ Climax Fc vs Zanga FC: 36/48 fields (94.7%)
+2025-07-10 17:13:49,255 - utils - INFO - 🔍 Processing 3/10: Tribelike FC vs Energy Fc
+2025-07-10 17:13:49,256 - utils - INFO - 🎯 Collecting complete data for Tribelike FC vs Energy Fc
+2025-07-10 17:13:53,121 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:13:53,122 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:13:53,122 - utils - INFO - ✅ Tribelike FC vs Energy Fc: 36/48 fields (94.7%)
+2025-07-10 17:13:54,625 - utils - INFO - 🔍 Processing 4/10: Elchanin vs Stegalovka
+2025-07-10 17:13:54,625 - utils - INFO - 🎯 Collecting complete data for Elchanin vs Stegalovka
+2025-07-10 17:13:58,457 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:13:58,458 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:13:58,458 - utils - INFO - ✅ Elchanin vs Stegalovka: 36/48 fields (94.7%)
+2025-07-10 17:13:59,960 - utils - INFO - 🔍 Processing 5/10: Kazaki Yeletsky vs Pishchulino
+2025-07-10 17:13:59,960 - utils - INFO - 🎯 Collecting complete data for Kazaki Yeletsky vs Pishchulino
+2025-07-10 17:14:03,798 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:14:03,798 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:14:03,798 - utils - INFO - ✅ Kazaki Yeletsky vs Pishchulino: 36/48 fields (94.7%)
+2025-07-10 17:14:05,301 - utils - INFO - 🔍 Processing 6/10: Kratos vs Vorgol
+2025-07-10 17:14:05,302 - utils - INFO - 🎯 Collecting complete data for Kratos vs Vorgol
+2025-07-10 17:14:09,145 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:14:09,145 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:14:09,145 - utils - INFO - ✅ Kratos vs Vorgol: 36/48 fields (94.7%)
+2025-07-10 17:14:10,647 - utils - INFO - 🔍 Processing 7/10: LFK-Yeletsky vs Solidarnost
+2025-07-10 17:14:10,647 - utils - INFO - 🎯 Collecting complete data for LFK-Yeletsky vs Solidarnost
+2025-07-10 17:14:14,467 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:14:14,467 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:14:14,468 - utils - INFO - ✅ LFK-Yeletsky vs Solidarnost: 36/48 fields (94.7%)
+2025-07-10 17:14:15,970 - utils - INFO - 🔍 Processing 8/10: MBU DO SSH vs Avangard B. Izvaly
+2025-07-10 17:14:15,970 - utils - INFO - 🎯 Collecting complete data for MBU DO SSH vs Avangard B. Izvaly
+2025-07-10 17:14:19,802 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:14:19,803 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:14:19,803 - utils - INFO - ✅ MBU DO SSH vs Avangard B. Izvaly: 36/48 fields (94.7%)
+2025-07-10 17:14:21,305 - utils - INFO - 🔍 Processing 9/10: FC Samashki vs FC Gvardeysk
+2025-07-10 17:14:21,306 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 17:14:25,201 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:14:25,201 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:14:25,201 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 17:14:26,703 - utils - INFO - 🔍 Processing 10/10: Nur Kulary vs Eskar Grozny
+2025-07-10 17:14:26,704 - utils - INFO - 🎯 Collecting complete data for Nur Kulary vs Eskar Grozny
+2025-07-10 17:14:30,550 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:14:30,551 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:14:30,551 - utils - INFO - ✅ Nur Kulary vs Eskar Grozny: 36/48 fields (94.7%)
+2025-07-10 17:14:32,053 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 17:14:32,054 - utils - INFO -    Total matches: 10
+2025-07-10 17:14:32,054 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 17:14:32,054 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 17:14:32,055 - utils - INFO -    Average completion: 94.7%
+2025-07-10 17:14:32,079 - utils - INFO - 📁 Exported 30 records to exports/complete_statistics_20250710_171432.csv
+2025-07-10 17:14:32,080 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 17:14:32,080 - utils - INFO -    Perfect (98%+): 0/30 (0.0%)
+2025-07-10 17:14:32,080 - utils - INFO -    Excellent (95%+): 0/30 (0.0%)
+2025-07-10 17:14:32,080 - utils - INFO -    Average: 94.7% (45/48 fields)
+2025-07-10 17:14:32,080 - utils - INFO - ⚠️  Remaining zeros: red_cards_home: 30, red_cards_away: 30
+2025-07-10 17:19:32,117 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 17:19:32,199 - utils - INFO - Found 32 live matches
+2025-07-10 17:19:32,199 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 17:19:32,199 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 17:19:36,036 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:19:36,036 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:19:36,036 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 17:19:37,538 - utils - INFO - 🔍 Processing 2/10: Climax Fc vs Zanga FC
+2025-07-10 17:19:37,538 - utils - INFO - 🎯 Collecting complete data for Climax Fc vs Zanga FC
+2025-07-10 17:19:41,481 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:19:41,482 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:19:41,482 - utils - INFO - ✅ Climax Fc vs Zanga FC: 36/48 fields (94.7%)
+2025-07-10 17:19:42,983 - utils - INFO - 🔍 Processing 3/10: Tribelike FC vs Energy Fc
+2025-07-10 17:19:42,983 - utils - INFO - 🎯 Collecting complete data for Tribelike FC vs Energy Fc
+2025-07-10 17:19:46,807 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:19:46,807 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:19:46,807 - utils - INFO - ✅ Tribelike FC vs Energy Fc: 36/48 fields (94.7%)
+2025-07-10 17:19:48,308 - utils - INFO - 🔍 Processing 4/10: Triple A Fc vs Spetsnaz Fc
+2025-07-10 17:19:48,308 - utils - INFO - 🎯 Collecting complete data for Triple A Fc vs Spetsnaz Fc
+2025-07-10 17:19:52,362 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:19:52,362 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:19:52,362 - utils - INFO - ✅ Triple A Fc vs Spetsnaz Fc: 36/48 fields (94.7%)
+2025-07-10 17:19:53,864 - utils - INFO - 🔍 Processing 5/10: Elchanin vs Stegalovka
+2025-07-10 17:19:53,864 - utils - INFO - 🎯 Collecting complete data for Elchanin vs Stegalovka
+2025-07-10 17:19:57,719 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:19:57,720 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:19:57,720 - utils - INFO - ✅ Elchanin vs Stegalovka: 36/48 fields (94.7%)
+2025-07-10 17:19:59,221 - utils - INFO - 🔍 Processing 6/10: Kazaki Yeletsky vs Pishchulino
+2025-07-10 17:19:59,221 - utils - INFO - 🎯 Collecting complete data for Kazaki Yeletsky vs Pishchulino
+2025-07-10 17:20:03,000 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:20:03,000 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:20:03,000 - utils - INFO - ✅ Kazaki Yeletsky vs Pishchulino: 36/48 fields (94.7%)
+2025-07-10 17:20:04,502 - utils - INFO - 🔍 Processing 7/10: Kratos vs Vorgol
+2025-07-10 17:20:04,502 - utils - INFO - 🎯 Collecting complete data for Kratos vs Vorgol
+2025-07-10 17:20:08,299 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:20:08,299 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:20:08,299 - utils - INFO - ✅ Kratos vs Vorgol: 36/48 fields (94.7%)
+2025-07-10 17:20:09,801 - utils - INFO - 🔍 Processing 8/10: LFK-Yeletsky vs Solidarnost
+2025-07-10 17:20:09,801 - utils - INFO - 🎯 Collecting complete data for LFK-Yeletsky vs Solidarnost
+2025-07-10 17:20:13,568 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:20:13,568 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:20:13,568 - utils - INFO - ✅ LFK-Yeletsky vs Solidarnost: 36/48 fields (94.7%)
+2025-07-10 17:20:15,069 - utils - INFO - 🔍 Processing 9/10: MBU DO SSH vs Avangard B. Izvaly
+2025-07-10 17:20:15,069 - utils - INFO - 🎯 Collecting complete data for MBU DO SSH vs Avangard B. Izvaly
+2025-07-10 17:20:18,910 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:20:18,911 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:20:18,911 - utils - INFO - ✅ MBU DO SSH vs Avangard B. Izvaly: 36/48 fields (94.7%)
+2025-07-10 17:20:20,412 - utils - INFO - 🔍 Processing 10/10: FC Samashki vs FC Gvardeysk
+2025-07-10 17:20:20,413 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 17:20:24,237 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:20:24,237 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:20:24,237 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 17:20:25,738 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 17:20:25,740 - utils - INFO -    Total matches: 10
+2025-07-10 17:20:25,740 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 17:20:25,740 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 17:20:25,740 - utils - INFO -    Average completion: 94.7%
+2025-07-10 17:25:25,747 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 17:25:25,857 - utils - INFO - Found 32 live matches
+2025-07-10 17:25:25,858 - utils - INFO - 🔍 Processing 1/10: One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 17:25:25,858 - utils - INFO - 🎯 Collecting complete data for One Touch Worldwide Fc vs Ultra Fc
+2025-07-10 17:25:29,730 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:25:29,731 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:25:29,731 - utils - INFO - ✅ One Touch Worldwide Fc vs Ultra Fc: 36/48 fields (94.7%)
+2025-07-10 17:25:31,232 - utils - INFO - 🔍 Processing 2/10: Climax Fc vs Zanga FC
+2025-07-10 17:25:31,232 - utils - INFO - 🎯 Collecting complete data for Climax Fc vs Zanga FC
+2025-07-10 17:25:35,239 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:25:35,240 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:25:35,240 - utils - INFO - ✅ Climax Fc vs Zanga FC: 36/48 fields (94.7%)
+2025-07-10 17:25:36,742 - utils - INFO - 🔍 Processing 3/10: Tribelike FC vs Energy Fc
+2025-07-10 17:25:36,742 - utils - INFO - 🎯 Collecting complete data for Tribelike FC vs Energy Fc
+2025-07-10 17:25:40,573 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:25:40,574 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:25:40,574 - utils - INFO - ✅ Tribelike FC vs Energy Fc: 36/48 fields (94.7%)
+2025-07-10 17:25:42,075 - utils - INFO - 🔍 Processing 4/10: Triple A Fc vs Spetsnaz Fc
+2025-07-10 17:25:42,076 - utils - INFO - 🎯 Collecting complete data for Triple A Fc vs Spetsnaz Fc
+2025-07-10 17:25:45,880 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:25:45,880 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:25:45,880 - utils - INFO - ✅ Triple A Fc vs Spetsnaz Fc: 36/48 fields (94.7%)
+2025-07-10 17:25:47,382 - utils - INFO - 🔍 Processing 5/10: Elchanin vs Stegalovka
+2025-07-10 17:25:47,382 - utils - INFO - 🎯 Collecting complete data for Elchanin vs Stegalovka
+2025-07-10 17:25:51,211 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:25:51,211 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:25:51,211 - utils - INFO - ✅ Elchanin vs Stegalovka: 36/48 fields (94.7%)
+2025-07-10 17:25:52,712 - utils - INFO - 🔍 Processing 6/10: Kazaki Yeletsky vs Pishchulino
+2025-07-10 17:25:52,713 - utils - INFO - 🎯 Collecting complete data for Kazaki Yeletsky vs Pishchulino
+2025-07-10 17:25:56,566 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:25:56,568 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:25:56,568 - utils - INFO - ✅ Kazaki Yeletsky vs Pishchulino: 36/48 fields (94.7%)
+2025-07-10 17:25:58,069 - utils - INFO - 🔍 Processing 7/10: Kratos vs Vorgol
+2025-07-10 17:25:58,070 - utils - INFO - 🎯 Collecting complete data for Kratos vs Vorgol
+2025-07-10 17:26:01,903 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:26:01,903 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:26:01,903 - utils - INFO - ✅ Kratos vs Vorgol: 36/48 fields (94.7%)
+2025-07-10 17:26:03,404 - utils - INFO - 🔍 Processing 8/10: LFK-Yeletsky vs Solidarnost
+2025-07-10 17:26:03,405 - utils - INFO - 🎯 Collecting complete data for LFK-Yeletsky vs Solidarnost
+2025-07-10 17:26:07,316 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:26:07,317 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:26:07,317 - utils - INFO - ✅ LFK-Yeletsky vs Solidarnost: 36/48 fields (94.7%)
+2025-07-10 17:26:08,818 - utils - INFO - 🔍 Processing 9/10: MBU DO SSH vs Avangard B. Izvaly
+2025-07-10 17:26:08,818 - utils - INFO - 🎯 Collecting complete data for MBU DO SSH vs Avangard B. Izvaly
+2025-07-10 17:26:12,691 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:26:12,691 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:26:12,691 - utils - INFO - ✅ MBU DO SSH vs Avangard B. Izvaly: 36/48 fields (94.7%)
+2025-07-10 17:26:14,193 - utils - INFO - 🔍 Processing 10/10: FC Samashki vs FC Gvardeysk
+2025-07-10 17:26:14,193 - utils - INFO - 🎯 Collecting complete data for FC Samashki vs FC Gvardeysk
+2025-07-10 17:26:18,209 - utils - INFO - Web scraping collected 10 statistics
+2025-07-10 17:26:18,209 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 17:26:18,209 - utils - INFO - ✅ FC Samashki vs FC Gvardeysk: 36/48 fields (94.7%)
+2025-07-10 17:26:19,711 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 17:26:19,711 - utils - INFO -    Total matches: 10
+2025-07-10 17:26:19,712 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 17:26:19,712 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 17:26:19,712 - utils - INFO -    Average completion: 94.7%
