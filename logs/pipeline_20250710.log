@@ -1,0 +1,160 @@
+2025-07-10 20:28:40,701 - src.utils - INFO - 🎯 Starting comprehensive data collection for team 17
+2025-07-10 20:28:40,701 - src.utils - INFO - 📊 Collecting season statistics...
+2025-07-10 20:28:40,701 - src.utils - INFO - 🏆 Fetching season stats for team 17 in tournament 17, season 52186
+2025-07-10 20:28:40,701 - src.utils - INFO - 📊 Trying season stats endpoint: https://api.sofascore.com/api/v1/team/17/unique-tournament/17/season/52186/statistics/overall
+2025-07-10 20:28:42,206 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/team/17/unique-tournament/17/season/52186/statistics/overall
+2025-07-10 20:28:42,264 - src.utils - INFO - Response status: 200
+2025-07-10 20:28:42,265 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/team/17/unique-tournament/17/season/52186/statistics/overall
+2025-07-10 20:28:42,265 - src.utils - INFO - 📊 Extracted 7 season statistics
+2025-07-10 20:28:42,265 - src.utils - INFO - ✅ Got 7 season statistics from this endpoint
+2025-07-10 20:28:43,770 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/team/17
+2025-07-10 20:28:43,819 - src.utils - INFO - Response status: 200
+2025-07-10 20:28:43,820 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/team/17
+2025-07-10 20:28:43,820 - src.utils - INFO - 📅 Collecting last 7 matches...
+2025-07-10 20:28:43,820 - src.utils - INFO - 📅 Fetching last 7 matches for team 17 using corrected method
+2025-07-10 20:28:45,325 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-09
+2025-07-10 20:28:45,438 - src.utils - INFO - Response status: 200
+2025-07-10 20:28:45,446 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-09
+2025-07-10 20:28:46,952 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-08
+2025-07-10 20:28:47,062 - src.utils - INFO - Response status: 200
+2025-07-10 20:28:47,069 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-08
+2025-07-10 20:28:48,575 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-07
+2025-07-10 20:28:48,691 - src.utils - INFO - Response status: 200
+2025-07-10 20:28:48,699 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-07
+2025-07-10 20:28:50,203 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-06
+2025-07-10 20:28:50,370 - src.utils - INFO - Response status: 200
+2025-07-10 20:28:50,382 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-06
+2025-07-10 20:28:51,889 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-05
+2025-07-10 20:28:52,128 - src.utils - INFO - Response status: 200
+2025-07-10 20:28:52,142 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-05
+2025-07-10 20:28:53,649 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-04
+2025-07-10 20:28:53,818 - src.utils - INFO - Response status: 200
+2025-07-10 20:28:53,835 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-04
+2025-07-10 20:28:55,339 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-03
+2025-07-10 20:28:55,444 - src.utils - INFO - Response status: 200
+2025-07-10 20:28:55,451 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-03
+2025-07-10 20:28:56,952 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-02
+2025-07-10 20:28:57,050 - src.utils - INFO - Response status: 200
+2025-07-10 20:28:57,056 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-02
+2025-07-10 20:28:58,562 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-01
+2025-07-10 20:28:58,657 - src.utils - INFO - Response status: 200
+2025-07-10 20:28:58,663 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-07-01
+2025-07-10 20:28:58,664 - src.utils - INFO -    ✅ Found completed match on 2025-07-01: Manchester City vs Al-Hilal
+2025-07-10 20:29:00,166 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-30
+2025-07-10 20:29:00,284 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:00,292 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-30
+2025-07-10 20:29:00,298 - src.utils - INFO -    ✅ Found completed match on 2025-06-30: Manchester City vs Al-Hilal
+2025-07-10 20:29:02,307 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-29
+2025-07-10 20:29:02,488 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:02,503 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-29
+2025-07-10 20:29:04,009 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-28
+2025-07-10 20:29:04,184 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:04,199 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-28
+2025-07-10 20:29:05,703 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-27
+2025-07-10 20:29:05,833 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:05,841 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-27
+2025-07-10 20:29:05,843 - src.utils - INFO -    ✅ Found completed match on 2025-06-27: Juventus vs Manchester City
+2025-07-10 20:29:07,347 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-26
+2025-07-10 20:29:07,449 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:07,455 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-26
+2025-07-10 20:29:07,456 - src.utils - INFO -    ✅ Found completed match on 2025-06-26: Juventus vs Manchester City
+2025-07-10 20:29:08,959 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-25
+2025-07-10 20:29:09,066 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:09,073 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-25
+2025-07-10 20:29:10,580 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-24
+2025-07-10 20:29:10,678 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:10,683 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-24
+2025-07-10 20:29:12,186 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-23
+2025-07-10 20:29:12,370 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:12,379 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-23
+2025-07-10 20:29:12,380 - src.utils - INFO -    ✅ Found completed match on 2025-06-23: Manchester City vs Al-Ain
+2025-07-10 20:29:13,886 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-22
+2025-07-10 20:29:14,054 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:14,070 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-22
+2025-07-10 20:29:14,071 - src.utils - INFO -    ✅ Found completed match on 2025-06-22: Manchester City vs Al-Ain
+2025-07-10 20:29:15,577 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-21
+2025-07-10 20:29:15,731 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:15,743 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-21
+2025-07-10 20:29:17,250 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-20
+2025-07-10 20:29:17,370 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:17,379 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-20
+2025-07-10 20:29:19,387 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-19
+2025-07-10 20:29:19,503 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:19,511 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/sport/football/scheduled-events/2025-06-19
+2025-07-10 20:29:19,512 - src.utils - INFO -    ✅ Found completed match on 2025-06-19: Manchester City vs Wydad Casablanca
+2025-07-10 20:29:19,513 - src.utils - INFO - 📊 Found 7 completed matches
+2025-07-10 20:29:21,013 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/statistics
+2025-07-10 20:29:21,065 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:21,066 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/statistics
+2025-07-10 20:29:22,569 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/incidents
+2025-07-10 20:29:22,632 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:22,634 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/incidents
+2025-07-10 20:29:24,138 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/lineups
+2025-07-10 20:29:24,192 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:24,193 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/lineups
+2025-07-10 20:29:26,904 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/statistics
+2025-07-10 20:29:26,956 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:26,957 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/statistics
+2025-07-10 20:29:28,462 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/incidents
+2025-07-10 20:29:28,532 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:28,534 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/incidents
+2025-07-10 20:29:30,040 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/lineups
+2025-07-10 20:29:30,098 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:30,099 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/lineups
+2025-07-10 20:29:32,806 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/statistics
+2025-07-10 20:29:32,855 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:32,856 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/statistics
+2025-07-10 20:29:34,361 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/incidents
+2025-07-10 20:29:34,424 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:34,426 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/incidents
+2025-07-10 20:29:35,931 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/lineups
+2025-07-10 20:29:35,983 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:35,983 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/lineups
+2025-07-10 20:29:38,692 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/statistics
+2025-07-10 20:29:38,747 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:38,748 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/statistics
+2025-07-10 20:29:40,253 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/incidents
+2025-07-10 20:29:40,314 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:40,315 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/incidents
+2025-07-10 20:29:41,821 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/lineups
+2025-07-10 20:29:41,877 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:41,878 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/lineups
+2025-07-10 20:29:44,589 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/statistics
+2025-07-10 20:29:44,643 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:44,644 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/statistics
+2025-07-10 20:29:46,145 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/incidents
+2025-07-10 20:29:46,200 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:46,201 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/incidents
+2025-07-10 20:29:47,702 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/lineups
+2025-07-10 20:29:47,756 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:47,757 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/lineups
+2025-07-10 20:29:50,464 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/statistics
+2025-07-10 20:29:50,515 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:50,516 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/statistics
+2025-07-10 20:29:52,018 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/incidents
+2025-07-10 20:29:52,072 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:52,073 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/incidents
+2025-07-10 20:29:53,578 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/lineups
+2025-07-10 20:29:53,633 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:53,634 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/lineups
+2025-07-10 20:29:56,342 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275/statistics
+2025-07-10 20:29:56,392 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:56,393 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275/statistics
+2025-07-10 20:29:57,899 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275/incidents
+2025-07-10 20:29:57,948 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:57,948 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275/incidents
+2025-07-10 20:29:59,452 - src.utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275/lineups
+2025-07-10 20:29:59,502 - src.utils - INFO - Response status: 200
+2025-07-10 20:29:59,503 - src.utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275/lineups
+2025-07-10 20:30:00,707 - src.utils - INFO - ✅ Collected detailed data for 7 recent matches
+2025-07-10 20:30:00,709 - src.utils - INFO - Match vs Al-Hilal: 3 scored, 4 conceded
+2025-07-10 20:30:00,709 - src.utils - INFO - Match vs Al-Hilal: 3 scored, 4 conceded
+2025-07-10 20:30:00,709 - src.utils - INFO - Match vs Juventus: 6 scored, 2 conceded
+2025-07-10 20:30:00,709 - src.utils - INFO - Match vs Juventus: 5 scored, 2 conceded
+2025-07-10 20:30:00,710 - src.utils - INFO - Match vs Al-Ain: 7 scored, 1 conceded
+2025-07-10 20:30:00,710 - src.utils - INFO - Match vs Al-Ain: 6 scored, 1 conceded
+2025-07-10 20:30:00,710 - src.utils - INFO - Match vs Wydad Casablanca: 2 scored, 1 conceded
+2025-07-10 20:30:00,710 - src.utils - INFO - ✅ Comprehensive data collection completed for team 17
+2025-07-10 20:30:00,726 - src.utils - INFO - 📁 Exported recent matches to exports/team_17_recent_matches_20250710_203000.csv
+2025-07-10 20:30:00,727 - src.utils - INFO - 📁 Exported season stats to exports/team_17_season_stats_20250710_203000.csv
+2025-07-10 20:30:00,727 - src.utils - INFO - 📁 Exported comprehensive data to exports/team_17_comprehensive_20250710_203000.json

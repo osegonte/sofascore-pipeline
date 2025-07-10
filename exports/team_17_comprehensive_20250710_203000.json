@@ -1,0 +1,334 @@
+{
+  "team_id": 17,
+  "tournament_id": 17,
+  "season_id": 52186,
+  "collection_timestamp": "2025-07-10T20:28:40.701088",
+  "season_stats": {
+    "matches_played": 28.0,
+    "assists": 34.0,
+    "penalty_goals": 0.0,
+    "accurate_passes_pct": 100.0,
+    "accurate_long_balls_pct": 93.04193403752056,
+    "clean_sheets": 20.0,
+    "red_cards_total": 2.0,
+    "team_name": "Manchester City",
+    "team_short_name": "Man City",
+    "team_country": "England",
+    "team_founded": null,
+    "home_venue": "Etihad Stadium",
+    "venue_capacity": 53400,
+    "venue_city": "Manchester"
+  },
+  "recent_matches": [
+    {
+      "match_id": 13385903,
+      "date": "2025-07-01",
+      "opponent": "Al-Hilal",
+      "venue_type": "home",
+      "competition": "FIFA Club World Cup, Knockout stage",
+      "result": "L",
+      "final_score": "3-4",
+      "goals_scored": 3,
+      "goals_conceded": 4,
+      "possession_pct": 69.0,
+      "total_shots": 30,
+      "goalkeeper_saves": 2,
+      "corners": 19,
+      "fouls": 17,
+      "total_passes": 826,
+      "tackles": 19,
+      "yellow_cards": 3,
+      "shots_on_target": 15,
+      "accurate_passes": 764,
+      "interceptions": 5,
+      "clearances": 22,
+      "pass_accuracy_pct": 92.5,
+      "goal_times": [
+        16,
+        53,
+        107
+      ],
+      "goal_scorers": [
+        "Bernardo Silva",
+        "Erling Haaland",
+        "Phil Foden"
+      ],
+      "assists": [
+        "\u0130lkay G\u00fcndo\u011fan",
+        "Rayan Cherki"
+      ],
+      "goal_conceded_times": [
+        45,
+        54,
+        84,
+        102
+      ]
+    },
+    {
+      "match_id": 13385903,
+      "date": "2025-07-01",
+      "opponent": "Al-Hilal",
+      "venue_type": "home",
+      "competition": "FIFA Club World Cup, Knockout stage",
+      "result": "L",
+      "final_score": "3-4",
+      "goals_scored": 3,
+      "goals_conceded": 4,
+      "possession_pct": 69.0,
+      "total_shots": 30,
+      "goalkeeper_saves": 2,
+      "corners": 19,
+      "fouls": 17,
+      "total_passes": 826,
+      "tackles": 19,
+      "yellow_cards": 3,
+      "shots_on_target": 15,
+      "accurate_passes": 764,
+      "interceptions": 5,
+      "clearances": 22,
+      "pass_accuracy_pct": 92.5,
+      "goal_times": [
+        16,
+        53,
+        107
+      ],
+      "goal_scorers": [
+        "Bernardo Silva",
+        "Erling Haaland",
+        "Phil Foden"
+      ],
+      "assists": [
+        "\u0130lkay G\u00fcndo\u011fan",
+        "Rayan Cherki"
+      ],
+      "goal_conceded_times": [
+        45,
+        54,
+        84,
+        102
+      ]
+    },
+    {
+      "match_id": 13200232,
+      "date": "2025-06-26",
+      "opponent": "Juventus",
+      "venue_type": "away",
+      "competition": "FIFA Club World Cup, Group G",
+      "result": "W",
+      "final_score": "2-6",
+      "goals_scored": 6,
+      "goals_conceded": 2,
+      "possession_pct": 76.0,
+      "total_shots": 24,
+      "goalkeeper_saves": 0,
+      "corners": 6,
+      "fouls": 10,
+      "total_passes": 769,
+      "tackles": 12,
+      "yellow_cards": 0,
+      "shots_on_target": 11,
+      "accurate_passes": 717,
+      "interceptions": 5,
+      "clearances": 2,
+      "pass_accuracy_pct": 93.2,
+      "goal_times": [
+        8,
+        54,
+        60,
+        78
+      ],
+      "goal_scorers": [
+        "J\u00e9r\u00e9my Doku",
+        "Erling Haaland",
+        "Phil Foden",
+        "Savinho"
+      ],
+      "assists": [
+        "Rayan A\u00eft-Nouri",
+        "Matheus Nunes",
+        "Savinho"
+      ],
+      "goal_conceded_times": [
+        2,
+        32
+      ]
+    },
+    {
+      "match_id": 13200232,
+      "date": "2025-06-26",
+      "opponent": "Juventus",
+      "venue_type": "away",
+      "competition": "FIFA Club World Cup, Group G",
+      "result": "W",
+      "final_score": "2-5",
+      "goals_scored": 5,
+      "goals_conceded": 2,
+      "possession_pct": 76.0,
+      "total_shots": 24,
+      "goalkeeper_saves": 0,
+      "corners": 6,
+      "fouls": 10,
+      "total_passes": 769,
+      "tackles": 12,
+      "yellow_cards": 0,
+      "shots_on_target": 11,
+      "accurate_passes": 717,
+      "interceptions": 5,
+      "clearances": 2,
+      "pass_accuracy_pct": 93.2,
+      "goal_times": [
+        8,
+        54,
+        60,
+        78
+      ],
+      "goal_scorers": [
+        "J\u00e9r\u00e9my Doku",
+        "Erling Haaland",
+        "Phil Foden",
+        "Savinho"
+      ],
+      "assists": [
+        "Rayan A\u00eft-Nouri",
+        "Matheus Nunes",
+        "Savinho"
+      ],
+      "goal_conceded_times": [
+        2,
+        32
+      ]
+    },
+    {
+      "match_id": 13200294,
+      "date": "2025-06-23",
+      "opponent": "Al-Ain",
+      "venue_type": "home",
+      "competition": "FIFA Club World Cup, Group G",
+      "result": "W",
+      "final_score": "7-1",
+      "goals_scored": 7,
+      "goals_conceded": 1,
+      "possession_pct": 74.0,
+      "total_shots": 21,
+      "goalkeeper_saves": 1,
+      "corners": 9,
+      "fouls": 11,
+      "total_passes": 753,
+      "tackles": 14,
+      "yellow_cards": 1,
+      "shots_on_target": 11,
+      "accurate_passes": 709,
+      "interceptions": 7,
+      "clearances": 7,
+      "pass_accuracy_pct": 94.2,
+      "goal_times": [
+        10,
+        42,
+        76
+      ],
+      "goal_scorers": [
+        "\u0130lkay G\u00fcndo\u011fan",
+        "Erling Haaland",
+        "\u0130lkay G\u00fcndo\u011fan"
+      ],
+      "assists": [
+        "Bernardo Silva"
+      ],
+      "goal_conceded_times": [
+        32
+      ]
+    },
+    {
+      "match_id": 13200294,
+      "date": "2025-06-23",
+      "opponent": "Al-Ain",
+      "venue_type": "home",
+      "competition": "FIFA Club World Cup, Group G",
+      "result": "W",
+      "final_score": "6-1",
+      "goals_scored": 6,
+      "goals_conceded": 1,
+      "possession_pct": 74.0,
+      "total_shots": 21,
+      "goalkeeper_saves": 1,
+      "corners": 9,
+      "fouls": 11,
+      "total_passes": 753,
+      "tackles": 14,
+      "yellow_cards": 1,
+      "shots_on_target": 11,
+      "accurate_passes": 709,
+      "interceptions": 7,
+      "clearances": 7,
+      "pass_accuracy_pct": 94.2,
+      "goal_times": [
+        10,
+        42,
+        76
+      ],
+      "goal_scorers": [
+        "\u0130lkay G\u00fcndo\u011fan",
+        "Erling Haaland",
+        "\u0130lkay G\u00fcndo\u011fan"
+      ],
+      "assists": [
+        "Bernardo Silva"
+      ],
+      "goal_conceded_times": [
+        32
+      ]
+    },
+    {
+      "match_id": 13200275,
+      "date": "2025-06-18",
+      "opponent": "Wydad Casablanca",
+      "venue_type": "home",
+      "competition": "FIFA Club World Cup, Group G",
+      "result": "W",
+      "final_score": "2-1",
+      "goals_scored": 2,
+      "goals_conceded": 1,
+      "possession_pct": 68.0,
+      "total_shots": 15,
+      "goalkeeper_saves": 0,
+      "corners": 9,
+      "fouls": 10,
+      "total_passes": 616,
+      "tackles": 7,
+      "yellow_cards": 0,
+      "red_cards": 1,
+      "shots_on_target": 6,
+      "accurate_passes": 559,
+      "interceptions": 4,
+      "clearances": 17,
+      "pass_accuracy_pct": 90.7,
+      "goal_times": [
+        -4,
+        51
+      ],
+      "goal_scorers": [
+        "Phil Foden",
+        "J\u00e9r\u00e9my Doku"
+      ],
+      "assists": [
+        "Phil Foden"
+      ],
+      "goal_conceded_times": []
+    }
+  ],
+  "recent_match_summary": {
+    "matches_analyzed": 7,
+    "wins": 5,
+    "draws": 0,
+    "losses": 2,
+    "goals_scored_total": 32,
+    "goals_conceded_total": 15,
+    "avg_possession": 72.3,
+    "avg_shots_per_match": 23.6,
+    "avg_corners_per_match": 11.0,
+    "avg_fouls_per_match": 12.3,
+    "clean_sheets": 0,
+    "matches_scored": 7,
+    "recent_form": "LLWWW"
+  }
+}
