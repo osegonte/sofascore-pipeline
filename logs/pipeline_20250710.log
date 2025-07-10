@@ -344,3 +344,1198 @@
 2025-07-10 01:46:35,286 - utils - INFO - 🎯 Processing tier_2_good: The Borough FC vs Whitby FC (League1 Ontario Championship)
 2025-07-10 01:47:05,083 - utils - INFO - 🏆 The Borough FC vs Whitby FC - 18 stats (47.4%) from team_events_fallback
 2025-07-10 01:47:05,084 - utils - INFO - 🎯 Processing tier_2_good: Sudbury Cyclones vs York United Academy (League1 Ontario Championship)
+2025-07-10 11:36:38,854 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 11:36:38,938 - utils - INFO - Found 11 live matches
+2025-07-10 11:36:38,938 - utils - INFO - 🔍 Processing 1/10: Khoromkhon Club vs SP Falcons FC
+2025-07-10 11:36:38,938 - utils - INFO - 🎯 Collecting complete data for Khoromkhon Club vs SP Falcons FC
+2025-07-10 11:36:39,016 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:36:39,016 - utils - INFO - ✅ Khoromkhon Club vs SP Falcons FC: 36/48 fields (94.7%)
+2025-07-10 11:36:40,518 - utils - INFO - 🔍 Processing 2/10: Canberra Olympic vs West Canberra Wanderers
+2025-07-10 11:36:40,518 - utils - INFO - 🎯 Collecting complete data for Canberra Olympic vs West Canberra Wanderers
+2025-07-10 11:36:40,579 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:36:40,580 - utils - INFO - ✅ Canberra Olympic vs West Canberra Wanderers: 35/48 fields (92.1%)
+2025-07-10 11:36:42,080 - utils - INFO - 🔍 Processing 3/10: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 11:36:42,081 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 11:36:42,136 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:36:42,136 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 11:36:43,637 - utils - INFO - 🔍 Processing 4/10: Kidderpore SC vs United Kolkata
+2025-07-10 11:36:43,638 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 11:36:43,709 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:36:43,709 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 11:36:45,210 - utils - INFO - 🔍 Processing 5/10: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 11:36:45,211 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 11:36:45,270 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:36:45,270 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 11:36:46,772 - utils - INFO - 🔍 Processing 6/10: Dewa United FC vs Port FC
+2025-07-10 11:36:46,772 - utils - INFO - 🎯 Collecting complete data for Dewa United FC vs Port FC
+2025-07-10 11:36:46,836 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:36:46,836 - utils - INFO - ✅ Dewa United FC vs Port FC: 35/48 fields (92.1%)
+2025-07-10 11:36:48,338 - utils - INFO - 🔍 Processing 7/10: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 11:36:48,338 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 11:36:48,396 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:36:48,397 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 36/48 fields (94.7%)
+2025-07-10 11:36:49,898 - utils - INFO - 🔍 Processing 8/10: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 11:36:49,898 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 11:36:49,954 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:36:49,955 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 35/48 fields (92.1%)
+2025-07-10 11:36:51,456 - utils - INFO - 🔍 Processing 9/10: Achiever FC vs Crown FC
+2025-07-10 11:36:51,456 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 11:36:51,515 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:36:51,515 - utils - INFO - ✅ Achiever FC vs Crown FC: 35/48 fields (92.1%)
+2025-07-10 11:36:53,016 - utils - INFO - 🔍 Processing 10/10: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 11:36:53,017 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 11:36:53,073 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:36:53,073 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 35/48 fields (92.1%)
+2025-07-10 11:36:54,574 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 11:36:54,574 - utils - INFO -    Total matches: 10
+2025-07-10 11:36:54,574 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 11:36:54,575 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 11:36:54,575 - utils - INFO -    Average completion: 93.1%
+2025-07-10 11:41:54,579 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 11:41:54,654 - utils - INFO - Found 11 live matches
+2025-07-10 11:41:54,654 - utils - INFO - 🔍 Processing 1/10: Khoromkhon Club vs SP Falcons FC
+2025-07-10 11:41:54,654 - utils - INFO - 🎯 Collecting complete data for Khoromkhon Club vs SP Falcons FC
+2025-07-10 11:41:54,704 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:41:54,705 - utils - INFO - ✅ Khoromkhon Club vs SP Falcons FC: 36/48 fields (94.7%)
+2025-07-10 11:41:56,206 - utils - INFO - 🔍 Processing 2/10: Canberra Olympic vs West Canberra Wanderers
+2025-07-10 11:41:56,206 - utils - INFO - 🎯 Collecting complete data for Canberra Olympic vs West Canberra Wanderers
+2025-07-10 11:41:56,255 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:41:56,255 - utils - INFO - ✅ Canberra Olympic vs West Canberra Wanderers: 35/48 fields (92.1%)
+2025-07-10 11:41:57,757 - utils - INFO - 🔍 Processing 3/10: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 11:41:57,757 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 11:41:57,806 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:41:57,807 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 11:41:59,308 - utils - INFO - 🔍 Processing 4/10: Kidderpore SC vs United Kolkata
+2025-07-10 11:41:59,308 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 11:41:59,366 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:41:59,366 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 35/48 fields (92.1%)
+2025-07-10 11:42:00,868 - utils - INFO - 🔍 Processing 5/10: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 11:42:00,868 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 11:42:00,918 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:42:00,919 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 35/48 fields (92.1%)
+2025-07-10 11:42:02,420 - utils - INFO - 🔍 Processing 6/10: Dewa United FC vs Port FC
+2025-07-10 11:42:02,420 - utils - INFO - 🎯 Collecting complete data for Dewa United FC vs Port FC
+2025-07-10 11:42:02,469 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:42:02,469 - utils - INFO - ✅ Dewa United FC vs Port FC: 35/48 fields (92.1%)
+2025-07-10 11:42:03,971 - utils - INFO - 🔍 Processing 7/10: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 11:42:03,971 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 11:42:04,019 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:42:04,019 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 36/48 fields (94.7%)
+2025-07-10 11:42:05,521 - utils - INFO - 🔍 Processing 8/10: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 11:42:05,521 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 11:42:05,567 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:42:05,567 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 36/48 fields (94.7%)
+2025-07-10 11:42:07,068 - utils - INFO - 🔍 Processing 9/10: Achiever FC vs Crown FC
+2025-07-10 11:42:07,069 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 11:42:07,120 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:42:07,120 - utils - INFO - ✅ Achiever FC vs Crown FC: 35/48 fields (92.1%)
+2025-07-10 11:42:08,622 - utils - INFO - 🔍 Processing 10/10: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 11:42:08,622 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 11:42:08,673 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:42:08,673 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 36/48 fields (94.7%)
+2025-07-10 11:42:10,175 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 11:42:10,175 - utils - INFO -    Total matches: 10
+2025-07-10 11:42:10,175 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 11:42:10,175 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 11:42:10,176 - utils - INFO -    Average completion: 93.1%
+2025-07-10 11:47:10,180 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 11:47:10,267 - utils - INFO - Found 11 live matches
+2025-07-10 11:47:10,267 - utils - INFO - 🔍 Processing 1/10: Khoromkhon Club vs SP Falcons FC
+2025-07-10 11:47:10,267 - utils - INFO - 🎯 Collecting complete data for Khoromkhon Club vs SP Falcons FC
+2025-07-10 11:47:10,344 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:47:10,345 - utils - INFO - ✅ Khoromkhon Club vs SP Falcons FC: 36/48 fields (94.7%)
+2025-07-10 11:47:11,846 - utils - INFO - 🔍 Processing 2/10: Canberra Olympic vs West Canberra Wanderers
+2025-07-10 11:47:11,846 - utils - INFO - 🎯 Collecting complete data for Canberra Olympic vs West Canberra Wanderers
+2025-07-10 11:47:11,896 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:47:11,897 - utils - INFO - ✅ Canberra Olympic vs West Canberra Wanderers: 36/48 fields (94.7%)
+2025-07-10 11:47:13,398 - utils - INFO - 🔍 Processing 3/10: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 11:47:13,398 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 11:47:13,449 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:47:13,449 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 11:47:14,950 - utils - INFO - 🔍 Processing 4/10: Kidderpore SC vs United Kolkata
+2025-07-10 11:47:14,951 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 11:47:15,001 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:47:15,001 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 35/48 fields (92.1%)
+2025-07-10 11:47:16,503 - utils - INFO - 🔍 Processing 5/10: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 11:47:16,503 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 11:47:16,553 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:47:16,553 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 35/48 fields (92.1%)
+2025-07-10 11:47:18,054 - utils - INFO - 🔍 Processing 6/10: Dewa United FC vs Port FC
+2025-07-10 11:47:18,055 - utils - INFO - 🎯 Collecting complete data for Dewa United FC vs Port FC
+2025-07-10 11:47:18,166 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:47:18,166 - utils - INFO - ✅ Dewa United FC vs Port FC: 36/48 fields (94.7%)
+2025-07-10 11:47:19,668 - utils - INFO - 🔍 Processing 7/10: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 11:47:19,668 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 11:47:19,722 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:47:19,723 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 36/48 fields (94.7%)
+2025-07-10 11:47:21,224 - utils - INFO - 🔍 Processing 8/10: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 11:47:21,224 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 11:47:21,272 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:47:21,273 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 36/48 fields (94.7%)
+2025-07-10 11:47:22,774 - utils - INFO - 🔍 Processing 9/10: Achiever FC vs Crown FC
+2025-07-10 11:47:22,775 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 11:47:22,822 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:47:22,822 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 11:47:24,323 - utils - INFO - 🔍 Processing 10/10: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 11:47:24,323 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 11:47:24,373 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:47:24,374 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 35/48 fields (92.1%)
+2025-07-10 11:47:25,875 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 11:47:25,875 - utils - INFO -    Total matches: 10
+2025-07-10 11:47:25,876 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 11:47:25,876 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 11:47:25,876 - utils - INFO -    Average completion: 93.7%
+2025-07-10 11:47:25,904 - utils - INFO - 📁 Exported 30 records to exports/complete_statistics_20250710_114725.csv
+2025-07-10 11:47:25,904 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 11:47:25,904 - utils - INFO -    Perfect (98%+): 0/30 (0.0%)
+2025-07-10 11:47:25,904 - utils - INFO -    Excellent (95%+): 0/30 (0.0%)
+2025-07-10 11:47:25,904 - utils - INFO -    Average: 93.3% (44/48 fields)
+2025-07-10 11:47:25,904 - utils - INFO - ⚠️  Remaining zeros: yellow_cards_home: 7, yellow_cards_away: 9, red_cards_home: 30, red_cards_away: 30
+2025-07-10 11:52:25,909 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 11:52:25,983 - utils - INFO - Found 11 live matches
+2025-07-10 11:52:25,983 - utils - INFO - 🔍 Processing 1/10: Khoromkhon Club vs SP Falcons FC
+2025-07-10 11:52:25,983 - utils - INFO - 🎯 Collecting complete data for Khoromkhon Club vs SP Falcons FC
+2025-07-10 11:52:26,028 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:52:26,028 - utils - INFO - ✅ Khoromkhon Club vs SP Falcons FC: 36/48 fields (94.7%)
+2025-07-10 11:52:27,529 - utils - INFO - 🔍 Processing 2/10: Canberra Olympic vs West Canberra Wanderers
+2025-07-10 11:52:27,530 - utils - INFO - 🎯 Collecting complete data for Canberra Olympic vs West Canberra Wanderers
+2025-07-10 11:52:27,582 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:52:27,582 - utils - INFO - ✅ Canberra Olympic vs West Canberra Wanderers: 35/48 fields (92.1%)
+2025-07-10 11:52:29,084 - utils - INFO - 🔍 Processing 3/10: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 11:52:29,084 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 11:52:29,132 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:52:29,132 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 11:52:30,634 - utils - INFO - 🔍 Processing 4/10: Kidderpore SC vs United Kolkata
+2025-07-10 11:52:30,634 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 11:52:30,686 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:52:30,686 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 11:52:32,188 - utils - INFO - 🔍 Processing 5/10: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 11:52:32,188 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 11:52:32,241 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:52:32,241 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 35/48 fields (92.1%)
+2025-07-10 11:52:33,743 - utils - INFO - 🔍 Processing 6/10: Dewa United FC vs Port FC
+2025-07-10 11:52:33,743 - utils - INFO - 🎯 Collecting complete data for Dewa United FC vs Port FC
+2025-07-10 11:52:33,795 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:52:33,795 - utils - INFO - ✅ Dewa United FC vs Port FC: 36/48 fields (94.7%)
+2025-07-10 11:52:35,296 - utils - INFO - 🔍 Processing 7/10: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 11:52:35,297 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 11:52:35,347 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:52:35,347 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 36/48 fields (94.7%)
+2025-07-10 11:52:36,848 - utils - INFO - 🔍 Processing 8/10: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 11:52:36,848 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 11:52:36,900 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:52:36,901 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 36/48 fields (94.7%)
+2025-07-10 11:52:38,402 - utils - INFO - 🔍 Processing 9/10: Achiever FC vs Crown FC
+2025-07-10 11:52:38,402 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 11:52:38,454 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:52:38,454 - utils - INFO - ✅ Achiever FC vs Crown FC: 35/48 fields (92.1%)
+2025-07-10 11:52:39,955 - utils - INFO - 🔍 Processing 10/10: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 11:52:39,956 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 11:52:40,006 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:52:40,006 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 35/48 fields (92.1%)
+2025-07-10 11:52:41,508 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 11:52:41,511 - utils - INFO -    Total matches: 10
+2025-07-10 11:52:41,511 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 11:52:41,511 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 11:52:41,511 - utils - INFO -    Average completion: 93.4%
+2025-07-10 11:57:41,516 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 11:57:41,596 - utils - INFO - Found 11 live matches
+2025-07-10 11:57:41,596 - utils - INFO - 🔍 Processing 1/10: Khoromkhon Club vs SP Falcons FC
+2025-07-10 11:57:41,596 - utils - INFO - 🎯 Collecting complete data for Khoromkhon Club vs SP Falcons FC
+2025-07-10 11:57:41,664 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:57:41,665 - utils - INFO - ✅ Khoromkhon Club vs SP Falcons FC: 36/48 fields (94.7%)
+2025-07-10 11:57:43,167 - utils - INFO - 🔍 Processing 2/10: Canberra Olympic vs West Canberra Wanderers
+2025-07-10 11:57:43,167 - utils - INFO - 🎯 Collecting complete data for Canberra Olympic vs West Canberra Wanderers
+2025-07-10 11:57:43,211 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:57:43,211 - utils - INFO - ✅ Canberra Olympic vs West Canberra Wanderers: 36/48 fields (94.7%)
+2025-07-10 11:57:44,712 - utils - INFO - 🔍 Processing 3/10: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 11:57:44,712 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 11:57:44,761 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:57:44,761 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 11:57:46,263 - utils - INFO - 🔍 Processing 4/10: Kidderpore SC vs United Kolkata
+2025-07-10 11:57:46,263 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 11:57:46,314 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:57:46,314 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 11:57:47,815 - utils - INFO - 🔍 Processing 5/10: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 11:57:47,816 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 11:57:47,869 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:57:47,869 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 11:57:49,370 - utils - INFO - 🔍 Processing 6/10: Dewa United FC vs Port FC
+2025-07-10 11:57:49,371 - utils - INFO - 🎯 Collecting complete data for Dewa United FC vs Port FC
+2025-07-10 11:57:49,423 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:57:49,424 - utils - INFO - ✅ Dewa United FC vs Port FC: 35/48 fields (92.1%)
+2025-07-10 11:57:50,924 - utils - INFO - 🔍 Processing 7/10: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 11:57:50,924 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 11:57:50,976 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:57:50,977 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 36/48 fields (94.7%)
+2025-07-10 11:57:52,478 - utils - INFO - 🔍 Processing 8/10: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 11:57:52,478 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 11:57:52,524 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 11:57:52,524 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 35/48 fields (92.1%)
+2025-07-10 11:57:54,026 - utils - INFO - 🔍 Processing 9/10: Achiever FC vs Crown FC
+2025-07-10 11:57:54,026 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 11:57:54,076 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:57:54,076 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 11:57:55,577 - utils - INFO - 🔍 Processing 10/10: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 11:57:55,577 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 11:57:55,631 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 11:57:55,631 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 36/48 fields (94.7%)
+2025-07-10 11:57:57,132 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 11:57:57,133 - utils - INFO -    Total matches: 10
+2025-07-10 11:57:57,134 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 11:57:57,134 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 11:57:57,134 - utils - INFO -    Average completion: 93.9%
+2025-07-10 12:02:57,138 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 12:02:57,215 - utils - INFO - Found 11 live matches
+2025-07-10 12:02:57,215 - utils - INFO - 🔍 Processing 1/10: Khoromkhon Club vs SP Falcons FC
+2025-07-10 12:02:57,216 - utils - INFO - 🎯 Collecting complete data for Khoromkhon Club vs SP Falcons FC
+2025-07-10 12:02:57,273 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:02:57,273 - utils - INFO - ✅ Khoromkhon Club vs SP Falcons FC: 36/48 fields (94.7%)
+2025-07-10 12:02:58,776 - utils - INFO - 🔍 Processing 2/10: Canberra Olympic vs West Canberra Wanderers
+2025-07-10 12:02:58,776 - utils - INFO - 🎯 Collecting complete data for Canberra Olympic vs West Canberra Wanderers
+2025-07-10 12:02:58,836 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:02:58,836 - utils - INFO - ✅ Canberra Olympic vs West Canberra Wanderers: 35/48 fields (92.1%)
+2025-07-10 12:03:00,337 - utils - INFO - 🔍 Processing 3/10: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:03:00,337 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:03:00,412 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:03:00,412 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 36/48 fields (94.7%)
+2025-07-10 12:03:01,914 - utils - INFO - 🔍 Processing 4/10: Kidderpore SC vs United Kolkata
+2025-07-10 12:03:01,915 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 12:03:01,965 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:03:01,966 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 12:03:03,467 - utils - INFO - 🔍 Processing 5/10: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:03:03,468 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:03:03,523 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:03:03,523 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 35/48 fields (92.1%)
+2025-07-10 12:03:05,025 - utils - INFO - 🔍 Processing 6/10: Dewa United FC vs Port FC
+2025-07-10 12:03:05,026 - utils - INFO - 🎯 Collecting complete data for Dewa United FC vs Port FC
+2025-07-10 12:03:05,079 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:03:05,079 - utils - INFO - ✅ Dewa United FC vs Port FC: 36/48 fields (94.7%)
+2025-07-10 12:03:06,581 - utils - INFO - 🔍 Processing 7/10: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:03:06,582 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:03:06,633 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:03:06,633 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 36/48 fields (94.7%)
+2025-07-10 12:03:08,136 - utils - INFO - 🔍 Processing 8/10: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:03:08,136 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:03:08,187 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:03:08,187 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 35/48 fields (92.1%)
+2025-07-10 12:03:09,690 - utils - INFO - 🔍 Processing 9/10: Achiever FC vs Crown FC
+2025-07-10 12:03:09,690 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 12:03:09,741 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:03:09,741 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 12:03:11,243 - utils - INFO - 🔍 Processing 10/10: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:03:11,244 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:03:11,296 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:03:11,296 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 36/48 fields (94.7%)
+2025-07-10 12:03:12,797 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 12:03:12,798 - utils - INFO -    Total matches: 10
+2025-07-10 12:03:12,798 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 12:03:12,798 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 12:03:12,798 - utils - INFO -    Average completion: 93.9%
+2025-07-10 12:03:12,825 - utils - INFO - 📁 Exported 30 records to exports/complete_statistics_20250710_120312.csv
+2025-07-10 12:03:12,825 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 12:03:12,825 - utils - INFO -    Perfect (98%+): 0/30 (0.0%)
+2025-07-10 12:03:12,825 - utils - INFO -    Excellent (95%+): 0/30 (0.0%)
+2025-07-10 12:03:12,825 - utils - INFO -    Average: 93.7% (44/48 fields)
+2025-07-10 12:03:12,825 - utils - INFO - ⚠️  Remaining zeros: yellow_cards_home: 7, yellow_cards_away: 4, red_cards_home: 30, red_cards_away: 30
+2025-07-10 12:08:12,829 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 12:08:12,908 - utils - INFO - Found 10 live matches
+2025-07-10 12:08:12,908 - utils - INFO - 🔍 Processing 1/10: Canberra Olympic vs West Canberra Wanderers
+2025-07-10 12:08:12,908 - utils - INFO - 🎯 Collecting complete data for Canberra Olympic vs West Canberra Wanderers
+2025-07-10 12:08:12,970 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:08:12,971 - utils - INFO - ✅ Canberra Olympic vs West Canberra Wanderers: 35/48 fields (92.1%)
+2025-07-10 12:08:14,472 - utils - INFO - 🔍 Processing 2/10: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:08:14,472 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:08:14,528 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:08:14,528 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 36/48 fields (94.7%)
+2025-07-10 12:08:16,029 - utils - INFO - 🔍 Processing 3/10: Kidderpore SC vs United Kolkata
+2025-07-10 12:08:16,030 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 12:08:16,081 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:08:16,082 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 35/48 fields (92.1%)
+2025-07-10 12:08:17,583 - utils - INFO - 🔍 Processing 4/10: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:08:17,583 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:08:17,633 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:08:17,633 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 35/48 fields (92.1%)
+2025-07-10 12:08:19,134 - utils - INFO - 🔍 Processing 5/10: Dewa United FC vs Port FC
+2025-07-10 12:08:19,134 - utils - INFO - 🎯 Collecting complete data for Dewa United FC vs Port FC
+2025-07-10 12:08:19,191 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:08:19,192 - utils - INFO - ✅ Dewa United FC vs Port FC: 35/48 fields (92.1%)
+2025-07-10 12:08:20,693 - utils - INFO - 🔍 Processing 6/10: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:08:20,694 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:08:20,742 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:08:20,742 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 36/48 fields (94.7%)
+2025-07-10 12:08:22,243 - utils - INFO - 🔍 Processing 7/10: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:08:22,244 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:08:22,339 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:08:22,339 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 36/48 fields (94.7%)
+2025-07-10 12:08:23,840 - utils - INFO - 🔍 Processing 8/10: Achiever FC vs Crown FC
+2025-07-10 12:08:23,840 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 12:08:23,890 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:08:23,890 - utils - INFO - ✅ Achiever FC vs Crown FC: 35/48 fields (92.1%)
+2025-07-10 12:08:25,391 - utils - INFO - 🔍 Processing 9/10: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:08:25,392 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:08:25,443 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:08:25,443 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 36/48 fields (94.7%)
+2025-07-10 12:08:26,945 - utils - INFO - 🔍 Processing 10/10: Doma Utd FC vs Barau FC
+2025-07-10 12:08:26,945 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 12:08:27,008 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:08:27,009 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 36/48 fields (94.7%)
+2025-07-10 12:08:28,510 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 12:08:28,510 - utils - INFO -    Total matches: 10
+2025-07-10 12:08:28,511 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 12:08:28,511 - utils - INFO -    High quality (95%+): 0/10 (0.0%)
+2025-07-10 12:08:28,511 - utils - INFO -    Average completion: 93.4%
+2025-07-10 12:13:28,518 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 12:13:28,595 - utils - INFO - Found 10 live matches
+2025-07-10 12:13:28,596 - utils - INFO - 🔍 Processing 1/10: Canberra Olympic vs West Canberra Wanderers
+2025-07-10 12:13:28,596 - utils - INFO - 🎯 Collecting complete data for Canberra Olympic vs West Canberra Wanderers
+2025-07-10 12:13:28,646 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:13:28,647 - utils - INFO - ✅ Canberra Olympic vs West Canberra Wanderers: 35/48 fields (92.1%)
+2025-07-10 12:13:30,148 - utils - INFO - 🔍 Processing 2/10: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:13:30,148 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:13:30,198 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:13:30,199 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 12:13:31,700 - utils - INFO - 🔍 Processing 3/10: Kidderpore SC vs United Kolkata
+2025-07-10 12:13:31,700 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 12:13:31,758 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:13:31,759 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 12:13:33,260 - utils - INFO - 🔍 Processing 4/10: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:13:33,260 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:13:33,309 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:13:33,310 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 12:13:34,811 - utils - INFO - 🔍 Processing 5/10: Dewa United FC vs Port FC
+2025-07-10 12:13:34,811 - utils - INFO - 🎯 Collecting complete data for Dewa United FC vs Port FC
+2025-07-10 12:13:34,865 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:13:34,865 - utils - INFO - ✅ Dewa United FC vs Port FC: 35/48 fields (92.1%)
+2025-07-10 12:13:36,366 - utils - INFO - 🔍 Processing 6/10: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:13:36,366 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:13:36,429 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:13:36,429 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 36/48 fields (94.7%)
+2025-07-10 12:13:37,930 - utils - INFO - 🔍 Processing 7/10: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:13:37,931 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:13:37,984 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:13:37,984 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 36/48 fields (94.7%)
+2025-07-10 12:13:39,486 - utils - INFO - 🔍 Processing 8/10: Achiever FC vs Crown FC
+2025-07-10 12:13:39,486 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 12:13:39,539 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:13:39,540 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 12:13:41,040 - utils - INFO - 🔍 Processing 9/10: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:13:41,041 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:13:41,191 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 12:13:41,192 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 12:13:42,693 - utils - INFO - 🔍 Processing 10/10: Doma Utd FC vs Barau FC
+2025-07-10 12:13:42,693 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 12:13:42,742 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:13:42,743 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 36/48 fields (94.7%)
+2025-07-10 12:13:44,243 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 12:13:44,243 - utils - INFO -    Total matches: 10
+2025-07-10 12:13:44,244 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 12:13:44,244 - utils - INFO -    High quality (95%+): 1/10 (10.0%)
+2025-07-10 12:13:44,244 - utils - INFO -    Average completion: 94.2%
+2025-07-10 12:18:44,249 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 12:18:44,330 - utils - INFO - Found 10 live matches
+2025-07-10 12:18:44,331 - utils - INFO - 🔍 Processing 1/10: Canberra Olympic vs West Canberra Wanderers
+2025-07-10 12:18:44,331 - utils - INFO - 🎯 Collecting complete data for Canberra Olympic vs West Canberra Wanderers
+2025-07-10 12:18:44,429 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:18:44,430 - utils - INFO - ✅ Canberra Olympic vs West Canberra Wanderers: 35/48 fields (92.1%)
+2025-07-10 12:18:45,931 - utils - INFO - 🔍 Processing 2/10: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:18:45,932 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:18:45,982 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:18:45,982 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 12:18:47,483 - utils - INFO - 🔍 Processing 3/10: Kidderpore SC vs United Kolkata
+2025-07-10 12:18:47,484 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 12:18:47,538 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:18:47,538 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 12:18:49,040 - utils - INFO - 🔍 Processing 4/10: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:18:49,040 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:18:49,093 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:18:49,093 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 12:18:50,594 - utils - INFO - 🔍 Processing 5/10: Dewa United FC vs Port FC
+2025-07-10 12:18:50,595 - utils - INFO - 🎯 Collecting complete data for Dewa United FC vs Port FC
+2025-07-10 12:18:50,658 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:18:50,659 - utils - INFO - ✅ Dewa United FC vs Port FC: 35/48 fields (92.1%)
+2025-07-10 12:18:52,160 - utils - INFO - 🔍 Processing 6/10: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:18:52,161 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:18:52,212 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:18:52,213 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 35/48 fields (92.1%)
+2025-07-10 12:18:53,714 - utils - INFO - 🔍 Processing 7/10: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:18:53,714 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:18:53,764 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:18:53,764 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 36/48 fields (94.7%)
+2025-07-10 12:18:55,266 - utils - INFO - 🔍 Processing 8/10: Achiever FC vs Crown FC
+2025-07-10 12:18:55,266 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 12:18:55,313 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:18:55,314 - utils - INFO - ✅ Achiever FC vs Crown FC: 35/48 fields (92.1%)
+2025-07-10 12:18:56,815 - utils - INFO - 🔍 Processing 9/10: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:18:56,815 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:18:56,866 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 12:18:56,867 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 12:18:58,368 - utils - INFO - 🔍 Processing 10/10: Doma Utd FC vs Barau FC
+2025-07-10 12:18:58,368 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 12:18:58,422 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:18:58,422 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 36/48 fields (94.7%)
+2025-07-10 12:18:59,924 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 12:18:59,925 - utils - INFO -    Total matches: 10
+2025-07-10 12:18:59,925 - utils - INFO -    Perfect completion (98%+): 0/10 (0.0%)
+2025-07-10 12:18:59,926 - utils - INFO -    High quality (95%+): 1/10 (10.0%)
+2025-07-10 12:18:59,926 - utils - INFO -    Average completion: 93.7%
+2025-07-10 12:18:59,954 - utils - INFO - 📁 Exported 30 records to exports/complete_statistics_20250710_121859.csv
+2025-07-10 12:18:59,954 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 12:18:59,954 - utils - INFO -    Perfect (98%+): 0/30 (0.0%)
+2025-07-10 12:18:59,954 - utils - INFO -    Excellent (95%+): 2/30 (6.7%)
+2025-07-10 12:18:59,954 - utils - INFO -    Average: 93.8% (45/48 fields)
+2025-07-10 12:18:59,954 - utils - INFO - ⚠️  Remaining zeros: yellow_cards_home: 5, yellow_cards_away: 8, red_cards_home: 30, red_cards_away: 28
+2025-07-10 12:23:59,959 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 12:24:00,024 - utils - INFO - Found 9 live matches
+2025-07-10 12:24:00,024 - utils - INFO - 🔍 Processing 1/9: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:24:00,025 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:24:00,076 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:24:00,077 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 12:24:01,578 - utils - INFO - 🔍 Processing 2/9: Kidderpore SC vs United Kolkata
+2025-07-10 12:24:01,578 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 12:24:01,627 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:24:01,628 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 12:24:03,129 - utils - INFO - 🔍 Processing 3/9: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:24:03,129 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:24:03,180 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:24:03,181 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 12:24:04,682 - utils - INFO - 🔍 Processing 4/9: Dewa United FC vs Port FC
+2025-07-10 12:24:04,682 - utils - INFO - 🎯 Collecting complete data for Dewa United FC vs Port FC
+2025-07-10 12:24:04,737 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:24:04,738 - utils - INFO - ✅ Dewa United FC vs Port FC: 35/48 fields (92.1%)
+2025-07-10 12:24:06,239 - utils - INFO - 🔍 Processing 5/9: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:24:06,239 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:24:06,292 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:24:06,292 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 35/48 fields (92.1%)
+2025-07-10 12:24:07,793 - utils - INFO - 🔍 Processing 6/9: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:24:07,794 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:24:07,844 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:24:07,844 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 36/48 fields (94.7%)
+2025-07-10 12:24:09,345 - utils - INFO - 🔍 Processing 7/9: Achiever FC vs Crown FC
+2025-07-10 12:24:09,346 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 12:24:09,395 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:24:09,395 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 12:24:10,897 - utils - INFO - 🔍 Processing 8/9: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:24:10,897 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:24:10,947 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 12:24:10,948 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 12:24:12,449 - utils - INFO - 🔍 Processing 9/9: Doma Utd FC vs Barau FC
+2025-07-10 12:24:12,449 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 12:24:12,529 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:24:12,529 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 35/48 fields (92.1%)
+2025-07-10 12:24:14,031 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 12:24:14,031 - utils - INFO -    Total matches: 9
+2025-07-10 12:24:14,031 - utils - INFO -    Perfect completion (98%+): 0/9 (0.0%)
+2025-07-10 12:24:14,031 - utils - INFO -    High quality (95%+): 1/9 (11.1%)
+2025-07-10 12:24:14,031 - utils - INFO -    Average completion: 93.8%
+2025-07-10 12:29:14,036 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 12:29:14,111 - utils - INFO - Found 8 live matches
+2025-07-10 12:29:14,111 - utils - INFO - 🔍 Processing 1/8: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:29:14,111 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:29:14,171 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:29:14,171 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 12:29:15,673 - utils - INFO - 🔍 Processing 2/8: Kidderpore SC vs United Kolkata
+2025-07-10 12:29:15,674 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 12:29:15,730 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:29:15,730 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 35/48 fields (92.1%)
+2025-07-10 12:29:17,232 - utils - INFO - 🔍 Processing 3/8: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:29:17,233 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:29:17,284 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:29:17,284 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 12:29:18,787 - utils - INFO - 🔍 Processing 4/8: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:29:18,787 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:29:18,838 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:29:18,838 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 35/48 fields (92.1%)
+2025-07-10 12:29:20,340 - utils - INFO - 🔍 Processing 5/8: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:29:20,341 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:29:20,398 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:29:20,399 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 36/48 fields (94.7%)
+2025-07-10 12:29:21,901 - utils - INFO - 🔍 Processing 6/8: Achiever FC vs Crown FC
+2025-07-10 12:29:21,901 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 12:29:21,953 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:29:21,953 - utils - INFO - ✅ Achiever FC vs Crown FC: 35/48 fields (92.1%)
+2025-07-10 12:29:23,456 - utils - INFO - 🔍 Processing 7/8: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:29:23,456 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:29:23,508 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 12:29:23,508 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 12:29:25,010 - utils - INFO - 🔍 Processing 8/8: Doma Utd FC vs Barau FC
+2025-07-10 12:29:25,011 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 12:29:25,064 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:29:25,064 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 35/48 fields (92.1%)
+2025-07-10 12:29:26,567 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 12:29:26,567 - utils - INFO -    Total matches: 8
+2025-07-10 12:29:26,567 - utils - INFO -    Perfect completion (98%+): 0/8 (0.0%)
+2025-07-10 12:29:26,567 - utils - INFO -    High quality (95%+): 1/8 (12.5%)
+2025-07-10 12:29:26,567 - utils - INFO -    Average completion: 93.4%
+2025-07-10 12:34:26,572 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 12:34:26,639 - utils - INFO - Found 9 live matches
+2025-07-10 12:34:26,640 - utils - INFO - 🔍 Processing 1/9: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:34:26,640 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:34:26,703 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:34:26,703 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 12:34:28,205 - utils - INFO - 🔍 Processing 2/9: Kidderpore SC vs United Kolkata
+2025-07-10 12:34:28,206 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 12:34:28,254 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:34:28,255 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 12:34:29,757 - utils - INFO - 🔍 Processing 3/9: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:34:29,757 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:34:29,808 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:34:29,808 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 12:34:31,311 - utils - INFO - 🔍 Processing 4/9: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:34:31,311 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:34:31,366 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:34:31,366 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 36/48 fields (94.7%)
+2025-07-10 12:34:32,867 - utils - INFO - 🔍 Processing 5/9: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:34:32,868 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:34:32,919 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:34:32,919 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 36/48 fields (94.7%)
+2025-07-10 12:34:34,422 - utils - INFO - 🔍 Processing 6/9: Achiever FC vs Crown FC
+2025-07-10 12:34:34,422 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 12:34:34,474 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:34:34,474 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 12:34:35,977 - utils - INFO - 🔍 Processing 7/9: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:34:35,977 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:34:36,035 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 12:34:36,035 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 12:34:37,538 - utils - INFO - 🔍 Processing 8/9: Doma Utd FC vs Barau FC
+2025-07-10 12:34:37,538 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 12:34:37,589 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:34:37,589 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 36/48 fields (94.7%)
+2025-07-10 12:34:39,092 - utils - INFO - 🔍 Processing 9/9: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 12:34:39,092 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 12:34:39,150 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:34:39,151 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 12:34:40,653 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 12:34:40,653 - utils - INFO -    Total matches: 9
+2025-07-10 12:34:40,654 - utils - INFO -    Perfect completion (98%+): 0/9 (0.0%)
+2025-07-10 12:34:40,654 - utils - INFO -    High quality (95%+): 1/9 (11.1%)
+2025-07-10 12:34:40,654 - utils - INFO -    Average completion: 94.4%
+2025-07-10 12:34:40,672 - utils - INFO - 📁 Exported 26 records to exports/complete_statistics_20250710_123440.csv
+2025-07-10 12:34:40,672 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 12:34:40,672 - utils - INFO -    Perfect (98%+): 0/26 (0.0%)
+2025-07-10 12:34:40,672 - utils - INFO -    Excellent (95%+): 3/26 (11.5%)
+2025-07-10 12:34:40,673 - utils - INFO -    Average: 93.9% (45/48 fields)
+2025-07-10 12:34:40,673 - utils - INFO - ⚠️  Remaining zeros: yellow_cards_home: 9, yellow_cards_away: 2, red_cards_home: 26, red_cards_away: 23
+2025-07-10 12:39:34,331 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 12:39:34,392 - utils - INFO - Found 9 live matches
+2025-07-10 12:39:34,392 - utils - INFO - 🔍 Processing 1/9: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:39:34,392 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:39:34,458 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:39:34,458 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 12:39:35,960 - utils - INFO - 🔍 Processing 2/9: Kidderpore SC vs United Kolkata
+2025-07-10 12:39:35,960 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 12:39:36,020 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:39:36,020 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 12:39:37,522 - utils - INFO - 🔍 Processing 3/9: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:39:37,522 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:39:37,584 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:39:37,584 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 12:39:39,085 - utils - INFO - 🔍 Processing 4/9: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:39:39,086 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:39:39,150 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:39:39,150 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 36/48 fields (94.7%)
+2025-07-10 12:39:40,652 - utils - INFO - 🔍 Processing 5/9: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:39:40,652 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:39:40,709 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:39:40,709 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 36/48 fields (94.7%)
+2025-07-10 12:39:42,210 - utils - INFO - 🔍 Processing 6/9: Achiever FC vs Crown FC
+2025-07-10 12:39:42,210 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 12:39:42,267 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:39:42,267 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 12:39:43,769 - utils - INFO - 🔍 Processing 7/9: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:39:43,769 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:39:43,824 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 12:39:43,825 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 12:39:45,326 - utils - INFO - 🔍 Processing 8/9: Doma Utd FC vs Barau FC
+2025-07-10 12:39:45,326 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 12:39:45,377 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:39:45,378 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 36/48 fields (94.7%)
+2025-07-10 12:39:46,878 - utils - INFO - 🔍 Processing 9/9: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 12:39:46,879 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 12:39:46,927 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:39:46,927 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 12:39:48,428 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 12:39:48,429 - utils - INFO -    Total matches: 9
+2025-07-10 12:39:48,429 - utils - INFO -    Perfect completion (98%+): 0/9 (0.0%)
+2025-07-10 12:39:48,429 - utils - INFO -    High quality (95%+): 1/9 (11.1%)
+2025-07-10 12:39:48,429 - utils - INFO -    Average completion: 94.4%
+2025-07-10 12:44:48,432 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 12:44:48,506 - utils - INFO - Found 9 live matches
+2025-07-10 12:44:48,506 - utils - INFO - 🔍 Processing 1/9: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:44:48,506 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:44:48,550 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:44:48,550 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 12:44:50,052 - utils - INFO - 🔍 Processing 2/9: Kidderpore SC vs United Kolkata
+2025-07-10 12:44:50,052 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 12:44:50,101 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:44:50,101 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 35/48 fields (92.1%)
+2025-07-10 12:44:51,602 - utils - INFO - 🔍 Processing 3/9: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:44:51,602 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:44:51,653 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:44:51,653 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 12:44:53,154 - utils - INFO - 🔍 Processing 4/9: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:44:53,155 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:44:53,202 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:44:53,203 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 36/48 fields (94.7%)
+2025-07-10 12:44:54,704 - utils - INFO - 🔍 Processing 5/9: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:44:54,704 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:44:54,783 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:44:54,784 - utils - INFO - ✅ Thitsar Arman FC U20 vs Mahar United U20: 36/48 fields (94.7%)
+2025-07-10 12:44:56,285 - utils - INFO - 🔍 Processing 6/9: Achiever FC vs Crown FC
+2025-07-10 12:44:56,285 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 12:44:56,333 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:44:56,333 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 12:44:57,834 - utils - INFO - 🔍 Processing 7/9: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:44:57,834 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:44:57,886 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 12:44:57,887 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 12:44:59,388 - utils - INFO - 🔍 Processing 8/9: Doma Utd FC vs Barau FC
+2025-07-10 12:44:59,388 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 12:44:59,435 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:44:59,435 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 36/48 fields (94.7%)
+2025-07-10 12:45:00,936 - utils - INFO - 🔍 Processing 9/9: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 12:45:00,937 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 12:45:00,982 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:45:00,982 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 12:45:02,483 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 12:45:02,484 - utils - INFO -    Total matches: 9
+2025-07-10 12:45:02,484 - utils - INFO -    Perfect completion (98%+): 0/9 (0.0%)
+2025-07-10 12:45:02,484 - utils - INFO -    High quality (95%+): 1/9 (11.1%)
+2025-07-10 12:45:02,484 - utils - INFO -    Average completion: 94.1%
+2025-07-10 12:50:02,486 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 12:50:02,552 - utils - INFO - Found 9 live matches
+2025-07-10 12:50:02,552 - utils - INFO - 🔍 Processing 1/9: Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:50:02,552 - utils - INFO - 🎯 Collecting complete data for Sydney Olympic FC vs Illawarra Stingrays
+2025-07-10 12:50:02,621 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:50:02,621 - utils - INFO - ✅ Sydney Olympic FC vs Illawarra Stingrays: 35/48 fields (92.1%)
+2025-07-10 12:50:04,122 - utils - INFO - 🔍 Processing 2/9: Kidderpore SC vs United Kolkata
+2025-07-10 12:50:04,123 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 12:50:04,180 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:50:04,180 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 12:50:05,681 - utils - INFO - 🔍 Processing 3/9: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:50:05,682 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:50:05,729 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:50:05,730 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 12:50:07,231 - utils - INFO - 🔍 Processing 4/9: Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:50:07,231 - utils - INFO - 🎯 Collecting complete data for Ayeyawady United FC U20 vs Dagon Port FC U20
+2025-07-10 12:50:07,284 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:50:07,285 - utils - INFO - ✅ Ayeyawady United FC U20 vs Dagon Port FC U20: 35/48 fields (92.1%)
+2025-07-10 12:50:08,786 - utils - INFO - 🔍 Processing 5/9: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:50:08,786 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 12:50:08,834 - utils - INFO - ✅ Completed: 38/48 fields (79.2%)
+2025-07-10 12:50:08,834 - utils - INFO - 🏆 Thitsar Arman FC U20 vs Mahar United U20: 38/48 fields (100.0%)
+2025-07-10 12:50:10,336 - utils - INFO - 🔍 Processing 6/9: Achiever FC vs Crown FC
+2025-07-10 12:50:10,336 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 12:50:10,384 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:50:10,385 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 12:50:11,886 - utils - INFO - 🔍 Processing 7/9: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:50:11,886 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:50:11,936 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 12:50:11,936 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 12:50:13,437 - utils - INFO - 🔍 Processing 8/9: Doma Utd FC vs Barau FC
+2025-07-10 12:50:13,438 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 12:50:13,492 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:50:13,492 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 36/48 fields (94.7%)
+2025-07-10 12:50:14,994 - utils - INFO - 🔍 Processing 9/9: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 12:50:14,994 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 12:50:15,043 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:50:15,043 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 12:50:16,545 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 12:50:16,545 - utils - INFO -    Total matches: 9
+2025-07-10 12:50:16,545 - utils - INFO -    Perfect completion (98%+): 1/9 (11.1%)
+2025-07-10 12:50:16,545 - utils - INFO -    High quality (95%+): 2/9 (22.2%)
+2025-07-10 12:50:16,545 - utils - INFO -    Average completion: 94.7%
+2025-07-10 12:50:16,575 - utils - INFO - 📁 Exported 27 records to exports/complete_statistics_20250710_125016.csv
+2025-07-10 12:50:16,575 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 12:50:16,575 - utils - INFO -    Perfect (98%+): 1/27 (3.7%)
+2025-07-10 12:50:16,575 - utils - INFO -    Excellent (95%+): 4/27 (14.8%)
+2025-07-10 12:50:16,575 - utils - INFO -    Average: 94.4% (45/48 fields)
+2025-07-10 12:50:16,575 - utils - INFO - ⚠️  Remaining zeros: yellow_cards_home: 4, yellow_cards_away: 4, red_cards_home: 26, red_cards_away: 23
+2025-07-10 12:55:16,579 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 12:55:16,637 - utils - INFO - Found 6 live matches
+2025-07-10 12:55:16,637 - utils - INFO - 🔍 Processing 1/6: Kidderpore SC vs United Kolkata
+2025-07-10 12:55:16,637 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 12:55:16,686 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:55:16,686 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 12:55:18,187 - utils - INFO - 🔍 Processing 2/6: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:55:18,188 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 12:55:18,235 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:55:18,235 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 12:55:19,737 - utils - INFO - 🔍 Processing 3/6: Achiever FC vs Crown FC
+2025-07-10 12:55:19,737 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 12:55:19,786 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:55:19,786 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 12:55:21,287 - utils - INFO - 🔍 Processing 4/6: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:55:21,287 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 12:55:21,336 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 12:55:21,337 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 12:55:22,838 - utils - INFO - 🔍 Processing 5/6: Doma Utd FC vs Barau FC
+2025-07-10 12:55:22,838 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 12:55:22,885 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 12:55:22,885 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 36/48 fields (94.7%)
+2025-07-10 12:55:24,387 - utils - INFO - 🔍 Processing 6/6: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 12:55:24,388 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 12:55:24,435 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 12:55:24,435 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 12:55:25,937 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 12:55:25,937 - utils - INFO -    Total matches: 6
+2025-07-10 12:55:25,937 - utils - INFO -    Perfect completion (98%+): 0/6 (0.0%)
+2025-07-10 12:55:25,937 - utils - INFO -    High quality (95%+): 1/6 (16.7%)
+2025-07-10 12:55:25,937 - utils - INFO -    Average completion: 94.7%
+2025-07-10 13:00:25,942 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:00:26,008 - utils - INFO - Found 7 live matches
+2025-07-10 13:00:26,008 - utils - INFO - 🔍 Processing 1/7: Kidderpore SC vs United Kolkata
+2025-07-10 13:00:26,008 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 13:00:26,066 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:00:26,066 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 13:00:27,568 - utils - INFO - 🔍 Processing 2/7: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:00:27,569 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:00:27,620 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:00:27,620 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 13:00:29,123 - utils - INFO - 🔍 Processing 3/7: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:00:29,123 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:00:29,185 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:00:29,185 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 36/48 fields (94.7%)
+2025-07-10 13:00:30,688 - utils - INFO - 🔍 Processing 4/7: Achiever FC vs Crown FC
+2025-07-10 13:00:30,688 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 13:00:30,736 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:00:30,737 - utils - INFO - ✅ Achiever FC vs Crown FC: 35/48 fields (92.1%)
+2025-07-10 13:00:32,238 - utils - INFO - 🔍 Processing 5/7: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 13:00:32,239 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 13:00:32,288 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 13:00:32,288 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 13:00:33,790 - utils - INFO - 🔍 Processing 6/7: Doma Utd FC vs Barau FC
+2025-07-10 13:00:33,790 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 13:00:33,853 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:00:33,853 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 36/48 fields (94.7%)
+2025-07-10 13:00:35,356 - utils - INFO - 🔍 Processing 7/7: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:00:35,356 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:00:35,403 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:00:35,403 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 36/48 fields (94.7%)
+2025-07-10 13:00:36,905 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:00:36,906 - utils - INFO -    Total matches: 7
+2025-07-10 13:00:36,906 - utils - INFO -    Perfect completion (98%+): 0/7 (0.0%)
+2025-07-10 13:00:36,906 - utils - INFO -    High quality (95%+): 1/7 (14.3%)
+2025-07-10 13:00:36,906 - utils - INFO -    Average completion: 94.7%
+2025-07-10 13:05:36,909 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:05:36,979 - utils - INFO - Found 7 live matches
+2025-07-10 13:05:36,979 - utils - INFO - 🔍 Processing 1/7: Kidderpore SC vs United Kolkata
+2025-07-10 13:05:36,979 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 13:05:37,028 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:05:37,029 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 13:05:38,531 - utils - INFO - 🔍 Processing 2/7: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:05:38,531 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:05:38,578 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:05:38,578 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 13:05:40,080 - utils - INFO - 🔍 Processing 3/7: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:05:40,081 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:05:40,129 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:05:40,129 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 36/48 fields (94.7%)
+2025-07-10 13:05:41,632 - utils - INFO - 🔍 Processing 4/7: Achiever FC vs Crown FC
+2025-07-10 13:05:41,632 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 13:05:41,688 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:05:41,688 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 13:05:43,191 - utils - INFO - 🔍 Processing 5/7: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 13:05:43,191 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 13:05:43,239 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 13:05:43,240 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 13:05:44,742 - utils - INFO - 🔍 Processing 6/7: Doma Utd FC vs Barau FC
+2025-07-10 13:05:44,742 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 13:05:44,792 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:05:44,792 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 36/48 fields (94.7%)
+2025-07-10 13:05:46,295 - utils - INFO - 🔍 Processing 7/7: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:05:46,295 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:05:46,344 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:05:46,344 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 13:05:47,847 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:05:47,847 - utils - INFO -    Total matches: 7
+2025-07-10 13:05:47,847 - utils - INFO -    Perfect completion (98%+): 0/7 (0.0%)
+2025-07-10 13:05:47,847 - utils - INFO -    High quality (95%+): 1/7 (14.3%)
+2025-07-10 13:05:47,847 - utils - INFO -    Average completion: 94.7%
+2025-07-10 13:05:47,866 - utils - INFO - 📁 Exported 20 records to exports/complete_statistics_20250710_130547.csv
+2025-07-10 13:05:47,866 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 13:05:47,866 - utils - INFO -    Perfect (98%+): 0/20 (0.0%)
+2025-07-10 13:05:47,866 - utils - INFO -    Excellent (95%+): 3/20 (15.0%)
+2025-07-10 13:05:47,866 - utils - INFO -    Average: 94.7% (45/48 fields)
+2025-07-10 13:05:47,866 - utils - INFO - ⚠️  Remaining zeros: yellow_cards_away: 3, red_cards_home: 20, red_cards_away: 17
+2025-07-10 13:10:47,870 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:10:47,931 - utils - INFO - Found 8 live matches
+2025-07-10 13:10:47,932 - utils - INFO - 🔍 Processing 1/8: Kidderpore SC vs United Kolkata
+2025-07-10 13:10:47,932 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 13:10:47,989 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:10:47,989 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 13:10:49,491 - utils - INFO - 🔍 Processing 2/8: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:10:49,492 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:10:49,543 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:10:49,543 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 36/48 fields (94.7%)
+2025-07-10 13:10:51,046 - utils - INFO - 🔍 Processing 3/8: Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 13:10:51,046 - utils - INFO - 🎯 Collecting complete data for Thitsar Arman FC U20 vs Mahar United U20
+2025-07-10 13:10:51,097 - utils - INFO - ✅ Completed: 38/48 fields (79.2%)
+2025-07-10 13:10:51,097 - utils - INFO - 🏆 Thitsar Arman FC U20 vs Mahar United U20: 38/48 fields (100.0%)
+2025-07-10 13:10:52,599 - utils - INFO - 🔍 Processing 4/8: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:10:52,599 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:10:52,648 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:10:52,648 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 36/48 fields (94.7%)
+2025-07-10 13:10:54,150 - utils - INFO - 🔍 Processing 5/8: Achiever FC vs Crown FC
+2025-07-10 13:10:54,151 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 13:10:54,200 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:10:54,200 - utils - INFO - ✅ Achiever FC vs Crown FC: 35/48 fields (92.1%)
+2025-07-10 13:10:55,703 - utils - INFO - 🔍 Processing 6/8: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 13:10:55,703 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 13:10:55,757 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 13:10:55,757 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 13:10:57,259 - utils - INFO - 🔍 Processing 7/8: Doma Utd FC vs Barau FC
+2025-07-10 13:10:57,259 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 13:10:57,315 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:10:57,315 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 36/48 fields (94.7%)
+2025-07-10 13:10:58,817 - utils - INFO - 🔍 Processing 8/8: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:10:58,818 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:10:58,868 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:10:58,868 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 36/48 fields (94.7%)
+2025-07-10 13:11:00,370 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:11:00,371 - utils - INFO -    Total matches: 8
+2025-07-10 13:11:00,371 - utils - INFO -    Perfect completion (98%+): 1/8 (12.5%)
+2025-07-10 13:11:00,372 - utils - INFO -    High quality (95%+): 2/8 (25.0%)
+2025-07-10 13:11:00,372 - utils - INFO -    Average completion: 95.4%
+2025-07-10 13:16:00,376 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:16:00,451 - utils - INFO - Found 7 live matches
+2025-07-10 13:16:00,451 - utils - INFO - 🔍 Processing 1/7: Kidderpore SC vs United Kolkata
+2025-07-10 13:16:00,451 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 13:16:00,509 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:16:00,509 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 13:16:02,011 - utils - INFO - 🔍 Processing 2/7: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:16:02,011 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:16:02,060 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 13:16:02,060 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 37/48 fields (97.4%)
+2025-07-10 13:16:03,563 - utils - INFO - 🔍 Processing 3/7: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:16:03,563 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:16:03,624 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:16:03,625 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 35/48 fields (92.1%)
+2025-07-10 13:16:05,126 - utils - INFO - 🔍 Processing 4/7: Achiever FC vs Crown FC
+2025-07-10 13:16:05,126 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 13:16:05,175 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:16:05,175 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 13:16:06,677 - utils - INFO - 🔍 Processing 5/7: Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 13:16:06,678 - utils - INFO - 🎯 Collecting complete data for Wikki Tourists FC vs Yobe Desert Stars
+2025-07-10 13:16:06,735 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 13:16:06,736 - utils - INFO - ✅ Wikki Tourists FC vs Yobe Desert Stars: 37/48 fields (97.4%)
+2025-07-10 13:16:08,237 - utils - INFO - 🔍 Processing 6/7: Doma Utd FC vs Barau FC
+2025-07-10 13:16:08,237 - utils - INFO - 🎯 Collecting complete data for Doma Utd FC vs Barau FC
+2025-07-10 13:16:08,285 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:16:08,285 - utils - INFO - ✅ Doma Utd FC vs Barau FC: 36/48 fields (94.7%)
+2025-07-10 13:16:09,787 - utils - INFO - 🔍 Processing 7/7: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:16:09,788 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:16:09,836 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:16:09,836 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 36/48 fields (94.7%)
+2025-07-10 13:16:11,339 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:16:11,339 - utils - INFO -    Total matches: 7
+2025-07-10 13:16:11,339 - utils - INFO -    Perfect completion (98%+): 0/7 (0.0%)
+2025-07-10 13:16:11,339 - utils - INFO -    High quality (95%+): 2/7 (28.6%)
+2025-07-10 13:16:11,339 - utils - INFO -    Average completion: 95.1%
+2025-07-10 13:21:11,347 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:21:11,427 - utils - INFO - Found 6 live matches
+2025-07-10 13:21:11,427 - utils - INFO - 🔍 Processing 1/6: Deren FC vs Khangarid
+2025-07-10 13:21:11,427 - utils - INFO - 🎯 Collecting complete data for Deren FC vs Khangarid
+2025-07-10 13:21:11,506 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:21:11,507 - utils - INFO - ✅ Deren FC vs Khangarid: 35/48 fields (92.1%)
+2025-07-10 13:21:13,009 - utils - INFO - 🔍 Processing 2/6: Kidderpore SC vs United Kolkata
+2025-07-10 13:21:13,009 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 13:21:13,056 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:21:13,056 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 13:21:14,558 - utils - INFO - 🔍 Processing 3/6: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:21:14,559 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:21:14,605 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 13:21:14,606 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 37/48 fields (97.4%)
+2025-07-10 13:21:16,107 - utils - INFO - 🔍 Processing 4/6: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:21:16,107 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:21:16,152 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:21:16,152 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 35/48 fields (92.1%)
+2025-07-10 13:21:17,654 - utils - INFO - 🔍 Processing 5/6: Achiever FC vs Crown FC
+2025-07-10 13:21:17,654 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 13:21:17,724 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:21:17,724 - utils - INFO - ✅ Achiever FC vs Crown FC: 36/48 fields (94.7%)
+2025-07-10 13:21:19,226 - utils - INFO - 🔍 Processing 6/6: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:21:19,227 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:21:19,280 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:21:19,280 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 13:21:20,782 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:21:20,782 - utils - INFO -    Total matches: 6
+2025-07-10 13:21:20,783 - utils - INFO -    Perfect completion (98%+): 0/6 (0.0%)
+2025-07-10 13:21:20,783 - utils - INFO -    High quality (95%+): 1/6 (16.7%)
+2025-07-10 13:21:20,783 - utils - INFO -    Average completion: 93.9%
+2025-07-10 13:21:20,799 - utils - INFO - 📁 Exported 21 records to exports/complete_statistics_20250710_132120.csv
+2025-07-10 13:21:20,800 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 13:21:20,800 - utils - INFO -    Perfect (98%+): 1/21 (4.8%)
+2025-07-10 13:21:20,800 - utils - INFO -    Excellent (95%+): 5/21 (23.8%)
+2025-07-10 13:21:20,800 - utils - INFO -    Average: 94.8% (45/48 fields)
+2025-07-10 13:21:20,800 - utils - INFO - ⚠️  Remaining zeros: yellow_cards_home: 4, yellow_cards_away: 1, red_cards_home: 20, red_cards_away: 16
+2025-07-10 13:26:20,805 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:26:20,885 - utils - INFO - Found 6 live matches
+2025-07-10 13:26:20,885 - utils - INFO - 🔍 Processing 1/6: Deren FC vs Khangarid
+2025-07-10 13:26:20,885 - utils - INFO - 🎯 Collecting complete data for Deren FC vs Khangarid
+2025-07-10 13:26:20,935 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:26:20,935 - utils - INFO - ✅ Deren FC vs Khangarid: 36/48 fields (94.7%)
+2025-07-10 13:26:22,437 - utils - INFO - 🔍 Processing 2/6: Kidderpore SC vs United Kolkata
+2025-07-10 13:26:22,438 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 13:26:22,487 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:26:22,488 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 36/48 fields (94.7%)
+2025-07-10 13:26:23,990 - utils - INFO - 🔍 Processing 3/6: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:26:23,990 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:26:24,040 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 13:26:24,040 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 37/48 fields (97.4%)
+2025-07-10 13:26:25,543 - utils - INFO - 🔍 Processing 4/6: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:26:25,543 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:26:25,593 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:26:25,594 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 36/48 fields (94.7%)
+2025-07-10 13:26:27,096 - utils - INFO - 🔍 Processing 5/6: Achiever FC vs Crown FC
+2025-07-10 13:26:27,097 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 13:26:27,147 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:26:27,147 - utils - INFO - ✅ Achiever FC vs Crown FC: 35/48 fields (92.1%)
+2025-07-10 13:26:28,649 - utils - INFO - 🔍 Processing 6/6: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:26:28,650 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:26:28,696 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:26:28,696 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 36/48 fields (94.7%)
+2025-07-10 13:26:30,198 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:26:30,199 - utils - INFO -    Total matches: 6
+2025-07-10 13:26:30,199 - utils - INFO -    Perfect completion (98%+): 0/6 (0.0%)
+2025-07-10 13:26:30,199 - utils - INFO -    High quality (95%+): 1/6 (16.7%)
+2025-07-10 13:26:30,199 - utils - INFO -    Average completion: 94.7%
+2025-07-10 13:31:30,203 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:31:30,269 - utils - INFO - Found 6 live matches
+2025-07-10 13:31:30,269 - utils - INFO - 🔍 Processing 1/6: Deren FC vs Khangarid
+2025-07-10 13:31:30,269 - utils - INFO - 🎯 Collecting complete data for Deren FC vs Khangarid
+2025-07-10 13:31:30,352 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:31:30,352 - utils - INFO - ✅ Deren FC vs Khangarid: 36/48 fields (94.7%)
+2025-07-10 13:31:31,855 - utils - INFO - 🔍 Processing 2/6: Kidderpore SC vs United Kolkata
+2025-07-10 13:31:31,855 - utils - INFO - 🎯 Collecting complete data for Kidderpore SC vs United Kolkata
+2025-07-10 13:31:31,907 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:31:31,907 - utils - INFO - ✅ Kidderpore SC vs United Kolkata: 35/48 fields (92.1%)
+2025-07-10 13:31:33,410 - utils - INFO - 🔍 Processing 3/6: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:31:33,410 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:31:33,514 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 13:31:33,514 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 37/48 fields (97.4%)
+2025-07-10 13:31:35,016 - utils - INFO - 🔍 Processing 4/6: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:31:35,017 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:31:35,065 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:31:35,065 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 36/48 fields (94.7%)
+2025-07-10 13:31:36,567 - utils - INFO - 🔍 Processing 5/6: Achiever FC vs Crown FC
+2025-07-10 13:31:36,568 - utils - INFO - 🎯 Collecting complete data for Achiever FC vs Crown FC
+2025-07-10 13:31:36,620 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:31:36,620 - utils - INFO - ✅ Achiever FC vs Crown FC: 35/48 fields (92.1%)
+2025-07-10 13:31:38,122 - utils - INFO - 🔍 Processing 6/6: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:31:38,122 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:31:38,169 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:31:38,170 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 13:31:39,672 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:31:39,672 - utils - INFO -    Total matches: 6
+2025-07-10 13:31:39,672 - utils - INFO -    Perfect completion (98%+): 0/6 (0.0%)
+2025-07-10 13:31:39,673 - utils - INFO -    High quality (95%+): 1/6 (16.7%)
+2025-07-10 13:31:39,673 - utils - INFO -    Average completion: 93.9%
+2025-07-10 13:36:39,677 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:36:39,740 - utils - INFO - Found 4 live matches
+2025-07-10 13:36:39,740 - utils - INFO - 🔍 Processing 1/4: Deren FC vs Khangarid
+2025-07-10 13:36:39,740 - utils - INFO - 🎯 Collecting complete data for Deren FC vs Khangarid
+2025-07-10 13:36:39,789 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:36:39,790 - utils - INFO - ✅ Deren FC vs Khangarid: 35/48 fields (92.1%)
+2025-07-10 13:36:41,292 - utils - INFO - 🔍 Processing 2/4: Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:36:41,292 - utils - INFO - 🎯 Collecting complete data for Sangbad Pratidin Bhawanipore vs Diamond Harbour FC
+2025-07-10 13:36:41,340 - utils - INFO - ✅ Completed: 37/48 fields (77.1%)
+2025-07-10 13:36:41,341 - utils - INFO - ✅ Sangbad Pratidin Bhawanipore vs Diamond Harbour FC: 37/48 fields (97.4%)
+2025-07-10 13:36:42,843 - utils - INFO - 🔍 Processing 3/4: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:36:42,843 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:36:42,895 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:36:42,895 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 36/48 fields (94.7%)
+2025-07-10 13:36:44,396 - utils - INFO - 🔍 Processing 4/4: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:36:44,396 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:36:44,451 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:36:44,451 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 36/48 fields (94.7%)
+2025-07-10 13:36:45,954 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:36:45,954 - utils - INFO -    Total matches: 4
+2025-07-10 13:36:45,954 - utils - INFO -    Perfect completion (98%+): 0/4 (0.0%)
+2025-07-10 13:36:45,954 - utils - INFO -    High quality (95%+): 1/4 (25.0%)
+2025-07-10 13:36:45,954 - utils - INFO -    Average completion: 94.7%
+2025-07-10 13:36:45,970 - utils - INFO - 📁 Exported 16 records to exports/complete_statistics_20250710_133645.csv
+2025-07-10 13:36:45,970 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 13:36:45,970 - utils - INFO -    Perfect (98%+): 0/16 (0.0%)
+2025-07-10 13:36:45,970 - utils - INFO -    Excellent (95%+): 3/16 (18.8%)
+2025-07-10 13:36:45,970 - utils - INFO -    Average: 94.4% (45/48 fields)
+2025-07-10 13:36:45,970 - utils - INFO - ⚠️  Remaining zeros: yellow_cards_home: 2, yellow_cards_away: 3, red_cards_home: 16, red_cards_away: 13
+2025-07-10 13:41:45,975 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:41:46,028 - utils - INFO - Found 3 live matches
+2025-07-10 13:41:46,028 - utils - INFO - 🔍 Processing 1/3: Deren FC vs Khangarid
+2025-07-10 13:41:46,028 - utils - INFO - 🎯 Collecting complete data for Deren FC vs Khangarid
+2025-07-10 13:41:46,085 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:41:46,085 - utils - INFO - ✅ Deren FC vs Khangarid: 36/48 fields (94.7%)
+2025-07-10 13:41:47,588 - utils - INFO - 🔍 Processing 2/3: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:41:47,588 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:41:47,638 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:41:47,638 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 36/48 fields (94.7%)
+2025-07-10 13:41:49,141 - utils - INFO - 🔍 Processing 3/3: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:41:49,141 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:41:49,195 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:41:49,195 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 13:41:50,697 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:41:50,698 - utils - INFO -    Total matches: 3
+2025-07-10 13:41:50,698 - utils - INFO -    Perfect completion (98%+): 0/3 (0.0%)
+2025-07-10 13:41:50,698 - utils - INFO -    High quality (95%+): 0/3 (0.0%)
+2025-07-10 13:41:50,698 - utils - INFO -    Average completion: 93.8%
+2025-07-10 13:46:50,703 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:46:50,751 - utils - INFO - Found 3 live matches
+2025-07-10 13:46:50,752 - utils - INFO - 🔍 Processing 1/3: Deren FC vs Khangarid
+2025-07-10 13:46:50,752 - utils - INFO - 🎯 Collecting complete data for Deren FC vs Khangarid
+2025-07-10 13:46:50,799 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:46:50,799 - utils - INFO - ✅ Deren FC vs Khangarid: 36/48 fields (94.7%)
+2025-07-10 13:46:52,300 - utils - INFO - 🔍 Processing 2/3: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:46:52,301 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:46:52,349 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:46:52,349 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 36/48 fields (94.7%)
+2025-07-10 13:46:53,850 - utils - INFO - 🔍 Processing 3/3: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:46:53,850 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:46:53,900 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:46:53,900 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 13:46:55,401 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:46:55,402 - utils - INFO -    Total matches: 3
+2025-07-10 13:46:55,402 - utils - INFO -    Perfect completion (98%+): 0/3 (0.0%)
+2025-07-10 13:46:55,402 - utils - INFO -    High quality (95%+): 0/3 (0.0%)
+2025-07-10 13:46:55,402 - utils - INFO -    Average completion: 93.8%
+2025-07-10 13:51:55,408 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:51:55,456 - utils - INFO - Found 3 live matches
+2025-07-10 13:51:55,456 - utils - INFO - 🔍 Processing 1/3: Deren FC vs Khangarid
+2025-07-10 13:51:55,456 - utils - INFO - 🎯 Collecting complete data for Deren FC vs Khangarid
+2025-07-10 13:51:55,509 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:51:55,509 - utils - INFO - ✅ Deren FC vs Khangarid: 35/48 fields (92.1%)
+2025-07-10 13:51:57,009 - utils - INFO - 🔍 Processing 2/3: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:51:57,010 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:51:57,141 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:51:57,141 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 36/48 fields (94.7%)
+2025-07-10 13:51:58,642 - utils - INFO - 🔍 Processing 3/3: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:51:58,643 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:51:58,692 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:51:58,692 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 13:52:00,193 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:52:00,193 - utils - INFO -    Total matches: 3
+2025-07-10 13:52:00,194 - utils - INFO -    Perfect completion (98%+): 0/3 (0.0%)
+2025-07-10 13:52:00,194 - utils - INFO -    High quality (95%+): 0/3 (0.0%)
+2025-07-10 13:52:00,194 - utils - INFO -    Average completion: 93.0%
+2025-07-10 13:52:00,211 - utils - INFO - 📁 Exported 9 records to exports/complete_statistics_20250710_135200.csv
+2025-07-10 13:52:00,211 - utils - INFO - 🏆 COMPLETION RESULTS:
+2025-07-10 13:52:00,211 - utils - INFO -    Perfect (98%+): 0/9 (0.0%)
+2025-07-10 13:52:00,211 - utils - INFO -    Excellent (95%+): 0/9 (0.0%)
+2025-07-10 13:52:00,211 - utils - INFO -    Average: 93.5% (44/48 fields)
+2025-07-10 13:52:00,211 - utils - INFO - ⚠️  Remaining zeros: yellow_cards_home: 1, yellow_cards_away: 3, red_cards_home: 9, red_cards_away: 9
+2025-07-10 13:57:00,215 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:57:00,329 - utils - INFO - Found 4 live matches
+2025-07-10 13:57:00,329 - utils - INFO - 🔍 Processing 1/4: Deren FC vs Khangarid
+2025-07-10 13:57:00,329 - utils - INFO - 🎯 Collecting complete data for Deren FC vs Khangarid
+2025-07-10 13:57:00,379 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:57:00,379 - utils - INFO - ✅ Deren FC vs Khangarid: 35/48 fields (92.1%)
+2025-07-10 13:57:01,880 - utils - INFO - 🔍 Processing 2/4: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:57:01,881 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:57:01,939 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:57:01,939 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 36/48 fields (94.7%)
+2025-07-10 13:57:03,440 - utils - INFO - 🔍 Processing 3/4: Toyin Amuzu FC vs Marvelous Stars FC
+2025-07-10 13:57:03,441 - utils - INFO - 🎯 Collecting complete data for Toyin Amuzu FC vs Marvelous Stars FC
+2025-07-10 13:57:03,497 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:57:03,497 - utils - INFO - ✅ Toyin Amuzu FC vs Marvelous Stars FC: 36/48 fields (94.7%)
+2025-07-10 13:57:04,999 - utils - INFO - 🔍 Processing 4/4: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:57:04,999 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:57:05,069 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:57:05,069 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 13:57:06,571 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:57:06,572 - utils - INFO -    Total matches: 4
+2025-07-10 13:57:06,572 - utils - INFO -    Perfect completion (98%+): 0/4 (0.0%)
+2025-07-10 13:57:06,572 - utils - INFO -    High quality (95%+): 0/4 (0.0%)
+2025-07-10 13:57:06,572 - utils - INFO -    Average completion: 93.4%
+2025-07-10 13:58:21,528 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 13:58:21,571 - utils - INFO - Found 4 live matches
+2025-07-10 13:58:21,571 - utils - INFO - 🔍 Processing 1/4: Deren FC vs Khangarid
+2025-07-10 13:58:21,571 - utils - INFO - 🎯 Collecting complete data for Deren FC vs Khangarid
+2025-07-10 13:58:21,623 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:58:21,623 - utils - INFO - ✅ Deren FC vs Khangarid: 35/48 fields (92.1%)
+2025-07-10 13:58:23,124 - utils - INFO - 🔍 Processing 2/4: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:58:23,124 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 13:58:23,170 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:58:23,170 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 35/48 fields (92.1%)
+2025-07-10 13:58:24,671 - utils - INFO - 🔍 Processing 3/4: Toyin Amuzu FC vs Marvelous Stars FC
+2025-07-10 13:58:24,671 - utils - INFO - 🎯 Collecting complete data for Toyin Amuzu FC vs Marvelous Stars FC
+2025-07-10 13:58:24,720 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 13:58:24,720 - utils - INFO - ✅ Toyin Amuzu FC vs Marvelous Stars FC: 35/48 fields (92.1%)
+2025-07-10 13:58:26,221 - utils - INFO - 🔍 Processing 4/4: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:58:26,222 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 13:58:26,271 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 13:58:26,271 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 36/48 fields (94.7%)
+2025-07-10 13:58:27,773 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 13:58:27,773 - utils - INFO -    Total matches: 4
+2025-07-10 13:58:27,773 - utils - INFO -    Perfect completion (98%+): 0/4 (0.0%)
+2025-07-10 13:58:27,773 - utils - INFO -    High quality (95%+): 0/4 (0.0%)
+2025-07-10 13:58:27,773 - utils - INFO -    Average completion: 92.8%
+2025-07-10 14:03:27,778 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 14:03:27,834 - utils - INFO - Found 7 live matches
+2025-07-10 14:03:27,834 - utils - INFO - 🔍 Processing 1/7: Deren FC vs Khangarid
+2025-07-10 14:03:27,834 - utils - INFO - 🎯 Collecting complete data for Deren FC vs Khangarid
+2025-07-10 14:03:27,883 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 14:03:27,884 - utils - INFO - ✅ Deren FC vs Khangarid: 36/48 fields (94.7%)
+2025-07-10 14:03:29,385 - utils - INFO - 🔍 Processing 2/7: Aktobe Reserve vs SD Family Astana
+2025-07-10 14:03:29,385 - utils - INFO - 🎯 Collecting complete data for Aktobe Reserve vs SD Family Astana
+2025-07-10 14:03:30,439 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 14:03:30,439 - utils - INFO - ✅ Aktobe Reserve vs SD Family Astana: 35/48 fields (92.1%)
+2025-07-10 14:03:31,941 - utils - INFO - 🔍 Processing 3/7: FK Ekibastuz vs FC Khan Tengri
+2025-07-10 14:03:31,941 - utils - INFO - 🎯 Collecting complete data for FK Ekibastuz vs FC Khan Tengri
+2025-07-10 14:03:34,003 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 14:03:34,003 - utils - INFO - ✅ FK Ekibastuz vs FC Khan Tengri: 35/48 fields (92.1%)
+2025-07-10 14:03:35,504 - utils - INFO - 🔍 Processing 4/7: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 14:03:35,504 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 14:03:35,563 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 14:03:35,564 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 36/48 fields (94.7%)
+2025-07-10 14:03:37,065 - utils - INFO - 🔍 Processing 5/7: Toyin Amuzu FC vs Marvelous Stars FC
+2025-07-10 14:03:37,065 - utils - INFO - 🎯 Collecting complete data for Toyin Amuzu FC vs Marvelous Stars FC
+2025-07-10 14:03:37,128 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 14:03:37,129 - utils - INFO - ✅ Toyin Amuzu FC vs Marvelous Stars FC: 35/48 fields (92.1%)
+2025-07-10 14:03:38,630 - utils - INFO - 🔍 Processing 6/7: Osun Utd FC vs Kun Khalifat FC
+2025-07-10 14:03:38,630 - utils - INFO - 🎯 Collecting complete data for Osun Utd FC vs Kun Khalifat FC
+2025-07-10 14:03:38,686 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 14:03:38,686 - utils - INFO - ✅ Osun Utd FC vs Kun Khalifat FC: 36/48 fields (94.7%)
+2025-07-10 14:03:40,187 - utils - INFO - 🔍 Processing 7/7: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 14:03:40,188 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 14:03:40,238 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 14:03:40,238 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 35/48 fields (92.1%)
+2025-07-10 14:03:41,740 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 14:03:41,740 - utils - INFO -    Total matches: 7
+2025-07-10 14:03:41,740 - utils - INFO -    Perfect completion (98%+): 0/7 (0.0%)
+2025-07-10 14:03:41,740 - utils - INFO -    High quality (95%+): 0/7 (0.0%)
+2025-07-10 14:03:41,740 - utils - INFO -    Average completion: 93.2%
+2025-07-10 14:04:37,868 - utils - INFO - 🎯 Starting COMPLETE data collection cycle...
+2025-07-10 14:04:37,918 - utils - INFO - Found 7 live matches
+2025-07-10 14:04:37,918 - utils - INFO - 🔍 Processing 1/7: Deren FC vs Khangarid
+2025-07-10 14:04:37,918 - utils - INFO - 🎯 Collecting complete data for Deren FC vs Khangarid
+2025-07-10 14:04:37,960 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 14:04:37,960 - utils - INFO - ✅ Deren FC vs Khangarid: 36/48 fields (94.7%)
+2025-07-10 14:04:39,462 - utils - INFO - 🔍 Processing 2/7: Aktobe Reserve vs SD Family Astana
+2025-07-10 14:04:39,462 - utils - INFO - 🎯 Collecting complete data for Aktobe Reserve vs SD Family Astana
+2025-07-10 14:04:39,529 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 14:04:39,530 - utils - INFO - ✅ Aktobe Reserve vs SD Family Astana: 36/48 fields (94.7%)
+2025-07-10 14:04:41,031 - utils - INFO - 🔍 Processing 3/7: FK Ekibastuz vs FC Khan Tengri
+2025-07-10 14:04:41,031 - utils - INFO - 🎯 Collecting complete data for FK Ekibastuz vs FC Khan Tengri
+2025-07-10 14:04:41,094 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 14:04:41,094 - utils - INFO - ✅ FK Ekibastuz vs FC Khan Tengri: 35/48 fields (92.1%)
+2025-07-10 14:04:42,595 - utils - INFO - 🔍 Processing 4/7: Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 14:04:42,596 - utils - INFO - 🎯 Collecting complete data for Collins Edwin Sports Club vs Crusaders FC
+2025-07-10 14:04:42,647 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 14:04:42,648 - utils - INFO - ✅ Collins Edwin Sports Club vs Crusaders FC: 36/48 fields (94.7%)
+2025-07-10 14:04:44,149 - utils - INFO - 🔍 Processing 5/7: Toyin Amuzu FC vs Marvelous Stars FC
+2025-07-10 14:04:44,149 - utils - INFO - 🎯 Collecting complete data for Toyin Amuzu FC vs Marvelous Stars FC
+2025-07-10 14:04:44,198 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 14:04:44,198 - utils - INFO - ✅ Toyin Amuzu FC vs Marvelous Stars FC: 36/48 fields (94.7%)
+2025-07-10 14:04:45,699 - utils - INFO - 🔍 Processing 6/7: Osun Utd FC vs Kun Khalifat FC
+2025-07-10 14:04:45,699 - utils - INFO - 🎯 Collecting complete data for Osun Utd FC vs Kun Khalifat FC
+2025-07-10 14:04:45,749 - utils - INFO - ✅ Completed: 35/48 fields (72.9%)
+2025-07-10 14:04:45,750 - utils - INFO - ✅ Osun Utd FC vs Kun Khalifat FC: 35/48 fields (92.1%)
+2025-07-10 14:04:47,250 - utils - INFO - 🔍 Processing 7/7: FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 14:04:47,250 - utils - INFO - 🎯 Collecting complete data for FS Metta - 2 vs Rīgas FS - 2
+2025-07-10 14:04:47,307 - utils - INFO - ✅ Completed: 36/48 fields (75.0%)
+2025-07-10 14:04:47,307 - utils - INFO - ✅ FS Metta - 2 vs Rīgas FS - 2: 36/48 fields (94.7%)
+2025-07-10 14:04:48,809 - utils - INFO - 🎯 COMPLETION METRICS:
+2025-07-10 14:04:48,809 - utils - INFO -    Total matches: 7
+2025-07-10 14:04:48,809 - utils - INFO -    Perfect completion (98%+): 0/7 (0.0%)
+2025-07-10 14:04:48,809 - utils - INFO -    High quality (95%+): 0/7 (0.0%)
+2025-07-10 14:04:48,810 - utils - INFO -    Average completion: 94.0%
