@@ -190,3 +190,114 @@ def safe_get_nested(data, keys, default=None):
         return data
     except (KeyError, TypeError):
         return default
+
+
+# Enhanced functions for corrected goal extraction
+def extract_corrected_match_details(match_data, incidents_data, stats_data, team_id, team_name=""):
+    """
+    Extract match details with corrected goal data consistency
+    Integrates with existing utils functions
+    """
+    from .goal_data_extractor import GoalDataExtractor
+    
+    logger = setup_logging()
+    extractor = GoalDataExtractor(logger)
+    
+    # Get corrected goal data
+    corrected_details = extractor.extract_corrected_match_details(
+        match_data, incidents_data, team_id, team_name
+    )
+    
+    # Merge with statistics data if available
+    if stats_data and 'statistics' in stats_data:
+        team_stats = extract_team_statistics_from_stats(stats_data, team_id, match_data)
+        corrected_details.update(team_stats)
+    
+    return corrected_details
+
+def extract_team_statistics_from_stats(stats_data, team_id, match_data):
+    """
+    Extract team statistics with proper team identification
+    """
+    home_team_id = safe_get_nested(match_data, ['event', 'homeTeam', 'id']) or safe_get_nested(match_data, ['homeTeam', 'id'])
+    team_is_home = (home_team_id == team_id)
+    team_side = 'home' if team_is_home else 'away'
+    
+    team_stats = {}
+    
+    try:
+        for period in stats_data.get('statistics', []):
+            if period.get('period') == 'ALL':
+                for group in period.get('groups', []):
+                    for stat in group.get('statisticsItems', []):
+                        stat_name = stat.get('name', '').lower()
+                        team_value = stat.get(team_side)
+                        
+                        if team_value is not None:
+                            # Map statistics with proper cleaning
+                            if 'ball possession' in stat_name:
+                                team_stats['possession_pct'] = _clean_percentage_value(team_value)
+                            elif 'shots on target' in stat_name:
+                                team_stats['shots_on_target'] = int(team_value)
+                            elif 'total shots' in stat_name:
+                                team_stats['total_shots'] = int(team_value)
+                            elif 'corner kicks' in stat_name:
+                                team_stats['corners'] = int(team_value)
+                            elif 'fouls' in stat_name:
+                                team_stats['fouls'] = int(team_value)
+                            elif 'yellow cards' in stat_name:
+                                team_stats['yellow_cards'] = int(team_value)
+                            elif 'red cards' in stat_name:
+                                team_stats['red_cards'] = int(team_value)
+                            elif 'passes' in stat_name and 'accurate' not in stat_name:
+                                team_stats['passes'] = int(team_value)
+                            elif 'accurate passes' in stat_name:
+                                if '%' in str(team_value):
+                                    team_stats['pass_accuracy_pct'] = _clean_percentage_value(team_value)
+                                else:
+                                    team_stats['accurate_passes'] = int(team_value)
+    
+    except Exception as e:
+        logger = setup_logging()
+        logger.error(f"Error extracting team statistics: {e}")
+    
+    return team_stats
+
+def _clean_percentage_value(value):
+    """Clean percentage values from API responses"""
+    if isinstance(value, str) and value.endswith('%'):
+        return float(value.rstrip('%'))
+    return float(value)
+
+def log_consistency_metrics(match_details, logger=None):
+    """
+    Log consistency metrics for debugging
+    """
+    if not logger:
+        logger = setup_logging()
+    
+    goals_scored = match_details.get('goals_scored', 0)
+    goals_conceded = match_details.get('goals_conceded', 0)
+    
+    logger.info("🎯 CONSISTENCY METRICS:")
+    logger.info(f"   Goals scored: {goals_scored}")
+    logger.info(f"   Goal times array: {len(match_details.get('goal_times', []))}")
+    logger.info(f"   Goal scorers array: {len(match_details.get('goal_scorers', []))}")
+    logger.info(f"   Assists array: {len(match_details.get('assists', []))}")
+    logger.info(f"   Goals conceded: {goals_conceded}")
+    logger.info(f"   Goal conceded times array: {len(match_details.get('goal_conceded_times', []))}")
+    
+    # Check consistency
+    consistency_checks = [
+        len(match_details.get('goal_times', [])) == goals_scored,
+        len(match_details.get('goal_scorers', [])) == goals_scored,
+        len(match_details.get('assists', [])) <= goals_scored,
+        len(match_details.get('goal_conceded_times', [])) == goals_conceded
+    ]
+    
+    if all(consistency_checks):
+        logger.info("✅ PERFECT CONSISTENCY ACHIEVED!")
+    else:
+        logger.warning("❌ Consistency issues detected")
+    
+    return all(consistency_checks)

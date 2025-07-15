@@ -68,3 +68,27 @@ while true; do
         read -p "Press Enter to continue..."
     fi
 done
+
+# Add new option for corrected extraction testing
+case $choice in
+    # ... existing cases ...
+    9)
+        echo "🧪 Testing Corrected Goal Extraction..."
+        python test_corrected_extraction.py
+        ;;
+    *)
+        # Update the menu display
+        if [ "$choice" = "?" ] || [ "$choice" = "help" ]; then
+            echo ""
+            echo "🆕 NEW FEATURE:"
+            echo "9. 🧪 Test Corrected Goal Extraction"
+            echo ""
+            echo "🔧 CORRECTED EXTRACTION FIXES:"
+            echo "   • Score orientation consistency"
+            echo "   • Perfect array length matching"
+            echo "   • Zero data mismatches"
+            echo "   • Enhanced goal team identification"
+            echo ""
+        fi
+        ;;
+esac

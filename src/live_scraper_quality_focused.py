@@ -953,3 +953,40 @@ def main():
 
 if __name__ == "__main__":
     main()
+    def collect_corrected_match_data(self, match_id, match_info):
+        """Collect match data using corrected goal extraction"""
+        
+        self.logger.info(f"🎯 Using corrected extraction for {match_info['home_team']} vs {match_info['away_team']}")
+        
+        # Determine team ID (you may need to modify this based on your data structure)
+        team_id = match_info.get('home_team_id') or match_info.get('away_team_id')
+        team_name = match_info.get('home_team') or match_info.get('away_team')
+        
+        if not team_id:
+            self.logger.warning("No team ID available for corrected extraction")
+            return {}, {}
+        
+        # Get API data
+        match_data = make_api_request(f"{self.base_url}/event/{match_id}")
+        incidents_data = make_api_request(f"{self.base_url}/event/{match_id}/incidents")
+        stats_data = make_api_request(f"{self.base_url}/event/{match_id}/statistics")
+        
+        # Use corrected extractor
+        extractor = GoalDataExtractor(self.logger)
+        
+        try:
+            corrected_details = extractor.extract_corrected_match_details(
+                match_data, incidents_data, team_id, team_name
+            )
+            
+            # Log success
+            self.logger.info(f"✅ Corrected extraction completed:")
+            self.logger.info(f"   Goals: {corrected_details['goals_scored']} scored, {corrected_details['goals_conceded']} conceded")
+            self.logger.info(f"   Arrays: {len(corrected_details['goal_times'])} times, {len(corrected_details['goal_scorers'])} scorers")
+            self.logger.info(f"   Final score: {corrected_details['final_score']}")
+            
+            return corrected_details, {"source": "corrected_extraction", "confidence": 95}
+            
+        except Exception as e:
+            self.logger.error(f"Error in corrected extraction: {e}")
+            return {}, {}
