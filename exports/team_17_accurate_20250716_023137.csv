@@ -1,8 +1,0 @@
-match_id,date,opponent,venue_type,competition,round_info,result,final_score,goals_scored,goals_conceded,possession_pct,total_shots,shots_on_target,corners,fouls,yellow_cards,red_cards,total_passes,accurate_passes,pass_accuracy_pct,tackles,interceptions,clearances,goalkeeper_saves,offsides,goal_times,goal_scorers,assists,goal_conceded_times
-13385903,2025-07-01,Al-Hilal,home,"FIFA Club World Cup, Knockout stage",Round of 16,L,3-5,3,5,69.0,30,15,19,17,3.0,,826,764,92.5,19,5,22,2,0,[],[],[],[]
-13200232,2025-06-26,Juventus,away,"FIFA Club World Cup, Group G",,W,3-5,5,3,76.0,24,11,6,10,0.0,,769,717,93.2,12,5,2,0,1,[],[],[],[]
-13200294,2025-06-23,Al-Ain,home,"FIFA Club World Cup, Group G",,W,7-0,7,0,74.0,21,11,9,11,1.0,,753,709,94.2,14,7,7,1,0,[],[],[],[]
-13200275,2025-06-18,Wydad Casablanca,home,"FIFA Club World Cup, Group G",,W,3-0,3,0,68.0,15,6,9,10,0.0,1.0,616,559,90.7,7,4,17,0,1,[],[],[],[]
-12436559,2025-05-25,Fulham,away,Premier League,,W,0-2,2,0,53.0,20,5,6,5,,,495,424,85.7,14,13,14,1,0,[],[],[],[]
-13854588,2025-05-20,Bournemouth,home,Premier League,,W,4-1,4,1,57.0,12,5,3,7,1.0,1.0,609,550,90.3,8,7,19,1,2,[],[],[],[]
-13822363,2025-05-17,Crystal Palace,away,FA Cup,Final,D,1-1,1,1,78.0,23,6,7,7,5.0,,679,618,91.0,15,1,16,0,1,[],[],[],[]
