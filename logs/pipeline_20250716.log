@@ -1,701 +1,356 @@
-2025-07-16 00:03:34,467 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:03:34,578 - utils - INFO - Response status: 200
-2025-07-16 00:03:34,578 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:03:35,618 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:03:35,662 - utils - INFO - Response status: 200
-2025-07-16 00:03:35,663 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:03:36,722 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:03:36,847 - utils - INFO - Response status: 200
-2025-07-16 00:03:36,848 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:03:36,848 - utils - INFO - 🎯 Starting complete fixed test for team 17
-2025-07-16 00:03:36,848 - utils - INFO - 🎯 Getting comprehensive match history for team 17
-2025-07-16 00:03:36,848 - utils - INFO - 📊 Method 1: Using team-based endpoint...
-2025-07-16 00:03:37,967 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/team/17/events/last/0
-2025-07-16 00:03:38,040 - utils - INFO - Response status: 200
-2025-07-16 00:03:38,043 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/team/17/events/last/0
-2025-07-16 00:03:38,043 - utils - INFO -    Found 30 matches from team endpoint
-2025-07-16 00:03:38,044 - utils - INFO - 🏆 Method 2: Using competition-specific endpoints...
-2025-07-16 00:03:39,497 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/17/season/52186/events/last/0
-2025-07-16 00:03:39,645 - utils - INFO - Response status: 200
-2025-07-16 00:03:39,646 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/unique-tournament/17/season/52186/events/last/0
-2025-07-16 00:03:39,646 - utils - INFO -    Added 4 new matches from Premier League
-2025-07-16 00:03:41,087 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/19/season/52190/events/last/0
-2025-07-16 00:03:41,146 - utils - INFO - Response status: 404
-2025-07-16 00:03:41,146 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/19/season/52190/events/last/0
-2025-07-16 00:03:42,494 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/tournament/19/season/52190/events/last/0
-2025-07-16 00:03:42,556 - utils - INFO - Response status: 404
-2025-07-16 00:03:42,556 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/tournament/19/season/52190/events/last/0
-2025-07-16 00:03:43,718 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/19/events/last/0
-2025-07-16 00:03:43,770 - utils - INFO - Response status: 404
-2025-07-16 00:03:43,770 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/19/events/last/0
-2025-07-16 00:03:44,804 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/7/season/52191/events/last/0
-2025-07-16 00:03:44,856 - utils - INFO - Response status: 404
-2025-07-16 00:03:44,856 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/7/season/52191/events/last/0
-2025-07-16 00:03:46,318 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/tournament/7/season/52191/events/last/0
-2025-07-16 00:03:46,368 - utils - INFO - Response status: 404
-2025-07-16 00:03:46,368 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/tournament/7/season/52191/events/last/0
-2025-07-16 00:03:47,752 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/7/events/last/0
-2025-07-16 00:03:47,791 - utils - INFO - Response status: 404
-2025-07-16 00:03:47,791 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/7/events/last/0
-2025-07-16 00:03:49,147 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/955/season/52456/events/last/0
-2025-07-16 00:03:49,209 - utils - INFO - Response status: 404
-2025-07-16 00:03:49,210 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/955/season/52456/events/last/0
-2025-07-16 00:03:50,386 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/tournament/955/season/52456/events/last/0
-2025-07-16 00:03:50,445 - utils - INFO - Response status: 404
-2025-07-16 00:03:50,445 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/tournament/955/season/52456/events/last/0
-2025-07-16 00:03:51,538 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/955/events/last/0
-2025-07-16 00:03:51,592 - utils - INFO - Response status: 404
-2025-07-16 00:03:51,593 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/955/events/last/0
-2025-07-16 00:03:51,593 - utils - INFO - ✅ Total unique matches found: 34
-2025-07-16 00:03:51,593 - utils - INFO - ✅ Finished matches: 34
-2025-07-16 00:03:51,593 - utils - INFO - 🔍 Processing match 1/7: Manchester City vs Al-Hilal (ID: 13385903)
-2025-07-16 00:03:52,978 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903
-2025-07-16 00:03:53,018 - utils - INFO - Response status: 200
-2025-07-16 00:03:53,018 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903
-2025-07-16 00:03:53,019 - utils - INFO - ✅ Authoritative scores from API: 3-5
-2025-07-16 00:03:53,019 - utils - INFO - 📊 Score extraction: Manchester City 3-5 Al-Hilal
-2025-07-16 00:03:53,019 - utils - INFO -    Team side: home, Team goals: 3, Opponent goals: 5
-2025-07-16 00:03:54,202 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/statistics
-2025-07-16 00:03:54,257 - utils - INFO - Response status: 200
-2025-07-16 00:03:54,258 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/statistics
-2025-07-16 00:03:55,545 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/incidents
-2025-07-16 00:03:55,610 - utils - INFO - Response status: 200
-2025-07-16 00:03:55,612 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/incidents
-2025-07-16 00:03:55,612 - utils - WARNING - Goal count mismatch: Found 7 incidents, expected 8
-2025-07-16 00:03:55,612 - utils - INFO - ✅ FIXED Goal extraction: 3 our goals, 4 opponent goals
-2025-07-16 00:03:55,613 - utils - INFO - 🔍 Processing match 2/7: Juventus vs Manchester City (ID: 13200232)
-2025-07-16 00:03:56,827 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232
-2025-07-16 00:03:56,868 - utils - INFO - Response status: 200
-2025-07-16 00:03:56,868 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232
-2025-07-16 00:03:56,868 - utils - INFO - ✅ Authoritative scores from API: 2-6
-2025-07-16 00:03:56,868 - utils - WARNING - Score discrepancy! Event: 3-5, API: 2-6
-2025-07-16 00:03:56,868 - utils - INFO - Using API scores as authoritative
-2025-07-16 00:03:56,869 - utils - INFO - 📊 Score extraction: Juventus 2-6 Manchester City
-2025-07-16 00:03:56,869 - utils - INFO -    Team side: away, Team goals: 6, Opponent goals: 2
-2025-07-16 00:03:58,345 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/statistics
-2025-07-16 00:03:58,399 - utils - INFO - Response status: 200
-2025-07-16 00:03:58,399 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/statistics
-2025-07-16 00:03:59,856 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/incidents
-2025-07-16 00:03:59,917 - utils - INFO - Response status: 200
-2025-07-16 00:03:59,918 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/incidents
-2025-07-16 00:03:59,919 - utils - WARNING - Goal count mismatch: Found 7 incidents, expected 8
-2025-07-16 00:03:59,919 - utils - INFO - ✅ FIXED Goal extraction: 6 our goals, 1 opponent goals
-2025-07-16 00:03:59,919 - utils - INFO - 🔍 Processing match 3/7: Manchester City vs Al-Ain (ID: 13200294)
-2025-07-16 00:04:01,334 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294
-2025-07-16 00:04:01,373 - utils - INFO - Response status: 200
-2025-07-16 00:04:01,374 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294
-2025-07-16 00:04:01,374 - utils - INFO - ✅ Authoritative scores from API: 6-0
-2025-07-16 00:04:01,374 - utils - WARNING - Score discrepancy! Event: 7-0, API: 6-0
-2025-07-16 00:04:01,374 - utils - INFO - Using API scores as authoritative
-2025-07-16 00:04:01,374 - utils - INFO - 📊 Score extraction: Manchester City 6-0 Al-Ain
-2025-07-16 00:04:01,375 - utils - INFO -    Team side: home, Team goals: 6, Opponent goals: 0
-2025-07-16 00:04:02,388 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/statistics
-2025-07-16 00:04:02,438 - utils - INFO - Response status: 200
-2025-07-16 00:04:02,439 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/statistics
-2025-07-16 00:04:03,890 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/incidents
-2025-07-16 00:04:03,944 - utils - INFO - Response status: 200
-2025-07-16 00:04:03,946 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/incidents
-2025-07-16 00:04:03,947 - utils - INFO - ✅ Using fallback score-based assignment
-2025-07-16 00:04:03,947 - utils - INFO - ✅ FIXED Goal extraction: 6 our goals, 0 opponent goals
-2025-07-16 00:04:03,947 - utils - INFO - 🔍 Processing match 4/7: Manchester City vs Wydad Casablanca (ID: 13200275)
-2025-07-16 00:04:05,302 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275
-2025-07-16 00:04:05,346 - utils - INFO - Response status: 200
-2025-07-16 00:04:05,347 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275
-2025-07-16 00:04:05,347 - utils - INFO - ✅ Authoritative scores from API: 2-0
-2025-07-16 00:04:05,347 - utils - WARNING - Score discrepancy! Event: 3-0, API: 2-0
-2025-07-16 00:04:05,347 - utils - INFO - Using API scores as authoritative
-2025-07-16 00:04:05,347 - utils - INFO - 📊 Score extraction: Manchester City 2-0 Wydad Casablanca
-2025-07-16 00:04:05,347 - utils - INFO -    Team side: home, Team goals: 2, Opponent goals: 0
-2025-07-16 00:04:06,644 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275/statistics
-2025-07-16 00:04:06,694 - utils - INFO - Response status: 200
-2025-07-16 00:04:06,694 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275/statistics
-2025-07-16 00:04:07,769 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275/incidents
-2025-07-16 00:04:07,821 - utils - INFO - Response status: 200
-2025-07-16 00:04:07,822 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275/incidents
-2025-07-16 00:04:07,822 - utils - INFO - ✅ Using fallback score-based assignment
-2025-07-16 00:04:07,822 - utils - INFO - ✅ FIXED Goal extraction: 2 our goals, 0 opponent goals
-2025-07-16 00:04:07,822 - utils - INFO - 🔍 Processing match 5/7: Fulham vs Manchester City (ID: 12436559)
-2025-07-16 00:04:09,234 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:04:09,274 - utils - INFO - Response status: 200
-2025-07-16 00:04:09,275 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:04:09,275 - utils - INFO - ✅ Authoritative scores from API: 1-3
-2025-07-16 00:04:09,275 - utils - WARNING - Score discrepancy! Event: 0-2, API: 1-3
-2025-07-16 00:04:09,275 - utils - INFO - Using API scores as authoritative
-2025-07-16 00:04:09,275 - utils - INFO - 📊 Score extraction: Fulham 1-3 Manchester City
-2025-07-16 00:04:09,275 - utils - INFO -    Team side: away, Team goals: 3, Opponent goals: 1
-2025-07-16 00:04:09,275 - utils - INFO - ✅ Score validated for Fulham: 3-1
-2025-07-16 00:04:10,546 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559/statistics
-2025-07-16 00:04:10,597 - utils - INFO - Response status: 200
-2025-07-16 00:04:10,597 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559/statistics
-2025-07-16 00:04:11,787 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559/incidents
-2025-07-16 00:04:11,981 - utils - INFO - Response status: 200
-2025-07-16 00:04:11,982 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559/incidents
-2025-07-16 00:04:11,982 - utils - WARNING - Goal count mismatch: Found 2 incidents, expected 4
-2025-07-16 00:04:11,982 - utils - INFO - ✅ FIXED Goal extraction: 2 our goals, 0 opponent goals
-2025-07-16 00:04:11,983 - utils - INFO - 🔍 Processing match 6/7: Manchester City vs Bournemouth (ID: 13854588)
-2025-07-16 00:04:13,288 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:04:13,329 - utils - INFO - Response status: 200
-2025-07-16 00:04:13,329 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:04:13,329 - utils - INFO - ✅ Authoritative scores from API: 3-2
-2025-07-16 00:04:13,330 - utils - WARNING - Score discrepancy! Event: 4-1, API: 3-2
-2025-07-16 00:04:13,330 - utils - INFO - Using API scores as authoritative
-2025-07-16 00:04:13,330 - utils - INFO - 📊 Score extraction: Manchester City 3-2 Bournemouth
-2025-07-16 00:04:13,330 - utils - INFO -    Team side: home, Team goals: 3, Opponent goals: 2
-2025-07-16 00:04:13,330 - utils - INFO - ✅ Score validated for Bournemouth: 3-2
-2025-07-16 00:04:14,427 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588/statistics
-2025-07-16 00:04:14,478 - utils - INFO - Response status: 200
-2025-07-16 00:04:14,478 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588/statistics
-2025-07-16 00:04:15,740 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588/incidents
-2025-07-16 00:04:15,792 - utils - INFO - Response status: 200
-2025-07-16 00:04:15,792 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588/incidents
-2025-07-16 00:04:15,792 - utils - WARNING - Goal count mismatch: Found 4 incidents, expected 5
-2025-07-16 00:04:15,792 - utils - INFO - ✅ FIXED Goal extraction: 3 our goals, 1 opponent goals
-2025-07-16 00:04:15,792 - utils - INFO - 🔍 Processing match 7/7: Crystal Palace vs Manchester City (ID: 13822363)
-2025-07-16 00:04:16,961 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:04:17,003 - utils - INFO - Response status: 200
-2025-07-16 00:04:17,003 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:04:17,004 - utils - INFO - ✅ Authoritative scores from API: 2-1
-2025-07-16 00:04:17,004 - utils - WARNING - Score discrepancy! Event: 1-1, API: 2-1
-2025-07-16 00:04:17,004 - utils - INFO - Using API scores as authoritative
-2025-07-16 00:04:17,004 - utils - INFO - 📊 Score extraction: Crystal Palace 2-1 Manchester City
-2025-07-16 00:04:17,004 - utils - INFO -    Team side: away, Team goals: 1, Opponent goals: 2
-2025-07-16 00:04:17,004 - utils - INFO - ✅ Score validated for Crystal Palace: 1-2
-2025-07-16 00:04:18,137 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363/statistics
-2025-07-16 00:04:18,187 - utils - INFO - Response status: 200
-2025-07-16 00:04:18,188 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363/statistics
-2025-07-16 00:04:19,422 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363/incidents
-2025-07-16 00:04:19,472 - utils - INFO - Response status: 200
-2025-07-16 00:04:19,473 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363/incidents
-2025-07-16 00:04:19,473 - utils - WARNING - Goal count mismatch: Found 1 incidents, expected 3
-2025-07-16 00:04:19,474 - utils - INFO - ✅ FIXED Goal extraction: 1 our goals, 0 opponent goals
-2025-07-16 00:04:19,474 - utils - INFO - ✅ Successfully processed 7 matches with accurate details
-2025-07-16 00:04:19,492 - utils - INFO - 📁 Exported 7 FIXED comprehensive matches to exports/team_17_FIXED_comprehensive_20250716_000419.csv
-2025-07-16 00:16:50,405 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:16:50,496 - utils - INFO - Response status: 200
-2025-07-16 00:16:50,496 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:16:51,584 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:16:51,625 - utils - INFO - Response status: 200
-2025-07-16 00:16:51,625 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:16:53,093 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:16:53,134 - utils - INFO - Response status: 200
-2025-07-16 00:16:53,135 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:16:53,135 - utils - INFO - 🎯 Starting final fixed test for team 17
-2025-07-16 00:16:53,135 - utils - INFO - 🎯 Getting comprehensive match history for team 17
-2025-07-16 00:16:53,135 - utils - INFO - 📊 Method 1: Using team-based endpoint...
-2025-07-16 00:16:54,361 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/team/17/events/last/0
-2025-07-16 00:16:54,438 - utils - INFO - Response status: 200
-2025-07-16 00:16:54,441 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/team/17/events/last/0
-2025-07-16 00:16:54,442 - utils - INFO -    Found 30 matches from team endpoint
-2025-07-16 00:16:54,442 - utils - INFO - 🏆 Method 2: Using competition-specific endpoints...
-2025-07-16 00:16:55,455 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/17/season/52186/events/last/0
-2025-07-16 00:16:55,606 - utils - INFO - Response status: 200
-2025-07-16 00:16:55,610 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/unique-tournament/17/season/52186/events/last/0
-2025-07-16 00:16:55,610 - utils - INFO -    Added 4 new matches from Premier League
-2025-07-16 00:16:56,642 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/19/season/52190/events/last/0
-2025-07-16 00:16:56,683 - utils - INFO - Response status: 404
-2025-07-16 00:16:56,683 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/19/season/52190/events/last/0
-2025-07-16 00:16:57,940 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/tournament/19/season/52190/events/last/0
-2025-07-16 00:16:57,984 - utils - INFO - Response status: 404
-2025-07-16 00:16:57,984 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/tournament/19/season/52190/events/last/0
-2025-07-16 00:16:59,037 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/19/events/last/0
-2025-07-16 00:16:59,077 - utils - INFO - Response status: 404
-2025-07-16 00:16:59,077 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/19/events/last/0
-2025-07-16 00:17:00,533 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/7/season/52191/events/last/0
-2025-07-16 00:17:00,573 - utils - INFO - Response status: 404
-2025-07-16 00:17:00,573 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/7/season/52191/events/last/0
-2025-07-16 00:17:01,976 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/tournament/7/season/52191/events/last/0
-2025-07-16 00:17:02,014 - utils - INFO - Response status: 404
-2025-07-16 00:17:02,014 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/tournament/7/season/52191/events/last/0
-2025-07-16 00:17:03,090 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/7/events/last/0
-2025-07-16 00:17:03,128 - utils - INFO - Response status: 404
-2025-07-16 00:17:03,129 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/7/events/last/0
-2025-07-16 00:17:04,201 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/955/season/52456/events/last/0
-2025-07-16 00:17:04,239 - utils - INFO - Response status: 404
-2025-07-16 00:17:04,239 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/955/season/52456/events/last/0
-2025-07-16 00:17:05,379 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/tournament/955/season/52456/events/last/0
-2025-07-16 00:17:05,419 - utils - INFO - Response status: 404
-2025-07-16 00:17:05,419 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/tournament/955/season/52456/events/last/0
-2025-07-16 00:17:06,762 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/955/events/last/0
-2025-07-16 00:17:06,804 - utils - INFO - Response status: 404
-2025-07-16 00:17:06,805 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/955/events/last/0
-2025-07-16 00:17:06,805 - utils - INFO - ✅ Total unique matches found: 34
-2025-07-16 00:17:06,805 - utils - INFO - ✅ Finished matches: 34
-2025-07-16 00:17:06,805 - utils - INFO - 🔍 Processing match 1/7: Manchester City vs Al-Hilal (ID: 13385903)
-2025-07-16 00:17:08,230 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903
-2025-07-16 00:17:08,272 - utils - INFO - Response status: 200
-2025-07-16 00:17:08,272 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903
-2025-07-16 00:17:08,273 - utils - INFO - ✅ Authoritative scores from API: 3-5
-2025-07-16 00:17:08,273 - utils - INFO - 📊 Score extraction: Manchester City 3-5 Al-Hilal
-2025-07-16 00:17:08,273 - utils - INFO -    Team side: home, Team goals: 3, Opponent goals: 5
-2025-07-16 00:17:09,279 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/statistics
-2025-07-16 00:17:09,329 - utils - INFO - Response status: 200
-2025-07-16 00:17:09,330 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/statistics
-2025-07-16 00:17:10,580 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/incidents
-2025-07-16 00:17:10,639 - utils - INFO - Response status: 200
-2025-07-16 00:17:10,640 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/incidents
-2025-07-16 00:17:10,640 - utils - WARNING - Goal count mismatch: Found 7 incidents, expected 8
-2025-07-16 00:17:10,640 - utils - INFO - ✅ FIXED Goal extraction: 3 our goals, 4 opponent goals
-2025-07-16 00:17:10,640 - utils - INFO - 🔍 Processing match 2/7: Juventus vs Manchester City (ID: 13200232)
-2025-07-16 00:17:11,918 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232
-2025-07-16 00:17:11,958 - utils - INFO - Response status: 200
-2025-07-16 00:17:11,959 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232
-2025-07-16 00:17:11,959 - utils - INFO - ✅ Authoritative scores from API: 2-6
-2025-07-16 00:17:11,959 - utils - WARNING - Score discrepancy! Event: 3-5, API: 2-6
-2025-07-16 00:17:11,959 - utils - INFO - Using API scores as authoritative
-2025-07-16 00:17:11,959 - utils - INFO - 📊 Score extraction: Juventus 2-6 Manchester City
-2025-07-16 00:17:11,959 - utils - INFO -    Team side: away, Team goals: 6, Opponent goals: 2
-2025-07-16 00:17:13,335 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/statistics
-2025-07-16 00:17:13,383 - utils - INFO - Response status: 200
-2025-07-16 00:17:13,384 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/statistics
-2025-07-16 00:17:14,606 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/incidents
-2025-07-16 00:17:14,664 - utils - INFO - Response status: 200
-2025-07-16 00:17:14,666 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/incidents
-2025-07-16 00:17:14,666 - utils - WARNING - Goal count mismatch: Found 7 incidents, expected 8
-2025-07-16 00:17:14,666 - utils - INFO - ✅ FIXED Goal extraction: 6 our goals, 1 opponent goals
-2025-07-16 00:17:14,667 - utils - INFO - 🔍 Processing match 3/7: Manchester City vs Al-Ain (ID: 13200294)
-2025-07-16 00:17:15,980 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294
-2025-07-16 00:17:16,020 - utils - INFO - Response status: 200
-2025-07-16 00:17:16,020 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294
-2025-07-16 00:17:16,021 - utils - INFO - ✅ Authoritative scores from API: 6-0
-2025-07-16 00:17:16,021 - utils - WARNING - Score discrepancy! Event: 7-0, API: 6-0
-2025-07-16 00:17:16,021 - utils - INFO - Using API scores as authoritative
-2025-07-16 00:17:16,021 - utils - INFO - 📊 Score extraction: Manchester City 6-0 Al-Ain
-2025-07-16 00:17:16,021 - utils - INFO -    Team side: home, Team goals: 6, Opponent goals: 0
-2025-07-16 00:17:17,248 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/statistics
-2025-07-16 00:17:17,296 - utils - INFO - Response status: 200
-2025-07-16 00:17:17,297 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/statistics
-2025-07-16 00:17:18,790 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/incidents
-2025-07-16 00:17:18,843 - utils - INFO - Response status: 200
-2025-07-16 00:17:18,844 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/incidents
-2025-07-16 00:17:18,844 - utils - INFO - ✅ Using fallback score-based assignment
-2025-07-16 00:17:18,845 - utils - INFO - ✅ FIXED Goal extraction: 6 our goals, 0 opponent goals
-2025-07-16 00:17:18,845 - utils - INFO - 🔍 Processing match 4/7: Manchester City vs Wydad Casablanca (ID: 13200275)
-2025-07-16 00:17:20,057 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275
-2025-07-16 00:17:20,097 - utils - INFO - Response status: 200
-2025-07-16 00:17:20,098 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275
-2025-07-16 00:17:20,098 - utils - INFO - ✅ Authoritative scores from API: 2-0
-2025-07-16 00:17:20,098 - utils - WARNING - Score discrepancy! Event: 3-0, API: 2-0
-2025-07-16 00:17:20,098 - utils - INFO - Using API scores as authoritative
-2025-07-16 00:17:20,098 - utils - INFO - 📊 Score extraction: Manchester City 2-0 Wydad Casablanca
-2025-07-16 00:17:20,098 - utils - INFO -    Team side: home, Team goals: 2, Opponent goals: 0
-2025-07-16 00:17:21,586 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275/statistics
-2025-07-16 00:17:21,635 - utils - INFO - Response status: 200
-2025-07-16 00:17:21,636 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275/statistics
-2025-07-16 00:17:22,775 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275/incidents
-2025-07-16 00:17:22,823 - utils - INFO - Response status: 200
-2025-07-16 00:17:22,824 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275/incidents
-2025-07-16 00:17:22,824 - utils - INFO - ✅ Using fallback score-based assignment
-2025-07-16 00:17:22,824 - utils - INFO - ✅ FIXED Goal extraction: 2 our goals, 0 opponent goals
-2025-07-16 00:17:22,824 - utils - INFO - 🔍 Processing match 5/7: Fulham vs Manchester City (ID: 12436559)
-2025-07-16 00:17:23,844 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:17:23,891 - utils - INFO - Response status: 200
-2025-07-16 00:17:23,892 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:17:23,892 - utils - INFO - ✅ Authoritative scores from API: 1-3
-2025-07-16 00:17:23,892 - utils - WARNING - Score discrepancy! Event: 0-2, API: 1-3
-2025-07-16 00:17:23,892 - utils - INFO - Using API scores as authoritative
-2025-07-16 00:17:23,892 - utils - INFO - 📊 Score extraction: Fulham 1-3 Manchester City
-2025-07-16 00:17:23,892 - utils - INFO -    Team side: away, Team goals: 3, Opponent goals: 1
-2025-07-16 00:17:23,892 - utils - INFO - ✅ Score validated for Fulham: 3-1
-2025-07-16 00:17:25,373 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559/statistics
-2025-07-16 00:17:25,422 - utils - INFO - Response status: 200
-2025-07-16 00:17:25,423 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559/statistics
-2025-07-16 00:17:26,583 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559/incidents
-2025-07-16 00:17:26,631 - utils - INFO - Response status: 200
-2025-07-16 00:17:26,632 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559/incidents
-2025-07-16 00:17:26,632 - utils - WARNING - Goal count mismatch: Found 2 incidents, expected 4
-2025-07-16 00:17:26,632 - utils - INFO - ✅ FIXED Goal extraction: 2 our goals, 0 opponent goals
-2025-07-16 00:17:26,632 - utils - INFO - 🔍 Processing match 6/7: Manchester City vs Bournemouth (ID: 13854588)
-2025-07-16 00:17:27,976 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:17:28,016 - utils - INFO - Response status: 200
-2025-07-16 00:17:28,016 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:17:28,017 - utils - INFO - ✅ Authoritative scores from API: 3-2
-2025-07-16 00:17:28,017 - utils - WARNING - Score discrepancy! Event: 4-1, API: 3-2
-2025-07-16 00:17:28,017 - utils - INFO - Using API scores as authoritative
-2025-07-16 00:17:28,017 - utils - INFO - 📊 Score extraction: Manchester City 3-2 Bournemouth
-2025-07-16 00:17:28,017 - utils - INFO -    Team side: home, Team goals: 3, Opponent goals: 2
-2025-07-16 00:17:28,017 - utils - INFO - ✅ Score validated for Bournemouth: 3-2
-2025-07-16 00:17:29,395 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588/statistics
-2025-07-16 00:17:29,447 - utils - INFO - Response status: 200
-2025-07-16 00:17:29,448 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588/statistics
-2025-07-16 00:17:30,513 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588/incidents
-2025-07-16 00:17:30,565 - utils - INFO - Response status: 200
-2025-07-16 00:17:30,567 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588/incidents
-2025-07-16 00:17:30,567 - utils - WARNING - Goal count mismatch: Found 4 incidents, expected 5
-2025-07-16 00:17:30,567 - utils - INFO - ✅ FIXED Goal extraction: 3 our goals, 1 opponent goals
-2025-07-16 00:17:30,568 - utils - INFO - 🔍 Processing match 7/7: Crystal Palace vs Manchester City (ID: 13822363)
-2025-07-16 00:17:31,830 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:17:31,869 - utils - INFO - Response status: 200
-2025-07-16 00:17:31,870 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:17:31,870 - utils - INFO - ✅ Authoritative scores from API: 2-1
-2025-07-16 00:17:31,870 - utils - WARNING - Score discrepancy! Event: 1-1, API: 2-1
-2025-07-16 00:17:31,870 - utils - INFO - Using API scores as authoritative
-2025-07-16 00:17:31,870 - utils - INFO - 📊 Score extraction: Crystal Palace 2-1 Manchester City
-2025-07-16 00:17:31,870 - utils - INFO -    Team side: away, Team goals: 1, Opponent goals: 2
-2025-07-16 00:17:31,870 - utils - INFO - ✅ Score validated for Crystal Palace: 1-2
-2025-07-16 00:17:32,990 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363/statistics
-2025-07-16 00:17:33,046 - utils - INFO - Response status: 200
-2025-07-16 00:17:33,047 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363/statistics
-2025-07-16 00:17:34,311 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363/incidents
-2025-07-16 00:17:34,361 - utils - INFO - Response status: 200
-2025-07-16 00:17:34,362 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363/incidents
-2025-07-16 00:17:34,363 - utils - WARNING - Goal count mismatch: Found 1 incidents, expected 3
-2025-07-16 00:17:34,363 - utils - INFO - ✅ FIXED Goal extraction: 1 our goals, 0 opponent goals
-2025-07-16 00:17:34,363 - utils - INFO - ✅ Successfully processed 7 matches with accurate details
-2025-07-16 00:17:34,378 - utils - INFO - 📁 Exported 7 FINAL FIXED matches to exports/team_17_FINAL_FIXED_20250716_001734.csv
-2025-07-16 00:32:04,591 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:32:04,659 - utils - INFO - Response status: 200
-2025-07-16 00:32:04,659 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:32:04,659 - utils - INFO - Source 1 (Event): 3-2
-2025-07-16 00:32:05,915 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:32:05,957 - utils - INFO - Response status: 200
-2025-07-16 00:32:05,957 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:32:05,958 - utils - INFO - Source 2 (Match): 3-2
-2025-07-16 00:32:06,984 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588/summary
-2025-07-16 00:32:07,027 - utils - INFO - Response status: 404
-2025-07-16 00:32:07,027 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13854588/summary
-2025-07-16 00:32:08,421 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588/incidents
-2025-07-16 00:32:08,471 - utils - INFO - Response status: 200
-2025-07-16 00:32:08,472 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588/incidents
-2025-07-16 00:32:09,742 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588/statistics
-2025-07-16 00:32:09,793 - utils - INFO - Response status: 200
-2025-07-16 00:32:09,794 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588/statistics
-2025-07-16 00:32:09,794 - utils - INFO - 📊 SCORE COMPARISON ACROSS ALL SOURCES:
-2025-07-16 00:32:09,795 - utils - INFO -    3-2: 2 sources (event_data, match_endpoint)
-2025-07-16 00:32:09,795 - utils - INFO - ✅ Using most frequent score: 3-2 (2 sources)
-2025-07-16 00:32:10,998 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:32:11,039 - utils - INFO - Response status: 200
-2025-07-16 00:32:11,039 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:32:11,040 - utils - INFO - Source 1 (Event): 2-1
-2025-07-16 00:32:12,161 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:32:12,205 - utils - INFO - Response status: 200
-2025-07-16 00:32:12,205 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:32:12,205 - utils - INFO - Source 2 (Match): 2-1
-2025-07-16 00:32:13,330 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363/summary
-2025-07-16 00:32:13,373 - utils - INFO - Response status: 404
-2025-07-16 00:32:13,373 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13822363/summary
-2025-07-16 00:32:14,441 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363/incidents
-2025-07-16 00:32:14,491 - utils - INFO - Response status: 200
-2025-07-16 00:32:14,492 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363/incidents
-2025-07-16 00:32:15,650 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363/statistics
-2025-07-16 00:32:15,702 - utils - INFO - Response status: 200
-2025-07-16 00:32:15,702 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363/statistics
-2025-07-16 00:32:15,703 - utils - INFO - 📊 SCORE COMPARISON ACROSS ALL SOURCES:
-2025-07-16 00:32:15,703 - utils - INFO -    2-1: 2 sources (event_data, match_endpoint)
-2025-07-16 00:32:15,703 - utils - INFO - ✅ Using most frequent score: 2-1 (2 sources)
-2025-07-16 00:32:17,059 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:32:17,101 - utils - INFO - Response status: 200
-2025-07-16 00:32:17,101 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:32:17,101 - utils - INFO - Source 1 (Event): 1-3
-2025-07-16 00:32:18,555 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:32:18,596 - utils - INFO - Response status: 200
-2025-07-16 00:32:18,597 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:32:18,597 - utils - INFO - Source 2 (Match): 1-3
-2025-07-16 00:32:19,830 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559/summary
-2025-07-16 00:32:19,875 - utils - INFO - Response status: 404
-2025-07-16 00:32:19,875 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/12436559/summary
-2025-07-16 00:32:21,345 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559/incidents
-2025-07-16 00:32:21,394 - utils - INFO - Response status: 200
-2025-07-16 00:32:21,395 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559/incidents
-2025-07-16 00:32:22,593 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559/statistics
-2025-07-16 00:32:22,645 - utils - INFO - Response status: 200
-2025-07-16 00:32:22,645 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559/statistics
-2025-07-16 00:32:22,646 - utils - INFO - 📊 SCORE COMPARISON ACROSS ALL SOURCES:
-2025-07-16 00:32:22,646 - utils - INFO -    1-3: 2 sources (event_data, match_endpoint)
-2025-07-16 00:32:22,646 - utils - INFO - ✅ Using most frequent score: 1-3 (2 sources)
-2025-07-16 00:32:23,930 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903
-2025-07-16 00:32:23,970 - utils - INFO - Response status: 200
-2025-07-16 00:32:23,970 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903
-2025-07-16 00:32:23,971 - utils - INFO - Source 1 (Event): 3-5
-2025-07-16 00:32:25,417 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903
-2025-07-16 00:32:25,458 - utils - INFO - Response status: 200
-2025-07-16 00:32:25,458 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903
-2025-07-16 00:32:25,458 - utils - INFO - Source 2 (Match): 3-5
-2025-07-16 00:32:26,504 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/summary
-2025-07-16 00:32:26,548 - utils - INFO - Response status: 404
-2025-07-16 00:32:26,548 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13385903/summary
-2025-07-16 00:32:27,919 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/incidents
-2025-07-16 00:32:27,979 - utils - INFO - Response status: 200
-2025-07-16 00:32:27,981 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/incidents
-2025-07-16 00:32:29,097 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/statistics
-2025-07-16 00:32:29,149 - utils - INFO - Response status: 200
-2025-07-16 00:32:29,150 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/statistics
-2025-07-16 00:32:29,150 - utils - INFO - 📊 SCORE COMPARISON ACROSS ALL SOURCES:
-2025-07-16 00:32:29,150 - utils - INFO -    3-5: 2 sources (event_data, match_endpoint)
-2025-07-16 00:32:29,150 - utils - INFO - ✅ Using most frequent score: 3-5 (2 sources)
-2025-07-16 00:32:30,570 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232
-2025-07-16 00:32:30,611 - utils - INFO - Response status: 200
-2025-07-16 00:32:30,612 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232
-2025-07-16 00:32:30,612 - utils - INFO - Source 1 (Event): 2-6
-2025-07-16 00:32:31,730 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232
-2025-07-16 00:32:31,770 - utils - INFO - Response status: 200
-2025-07-16 00:32:31,771 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232
-2025-07-16 00:32:31,771 - utils - INFO - Source 2 (Match): 2-6
-2025-07-16 00:32:32,929 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/summary
-2025-07-16 00:32:32,975 - utils - INFO - Response status: 404
-2025-07-16 00:32:32,975 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13200232/summary
-2025-07-16 00:32:34,197 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/incidents
-2025-07-16 00:32:34,258 - utils - INFO - Response status: 200
-2025-07-16 00:32:34,260 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/incidents
-2025-07-16 00:32:35,440 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/statistics
-2025-07-16 00:32:35,492 - utils - INFO - Response status: 200
-2025-07-16 00:32:35,492 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/statistics
-2025-07-16 00:32:35,493 - utils - INFO - 📊 SCORE COMPARISON ACROSS ALL SOURCES:
-2025-07-16 00:32:35,493 - utils - INFO -    2-6: 2 sources (event_data, match_endpoint)
-2025-07-16 00:32:35,493 - utils - INFO - ✅ Using most frequent score: 2-6 (2 sources)
-2025-07-16 00:32:35,494 - utils - INFO - 🎯 Starting super accurate test for team 17
-2025-07-16 00:32:35,494 - utils - INFO - 🎯 Getting comprehensive match history for team 17
-2025-07-16 00:32:35,494 - utils - INFO - 📊 Method 1: Using team-based endpoint...
-2025-07-16 00:32:36,942 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/team/17/events/last/0
-2025-07-16 00:32:37,014 - utils - INFO - Response status: 200
-2025-07-16 00:32:37,018 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/team/17/events/last/0
-2025-07-16 00:32:37,018 - utils - INFO -    Found 30 matches from team endpoint
-2025-07-16 00:32:37,018 - utils - INFO - 🏆 Method 2: Using competition-specific endpoints...
-2025-07-16 00:32:38,349 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/17/season/52186/events/last/0
-2025-07-16 00:32:38,422 - utils - INFO - Response status: 200
-2025-07-16 00:32:38,425 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/unique-tournament/17/season/52186/events/last/0
-2025-07-16 00:32:38,426 - utils - INFO -    Added 4 new matches from Premier League
-2025-07-16 00:32:39,876 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/19/season/52190/events/last/0
-2025-07-16 00:32:39,917 - utils - INFO - Response status: 404
-2025-07-16 00:32:39,917 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/19/season/52190/events/last/0
-2025-07-16 00:32:41,394 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/tournament/19/season/52190/events/last/0
-2025-07-16 00:32:41,435 - utils - INFO - Response status: 404
-2025-07-16 00:32:41,435 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/tournament/19/season/52190/events/last/0
-2025-07-16 00:32:42,574 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/19/events/last/0
-2025-07-16 00:32:42,615 - utils - INFO - Response status: 404
-2025-07-16 00:32:42,616 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/19/events/last/0
-2025-07-16 00:32:43,737 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/7/season/52191/events/last/0
-2025-07-16 00:32:43,794 - utils - INFO - Response status: 404
-2025-07-16 00:32:43,794 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/7/season/52191/events/last/0
-2025-07-16 00:32:45,090 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/tournament/7/season/52191/events/last/0
-2025-07-16 00:32:45,130 - utils - INFO - Response status: 404
-2025-07-16 00:32:45,130 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/tournament/7/season/52191/events/last/0
-2025-07-16 00:32:46,593 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/7/events/last/0
-2025-07-16 00:32:46,645 - utils - INFO - Response status: 404
-2025-07-16 00:32:46,645 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/7/events/last/0
-2025-07-16 00:32:47,941 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/955/season/52456/events/last/0
-2025-07-16 00:32:47,981 - utils - INFO - Response status: 404
-2025-07-16 00:32:47,981 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/955/season/52456/events/last/0
-2025-07-16 00:32:49,031 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/tournament/955/season/52456/events/last/0
-2025-07-16 00:32:49,070 - utils - INFO - Response status: 404
-2025-07-16 00:32:49,070 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/tournament/955/season/52456/events/last/0
-2025-07-16 00:32:50,555 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/unique-tournament/955/events/last/0
-2025-07-16 00:32:50,594 - utils - INFO - Response status: 404
-2025-07-16 00:32:50,595 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/unique-tournament/955/events/last/0
-2025-07-16 00:32:50,595 - utils - INFO - ✅ Total unique matches found: 34
-2025-07-16 00:32:50,595 - utils - INFO - ✅ Finished matches: 34
-2025-07-16 00:32:50,595 - utils - INFO - 🔍 Processing match 1/7: Manchester City vs Al-Hilal (ID: 13385903)
-2025-07-16 00:32:50,595 - utils - INFO - Source 1 (Event): 3-5
-2025-07-16 00:32:51,614 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903
-2025-07-16 00:32:51,655 - utils - INFO - Response status: 200
-2025-07-16 00:32:51,656 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903
-2025-07-16 00:32:51,656 - utils - INFO - Source 2 (Match): 3-5
-2025-07-16 00:32:52,921 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/summary
-2025-07-16 00:32:52,962 - utils - INFO - Response status: 404
-2025-07-16 00:32:52,962 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13385903/summary
-2025-07-16 00:32:54,114 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/incidents
-2025-07-16 00:32:54,172 - utils - INFO - Response status: 200
-2025-07-16 00:32:54,174 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/incidents
-2025-07-16 00:32:55,230 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/statistics
-2025-07-16 00:32:55,286 - utils - INFO - Response status: 200
-2025-07-16 00:32:55,287 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/statistics
-2025-07-16 00:32:55,287 - utils - INFO - 📊 SCORE COMPARISON ACROSS ALL SOURCES:
-2025-07-16 00:32:55,288 - utils - INFO -    3-5: 2 sources (event_data, match_endpoint)
-2025-07-16 00:32:55,288 - utils - INFO - ✅ Using most frequent score: 3-5 (2 sources)
-2025-07-16 00:32:55,288 - utils - INFO - 📊 SUPER ACCURATE Score: Manchester City 3-5 Al-Hilal
-2025-07-16 00:32:55,288 - utils - INFO -    Source: consensus_2_sources
-2025-07-16 00:32:55,288 - utils - INFO -    Team side: home, Team goals: 3, Opponent goals: 5
-2025-07-16 00:32:55,288 - utils - INFO - ✅ Score validated for Al-Hilal: 3-5
-2025-07-16 00:32:56,586 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/statistics
-2025-07-16 00:32:56,639 - utils - INFO - Response status: 200
-2025-07-16 00:32:56,640 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/statistics
-2025-07-16 00:32:57,913 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13385903/incidents
-2025-07-16 00:32:57,972 - utils - INFO - Response status: 200
-2025-07-16 00:32:57,974 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13385903/incidents
-2025-07-16 00:32:57,974 - utils - WARNING - Goal count mismatch: Found 7 incidents, expected 8
-2025-07-16 00:32:57,974 - utils - INFO - ✅ SUPER ACCURATE Goal extraction: 3 our goals, 4 opponent goals
-2025-07-16 00:32:57,975 - utils - INFO - 🔍 Processing match 2/7: Juventus vs Manchester City (ID: 13200232)
-2025-07-16 00:32:57,975 - utils - INFO - Source 1 (Event): 3-5
-2025-07-16 00:32:59,022 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232
-2025-07-16 00:32:59,062 - utils - INFO - Response status: 200
-2025-07-16 00:32:59,063 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232
-2025-07-16 00:32:59,063 - utils - INFO - Source 2 (Match): 2-6
-2025-07-16 00:33:00,198 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/summary
-2025-07-16 00:33:00,236 - utils - INFO - Response status: 404
-2025-07-16 00:33:00,236 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13200232/summary
-2025-07-16 00:33:01,521 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/incidents
-2025-07-16 00:33:01,583 - utils - INFO - Response status: 200
-2025-07-16 00:33:01,584 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/incidents
-2025-07-16 00:33:02,992 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/statistics
-2025-07-16 00:33:03,041 - utils - INFO - Response status: 200
-2025-07-16 00:33:03,042 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/statistics
-2025-07-16 00:33:03,042 - utils - INFO - 📊 SCORE COMPARISON ACROSS ALL SOURCES:
-2025-07-16 00:33:03,042 - utils - INFO -    3-5: 1 sources (event_data)
-2025-07-16 00:33:03,042 - utils - INFO -    2-6: 1 sources (match_endpoint)
-2025-07-16 00:33:03,042 - utils - INFO - ✅ Using most frequent score: 3-5 (1 sources)
-2025-07-16 00:33:03,043 - utils - INFO - 📊 SUPER ACCURATE Score: Juventus 3-5 Manchester City
-2025-07-16 00:33:03,043 - utils - INFO -    Source: consensus_1_sources
-2025-07-16 00:33:03,043 - utils - INFO -    Team side: away, Team goals: 5, Opponent goals: 3
-2025-07-16 00:33:03,043 - utils - WARNING - ⚠️  Score mismatch for Juventus: got 5-3, expected 6-2
-2025-07-16 00:33:04,464 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/statistics
-2025-07-16 00:33:04,513 - utils - INFO - Response status: 200
-2025-07-16 00:33:04,514 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/statistics
-2025-07-16 00:33:05,793 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200232/incidents
-2025-07-16 00:33:05,851 - utils - INFO - Response status: 200
-2025-07-16 00:33:05,852 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200232/incidents
-2025-07-16 00:33:05,853 - utils - WARNING - Goal count mismatch: Found 7 incidents, expected 8
-2025-07-16 00:33:05,853 - utils - INFO - ✅ SUPER ACCURATE Goal extraction: 5 our goals, 2 opponent goals
-2025-07-16 00:33:05,853 - utils - INFO - 🔍 Processing match 3/7: Manchester City vs Al-Ain (ID: 13200294)
-2025-07-16 00:33:05,853 - utils - INFO - Source 1 (Event): 7-0
-2025-07-16 00:33:07,267 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294
-2025-07-16 00:33:07,304 - utils - INFO - Response status: 200
-2025-07-16 00:33:07,304 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294
-2025-07-16 00:33:07,305 - utils - INFO - Source 2 (Match): 6-0
-2025-07-16 00:33:08,355 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/summary
-2025-07-16 00:33:08,400 - utils - INFO - Response status: 404
-2025-07-16 00:33:08,400 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13200294/summary
-2025-07-16 00:33:09,659 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/incidents
-2025-07-16 00:33:09,711 - utils - INFO - Response status: 200
-2025-07-16 00:33:09,712 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/incidents
-2025-07-16 00:33:10,981 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/statistics
-2025-07-16 00:33:11,031 - utils - INFO - Response status: 200
-2025-07-16 00:33:11,032 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/statistics
-2025-07-16 00:33:11,032 - utils - INFO - 📊 SCORE COMPARISON ACROSS ALL SOURCES:
-2025-07-16 00:33:11,032 - utils - INFO -    7-0: 1 sources (event_data)
-2025-07-16 00:33:11,033 - utils - INFO -    6-0: 1 sources (match_endpoint)
-2025-07-16 00:33:11,033 - utils - INFO - ✅ Using most frequent score: 7-0 (1 sources)
-2025-07-16 00:33:11,033 - utils - INFO - 📊 SUPER ACCURATE Score: Manchester City 7-0 Al-Ain
-2025-07-16 00:33:11,033 - utils - INFO -    Source: consensus_1_sources
-2025-07-16 00:33:11,033 - utils - INFO -    Team side: home, Team goals: 7, Opponent goals: 0
-2025-07-16 00:33:12,302 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/statistics
-2025-07-16 00:33:12,347 - utils - INFO - Response status: 200
-2025-07-16 00:33:12,348 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/statistics
-2025-07-16 00:33:13,806 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200294/incidents
-2025-07-16 00:33:13,863 - utils - INFO - Response status: 200
-2025-07-16 00:33:13,864 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200294/incidents
-2025-07-16 00:33:13,865 - utils - WARNING - Goal count mismatch: Found 6 incidents, expected 7
-2025-07-16 00:33:13,865 - utils - INFO - ✅ SUPER ACCURATE Goal extraction: 6 our goals, 0 opponent goals
-2025-07-16 00:33:13,865 - utils - INFO - 🔍 Processing match 4/7: Manchester City vs Wydad Casablanca (ID: 13200275)
-2025-07-16 00:33:13,865 - utils - INFO - Source 1 (Event): 3-0
-2025-07-16 00:33:15,091 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275
-2025-07-16 00:33:15,134 - utils - INFO - Response status: 200
-2025-07-16 00:33:15,135 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275
-2025-07-16 00:33:15,135 - utils - INFO - Source 2 (Match): 2-0
-2025-07-16 00:33:16,371 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275/summary
-2025-07-16 00:33:16,414 - utils - INFO - Response status: 404
-2025-07-16 00:33:16,414 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13200275/summary
-2025-07-16 00:33:17,705 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275/incidents
-2025-07-16 00:33:17,754 - utils - INFO - Response status: 200
-2025-07-16 00:33:17,755 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275/incidents
-2025-07-16 00:33:18,865 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275/statistics
-2025-07-16 00:33:18,915 - utils - INFO - Response status: 200
-2025-07-16 00:33:18,916 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275/statistics
-2025-07-16 00:33:18,916 - utils - INFO - 📊 SCORE COMPARISON ACROSS ALL SOURCES:
-2025-07-16 00:33:18,916 - utils - INFO -    3-0: 1 sources (event_data)
-2025-07-16 00:33:18,916 - utils - INFO -    2-0: 1 sources (match_endpoint)
-2025-07-16 00:33:18,916 - utils - INFO - ✅ Using most frequent score: 3-0 (1 sources)
-2025-07-16 00:33:18,917 - utils - INFO - 📊 SUPER ACCURATE Score: Manchester City 3-0 Wydad Casablanca
-2025-07-16 00:33:18,917 - utils - INFO -    Source: consensus_1_sources
-2025-07-16 00:33:18,917 - utils - INFO -    Team side: home, Team goals: 3, Opponent goals: 0
-2025-07-16 00:33:19,923 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275/statistics
-2025-07-16 00:33:19,973 - utils - INFO - Response status: 200
-2025-07-16 00:33:19,974 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275/statistics
-2025-07-16 00:33:21,360 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13200275/incidents
-2025-07-16 00:33:21,408 - utils - INFO - Response status: 200
-2025-07-16 00:33:21,409 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13200275/incidents
-2025-07-16 00:33:21,410 - utils - WARNING - Goal count mismatch: Found 2 incidents, expected 3
-2025-07-16 00:33:21,410 - utils - INFO - ✅ SUPER ACCURATE Goal extraction: 2 our goals, 0 opponent goals
-2025-07-16 00:33:21,410 - utils - INFO - 🔍 Processing match 5/7: Fulham vs Manchester City (ID: 12436559)
-2025-07-16 00:33:21,410 - utils - INFO - Source 1 (Event): 0-2
-2025-07-16 00:33:22,668 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:33:22,709 - utils - INFO - Response status: 200
-2025-07-16 00:33:22,709 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559
-2025-07-16 00:33:22,710 - utils - INFO - Source 2 (Match): 1-3
-2025-07-16 00:33:24,213 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559/summary
-2025-07-16 00:33:24,252 - utils - INFO - Response status: 404
-2025-07-16 00:33:24,252 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/12436559/summary
-2025-07-16 00:33:25,346 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559/incidents
-2025-07-16 00:33:25,395 - utils - INFO - Response status: 200
-2025-07-16 00:33:25,396 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559/incidents
-2025-07-16 00:33:26,894 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559/statistics
-2025-07-16 00:33:26,944 - utils - INFO - Response status: 200
-2025-07-16 00:33:26,945 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559/statistics
-2025-07-16 00:33:26,945 - utils - INFO - 📊 SCORE COMPARISON ACROSS ALL SOURCES:
-2025-07-16 00:33:26,945 - utils - INFO -    0-2: 1 sources (event_data)
-2025-07-16 00:33:26,945 - utils - INFO -    1-3: 1 sources (match_endpoint)
-2025-07-16 00:33:26,945 - utils - INFO - ✅ Using most frequent score: 0-2 (1 sources)
-2025-07-16 00:33:26,946 - utils - INFO - 📊 SUPER ACCURATE Score: Fulham 0-2 Manchester City
-2025-07-16 00:33:26,946 - utils - INFO -    Source: consensus_1_sources
-2025-07-16 00:33:26,946 - utils - INFO -    Team side: away, Team goals: 2, Opponent goals: 0
-2025-07-16 00:33:26,946 - utils - WARNING - ⚠️  Score mismatch for Fulham: got 2-0, expected 3-1
-2025-07-16 00:33:27,982 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559/statistics
-2025-07-16 00:33:28,032 - utils - INFO - Response status: 200
-2025-07-16 00:33:28,033 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559/statistics
-2025-07-16 00:33:29,385 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/12436559/incidents
-2025-07-16 00:33:29,437 - utils - INFO - Response status: 200
-2025-07-16 00:33:29,437 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/12436559/incidents
-2025-07-16 00:33:29,437 - utils - INFO - ✅ Using fallback score-based assignment
-2025-07-16 00:33:29,437 - utils - INFO - ✅ SUPER ACCURATE Goal extraction: 2 our goals, 0 opponent goals
-2025-07-16 00:33:29,438 - utils - INFO - 🔍 Processing match 6/7: Manchester City vs Bournemouth (ID: 13854588)
-2025-07-16 00:33:29,438 - utils - INFO - Source 1 (Event): 4-1
-2025-07-16 00:33:30,561 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:33:30,603 - utils - INFO - Response status: 200
-2025-07-16 00:33:30,604 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588
-2025-07-16 00:33:30,604 - utils - INFO - Source 2 (Match): 3-2
-2025-07-16 00:33:31,954 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588/summary
-2025-07-16 00:33:31,995 - utils - INFO - Response status: 404
-2025-07-16 00:33:31,995 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13854588/summary
-2025-07-16 00:33:33,285 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588/incidents
-2025-07-16 00:33:33,337 - utils - INFO - Response status: 200
-2025-07-16 00:33:33,337 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588/incidents
-2025-07-16 00:33:34,722 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588/statistics
-2025-07-16 00:33:34,771 - utils - INFO - Response status: 200
-2025-07-16 00:33:34,772 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588/statistics
-2025-07-16 00:33:34,772 - utils - INFO - 📊 SCORE COMPARISON ACROSS ALL SOURCES:
-2025-07-16 00:33:34,773 - utils - INFO -    4-1: 1 sources (event_data)
-2025-07-16 00:33:34,773 - utils - INFO -    3-2: 1 sources (match_endpoint)
-2025-07-16 00:33:34,773 - utils - INFO - ✅ Using most frequent score: 4-1 (1 sources)
-2025-07-16 00:33:34,773 - utils - INFO - 📊 SUPER ACCURATE Score: Manchester City 4-1 Bournemouth
-2025-07-16 00:33:34,773 - utils - INFO -    Source: consensus_1_sources
-2025-07-16 00:33:34,773 - utils - INFO -    Team side: home, Team goals: 4, Opponent goals: 1
-2025-07-16 00:33:34,773 - utils - WARNING - ⚠️  Score mismatch for Bournemouth: got 4-1, expected 3-2
-2025-07-16 00:33:35,875 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588/statistics
-2025-07-16 00:33:35,926 - utils - INFO - Response status: 200
-2025-07-16 00:33:35,927 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588/statistics
-2025-07-16 00:33:37,054 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13854588/incidents
-2025-07-16 00:33:37,107 - utils - INFO - Response status: 200
-2025-07-16 00:33:37,109 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13854588/incidents
-2025-07-16 00:33:37,110 - utils - WARNING - Goal count mismatch: Found 4 incidents, expected 5
-2025-07-16 00:33:37,110 - utils - INFO - ✅ SUPER ACCURATE Goal extraction: 4 our goals, 0 opponent goals
-2025-07-16 00:33:37,110 - utils - INFO - 🔍 Processing match 7/7: Crystal Palace vs Manchester City (ID: 13822363)
-2025-07-16 00:33:37,110 - utils - INFO - Source 1 (Event): 1-1
-2025-07-16 00:33:38,430 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:33:38,469 - utils - INFO - Response status: 200
-2025-07-16 00:33:38,469 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363
-2025-07-16 00:33:38,469 - utils - INFO - Source 2 (Match): 2-1
-2025-07-16 00:33:39,617 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363/summary
-2025-07-16 00:33:39,656 - utils - INFO - Response status: 404
-2025-07-16 00:33:39,656 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13822363/summary
-2025-07-16 00:33:41,000 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363/incidents
-2025-07-16 00:33:41,050 - utils - INFO - Response status: 200
-2025-07-16 00:33:41,050 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363/incidents
-2025-07-16 00:33:42,164 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363/statistics
-2025-07-16 00:33:42,214 - utils - INFO - Response status: 200
-2025-07-16 00:33:42,215 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363/statistics
-2025-07-16 00:33:42,216 - utils - INFO - 📊 SCORE COMPARISON ACROSS ALL SOURCES:
-2025-07-16 00:33:42,216 - utils - INFO -    1-1: 1 sources (event_data)
-2025-07-16 00:33:42,216 - utils - INFO -    2-1: 1 sources (match_endpoint)
-2025-07-16 00:33:42,216 - utils - INFO - ✅ Using most frequent score: 1-1 (1 sources)
-2025-07-16 00:33:42,216 - utils - INFO - 📊 SUPER ACCURATE Score: Crystal Palace 1-1 Manchester City
-2025-07-16 00:33:42,216 - utils - INFO -    Source: consensus_1_sources
-2025-07-16 00:33:42,216 - utils - INFO -    Team side: away, Team goals: 1, Opponent goals: 1
-2025-07-16 00:33:42,216 - utils - WARNING - ⚠️  Score mismatch for Crystal Palace: got 1-1, expected 1-2
-2025-07-16 00:33:43,340 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363/statistics
-2025-07-16 00:33:43,389 - utils - INFO - Response status: 200
-2025-07-16 00:33:43,390 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363/statistics
-2025-07-16 00:33:44,449 - utils - INFO - Attempt 1: Fetching https://api.sofascore.com/api/v1/event/13822363/incidents
-2025-07-16 00:33:44,498 - utils - INFO - Response status: 200
-2025-07-16 00:33:44,499 - utils - INFO - Successfully fetched data from: https://api.sofascore.com/api/v1/event/13822363/incidents
-2025-07-16 00:33:44,499 - utils - WARNING - Goal count mismatch: Found 1 incidents, expected 2
-2025-07-16 00:33:44,499 - utils - INFO - ✅ SUPER ACCURATE Goal extraction: 1 our goals, 0 opponent goals
-2025-07-16 00:33:44,499 - utils - INFO - ✅ Successfully processed 7 matches with SUPER ACCURATE details
-2025-07-16 00:33:44,513 - utils - INFO - 📁 Exported 7 SUPER ACCURATE matches to exports/team_17_SUPER_ACCURATE_20250716_003344.csv
+2025-07-16 02:30:26,218 - utils - INFO - 🎯 Starting accurate data collection for team 17
+2025-07-16 02:30:26,218 - utils - INFO - Target: 7 recent matches
+2025-07-16 02:30:26,218 - utils - INFO - 🎯 Getting comprehensive match data for team 17
+2025-07-16 02:30:26,219 - utils - INFO - 📊 Strategy 1: Direct team endpoints...
+2025-07-16 02:30:27,577 - utils - INFO - Request 1 - Attempt 1: https://api.sofascore.com/api/v1/team/17/events/last/0
+2025-07-16 02:30:27,694 - utils - INFO - Response: 200 | Size: 111522 bytes
+2025-07-16 02:30:27,697 - utils - INFO - ✅ Success! Data keys: ['events', 'hasNextPage']
+2025-07-16 02:30:27,697 - utils - INFO -    Added 30 new matches from https://api.sofascore.com/api/v1/team/17/events/last/0
+2025-07-16 02:30:27,697 - utils - INFO - 🏆 Strategy 2: Competition-specific searches...
+2025-07-16 02:30:27,698 - utils - INFO - ✅ Found 30 total unique finished matches
+2025-07-16 02:30:27,698 - utils - INFO - Processing match 1/7...
+2025-07-16 02:30:27,698 - utils - INFO - 🔍 Extracting details for: Manchester City vs Al-Hilal (ID: 13385903)
+2025-07-16 02:30:28,809 - utils - INFO - Request 2 - Attempt 1: https://api.sofascore.com/api/v1/event/13385903
+2025-07-16 02:30:28,849 - utils - INFO - Response: 200 | Size: 7453 bytes
+2025-07-16 02:30:28,850 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:30:29,895 - utils - INFO - Request 3 - Attempt 1: https://api.sofascore.com/api/v1/event/13385903/incidents
+2025-07-16 02:30:29,953 - utils - INFO - Response: 200 | Size: 49206 bytes
+2025-07-16 02:30:29,954 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:30:31,005 - utils - INFO - Request 4 - Attempt 1: https://api.sofascore.com/api/v1/event/13385903/statistics
+2025-07-16 02:30:31,057 - utils - INFO - Response: 200 | Size: 37701 bytes
+2025-07-16 02:30:31,058 - utils - INFO - ✅ Success! Data keys: ['statistics']
+2025-07-16 02:30:32,184 - utils - INFO - Request 5 - Attempt 1: https://api.sofascore.com/api/v1/event/13385903/summary
+2025-07-16 02:30:32,225 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:30:32,226 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13385903/summary
+2025-07-16 02:30:32,226 - utils - INFO - Using scores from event: 3-5
+2025-07-16 02:30:32,226 - utils - INFO - 🥇 FEED-FIRST goal extraction:
+2025-07-16 02:30:32,226 - utils - INFO -    Home team: Manchester City (ID: 17)
+2025-07-16 02:30:32,226 - utils - INFO -    Away team: Al-Hilal (ID: 21895)
+2025-07-16 02:30:32,226 - utils - INFO -    Our team ID: 17 (HOME)
+2025-07-16 02:30:32,226 - utils - INFO -    Final score: 3-5
+2025-07-16 02:30:32,227 - utils - INFO - 🥇 FEED-FIRST goal extraction for match 13385903
+2025-07-16 02:30:32,227 - utils - INFO -    Expected: 3 home, 5 away
+2025-07-16 02:30:33,327 - utils - INFO - Request 6 - Attempt 1: https://api.sofascore.com/api/v1/event/13385903/feed
+2025-07-16 02:30:33,372 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:30:33,373 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13385903/feed
+2025-07-16 02:30:33,373 - utils - WARNING - ⚠️  Feed method count mismatch: found 0, expected 8
+2025-07-16 02:30:33,373 - utils - INFO - 🔧 Method 2: Falling back to hardened incidents
+2025-07-16 02:30:34,403 - utils - INFO - Request 7 - Attempt 1: https://api.sofascore.com/api/v1/event/13385903/incidents
+2025-07-16 02:30:34,467 - utils - INFO - Response: 200 | Size: 49206 bytes
+2025-07-16 02:30:34,468 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:30:34,468 - utils - INFO -    Hardened incidents found: 0 home goals, 0 away goals
+2025-07-16 02:30:34,468 - utils - ERROR - ❌ FEED-FIRST validation failed:
+2025-07-16 02:30:34,468 - utils - ERROR -    Extracted: 0 home, 0 away
+2025-07-16 02:30:34,469 - utils - ERROR -    Expected: 3 home, 5 away
+2025-07-16 02:30:34,469 - utils - ERROR -    Method used: incidents_hardened
+2025-07-16 02:30:35,775 - utils - INFO - Request 8 - Attempt 1: https://api.sofascore.com/api/v1/event/13385903
+2025-07-16 02:30:35,825 - utils - INFO - Response: 200 | Size: 7453 bytes
+2025-07-16 02:30:35,825 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:30:35,832 - utils - ERROR - Score mismatch debug dump saved: debug/mismatch_13385903.json
+2025-07-16 02:30:35,832 - utils - ERROR - ❌ Feed-first extraction failed
+2025-07-16 02:30:35,832 - utils - ERROR - 🔍 FEED-FIRST ASSERTION FAILED:
+2025-07-16 02:30:35,832 - utils - ERROR -    Match: Manchester City vs Al-Hilal
+2025-07-16 02:30:35,832 - utils - ERROR -    Expected: 3 scored, 5 conceded
+2025-07-16 02:30:35,832 - utils - ERROR -    This match will be skipped to maintain data integrity
+2025-07-16 02:30:35,832 - utils - INFO - Validation - Goals: 3 scored, 5 conceded
+2025-07-16 02:30:35,832 - utils - INFO - Validation - Arrays: 0 times, 0 scorers, 0 conceded times
+2025-07-16 02:30:35,832 - utils - WARNING - Inconsistent goal times: 0 vs 3
+2025-07-16 02:30:35,832 - utils - WARNING - Inconsistent conceded times: 0 vs 5
+2025-07-16 02:30:35,832 - utils - INFO - ✅ Al-Hilal (2025-07-01): L 3-5
+2025-07-16 02:30:36,837 - utils - INFO - Processing match 2/7...
+2025-07-16 02:30:36,838 - utils - INFO - 🔍 Extracting details for: Juventus vs Manchester City (ID: 13200232)
+2025-07-16 02:30:37,867 - utils - INFO - Request 9 - Attempt 1: https://api.sofascore.com/api/v1/event/13200232
+2025-07-16 02:30:37,908 - utils - INFO - Response: 200 | Size: 6984 bytes
+2025-07-16 02:30:37,908 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:30:39,063 - utils - INFO - Request 10 - Attempt 1: https://api.sofascore.com/api/v1/event/13200232/incidents
+2025-07-16 02:30:39,125 - utils - INFO - Response: 200 | Size: 50866 bytes
+2025-07-16 02:30:39,127 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:30:40,319 - utils - INFO - Request 11 - Attempt 1: https://api.sofascore.com/api/v1/event/13200232/statistics
+2025-07-16 02:30:40,368 - utils - INFO - Response: 200 | Size: 23232 bytes
+2025-07-16 02:30:40,369 - utils - INFO - ✅ Success! Data keys: ['statistics']
+2025-07-16 02:30:41,530 - utils - INFO - Request 12 - Attempt 1: https://api.sofascore.com/api/v1/event/13200232/summary
+2025-07-16 02:30:41,572 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:30:41,572 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13200232/summary
+2025-07-16 02:30:41,572 - utils - INFO - Using scores from event: 3-5
+2025-07-16 02:30:41,572 - utils - INFO - 🥇 FEED-FIRST goal extraction:
+2025-07-16 02:30:41,572 - utils - INFO -    Home team: Juventus (ID: 2687)
+2025-07-16 02:30:41,572 - utils - INFO -    Away team: Manchester City (ID: 17)
+2025-07-16 02:30:41,572 - utils - INFO -    Our team ID: 17 (AWAY)
+2025-07-16 02:30:41,572 - utils - INFO -    Final score: 3-5
+2025-07-16 02:30:41,572 - utils - INFO - 🥇 FEED-FIRST goal extraction for match 13200232
+2025-07-16 02:30:41,572 - utils - INFO -    Expected: 3 home, 5 away
+2025-07-16 02:30:42,648 - utils - INFO - Request 13 - Attempt 1: https://api.sofascore.com/api/v1/event/13200232/feed
+2025-07-16 02:30:42,690 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:30:42,691 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13200232/feed
+2025-07-16 02:30:42,691 - utils - WARNING - ⚠️  Feed method count mismatch: found 0, expected 8
+2025-07-16 02:30:42,691 - utils - INFO - 🔧 Method 2: Falling back to hardened incidents
+2025-07-16 02:30:44,000 - utils - INFO - Request 14 - Attempt 1: https://api.sofascore.com/api/v1/event/13200232/incidents
+2025-07-16 02:30:44,061 - utils - INFO - Response: 200 | Size: 50866 bytes
+2025-07-16 02:30:44,063 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:30:44,063 - utils - INFO -    Hardened incidents found: 0 home goals, 0 away goals
+2025-07-16 02:30:44,063 - utils - ERROR - ❌ FEED-FIRST validation failed:
+2025-07-16 02:30:44,063 - utils - ERROR -    Extracted: 0 home, 0 away
+2025-07-16 02:30:44,063 - utils - ERROR -    Expected: 3 home, 5 away
+2025-07-16 02:30:44,063 - utils - ERROR -    Method used: incidents_hardened
+2025-07-16 02:30:45,406 - utils - INFO - Request 15 - Attempt 1: https://api.sofascore.com/api/v1/event/13200232
+2025-07-16 02:30:45,446 - utils - INFO - Response: 200 | Size: 6984 bytes
+2025-07-16 02:30:45,446 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:30:45,452 - utils - ERROR - Score mismatch debug dump saved: debug/mismatch_13200232.json
+2025-07-16 02:30:45,452 - utils - ERROR - ❌ Feed-first extraction failed
+2025-07-16 02:30:45,452 - utils - ERROR - 🔍 FEED-FIRST ASSERTION FAILED:
+2025-07-16 02:30:45,452 - utils - ERROR -    Match: Juventus vs Manchester City
+2025-07-16 02:30:45,452 - utils - ERROR -    Expected: 5 scored, 3 conceded
+2025-07-16 02:30:45,452 - utils - ERROR -    This match will be skipped to maintain data integrity
+2025-07-16 02:30:45,452 - utils - INFO - Validation - Goals: 5 scored, 3 conceded
+2025-07-16 02:30:45,453 - utils - INFO - Validation - Arrays: 0 times, 0 scorers, 0 conceded times
+2025-07-16 02:30:45,453 - utils - WARNING - Inconsistent goal times: 0 vs 5
+2025-07-16 02:30:45,453 - utils - WARNING - Inconsistent conceded times: 0 vs 3
+2025-07-16 02:30:45,453 - utils - INFO - ✅ Juventus (2025-06-26): W 3-5
+2025-07-16 02:30:46,458 - utils - INFO - Processing match 3/7...
+2025-07-16 02:30:46,458 - utils - INFO - 🔍 Extracting details for: Manchester City vs Al-Ain (ID: 13200294)
+2025-07-16 02:30:47,544 - utils - INFO - Request 16 - Attempt 1: https://api.sofascore.com/api/v1/event/13200294
+2025-07-16 02:30:47,584 - utils - INFO - Response: 200 | Size: 7084 bytes
+2025-07-16 02:30:47,584 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:30:48,615 - utils - INFO - Request 17 - Attempt 1: https://api.sofascore.com/api/v1/event/13200294/incidents
+2025-07-16 02:30:48,671 - utils - INFO - Response: 200 | Size: 39909 bytes
+2025-07-16 02:30:48,672 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:30:49,901 - utils - INFO - Request 18 - Attempt 1: https://api.sofascore.com/api/v1/event/13200294/statistics
+2025-07-16 02:30:49,951 - utils - INFO - Response: 200 | Size: 23421 bytes
+2025-07-16 02:30:49,952 - utils - INFO - ✅ Success! Data keys: ['statistics']
+2025-07-16 02:30:50,972 - utils - INFO - Request 19 - Attempt 1: https://api.sofascore.com/api/v1/event/13200294/summary
+2025-07-16 02:30:51,012 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:30:51,013 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13200294/summary
+2025-07-16 02:30:51,013 - utils - INFO - Using scores from event: 7-0
+2025-07-16 02:30:51,013 - utils - INFO - 🥇 FEED-FIRST goal extraction:
+2025-07-16 02:30:51,013 - utils - INFO -    Home team: Manchester City (ID: 17)
+2025-07-16 02:30:51,013 - utils - INFO -    Away team: Al-Ain (ID: 37082)
+2025-07-16 02:30:51,013 - utils - INFO -    Our team ID: 17 (HOME)
+2025-07-16 02:30:51,013 - utils - INFO -    Final score: 7-0
+2025-07-16 02:30:51,013 - utils - INFO - 🥇 FEED-FIRST goal extraction for match 13200294
+2025-07-16 02:30:51,013 - utils - INFO -    Expected: 7 home, 0 away
+2025-07-16 02:30:52,132 - utils - INFO - Request 20 - Attempt 1: https://api.sofascore.com/api/v1/event/13200294/feed
+2025-07-16 02:30:52,178 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:30:52,179 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13200294/feed
+2025-07-16 02:30:52,179 - utils - WARNING - ⚠️  Feed method count mismatch: found 0, expected 7
+2025-07-16 02:30:52,179 - utils - INFO - 🔧 Method 2: Falling back to hardened incidents
+2025-07-16 02:30:53,601 - utils - INFO - Request 21 - Attempt 1: https://api.sofascore.com/api/v1/event/13200294/incidents
+2025-07-16 02:30:53,651 - utils - INFO - Response: 200 | Size: 39909 bytes
+2025-07-16 02:30:53,652 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:30:53,653 - utils - INFO -    Hardened incidents found: 0 home goals, 0 away goals
+2025-07-16 02:30:53,653 - utils - ERROR - ❌ FEED-FIRST validation failed:
+2025-07-16 02:30:53,653 - utils - ERROR -    Extracted: 0 home, 0 away
+2025-07-16 02:30:53,653 - utils - ERROR -    Expected: 7 home, 0 away
+2025-07-16 02:30:53,653 - utils - ERROR -    Method used: incidents_hardened
+2025-07-16 02:30:55,082 - utils - INFO - Request 22 - Attempt 1: https://api.sofascore.com/api/v1/event/13200294
+2025-07-16 02:30:55,122 - utils - INFO - Response: 200 | Size: 7084 bytes
+2025-07-16 02:30:55,122 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:30:55,128 - utils - ERROR - Score mismatch debug dump saved: debug/mismatch_13200294.json
+2025-07-16 02:30:55,128 - utils - ERROR - ❌ Feed-first extraction failed
+2025-07-16 02:30:55,128 - utils - ERROR - 🔍 FEED-FIRST ASSERTION FAILED:
+2025-07-16 02:30:55,128 - utils - ERROR -    Match: Manchester City vs Al-Ain
+2025-07-16 02:30:55,128 - utils - ERROR -    Expected: 7 scored, 0 conceded
+2025-07-16 02:30:55,128 - utils - ERROR -    This match will be skipped to maintain data integrity
+2025-07-16 02:30:55,128 - utils - INFO - Validation - Goals: 7 scored, 0 conceded
+2025-07-16 02:30:55,128 - utils - INFO - Validation - Arrays: 0 times, 0 scorers, 0 conceded times
+2025-07-16 02:30:55,128 - utils - WARNING - Inconsistent goal times: 0 vs 7
+2025-07-16 02:30:55,128 - utils - INFO - ✅ Al-Ain (2025-06-23): W 7-0
+2025-07-16 02:30:56,130 - utils - INFO - Processing match 4/7...
+2025-07-16 02:30:56,130 - utils - INFO - 🔍 Extracting details for: Manchester City vs Wydad Casablanca (ID: 13200275)
+2025-07-16 02:30:57,331 - utils - INFO - Request 23 - Attempt 1: https://api.sofascore.com/api/v1/event/13200275
+2025-07-16 02:30:57,374 - utils - INFO - Response: 200 | Size: 6995 bytes
+2025-07-16 02:30:57,374 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:30:58,641 - utils - INFO - Request 24 - Attempt 1: https://api.sofascore.com/api/v1/event/13200275/incidents
+2025-07-16 02:30:58,692 - utils - INFO - Response: 200 | Size: 19651 bytes
+2025-07-16 02:30:58,693 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:31:00,151 - utils - INFO - Request 25 - Attempt 1: https://api.sofascore.com/api/v1/event/13200275/statistics
+2025-07-16 02:31:00,200 - utils - INFO - Response: 200 | Size: 23908 bytes
+2025-07-16 02:31:00,201 - utils - INFO - ✅ Success! Data keys: ['statistics']
+2025-07-16 02:31:01,247 - utils - INFO - Request 26 - Attempt 1: https://api.sofascore.com/api/v1/event/13200275/summary
+2025-07-16 02:31:01,287 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:31:01,287 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13200275/summary
+2025-07-16 02:31:01,288 - utils - INFO - Using scores from event: 3-0
+2025-07-16 02:31:01,288 - utils - INFO - 🥇 FEED-FIRST goal extraction:
+2025-07-16 02:31:01,288 - utils - INFO -    Home team: Manchester City (ID: 17)
+2025-07-16 02:31:01,288 - utils - INFO -    Away team: Wydad Casablanca (ID: 36268)
+2025-07-16 02:31:01,288 - utils - INFO -    Our team ID: 17 (HOME)
+2025-07-16 02:31:01,288 - utils - INFO -    Final score: 3-0
+2025-07-16 02:31:01,288 - utils - INFO - 🥇 FEED-FIRST goal extraction for match 13200275
+2025-07-16 02:31:01,288 - utils - INFO -    Expected: 3 home, 0 away
+2025-07-16 02:31:02,414 - utils - INFO - Request 27 - Attempt 1: https://api.sofascore.com/api/v1/event/13200275/feed
+2025-07-16 02:31:02,459 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:31:02,459 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13200275/feed
+2025-07-16 02:31:02,459 - utils - WARNING - ⚠️  Feed method count mismatch: found 0, expected 3
+2025-07-16 02:31:02,459 - utils - INFO - 🔧 Method 2: Falling back to hardened incidents
+2025-07-16 02:31:03,714 - utils - INFO - Request 28 - Attempt 1: https://api.sofascore.com/api/v1/event/13200275/incidents
+2025-07-16 02:31:03,767 - utils - INFO - Response: 200 | Size: 19651 bytes
+2025-07-16 02:31:03,768 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:31:03,768 - utils - INFO -    Hardened incidents found: 0 home goals, 0 away goals
+2025-07-16 02:31:03,769 - utils - ERROR - ❌ FEED-FIRST validation failed:
+2025-07-16 02:31:03,769 - utils - ERROR -    Extracted: 0 home, 0 away
+2025-07-16 02:31:03,769 - utils - ERROR -    Expected: 3 home, 0 away
+2025-07-16 02:31:03,769 - utils - ERROR -    Method used: incidents_hardened
+2025-07-16 02:31:05,203 - utils - INFO - Request 29 - Attempt 1: https://api.sofascore.com/api/v1/event/13200275
+2025-07-16 02:31:05,249 - utils - INFO - Response: 200 | Size: 6995 bytes
+2025-07-16 02:31:05,250 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:31:05,253 - utils - ERROR - Score mismatch debug dump saved: debug/mismatch_13200275.json
+2025-07-16 02:31:05,254 - utils - ERROR - ❌ Feed-first extraction failed
+2025-07-16 02:31:05,254 - utils - ERROR - 🔍 FEED-FIRST ASSERTION FAILED:
+2025-07-16 02:31:05,254 - utils - ERROR -    Match: Manchester City vs Wydad Casablanca
+2025-07-16 02:31:05,254 - utils - ERROR -    Expected: 3 scored, 0 conceded
+2025-07-16 02:31:05,254 - utils - ERROR -    This match will be skipped to maintain data integrity
+2025-07-16 02:31:05,254 - utils - INFO - Validation - Goals: 3 scored, 0 conceded
+2025-07-16 02:31:05,254 - utils - INFO - Validation - Arrays: 0 times, 0 scorers, 0 conceded times
+2025-07-16 02:31:05,254 - utils - WARNING - Inconsistent goal times: 0 vs 3
+2025-07-16 02:31:05,254 - utils - INFO - ✅ Wydad Casablanca (2025-06-18): W 3-0
+2025-07-16 02:31:06,258 - utils - INFO - Processing match 5/7...
+2025-07-16 02:31:06,258 - utils - INFO - 🔍 Extracting details for: Fulham vs Manchester City (ID: 12436559)
+2025-07-16 02:31:07,604 - utils - INFO - Request 30 - Attempt 1: https://api.sofascore.com/api/v1/event/12436559
+2025-07-16 02:31:07,646 - utils - INFO - Response: 200 | Size: 6969 bytes
+2025-07-16 02:31:07,646 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:31:09,133 - utils - INFO - Request 31 - Attempt 1: https://api.sofascore.com/api/v1/event/12436559/incidents
+2025-07-16 02:31:09,182 - utils - INFO - Response: 200 | Size: 18433 bytes
+2025-07-16 02:31:09,183 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:31:10,635 - utils - INFO - Request 32 - Attempt 1: https://api.sofascore.com/api/v1/event/12436559/statistics
+2025-07-16 02:31:10,684 - utils - INFO - Response: 200 | Size: 23474 bytes
+2025-07-16 02:31:10,685 - utils - INFO - ✅ Success! Data keys: ['statistics']
+2025-07-16 02:31:11,856 - utils - INFO - Request 33 - Attempt 1: https://api.sofascore.com/api/v1/event/12436559/summary
+2025-07-16 02:31:11,897 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:31:11,897 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/12436559/summary
+2025-07-16 02:31:11,897 - utils - INFO - Using scores from event: 0-2
+2025-07-16 02:31:11,897 - utils - INFO - 🥇 FEED-FIRST goal extraction:
+2025-07-16 02:31:11,898 - utils - INFO -    Home team: Fulham (ID: 43)
+2025-07-16 02:31:11,898 - utils - INFO -    Away team: Manchester City (ID: 17)
+2025-07-16 02:31:11,898 - utils - INFO -    Our team ID: 17 (AWAY)
+2025-07-16 02:31:11,898 - utils - INFO -    Final score: 0-2
+2025-07-16 02:31:11,898 - utils - INFO - 🥇 FEED-FIRST goal extraction for match 12436559
+2025-07-16 02:31:11,898 - utils - INFO -    Expected: 0 home, 2 away
+2025-07-16 02:31:13,168 - utils - INFO - Request 34 - Attempt 1: https://api.sofascore.com/api/v1/event/12436559/feed
+2025-07-16 02:31:13,208 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:31:13,208 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/12436559/feed
+2025-07-16 02:31:13,208 - utils - WARNING - ⚠️  Feed method count mismatch: found 0, expected 2
+2025-07-16 02:31:13,208 - utils - INFO - 🔧 Method 2: Falling back to hardened incidents
+2025-07-16 02:31:14,633 - utils - INFO - Request 35 - Attempt 1: https://api.sofascore.com/api/v1/event/12436559/incidents
+2025-07-16 02:31:14,681 - utils - INFO - Response: 200 | Size: 18433 bytes
+2025-07-16 02:31:14,682 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:31:14,682 - utils - INFO -    Hardened incidents found: 0 home goals, 0 away goals
+2025-07-16 02:31:14,682 - utils - ERROR - ❌ FEED-FIRST validation failed:
+2025-07-16 02:31:14,683 - utils - ERROR -    Extracted: 0 home, 0 away
+2025-07-16 02:31:14,683 - utils - ERROR -    Expected: 0 home, 2 away
+2025-07-16 02:31:14,683 - utils - ERROR -    Method used: incidents_hardened
+2025-07-16 02:31:16,186 - utils - INFO - Request 36 - Attempt 1: https://api.sofascore.com/api/v1/event/12436559
+2025-07-16 02:31:16,229 - utils - INFO - Response: 200 | Size: 6969 bytes
+2025-07-16 02:31:16,229 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:31:16,233 - utils - ERROR - Score mismatch debug dump saved: debug/mismatch_12436559.json
+2025-07-16 02:31:16,233 - utils - ERROR - ❌ Feed-first extraction failed
+2025-07-16 02:31:16,233 - utils - ERROR - 🔍 FEED-FIRST ASSERTION FAILED:
+2025-07-16 02:31:16,233 - utils - ERROR -    Match: Fulham vs Manchester City
+2025-07-16 02:31:16,233 - utils - ERROR -    Expected: 2 scored, 0 conceded
+2025-07-16 02:31:16,233 - utils - ERROR -    This match will be skipped to maintain data integrity
+2025-07-16 02:31:16,233 - utils - INFO - Validation - Goals: 2 scored, 0 conceded
+2025-07-16 02:31:16,233 - utils - INFO - Validation - Arrays: 0 times, 0 scorers, 0 conceded times
+2025-07-16 02:31:16,233 - utils - WARNING - Inconsistent goal times: 0 vs 2
+2025-07-16 02:31:16,233 - utils - INFO - ✅ Fulham (2025-05-25): W 0-2
+2025-07-16 02:31:17,239 - utils - INFO - Processing match 6/7...
+2025-07-16 02:31:17,239 - utils - INFO - 🔍 Extracting details for: Manchester City vs Bournemouth (ID: 13854588)
+2025-07-16 02:31:18,565 - utils - INFO - Request 37 - Attempt 1: https://api.sofascore.com/api/v1/event/13854588
+2025-07-16 02:31:18,605 - utils - INFO - Response: 200 | Size: 7178 bytes
+2025-07-16 02:31:18,605 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:31:19,910 - utils - INFO - Request 38 - Attempt 1: https://api.sofascore.com/api/v1/event/13854588/incidents
+2025-07-16 02:31:19,963 - utils - INFO - Response: 200 | Size: 38654 bytes
+2025-07-16 02:31:19,965 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:31:21,041 - utils - INFO - Request 39 - Attempt 1: https://api.sofascore.com/api/v1/event/13854588/statistics
+2025-07-16 02:31:21,089 - utils - INFO - Response: 200 | Size: 24636 bytes
+2025-07-16 02:31:21,089 - utils - INFO - ✅ Success! Data keys: ['statistics']
+2025-07-16 02:31:22,541 - utils - INFO - Request 40 - Attempt 1: https://api.sofascore.com/api/v1/event/13854588/summary
+2025-07-16 02:31:22,581 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:31:22,581 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13854588/summary
+2025-07-16 02:31:22,581 - utils - INFO - Using scores from event: 4-1
+2025-07-16 02:31:22,582 - utils - INFO - 🥇 FEED-FIRST goal extraction:
+2025-07-16 02:31:22,582 - utils - INFO -    Home team: Manchester City (ID: 17)
+2025-07-16 02:31:22,582 - utils - INFO -    Away team: Bournemouth (ID: 60)
+2025-07-16 02:31:22,582 - utils - INFO -    Our team ID: 17 (HOME)
+2025-07-16 02:31:22,582 - utils - INFO -    Final score: 4-1
+2025-07-16 02:31:22,582 - utils - INFO - 🥇 FEED-FIRST goal extraction for match 13854588
+2025-07-16 02:31:22,582 - utils - INFO -    Expected: 4 home, 1 away
+2025-07-16 02:31:23,857 - utils - INFO - Request 41 - Attempt 1: https://api.sofascore.com/api/v1/event/13854588/feed
+2025-07-16 02:31:23,901 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:31:23,901 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13854588/feed
+2025-07-16 02:31:23,901 - utils - WARNING - ⚠️  Feed method count mismatch: found 0, expected 5
+2025-07-16 02:31:23,902 - utils - INFO - 🔧 Method 2: Falling back to hardened incidents
+2025-07-16 02:31:24,926 - utils - INFO - Request 42 - Attempt 1: https://api.sofascore.com/api/v1/event/13854588/incidents
+2025-07-16 02:31:24,978 - utils - INFO - Response: 200 | Size: 38654 bytes
+2025-07-16 02:31:24,979 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:31:24,980 - utils - INFO -    Hardened incidents found: 0 home goals, 0 away goals
+2025-07-16 02:31:24,980 - utils - ERROR - ❌ FEED-FIRST validation failed:
+2025-07-16 02:31:24,980 - utils - ERROR -    Extracted: 0 home, 0 away
+2025-07-16 02:31:24,980 - utils - ERROR -    Expected: 4 home, 1 away
+2025-07-16 02:31:24,980 - utils - ERROR -    Method used: incidents_hardened
+2025-07-16 02:31:26,198 - utils - INFO - Request 43 - Attempt 1: https://api.sofascore.com/api/v1/event/13854588
+2025-07-16 02:31:26,239 - utils - INFO - Response: 200 | Size: 7178 bytes
+2025-07-16 02:31:26,240 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:31:26,245 - utils - ERROR - Score mismatch debug dump saved: debug/mismatch_13854588.json
+2025-07-16 02:31:26,245 - utils - ERROR - ❌ Feed-first extraction failed
+2025-07-16 02:31:26,245 - utils - ERROR - 🔍 FEED-FIRST ASSERTION FAILED:
+2025-07-16 02:31:26,245 - utils - ERROR -    Match: Manchester City vs Bournemouth
+2025-07-16 02:31:26,245 - utils - ERROR -    Expected: 4 scored, 1 conceded
+2025-07-16 02:31:26,245 - utils - ERROR -    This match will be skipped to maintain data integrity
+2025-07-16 02:31:26,245 - utils - INFO - Validation - Goals: 4 scored, 1 conceded
+2025-07-16 02:31:26,245 - utils - INFO - Validation - Arrays: 0 times, 0 scorers, 0 conceded times
+2025-07-16 02:31:26,245 - utils - WARNING - Inconsistent goal times: 0 vs 4
+2025-07-16 02:31:26,245 - utils - WARNING - Inconsistent conceded times: 0 vs 1
+2025-07-16 02:31:26,246 - utils - INFO - ✅ Bournemouth (2025-05-20): W 4-1
+2025-07-16 02:31:27,250 - utils - INFO - Processing match 7/7...
+2025-07-16 02:31:27,250 - utils - INFO - 🔍 Extracting details for: Crystal Palace vs Manchester City (ID: 13822363)
+2025-07-16 02:31:28,506 - utils - INFO - Request 44 - Attempt 1: https://api.sofascore.com/api/v1/event/13822363
+2025-07-16 02:31:28,545 - utils - INFO - Response: 200 | Size: 6812 bytes
+2025-07-16 02:31:28,546 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:31:29,896 - utils - INFO - Request 45 - Attempt 1: https://api.sofascore.com/api/v1/event/13822363/incidents
+2025-07-16 02:31:29,947 - utils - INFO - Response: 200 | Size: 22008 bytes
+2025-07-16 02:31:29,948 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:31:31,325 - utils - INFO - Request 46 - Attempt 1: https://api.sofascore.com/api/v1/event/13822363/statistics
+2025-07-16 02:31:31,373 - utils - INFO - Response: 200 | Size: 22830 bytes
+2025-07-16 02:31:31,374 - utils - INFO - ✅ Success! Data keys: ['statistics']
+2025-07-16 02:31:32,808 - utils - INFO - Request 47 - Attempt 1: https://api.sofascore.com/api/v1/event/13822363/summary
+2025-07-16 02:31:32,848 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:31:32,849 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13822363/summary
+2025-07-16 02:31:32,849 - utils - INFO - Using scores from event: 1-1
+2025-07-16 02:31:32,849 - utils - INFO - 🥇 FEED-FIRST goal extraction:
+2025-07-16 02:31:32,849 - utils - INFO -    Home team: Crystal Palace (ID: 7)
+2025-07-16 02:31:32,849 - utils - INFO -    Away team: Manchester City (ID: 17)
+2025-07-16 02:31:32,849 - utils - INFO -    Our team ID: 17 (AWAY)
+2025-07-16 02:31:32,849 - utils - INFO -    Final score: 1-1
+2025-07-16 02:31:32,849 - utils - INFO - 🥇 FEED-FIRST goal extraction for match 13822363
+2025-07-16 02:31:32,849 - utils - INFO -    Expected: 1 home, 1 away
+2025-07-16 02:31:33,875 - utils - INFO - Request 48 - Attempt 1: https://api.sofascore.com/api/v1/event/13822363/feed
+2025-07-16 02:31:33,921 - utils - INFO - Response: 404 | Size: 44 bytes
+2025-07-16 02:31:33,921 - utils - WARNING - 404 - Endpoint not found: https://api.sofascore.com/api/v1/event/13822363/feed
+2025-07-16 02:31:33,921 - utils - WARNING - ⚠️  Feed method count mismatch: found 0, expected 2
+2025-07-16 02:31:33,922 - utils - INFO - 🔧 Method 2: Falling back to hardened incidents
+2025-07-16 02:31:35,352 - utils - INFO - Request 49 - Attempt 1: https://api.sofascore.com/api/v1/event/13822363/incidents
+2025-07-16 02:31:35,403 - utils - INFO - Response: 200 | Size: 22008 bytes
+2025-07-16 02:31:35,404 - utils - INFO - ✅ Success! Data keys: ['incidents', 'home', 'away']
+2025-07-16 02:31:35,404 - utils - INFO -    Hardened incidents found: 0 home goals, 0 away goals
+2025-07-16 02:31:35,404 - utils - ERROR - ❌ FEED-FIRST validation failed:
+2025-07-16 02:31:35,404 - utils - ERROR -    Extracted: 0 home, 0 away
+2025-07-16 02:31:35,404 - utils - ERROR -    Expected: 1 home, 1 away
+2025-07-16 02:31:35,404 - utils - ERROR -    Method used: incidents_hardened
+2025-07-16 02:31:36,632 - utils - INFO - Request 50 - Attempt 1: https://api.sofascore.com/api/v1/event/13822363
+2025-07-16 02:31:36,672 - utils - INFO - Response: 200 | Size: 6812 bytes
+2025-07-16 02:31:36,672 - utils - INFO - ✅ Success! Data keys: ['event']
+2025-07-16 02:31:36,677 - utils - ERROR - Score mismatch debug dump saved: debug/mismatch_13822363.json
+2025-07-16 02:31:36,677 - utils - ERROR - ❌ Feed-first extraction failed
+2025-07-16 02:31:36,677 - utils - ERROR - 🔍 FEED-FIRST ASSERTION FAILED:
+2025-07-16 02:31:36,677 - utils - ERROR -    Match: Crystal Palace vs Manchester City
+2025-07-16 02:31:36,677 - utils - ERROR -    Expected: 1 scored, 1 conceded
+2025-07-16 02:31:36,677 - utils - ERROR -    This match will be skipped to maintain data integrity
+2025-07-16 02:31:36,678 - utils - INFO - Validation - Goals: 1 scored, 1 conceded
+2025-07-16 02:31:36,678 - utils - INFO - Validation - Arrays: 0 times, 0 scorers, 0 conceded times
+2025-07-16 02:31:36,678 - utils - WARNING - Inconsistent goal times: 0 vs 1
+2025-07-16 02:31:36,678 - utils - WARNING - Inconsistent conceded times: 0 vs 1
+2025-07-16 02:31:36,678 - utils - INFO - ✅ Crystal Palace (2025-05-17): D 1-1
+2025-07-16 02:31:37,682 - utils - INFO - 📊 Request Statistics:
+2025-07-16 02:31:37,683 - utils - INFO -    Total requests: 50
+2025-07-16 02:31:37,683 - utils - INFO -    Successful: 36 (72.0%)
+2025-07-16 02:31:37,683 - utils - INFO -    Failed: 14
+2025-07-16 02:31:37,683 - utils - INFO -    Matches processed: 7
+2025-07-16 02:31:37,700 - utils - INFO - 📁 Exported 7 matches to exports/team_17_accurate_20250716_023137.csv
